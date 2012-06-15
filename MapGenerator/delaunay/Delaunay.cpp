@@ -102,6 +102,11 @@ bool Delaunay::edge::Flip() {
 	d0 = cen0;
 	d1 = cen1;
 
+	e00->Legalize();
+	e01->Legalize();
+	e10->Legalize();
+	e11->Legalize();
+
 	return true;
 }
 
@@ -142,14 +147,14 @@ Vec2 Delaunay::corner::CalculateCircumcenter() {
 	Vec2 a = centers[0]->position;
 	Vec2 b = centers[1]->position;
 	Vec2 c = centers[2]->position;
-
+	/*
 	double d = 2 * (a.x*(b.y - c.y) + b.x*(c.y - a.y) + c.x*(a.y - b.y));
 	double new_x = ((a.x*a.x + a.y*a.y)*(b.y - c.y) + (b.x*b.x + b.y*b.y)*(c.y - a.y) + (c.x*c.x + c.y*c.y)*(a.y - b.y)) / d;
 	double new_y = ((a.x*a.x + a.y*a.y)*(c.x - b.x) + (b.x*b.x + b.y*b.y)*(a.x - c.x) + (c.x*c.x + c.y*c.y)*(b.x - a.x)) / d;
 
-	return Vec2(new_x, new_y);
+	return Vec2(new_x, new_y);*/
 
-	/*
+	
 	Vec2 ab_midpoint((a.x + b.x) / 2, (a.y + b.y) / 2);
 	equ ab_equ(a, b);
 
@@ -176,7 +181,7 @@ Vec2 Delaunay::corner::CalculateCircumcenter() {
 		bc_bisector = equ(bc_midpoint, bc_bisector_slope);
 	}
 
-	return ab_bisector.Intersection(bc_bisector);*/
+	return ab_bisector.Intersection(bc_bisector);
 }
 
 Delaunay::center * Delaunay::corner::GetOpositeCenter( center *c0, center *c1 ) {

@@ -10,7 +10,7 @@ using namespace std;
 const int WIDTH = 800;
 const int HEIGHT = 600;
 
-const int POINT_SIZE = 3;
+const int POINT_SIZE = 2;
 const int LINE_SIZE = 1;
 
 sf::Color DELAUNAY_COLOR = sf::Color::Blue;
@@ -23,11 +23,9 @@ void drawCenter(Delaunay::center *c, sf::RenderWindow *window);
 
 
 int main(){
+
 	bool show_delaunay = true;
 	bool show_voronoi = true;
-	// Triangulation dtris;
-	// dtris.createBorders(Point(0,0), Point(WIDTH, HEIGHT));
-	// triangles = dtris.getTriangles();
 
 	Delaunay triangulation(Vec2(0,0), Vec2(WIDTH, HEIGHT));
 	vector<Delaunay::edge *> edges = triangulation.GetBorders();
@@ -35,11 +33,11 @@ int main(){
 	vector<Delaunay::center *> centers = triangulation.GetCenters();
 	vector<Vec2> points;
 	
-	/*srand(time(NULL));
+	srand(time(NULL));
 	for(int i = 0; i < 1000; i++){
 		points.push_back(Vec2(rand()%WIDTH, rand()%HEIGHT));
 	}
-	triangulation.AddPoints(points);*/
+	triangulation.AddPoints(points);
 	
 
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
@@ -154,8 +152,8 @@ void drawEdge(Delaunay::edge *e, sf::RenderWindow *window){
 	Vec2 d1 = e->d1 == NULL ? e->v0->position + (e->v1->position - e->v0->position) / 2 : e->d1->position;
 	if(v0 != NULL && v1 != NULL)
 		drawLine(v0, v1, VORONOI_COLOR, window);
-	if(d0 != NULL && d1 != NULL)
-		drawLine(d0, d1, DELAUNAY_COLOR, window);
+//	if(d0 != NULL && d1 != NULL)
+//		drawLine(d0, d1, DELAUNAY_COLOR, window);
 }
 
 void drawCorner( Delaunay::corner *c, sf::RenderWindow *window ) {
@@ -164,15 +162,14 @@ void drawCorner( Delaunay::corner *c, sf::RenderWindow *window ) {
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
 	point.setRadius(POINT_SIZE);
 	window->draw(point);
-	window->draw(point);
-	sf::CircleShape circumference;
-	circumference.setOutlineColor(VORONOI_COLOR);
-	circumference.setOutlineThickness(0.25);
-	circumference.setFillColor(sf::Color::Transparent);
-	double radius = Vec2(c->position, c->centers[0]->position).Length();
-	circumference.setPosition(c->position.x - radius, c->position.y - radius);
-	circumference.setRadius(radius);
-	window->draw(circumference);
+	//sf::CircleShape circumference;
+	//circumference.setOutlineColor(VORONOI_COLOR);
+	//circumference.setOutlineThickness(0.25);
+	//circumference.setFillColor(sf::Color::Transparent);
+	//double radius = Vec2(c->position, c->centers[0]->position).Length();
+	//circumference.setPosition(c->position.x - radius, c->position.y - radius);
+	//circumference.setRadius(radius);
+	//window->draw(circumference);
 }
 
 void drawCenter( Delaunay::center *c, sf::RenderWindow *window ) {

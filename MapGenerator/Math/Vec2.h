@@ -1,6 +1,9 @@
 #pragma once
+#include <iostream>
+using namespace std;
 
-class Vec2{
+class Vec2 {
+	friend ostream & operator<<(ostream &os, const Vec2 &v);
 public:
 	/**
 	* Constructor vacio.

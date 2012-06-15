@@ -5,6 +5,11 @@
 #define M_PI 3.14159265358979323846264338327
 #endif
 
+ostream & operator<<(ostream &os, const Vec2 &v){
+	os << "(" << v.x << "," << v.y << ")";
+	return os;
+}
+
 Vec2::Vec2() {
 	x = 0.0;
 	y = 0.0;
