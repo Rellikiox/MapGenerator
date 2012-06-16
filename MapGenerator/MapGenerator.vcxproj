@@ -70,13 +70,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="delaunay\Delaunay.cpp" />
+    <ClCompile Include="Delaunay.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Math\LineEquation.cc" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Math\Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="delaunay\Delaunay.h" />
+    <ClInclude Include="Delaunay.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Math\LineEquation.h" />
     <ClInclude Include="Math\Vec2.h" />
   </ItemGroup>

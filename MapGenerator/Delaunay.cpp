@@ -42,7 +42,7 @@ bool Delaunay::edge::Legalize() {
 
 	if(v0->IsPointInCircumcircle(v1->GetOpositeCenter(this)->position))
 		return this->Flip();
-	
+
 	return false;
 }
 
@@ -94,7 +94,7 @@ bool Delaunay::edge::Flip() {
 	v1->centers.push_back(d0);
 	v1->centers.push_back(cen1);
 	v1->position = v1->CalculateCircumcenter();
-	
+
 	v1->edges.push_back(this);
 	v1->edges.push_back(e00);
 	v1->edges.push_back(e10);
@@ -154,7 +154,7 @@ Vec2 Delaunay::corner::CalculateCircumcenter() {
 
 	return Vec2(new_x, new_y);*/
 
-	
+
 	Vec2 ab_midpoint((a.x + b.x) / 2, (a.y + b.y) / 2);
 	equ ab_equ(a, b);
 
@@ -265,6 +265,9 @@ Delaunay::Delaunay( double x0, double y0, double x1, double y1 ) {
 }
 
 void Delaunay::CreateBorders(Vec2 p0, Vec2 p1) {
+	min_xy = p0;
+	max_xy = p1;
+
 	// Creamos los center y los colocamos
 	center *d0 = new center();
 	d0->index = center_index++;
@@ -310,7 +313,7 @@ void Delaunay::CreateBorders(Vec2 p0, Vec2 p1) {
 	corners.push_back(v0);
 	corners.push_back(v1);
 
-	
+
 	// Creamos los edge
 	edge *e0 = new edge(edge_index++, d0, d1, v0, NULL);
 	edge *e1 = new edge(edge_index++, d0, d2, v0, NULL);
@@ -445,13 +448,13 @@ bool Delaunay::Step() {
 			edge *old_edge_01 = point_corner->GetEdgeConnecting(center_0, center_1);
 			edge *old_edge_12 = point_corner->GetEdgeConnecting(center_1, center_2);
 			edge *old_edge_20 = point_corner->GetEdgeConnecting(center_2, center_0);
-			
+
 			// Cambio los edge antiguos para que apunten a los nuevos corner
 
 			old_edge_01->SwitchCorner(point_corner, new_corner_01);
 			old_edge_12->SwitchCorner(point_corner, new_corner_12);
 			old_edge_20->SwitchCorner(point_corner, new_corner_20);
-			
+
 			// Creo los nuevos edge y les pongo sus center y corner
 
 			edge *new_edge_p0 = new edge(edge_index++, new_center, center_0, new_corner_01, new_corner_20);
@@ -468,7 +471,7 @@ bool Delaunay::Step() {
 			center_2->edges.push_back(new_edge_p2);
 
 			// Añado los center a los edge a los nuevos corner, les añado sus center y calculo sus posiciones
-			
+
 			new_corner_01->edges.push_back(new_edge_p0);
 			new_corner_01->edges.push_back(old_edge_01);
 			new_corner_01->edges.push_back(new_edge_p1);
@@ -599,7 +602,40 @@ void Delaunay::CleanUp() {
 void Delaunay::Finish() {
 	list<center *>::iterator center_iter, centers_end = centers.end();
 	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-		//TODO
+		OrderPoints((*center_iter)->corners);
+	}
+}
+
+void Delaunay::OrderPoints( vector<corner *> & corners ) {
+	vector<corner *> result;
+	if (corners.size() >= 4) {
+		corner * leftMostPoint = corners[0];
+		vector<corner *>::iterator corner_iter, corners_end = corners.end();
+		for (corner_iter = corners.begin() + 1; corner_iter != corners.end(); corner_iter++) {
+			if ((*corner_iter)->position.x < leftMostPoint->position.x 
+				|| ((*corner_iter)->position.x == leftMostPoint->position.x && (*corner_iter)->position.y < leftMostPoint->position.y)) {
+				leftMostPoint = *corner_iter;
+			}
+		}
+		corner * current = leftMostPoint;
+		int leftMostInt;
+
+		do {
+			result.insert(result.begin(), current);
+			if (current == corners[0])
+				leftMostInt = 1;
+			else
+				leftMostInt = 0;
+			for (unsigned int i = leftMostInt + 1; i < corners.size(); i++) {
+				Vec2 v1(current->position, corners[leftMostInt]->position);
+				Vec2 v2(current->position, corners[i]->position);
+				if (v1.CrossProduct(v2) > 0) {
+					leftMostInt = i;
+				}
+			}
+			current = corners[leftMostInt];
+		} while (current != result.back());
+		corners = result;
 	}
 }
 

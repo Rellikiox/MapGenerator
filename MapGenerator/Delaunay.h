@@ -87,6 +87,8 @@ public:
 	list<corner *> GetCorners();
 
 private:	
+	Vec2 min_xy;
+	Vec2 max_xy;
 	queue<Vec2>		points;
 
 	unsigned int	edge_index;
@@ -97,6 +99,7 @@ private:
 	list<corner *>	corners;
 
 	bool CheckPoint(Vec2 point, corner * & c, edge * & e);
+	void OrderPoints(vector<corner *> & corners);
 };
 
 

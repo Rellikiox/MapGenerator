@@ -22,10 +22,13 @@
     <ClCompile Include="Math\Vec2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="delaunay\Delaunay.cpp">
+    <ClCompile Include="Math\LineEquation.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Math\LineEquation.cc">
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delaunay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -33,10 +36,13 @@
     <ClInclude Include="Math\Vec2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="delaunay\Delaunay.h">
+    <ClInclude Include="Math\LineEquation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Math\LineEquation.h">
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delaunay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

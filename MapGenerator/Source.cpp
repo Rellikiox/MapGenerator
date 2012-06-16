@@ -21,6 +21,7 @@ void drawEdge(Delaunay::edge *e, sf::RenderWindow *window);
 void drawCorner(Delaunay::corner *c, sf::RenderWindow *window);
 void drawCenter(Delaunay::center *c, sf::RenderWindow *window);
 vector<Vec2> LloydRelaxation(list<Delaunay::center *> centers);
+Vec2 CalculateCentroid(Delaunay::center *center);
 
 int main(){
 
@@ -32,17 +33,16 @@ int main(){
 	list<Delaunay::corner *> corners = triangulation.GetCorners();
 	list<Delaunay::center *> centers = triangulation.GetCenters();
 	vector<Vec2> points;
-	
-	srand(time(NULL));
-	for(int i = 0; i < 1000; i++){
-		points.push_back(Vec2(rand()%WIDTH, rand()%HEIGHT));
+
+	/*srand(time(NULL));
+	for(int i = 0; i < 5000; i++){
+	points.push_back(Vec2(rand()%WIDTH, rand()%HEIGHT));
 	}
-	triangulation.AddPoints(points);
-	
+	triangulation.AddPoints(points);*/
 
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
-	
+
 	bool running = true;
 	while(running){
 		sf::Event event;
@@ -51,6 +51,7 @@ int main(){
 				running = false;
 			}else if(event.type == sf::Event::KeyPressed){
 				sf::Clock timer;
+				sf::Image screen;
 				switch(event.key.code){
 				case sf::Keyboard::Escape:
 					running = false;
@@ -71,6 +72,12 @@ int main(){
 					centers = triangulation.GetCenters();
 					corners = triangulation.GetCorners();
 					break;
+				case sf::Keyboard::F:
+					triangulation.Finish();
+					edges = triangulation.GetBorders();
+					centers = triangulation.GetCenters();
+					corners = triangulation.GetCorners();
+					break;
 				case sf::Keyboard::D:
 					show_delaunay = !show_delaunay;
 					break;
@@ -82,16 +89,20 @@ int main(){
 					break;
 				case sf::Keyboard::L:
 					timer.restart();
-					points = LloydRelaxation(centers);
-					triangulation.CleanUp();
-					triangulation.CreateBorders(Vec2(0,0), Vec2(WIDTH, HEIGHT));
-					triangulation.AddPoints(points);
-					triangulation.Continue();
-					edges = triangulation.GetBorders();
-					centers = triangulation.GetCenters();
-					corners = triangulation.GetCorners();
+						points = LloydRelaxation(centers);
+						triangulation.CleanUp();
+						triangulation.CreateBorders(Vec2(0,0), Vec2(WIDTH, HEIGHT));
+						triangulation.AddPoints(points);
+						triangulation.Continue();
+						edges = triangulation.GetBorders();
+						centers = triangulation.GetCenters();
+						corners = triangulation.GetCorners();
 					cout << edges.size() << " " << centers.size() << " " << corners.size() << endl;
 					cout << timer.getElapsedTime().asMicroseconds() / 1000000.0 << endl;
+					break;
+				case sf::Keyboard::F1:
+					screen = app->capture();
+					screen.saveToFile("screenshot.jpg");
 					break;
 				default:
 					break;
@@ -165,8 +176,8 @@ void drawEdge(Delaunay::edge *e, sf::RenderWindow *window){
 	Vec2 d1 = e->d1 == NULL ? e->v0->position + (e->v1->position - e->v0->position) / 2 : e->d1->position;
 	if(v0 != NULL && v1 != NULL)
 		drawLine(v0, v1, VORONOI_COLOR, window);
-//	if(d0 != NULL && d1 != NULL)
-//		drawLine(d0, d1, DELAUNAY_COLOR, window);
+	//	if(d0 != NULL && d1 != NULL)
+	//		drawLine(d0, d1, DELAUNAY_COLOR, window);
 }
 
 void drawCorner( Delaunay::corner *c, sf::RenderWindow *window ) {
@@ -196,13 +207,17 @@ vector<Vec2> LloydRelaxation( list<Delaunay::center *> centers ) {
 	vector<Vec2> new_points;
 	list<Delaunay::center *>::iterator center_iter, centers_end = centers.end();
 	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-		Vec2 center_centroid;
-		vector<Delaunay::corner *>::iterator corner_iter, corners_end = (*center_iter)->corners.end();
-		for(corner_iter = (*center_iter)->corners.begin(); corner_iter != corners_end; corner_iter++){
-			center_centroid += (*corner_iter)->position;
-		}
-		center_centroid /= (*center_iter)->corners.size();
-		new_points.push_back(center_centroid);
+		new_points.push_back(CalculateCentroid(*center_iter));
 	}
 	return new_points;
+}
+
+Vec2 CalculateCentroid( Delaunay::center *center ) {
+	Vec2 center_centroid;
+	vector<Delaunay::corner *>::iterator corner_iter, corners_end = center->corners.end();
+	for(corner_iter = center->corners.begin(); corner_iter != corners_end; corner_iter++){
+		center_centroid += (*corner_iter)->position;
+	}
+	center_centroid /= center->corners.size();
+	return center_centroid;
 }
