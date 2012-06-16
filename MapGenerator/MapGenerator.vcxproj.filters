@@ -19,9 +19,6 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Voronoi\Voronoi.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Math\Vec2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,13 +30,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Voronoi\Voronoi.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Math\Vec2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Voronoi\Structures.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="delaunay\Delaunay.h">

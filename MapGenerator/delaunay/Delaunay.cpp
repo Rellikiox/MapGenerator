@@ -230,11 +230,13 @@ Delaunay::edge * Delaunay::corner::GetEdgeConnecting( center *c0, center *c1 ) {
 }
 
 Delaunay::Delaunay(void) {
-
+	edge_index = 0;
+	corner_index = 0;
+	center_index = 0;
 }
 
 Delaunay::~Delaunay(void) {
-
+	this->CleanUp();
 }
 
 Delaunay::Delaunay( const Delaunay &d ) {
@@ -256,6 +258,9 @@ Delaunay::Delaunay( Vec2 p0, Vec2 p1 ) {
 }
 
 Delaunay::Delaunay( double x0, double y0, double x1, double y1 ) {
+	corner_index = 0;
+	edge_index = 0;
+	center_index = 0;
 	CreateBorders(Vec2(x0,y0), Vec2(x1,y1));
 }
 
@@ -339,7 +344,7 @@ void Delaunay::CreateBorders(Vec2 p0, Vec2 p1) {
 }
 
 bool Delaunay::AddPoint( Vec2 new_point ) {
-	vector<center *>::iterator center_iter, centers_end_iter = centers.end();
+	list<center *>::iterator center_iter, centers_end_iter = centers.end();
 	for(center_iter = centers.begin(); center_iter != centers_end_iter; center_iter++)
 		if((*center_iter)->position == new_point)
 			return false;
@@ -509,9 +514,9 @@ bool Delaunay::Step() {
 				corners.end());
 			delete point_corner;
 
-			
-
 		}else if(point_edge != NULL){
+
+
 
 		}else{
 			return false;
@@ -526,7 +531,7 @@ bool Delaunay::CheckPoint( Vec2 point, corner * & out_corner, edge * & out_edge 
 	out_edge = NULL;
 	out_corner = NULL;
 
-	vector<corner *>::iterator corner_iter, corners_end = corners.end();
+	list<corner *>::iterator corner_iter, corners_end = corners.end();
 	for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 
 		Vec2 a = (*corner_iter)->centers[0]->position;
@@ -559,16 +564,43 @@ bool Delaunay::CheckPoint( Vec2 point, corner * & out_corner, edge * & out_edge 
 	return false;
 }
 
-vector<Delaunay::edge *> Delaunay::GetBorders() {
+list<Delaunay::edge *> Delaunay::GetBorders() {
 	return borders;
 }
 
-vector<Delaunay::center *> Delaunay::GetCenters() {
+list<Delaunay::center *> Delaunay::GetCenters() {
 	return centers;
 }
 
-vector<Delaunay::corner *> Delaunay::GetCorners() {
+list<Delaunay::corner *> Delaunay::GetCorners() {
 	return corners;
+}
+
+void Delaunay::CleanUp() {
+	while(!borders.empty()){
+		delete borders.back();
+		borders.pop_back();
+	}
+	while(!centers.empty()){
+		delete centers.back();
+		centers.pop_back();
+	}
+	while(!corners.empty()){
+		delete corners.back();
+		corners.pop_back();
+	}
+	while(!points.empty())
+		points.pop();
+	edge_index = 0;
+	center_index = 0;
+	corner_index = 0;
+}
+
+void Delaunay::Finish() {
+	list<center *>::iterator center_iter, centers_end = centers.end();
+	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
+		//TODO
+	}
 }
 
 

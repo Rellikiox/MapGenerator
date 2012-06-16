@@ -4,6 +4,7 @@
 
 #include <vector>
 #include <queue>
+#include <list>
 using namespace std;
 
 class Delaunay {
@@ -79,23 +80,21 @@ public:
 	bool Step();
 
 	void Finish();
+	void CleanUp();
 
-	vector<edge *> GetBorders();
-	vector<center *> GetCenters();
-	vector<corner *> GetCorners();
+	list<edge *> GetBorders();
+	list<center *> GetCenters();
+	list<corner *> GetCorners();
 
-private:
-	Vec2 sup_izq;
-	Vec2 inf_der;
-	
+private:	
 	queue<Vec2>		points;
 
-	unsigned int edge_index;
-	unsigned int center_index;
-	unsigned int corner_index;
-	vector<edge *>		borders;
-	vector<center *>	centers;
-	vector<corner *>	corners;
+	unsigned int	edge_index;
+	unsigned int	center_index;
+	unsigned int	corner_index;
+	list<edge *>	borders;
+	list<center *>	centers;
+	list<corner *>	corners;
 
 	bool CheckPoint(Vec2 point, corner * & c, edge * & e);
 };

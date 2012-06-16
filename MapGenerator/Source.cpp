@@ -20,7 +20,7 @@ void drawLine(Vec2 a, Vec2 b, sf::Color c, sf::RenderWindow *window);
 void drawEdge(Delaunay::edge *e, sf::RenderWindow *window);
 void drawCorner(Delaunay::corner *c, sf::RenderWindow *window);
 void drawCenter(Delaunay::center *c, sf::RenderWindow *window);
-
+vector<Vec2> LloydRelaxation(list<Delaunay::center *> centers);
 
 int main(){
 
@@ -28,9 +28,9 @@ int main(){
 	bool show_voronoi = true;
 
 	Delaunay triangulation(Vec2(0,0), Vec2(WIDTH, HEIGHT));
-	vector<Delaunay::edge *> edges = triangulation.GetBorders();
-	vector<Delaunay::corner *> corners = triangulation.GetCorners();
-	vector<Delaunay::center *> centers = triangulation.GetCenters();
+	list<Delaunay::edge *> edges = triangulation.GetBorders();
+	list<Delaunay::corner *> corners = triangulation.GetCorners();
+	list<Delaunay::center *> centers = triangulation.GetCenters();
 	vector<Vec2> points;
 	
 	srand(time(NULL));
@@ -80,6 +80,19 @@ int main(){
 				case sf::Keyboard::P:
 					cout << "debug" << endl;
 					break;
+				case sf::Keyboard::L:
+					timer.restart();
+					points = LloydRelaxation(centers);
+					triangulation.CleanUp();
+					triangulation.CreateBorders(Vec2(0,0), Vec2(WIDTH, HEIGHT));
+					triangulation.AddPoints(points);
+					triangulation.Continue();
+					edges = triangulation.GetBorders();
+					centers = triangulation.GetCenters();
+					corners = triangulation.GetCorners();
+					cout << edges.size() << " " << centers.size() << " " << corners.size() << endl;
+					cout << timer.getElapsedTime().asMicroseconds() / 1000000.0 << endl;
+					break;
 				default:
 					break;
 				}
@@ -96,21 +109,21 @@ int main(){
 		app->clear(sf::Color::White);
 
 		if(!edges.empty()){
-			vector<Delaunay::edge *>::iterator edge_iter, edges_end = edges.end();
+			list<Delaunay::edge *>::iterator edge_iter, edges_end = edges.end();
 			for(edge_iter = edges.begin(); edge_iter != edges_end; edge_iter++){
 				drawEdge(*edge_iter, app);
 			}
 		}
 
 		if(!corners.empty()){
-			vector<Delaunay::corner *>::iterator corner_iter, corners_end = corners.end();
+			list<Delaunay::corner *>::iterator corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 				drawCorner(*corner_iter, app);
 			}
 		}
 
 		if(!centers.empty()){
-			vector<Delaunay::center *>::iterator center_iter, centers_end = centers.end();
+			list<Delaunay::center *>::iterator center_iter, centers_end = centers.end();
 			for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
 				drawCenter(*center_iter, app);
 			}
@@ -177,4 +190,19 @@ void drawCenter( Delaunay::center *c, sf::RenderWindow *window ) {
 	point.setFillColor(DELAUNAY_COLOR);
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
 	point.setRadius(POINT_SIZE);
+}
+
+vector<Vec2> LloydRelaxation( list<Delaunay::center *> centers ) {
+	vector<Vec2> new_points;
+	list<Delaunay::center *>::iterator center_iter, centers_end = centers.end();
+	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
+		Vec2 center_centroid;
+		vector<Delaunay::corner *>::iterator corner_iter, corners_end = (*center_iter)->corners.end();
+		for(corner_iter = (*center_iter)->corners.begin(); corner_iter != corners_end; corner_iter++){
+			center_centroid += (*corner_iter)->position;
+		}
+		center_centroid /= (*center_iter)->corners.size();
+		new_points.push_back(center_centroid);
+	}
+	return new_points;
 }
