@@ -1,5 +1,5 @@
 
-#include "delaunay/Delaunay.h"
+#include "Delaunay.h"
 
 #include <SFML\Graphics.hpp>
 #include <SFML\Window.hpp>
@@ -34,11 +34,11 @@ int main(){
 	list<Delaunay::center *> centers = triangulation.GetCenters();
 	vector<Vec2> points;
 
-	/*srand(time(NULL));
-	for(int i = 0; i < 5000; i++){
-	points.push_back(Vec2(rand()%WIDTH, rand()%HEIGHT));
+	srand(time(NULL));
+	for(int i = 0; i < 2000; i++){
+		points.push_back(Vec2(rand()%WIDTH, rand()%HEIGHT));
 	}
-	triangulation.AddPoints(points);*/
+	triangulation.AddPoints(points);
 
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
@@ -89,14 +89,14 @@ int main(){
 					break;
 				case sf::Keyboard::L:
 					timer.restart();
-						points = LloydRelaxation(centers);
-						triangulation.CleanUp();
-						triangulation.CreateBorders(Vec2(0,0), Vec2(WIDTH, HEIGHT));
-						triangulation.AddPoints(points);
-						triangulation.Continue();
-						edges = triangulation.GetBorders();
-						centers = triangulation.GetCenters();
-						corners = triangulation.GetCorners();
+					points = LloydRelaxation(centers);
+					triangulation.CleanUp();
+					triangulation.CreateBorders(Vec2(0,0), Vec2(WIDTH, HEIGHT));
+					triangulation.AddPoints(points);
+					triangulation.Continue();
+					edges = triangulation.GetBorders();
+					centers = triangulation.GetCenters();
+					corners = triangulation.GetCorners();
 					cout << edges.size() << " " << centers.size() << " " << corners.size() << endl;
 					cout << timer.getElapsedTime().asMicroseconds() / 1000000.0 << endl;
 					break;
@@ -197,10 +197,20 @@ void drawCorner( Delaunay::corner *c, sf::RenderWindow *window ) {
 }
 
 void drawCenter( Delaunay::center *c, sf::RenderWindow *window ) {
-	sf::CircleShape point;
-	point.setFillColor(DELAUNAY_COLOR);
-	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
-	point.setRadius(POINT_SIZE);
+	sf::ConvexShape polygon;
+	polygon.setPointCount(c->corners.size());
+	Vec2 min_point = c->corners[0]->position;
+	for(int i = 0; i < c->corners.size(); i++){
+		Vec2 aux = c->corners[i]->position;
+		if(min_point.x >= aux.x)
+			min_point.x = aux.x;
+		if(min_point.y >= aux.y)
+			min_point.y = aux.y;
+		polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
+	}
+	polygon.setFillColor(DELAUNAY_COLOR);
+	polygon.setPosition(min_point.x, min_point.y);
+	window->draw(polygon);
 }
 
 vector<Vec2> LloydRelaxation( list<Delaunay::center *> centers ) {
