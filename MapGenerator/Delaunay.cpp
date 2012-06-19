@@ -1,5 +1,5 @@
 #include "Delaunay.h"
-#include "../Math/LineEquation.h" 
+#include "Math/LineEquation.h" 
 #include <iostream>
 using namespace std;
 

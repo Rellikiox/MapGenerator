@@ -35,7 +35,7 @@ int main(){
 	vector<Vec2> points;
 
 	srand(time(NULL));
-	for(int i = 0; i < 2000; i++){
+	for(int i = 0; i < 0; i++){
 		points.push_back(Vec2(rand()%WIDTH, rand()%HEIGHT));
 	}
 	triangulation.AddPoints(points);
@@ -119,13 +119,6 @@ int main(){
 
 		app->clear(sf::Color::White);
 
-		if(!edges.empty()){
-			list<Delaunay::edge *>::iterator edge_iter, edges_end = edges.end();
-			for(edge_iter = edges.begin(); edge_iter != edges_end; edge_iter++){
-				drawEdge(*edge_iter, app);
-			}
-		}
-
 		if(!corners.empty()){
 			list<Delaunay::corner *>::iterator corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
@@ -134,9 +127,18 @@ int main(){
 		}
 
 		if(!centers.empty()){
+			int count = 0;
 			list<Delaunay::center *>::iterator center_iter, centers_end = centers.end();
 			for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-				drawCenter(*center_iter, app);
+				if(count++ % 2 == 0)
+					drawCenter(*center_iter, app);
+			}
+		}
+
+		if(!edges.empty()){
+			list<Delaunay::edge *>::iterator edge_iter, edges_end = edges.end();
+			for(edge_iter = edges.begin(); edge_iter != edges_end; edge_iter++){
+				drawEdge(*edge_iter, app);
 			}
 		}
 
@@ -209,7 +211,7 @@ void drawCenter( Delaunay::center *c, sf::RenderWindow *window ) {
 		polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
 	}
 	polygon.setFillColor(DELAUNAY_COLOR);
-	polygon.setPosition(min_point.x, min_point.y);
+	polygon.setPosition(0,0);
 	window->draw(polygon);
 }
 
