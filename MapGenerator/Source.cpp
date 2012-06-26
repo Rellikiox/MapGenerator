@@ -4,6 +4,9 @@
 #include <SFML\Graphics.hpp>
 #include <SFML\Window.hpp>
 
+#include "noise/noise.h"
+using namespace noise;
+
 #include <iostream>
 using namespace std;
 
@@ -42,6 +45,9 @@ int main(){
 
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
+
+	double avg_fps = 0;
+	double pases_count = 0;
 
 	bool running = true;
 	while(running){
@@ -152,7 +158,7 @@ int main(){
 				app->draw(punto);
 			}
 		}
-
+		
 		app->display();
 	}
 
