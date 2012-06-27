@@ -1,7 +1,7 @@
 #include "Map.h"
 #include "Math/Vec2.h"
 #include "noise/noise.h"
-
+#include <ctime>
 
 Map::Map(void) {
 	triangulation = NULL;
@@ -17,7 +17,7 @@ Map::Map(int width, int height, int point_count) {
 	map_height = height;
 	triangulation = new Delaunay(Vec2(0,0), Vec2(map_width, map_height));
 
-	srand(time_t(NULL));
+	srand(time(NULL));
 	for(int i = 0; i < point_count; i++){
 		triangulation->AddPoint(Vec2(rand()%map_width, rand()%map_height));
 	}
@@ -28,47 +28,43 @@ Map::Map(int width, int height, int point_count) {
 void Map::Generate() {
 
 	GeneratePolygons();
+
 	GenerateLand();
 }
 
 void Map::GeneratePolygons() {
 	triangulation->Continue();
 
-	//LloydRelaxation();
-	//LloydRelaxation();
+	LloydRelaxation();
+	LloydRelaxation();
 
-	list<Delaunay::edge *> delaunay_edges = triangulation->GetBorders();
-	list<Delaunay::edge *>::iterator edge_iter, edges_end = delaunay_edges.end();
-	for(edge_iter = delaunay_edges.begin(); edge_iter != edges_end; edge_iter++){
-		Map::edge * borde = new Map::edge(*edge_iter);
-		edges.push_back(borde);
-	}
+	triangulation->Finish();
 
-	list<Delaunay::corner *> delaunay_corners = triangulation->GetCorners();
-	list<Delaunay::corner *>::iterator corner_iter, corners_end = delaunay_corners.end();
-	for(corner_iter = delaunay_corners.begin(); corner_iter != corners_end; corner_iter++){
-		Map::corner * esquina = new Map::corner(*corner_iter);
-		corners.push_back(esquina);
-	}
-	
-	list<Delaunay::center *> delaunay_centers = triangulation->GetCenters();
-	list<Delaunay::center *>::iterator center_iter, centers_end = delaunay_centers.end();
-	for(center_iter = delaunay_centers.begin(); center_iter != centers_end; center_iter++){
-		Map::center * centro = new Map::center(*center_iter);
-		centers.push_back(centro);
-	}
+	edges = triangulation->GetBorders();
+	corners = triangulation->GetCorners();
+	centers = triangulation->GetCenters();
 }
 
 void Map::GenerateLand() {
+
+	corner::PVIter corner_iter, corners_end = corners.end();
+	for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
+		if(!(*corner_iter)->IsInsideBoundingBox(map_width, map_height)){
+			center::PVIter del_center_iter, del_centers_end = (*corner_iter)->centers.end();
+			for(del_center_iter = (*corner_iter)->centers.begin(); del_center_iter != del_centers_end; del_center_iter++){
+
+			}
+		}
+	}
 }
 
 void Map::LloydRelaxation(){
-	list<Delaunay::center *> centros = triangulation->GetCenters();
+	vector<center *> centros = triangulation->GetCenters();
 	vector<Vec2> new_points;
-	list<Delaunay::center *>::iterator center_iter, centers_end = centros.end();
+	center::PVIter center_iter, centers_end = centros.end();
 	for(center_iter = centros.begin(); center_iter != centers_end; center_iter++){
 		Vec2 center_centroid;
-		vector<Delaunay::corner *>::iterator corner_iter, corners_end = (*center_iter)->corners.end();
+		corner::PVIter corner_iter, corners_end = (*center_iter)->corners.end();
 		for(corner_iter = (*center_iter)->corners.begin(); corner_iter != corners_end; corner_iter++){
 			center_centroid += (*corner_iter)->position;
 		}
@@ -81,4 +77,16 @@ void Map::LloydRelaxation(){
 	triangulation->CreateBorders(Vec2(0,0), Vec2(map_width, map_height));
 	triangulation->AddPoints(new_points);
 	triangulation->Continue();
+}
+
+vector<center *> Map::GetCenters(){
+	return centers;
+}
+
+vector<corner *> Map::GetCorners(){
+	return corners;
+}
+
+vector<edge *> Map::GetEdges(){
+	return edges;
 }
