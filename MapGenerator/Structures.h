@@ -33,7 +33,7 @@ struct corner;
 
 // Center of Voronoi cell; Corner of Delaunay triangle
 struct center{
-	center() : index(0), position(0,0), water(rand()%2), ocean(false), coast(false),
+	center() : index(0), position(0,0), water(false), ocean(false), coast(false),
 		border(false), biome(Biome::None), elevation(0.0), moisture(0.0) {}
 
 	unsigned int		index;	
@@ -53,6 +53,7 @@ struct center{
 	bool RemoveEdge(edge *e);
 	bool RemoveCorner(corner *c);
 	edge * GetEdgeWith(center *ce);
+	void MakeBorder();
 
 	typedef vector<center *>::iterator PVIter;
 	typedef list<center *>::iterator PLIter;
@@ -75,6 +76,7 @@ struct edge{
 	bool Flip();
 	void SwitchCorner(corner *old_corner, corner *new_corner);
 	corner * GetOpositeCorner(corner *c);
+	center * GetOpositeCenter(center *c);
 
 	typedef vector<edge *>::iterator PVIter;
 	typedef list<edge *>::iterator PLIter;

@@ -24,6 +24,7 @@ public:
 	void GeneratePolygons();
 	void GenerateLand();
 
+
 	bool LoadFile(string file_name);
 	bool WriteFile(string file_name);
 
@@ -42,7 +43,7 @@ private:
 	vector<center *> centers;
 
 	bool IsIsland(Vec2 position);
-
+	void AssingOceanCoastLand();
 	void LloydRelaxation();
 };
 

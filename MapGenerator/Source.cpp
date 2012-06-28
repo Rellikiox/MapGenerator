@@ -15,11 +15,14 @@ using namespace std;
 const int WIDTH = 800;
 const int HEIGHT = 600;
 
-const int POINT_SIZE = 2;
+const int POINT_SIZE = 1;
 const int LINE_SIZE = 1;
 
 sf::Color DELAUNAY_COLOR = sf::Color::Black;
 sf::Color VORONOI_COLOR = sf::Color::Black;
+sf::Color WATER_COLOR = sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94));
+sf::Color LAND_COLOR = sf::Color(sf::Uint8(178), sf::Uint8(166), sf::Uint8(148));
+sf::Color LAKE_COLOR = sf::Color(sf::Uint8(95), sf::Uint8(134), sf::Uint8(169));
 
 void drawLine(Vec2 a, Vec2 b, sf::Color c, sf::RenderWindow *window);
 void drawEdge(edge *e, sf::RenderWindow *window);
@@ -31,12 +34,13 @@ int main(){
 	bool show_delaunay = true;
 	bool show_voronoi = true;
 
-	Map mapa(WIDTH, HEIGHT, 500);
+	Map mapa(WIDTH, HEIGHT, 1000);
 
 	sf::Clock timer;
+	timer.restart();
 	mapa.Generate();
-	cout << 1000000.0 / timer.getElapsedTime().asMicroseconds() << endl;
-	
+	cout << timer.getElapsedTime().asMicroseconds() / 1000000.0 << endl;
+
 	vector<edge *> edges = mapa.GetEdges();
 	vector<corner *> corners = mapa.GetCorners();
 	vector<center *> centers = mapa.GetCenters();
@@ -74,13 +78,6 @@ int main(){
 
 		app->clear(sf::Color::White);
 
-		if(!corners.empty()){
-			corner::PVIter corner_iter, corners_end = corners.end();
-			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
-				drawCorner(*corner_iter, app);
-			}
-		}
-
 		if(!centers.empty()){
 			center::PVIter center_iter, centers_end = centers.end();
 			for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
@@ -92,6 +89,13 @@ int main(){
 			edge::PVIter edge_iter, edges_end = edges.end();
 			for(edge_iter = edges.begin(); edge_iter != edges_end; edge_iter++){
 				drawEdge(*edge_iter, app);
+			}
+		}
+
+		if(!corners.empty()){
+			corner::PVIter corner_iter, corners_end = corners.end();
+			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
+				drawCorner(*corner_iter, app);
 			}
 		}
 
@@ -126,7 +130,12 @@ void drawEdge(edge *e, sf::RenderWindow *window){
 
 void drawCorner( corner *c, sf::RenderWindow *window ) {
 	sf::CircleShape point;
-	point.setFillColor(VORONOI_COLOR);
+	if(c->water)
+		point.setFillColor(WATER_COLOR);
+	else
+	{
+		point.setFillColor(LAND_COLOR);
+	}
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
 	point.setRadius(POINT_SIZE);
 	window->draw(point);
@@ -145,9 +154,9 @@ void drawCenter( center *c, sf::RenderWindow *window ) {
 		polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
 	}
 	if(c->water){
-		polygon.setFillColor(sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94)));
+		polygon.setFillColor(WATER_COLOR);
 	} else {
-		polygon.setFillColor(sf::Color(sf::Uint8(178), sf::Uint8(166), sf::Uint8(148)));
+		polygon.setFillColor(LAND_COLOR);
 	}
 	polygon.setPosition(0,0);
 	window->draw(polygon);

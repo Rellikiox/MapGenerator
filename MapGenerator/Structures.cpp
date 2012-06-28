@@ -40,6 +40,19 @@ bool center::RemoveCorner( corner *c ) {
 	return false;
 }
 
+void center::MakeBorder(){
+	border = true;
+	water = true;
+	ocean = true;
+
+	corner::PVIter corner_iter, corners_end = corners.end();
+	for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
+		(*corner_iter)->border = true;
+		(*corner_iter)->water = true;
+		(*corner_iter)->ocean = true;
+	}
+}
+
 bool edge::Legalize() {
 
 	if(v0 == NULL || v1 == NULL)
@@ -128,6 +141,15 @@ corner * edge::GetOpositeCorner( corner *c ) {
 		return v1;
 	}else if(v1 == c){
 		return v0;
+	}
+	return NULL;
+}
+
+center * edge::GetOpositeCenter(center *c){
+	if(d0 == c){
+		return d1;
+	}else if(d1 == c){
+		return d0;
 	}
 	return NULL;
 }
