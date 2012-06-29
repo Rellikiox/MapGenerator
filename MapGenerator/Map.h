@@ -31,6 +31,7 @@ public:
 	vector<edge *> GetEdges();
 	vector<corner *> GetCorners();
 	vector<center *> GetCenters();
+
 private:
 	int map_width;
 	int map_height;
@@ -43,7 +44,13 @@ private:
 	vector<center *> centers;
 
 	bool IsIsland(Vec2 position);
-	void AssingOceanCoastLand();
+	void AssignOceanCoastLand();
+	void AssignCornerElevation();
+	void RedistributeElevations();
+	void AssignPolygonElevations();
+	void CalculateDownslopes();
+
+	vector<corner *> GetLandCorners();
 	void LloydRelaxation();
 };
 

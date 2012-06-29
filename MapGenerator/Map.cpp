@@ -2,6 +2,8 @@
 #include "Math/Vec2.h"
 #include "noise/noise.h"
 #include <ctime>
+#include <limits>
+
 
 Map::Map(void) {
 	triangulation = NULL;
@@ -32,6 +34,22 @@ void Map::Generate() {
 	GeneratePolygons();
 
 	GenerateLand();
+
+	// ELEVATION
+
+	AssignOceanCoastLand();
+
+	AssignCornerElevation();
+
+	RedistributeElevations();
+
+	AssignPolygonElevations();
+
+	// MOISTURE
+
+	CalculateDownslopes();
+
+
 }
 
 void Map::GeneratePolygons() {
@@ -51,40 +69,148 @@ void Map::GenerateLand() {
 	noiseMap = new noise::module::Perlin();	
 
 	// Establezco los bordes del mapa
-	corner::PVIter corner_iter, corners_end = corners.end();
-	for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
-		if(!(*corner_iter)->IsInsideBoundingBox(map_width, map_height)){
-			center::PVIter del_center_iter, del_centers_end = (*corner_iter)->centers.end();
-			for(del_center_iter = (*corner_iter)->centers.begin(); del_center_iter != del_centers_end; del_center_iter++){
-				(*del_center_iter)->MakeBorder();				
-			}
+	for each(corner * c in corners) {
+		if(!c->IsInsideBoundingBox(map_width, map_height)){
+			c->border = true;
+			c->ocean = true;
+			c->water = true;
 		}
 	}
 
 	// Determino lo que es agua y lo que es tierra
-	for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
-		(*corner_iter)->water = !IsIsland((*corner_iter)->position);
+	for each (corner * c in corners) {
+		c->water = !IsIsland(c->position);
 	}
+}
 
-	center::PVIter center_iter, centers_end = centers.end();
-	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-		int corner_count = 0;
-		corners_end = (*center_iter)->corners.end();
-		for(corner_iter = (*center_iter)->corners.begin(); corner_iter != corners_end; corner_iter++){
-			if((*corner_iter)->water){
-				corner_count++;
+void Map::AssignOceanCoastLand(){
+	queue<center *> centers_queue;
+	// Quien es agua o border
+	for each (center * c in centers) {
+		int adjacent_water = 0;
+		for each (corner * q in c->corners) {
+			if(q->border){
+				c->border = true;
+				c->ocean = true;
+				q->water = true;
+				centers_queue.push(c);
+			}
+			if(q->water){
+				adjacent_water++;
 			}
 		}
-		if((double) corner_count / (*center_iter)->corners.size() > 0.6){
-			(*center_iter)->water = true;
+		c->water = (c->ocean || adjacent_water >= c->corners.size() * 0.5);
+	}
+
+	// Quien es oceano y quien no
+	while(!centers_queue.empty()){
+		center * c = centers_queue.front();
+		centers_queue.pop();
+		for each (center * r in c->centers)	{
+			if(r->water && !r->ocean){
+				r->ocean = true;
+				centers_queue.push(r);
+			}
+		}
+	}
+
+	// Costas de corner
+	for each (corner * c in corners) {
+		int adj_ocean = 0;
+		int adj_land = 0;
+		for each (center * p in c->centers) {
+			adj_ocean += (int) p->ocean;
+			adj_land += (int) !p->water;
+		}
+		c->ocean = adj_ocean == c->centers.size();
+		c->coast = adj_land > 0 && adj_ocean > 0;
+		c->water = c->border || (adj_land != c->centers.size() && !c->coast);
+	}
+}
+
+void Map::AssignCornerElevation(){
+	queue<corner *> corner_queue;
+	for each (corner * q in corners) {
+		if(q->border){
+			q->elevation = 0.0;
+			corner_queue.push(q);
 		}else{
-			(*center_iter)->water = false;
+			q->elevation = 99999;
+		}
+	}
+
+	while(!corner_queue.empty()){
+		corner * q = corner_queue.front();
+		corner_queue.pop();
+
+		for each (corner * s in q->corners) {
+			double new_elevation = q->elevation + 0.01;
+			if(!q->water && !s->water){
+				new_elevation += 1;
+			}
+			if(new_elevation < s->elevation){
+				s->elevation = new_elevation;
+				corner_queue.push(s);
+			}
+		}
+	}
+
+	for each (corner * q in corners) {
+		if(q->water){
+			q->elevation = 0.0;
 		}
 	}
 }
 
-void Map::AssingOceanCoastLand(){
+void Map::RedistributeElevations(){
+	vector<corner *> locations = GetLandCorners();
+	double SCALE_FACTOR = 1.1;
 
+	sort(locations.begin(), locations.end(), &corner::SortByElevation);
+
+	for(int i = 0; i < locations.size(); i++){
+		double y = (double) i / (locations.size() - 1);
+		double x = sqrt(SCALE_FACTOR) - sqrt(SCALE_FACTOR * (1-y));
+		x = min(x, 1.0);
+		locations[i]->elevation = x;
+	}
+}
+
+void Map::AssignPolygonElevations(){
+	for each (center * p in centers) {
+		double elevation_sum = 0.0;
+		//cout << "Center " << p->index << ":" << endl;
+		for each (corner * q in p->corners) {
+			elevation_sum += q->elevation;
+			//cout << "\t" << q->elevation << endl;			
+		}
+		p->elevation = elevation_sum / p->corners.size();
+		if(p->elevation >= 1)
+			cout << "\t--------" << endl << "\t" << p->elevation << endl;
+	}
+}
+
+void Map::CalculateDownslopes(){
+	for each (corner * c in corners) {
+		corner * d = c;
+		for each (corner * q in c->corners) {
+			if(q->elevation <= d->elevation){
+				d = q;
+			}
+		}
+		c->downslope = d;
+	}
+}
+
+
+
+
+vector<corner *> Map::GetLandCorners(){
+	vector<corner *> land_corners;
+	for each (corner * c in corners)
+		if(!c->water)
+			land_corners.push_back(c);
+	return land_corners;
 }
 
 bool Map::IsIsland(Vec2 position){
@@ -98,29 +224,23 @@ bool Map::IsIsland(Vec2 position){
 	position /= min(map_width, map_height);
 	double radius = position.LengthSqrd();
 
-	double factor = -1 / log(radius) / 10;
+	double factor = 0;
+	if(radius > 0.3)
+		factor = -1 / log(radius - 0.3) / 10;
 
-	if( noise_val < 0.3*radius + factor){
-		return false;
-	}else{
-		return true;
-	}
+	return noise_val >= 0.3*radius + factor;
 }
 
 void Map::LloydRelaxation(){
 	vector<center *> centros = triangulation->GetCenters();
 	vector<Vec2> new_points;
-	center::PVIter center_iter, centers_end = centros.end();
-	for(center_iter = centros.begin(); center_iter != centers_end; center_iter++){
-		Vec2 center_centroid;
-		corner::PVIter corner_iter, corners_end = (*center_iter)->corners.end();
-		for(corner_iter = (*center_iter)->corners.begin(); corner_iter != corners_end; corner_iter++){
-			//center_centroid += (*corner_iter)->position;
-
-			if((*corner_iter)->IsInsideBoundingBox(map_width, map_height)){
-				center_centroid += (*corner_iter)->position;
+	for each (center * p in centros) {
+		Vec2 center_centroid;		
+		for each (corner * q in p->corners)	{
+			if(q->IsInsideBoundingBox(map_width, map_height)){
+				center_centroid += q->position;
 			}else{
-				Vec2 corner_pos = (*corner_iter)->position;
+				Vec2 corner_pos = q->position;
 				if(corner_pos.x < 0){
 					corner_pos.x = 0;
 				}else if(corner_pos.x >= map_width){
@@ -134,8 +254,7 @@ void Map::LloydRelaxation(){
 				center_centroid += corner_pos;
 			}
 		}
-		center_centroid /= (*center_iter)->corners.size();
-
+		center_centroid /= p->corners.size();
 		new_points.push_back(center_centroid);
 	}
 

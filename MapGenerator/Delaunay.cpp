@@ -378,6 +378,21 @@ void Delaunay::Finish() {
 	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
 		OrderPoints((*center_iter)->corners);
 	}
+
+	for each (center * c  in centers) {
+		for each (edge * e in c->edges) {
+			center *aux_center = e->GetOpositeCenter(c);
+			if(aux_center != NULL)
+				c->centers.push_back(aux_center);
+		}
+	}
+	for each (corner * c  in corners) {
+		for each (edge * e in c->edges) {
+			corner * aux_corner = e->GetOpositeCorner(c);
+			if(aux_corner != NULL)
+				c->corners.push_back(aux_corner);
+		}
+	}
 }
 
 void Delaunay::OrderPoints( vector<corner *> & corners ) {

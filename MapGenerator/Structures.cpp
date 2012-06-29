@@ -261,3 +261,7 @@ bool corner::IsInsideBoundingBox(int width, int height){
 
 	return true;
 }
+
+bool corner::SortByElevation(corner *c1, corner *c2){
+	return c1->elevation < c2->elevation;
+}

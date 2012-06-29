@@ -48,7 +48,8 @@ struct center{
 	double moisture;
 
 	vector<edge *>		edges;
-	vector<corner *>	corners;	// no se rellena hasta el final
+	vector<corner *>	corners;
+	vector<center *>	centers;
 
 	bool RemoveEdge(edge *e);
 	bool RemoveCorner(corner *c);
@@ -67,7 +68,7 @@ struct edge{
 	unsigned int		index;
 
 	center				* d0, * d1;
-	corner 				* v0, * v1;	
+	corner 				* v0, * v1;
 
 	Vec2 voronoi_midpoint;
 	double river_volume;
@@ -84,7 +85,7 @@ struct edge{
 
 // Corner of Voronoi cell; Circumcenter of Delaunay triangle
 struct corner{
-	corner() : index(0), position(0,0), ocean(false), water(false), coast(false), 
+	corner() : index(0), position(0,0), ocean(false), water(false), coast(false), border(false),
 		elevation(0.0), moisture(0.0), river_volume(0.0), downslope(NULL) {}
 
 	unsigned int		index;
@@ -100,7 +101,8 @@ struct corner{
 	corner *downslope;
 
 	vector<center *>	centers;
-	vector<edge *>		edges;	// no se rellena hasta el final
+	vector<edge *>		edges;	
+	vector<corner *>	corners;
 
 	bool IsPointInCircumcircle(Vec2 p);
 	Vec2 CalculateCircumcenter();
@@ -113,4 +115,6 @@ struct corner{
 
 	typedef vector<corner *>::iterator PVIter;
 	typedef list<corner *>::iterator PLIter;
+
+	static bool SortByElevation(corner * c1, corner * c2);
 };

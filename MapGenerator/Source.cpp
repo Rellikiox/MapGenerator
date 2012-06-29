@@ -24,6 +24,18 @@ sf::Color WATER_COLOR = sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94));
 sf::Color LAND_COLOR = sf::Color(sf::Uint8(178), sf::Uint8(166), sf::Uint8(148));
 sf::Color LAKE_COLOR = sf::Color(sf::Uint8(95), sf::Uint8(134), sf::Uint8(169));
 
+sf::Color ELEVATION_COLOR [] = {
+	sf::Color(sf::Uint8(104), sf::Uint8(134), sf::Uint8(89)),
+	sf::Color(sf::Uint8(119), sf::Uint8(153), sf::Uint8(102)),
+	sf::Color(sf::Uint8(136), sf::Uint8(166), sf::Uint8(121)),
+	sf::Color(sf::Uint8(153), sf::Uint8(179), sf::Uint8(148)),
+	sf::Color(sf::Uint8(170), sf::Uint8(191), sf::Uint8(159)),
+	sf::Color(sf::Uint8(187), sf::Uint8(204), sf::Uint8(179)),
+	sf::Color(sf::Uint8(204), sf::Uint8(217), sf::Uint8(198)),
+	sf::Color(sf::Uint8(221), sf::Uint8(230), sf::Uint8(217)),
+	sf::Color(sf::Uint8(238), sf::Uint8(242), sf::Uint8(236)),
+	sf::Color(sf::Uint8(251), sf::Uint8(252), sf::Uint8(251))};
+
 void drawLine(Vec2 a, Vec2 b, sf::Color c, sf::RenderWindow *window);
 void drawEdge(edge *e, sf::RenderWindow *window);
 void drawCorner(corner *c, sf::RenderWindow *window);
@@ -153,10 +165,12 @@ void drawCenter( center *c, sf::RenderWindow *window ) {
 			min_point.y = aux.y;
 		polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
 	}
-	if(c->water){
+	if(c->ocean){
 		polygon.setFillColor(WATER_COLOR);
+	} else if(c->water){
+		polygon.setFillColor(LAKE_COLOR);
 	} else {
-		polygon.setFillColor(LAND_COLOR);
+		polygon.setFillColor(ELEVATION_COLOR[(int) floor(c->elevation * 10)]);
 	}
 	polygon.setPosition(0,0);
 	window->draw(polygon);
