@@ -23,6 +23,7 @@ sf::Color VORONOI_COLOR = sf::Color::Black;
 sf::Color WATER_COLOR = sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94));
 sf::Color LAND_COLOR = sf::Color(sf::Uint8(178), sf::Uint8(166), sf::Uint8(148));
 sf::Color LAKE_COLOR = sf::Color(sf::Uint8(95), sf::Uint8(134), sf::Uint8(169));
+sf::Color RIVER_COLOR = sf::Color(sf::Uint8(40), sf::Uint8(88), sf::Uint8(132));
 
 sf::Color ELEVATION_COLOR [] = {
 	sf::Color(sf::Uint8(104), sf::Uint8(134), sf::Uint8(89)),
@@ -36,7 +37,7 @@ sf::Color ELEVATION_COLOR [] = {
 	sf::Color(sf::Uint8(238), sf::Uint8(242), sf::Uint8(236)),
 	sf::Color(sf::Uint8(251), sf::Uint8(252), sf::Uint8(251))};
 
-void drawLine(Vec2 a, Vec2 b, sf::Color c, sf::RenderWindow *window);
+void drawLine(Vec2 a, Vec2 b, double width, sf::Color c, sf::RenderWindow *window);
 void drawEdge(edge *e, sf::RenderWindow *window);
 void drawCorner(corner *c, sf::RenderWindow *window);
 void drawCenter(center *c, sf::RenderWindow *window);
@@ -104,7 +105,7 @@ int main(){
 			}
 		}
 
-		if(!corners.empty()){
+		if(0 && !corners.empty()){
 			corner::PVIter corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 				drawCorner(*corner_iter, app);
@@ -118,15 +119,16 @@ int main(){
 }
 
 
-void drawLine(Vec2 a, Vec2 b, sf::Color c, sf::RenderWindow *window){
-	sf::Vertex line[2] = {
-		sf::Vector2f(a.x, a.y),
-		sf::Vector2f(b.x, b.y)
-	};
-	line[0].color = c;
-	line[1].color = c;
+void drawLine(Vec2 a, Vec2 b, double width, sf::Color c, sf::RenderWindow *window){
+	
+	Vec2 line_vec(a, b);
+	sf::RectangleShape line(sf::Vector2f(line_vec.Length(), width));
+	
+	line.setFillColor(c);
+	line.setRotation(line_vec.AngleAng());
+	line.setPosition(a.x, a.y);
 
-	window->draw(line, 2, sf::Lines);
+	window->draw(line);
 }
 
 void drawEdge(edge *e, sf::RenderWindow *window){
@@ -134,8 +136,13 @@ void drawEdge(edge *e, sf::RenderWindow *window){
 	Vec2 v1 = e->v1 == NULL ? e->d0->position + (e->d1->position - e->d0->position) / 2 : e->v1->position;
 	Vec2 d0 = e->d0 == NULL ? e->v0->position + (e->v1->position - e->v0->position) / 2 : e->d0->position;
 	Vec2 d1 = e->d1 == NULL ? e->v0->position + (e->v1->position - e->v0->position) / 2 : e->d1->position;
-	if(v0 != NULL && v1 != NULL)
-		drawLine(v0, v1, VORONOI_COLOR, window);
+	if(v0 != NULL && v1 != NULL){
+		if(e->river_volume > 0){
+			drawLine(v0, v1, 1 + sqrt(e->river_volume), RIVER_COLOR, window);
+		}else{
+			drawLine(v0, v1, 1, VORONOI_COLOR, window);
+		}
+	}
 	//	if(d0 != NULL && d1 != NULL)
 	//		drawLine(d0, d1, DELAUNAY_COLOR, window);
 }

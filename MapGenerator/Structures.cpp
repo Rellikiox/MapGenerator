@@ -2,7 +2,7 @@
 #include "Structures.h"
 #include "Math/LineEquation.h" 
 
-edge::edge(unsigned int i, center *e1, center *e2, corner *o1, corner *o2) : index(i), d0(e1), d1(e2), v0(o1), v1(o2) {
+edge::edge(unsigned int i, center *e1, center *e2, corner *o1, corner *o2) : index(i), d0(e1), d1(e2), v0(o1), v1(o2), river_volume(0.0) {
 	Vec2 pv0 = v0 == NULL ? d0->position + (d1->position - d0->position) / 2 : v0->position;
 	Vec2 pv1 = v1 == NULL ? d0->position + (d1->position - d0->position) / 2 : v1->position;
 	voronoi_midpoint = (pv0 + pv1) / 2;
@@ -151,6 +151,13 @@ center * edge::GetOpositeCenter(center *c){
 	}else if(d1 == c){
 		return d0;
 	}
+	return NULL;
+}
+
+edge * corner::GetEdgeWith(corner *c){
+	for each (edge * e in edges)
+		if(e->v0 == c || e->v1 == c)
+			return e;
 	return NULL;
 }
 

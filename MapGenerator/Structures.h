@@ -62,7 +62,7 @@ struct center{
 
 // Edge of Voronoi cell and edge of Delaunay triangle
 struct edge{
-	edge() : index(0), d0(NULL), d1(NULL), v0(NULL), v1(NULL){};
+	edge() : index(0), d0(NULL), d1(NULL), v0(NULL), v1(NULL), river_volume(0.0){};
 	edge(unsigned int i, center *e1, center *e2, corner *o1, corner *o2);
 
 	unsigned int		index;
@@ -112,6 +112,7 @@ struct corner{
 	edge * GetEdgeConnecting(center *c0, center *c1);
 	center * GetOpositeCenter(edge *e);
 	bool IsInsideBoundingBox(int width, int height);
+	edge * GetEdgeWith(corner *c);
 
 	typedef vector<corner *>::iterator PVIter;
 	typedef list<corner *>::iterator PLIter;

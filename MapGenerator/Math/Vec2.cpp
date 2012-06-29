@@ -172,11 +172,7 @@ double Vec2::AngleRad(const Vec2 & v) const {
 		return 0;
 
 	// Calculamos el angulo
-	double angle = acos(this->DotProduct(v) / (this->Length() * v.Length()));
-
-	// Si el producto cruzado es menor que cero es que el vector esta a mas de 180º
-	if (this->CrossProduct(v) < 0)
-		angle *= -1;
+	double angle = atan2(v.y - y, v.x - x);
 
 	return angle;
 }
@@ -185,8 +181,7 @@ double Vec2::AngleRad() const {
 	if(this->isZero())
 		return 0;
 
-	Vec2 vec(1, 0);
-	return acos(this->DotProduct(vec) / (this->Length() * vec.Length()));
+	return atan2(y, x);
 }
 
 bool Vec2::isZero() const {

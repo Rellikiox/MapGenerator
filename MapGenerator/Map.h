@@ -49,6 +49,7 @@ private:
 	void RedistributeElevations();
 	void AssignPolygonElevations();
 	void CalculateDownslopes();
+	void GenerateRivers();
 
 	vector<corner *> GetLandCorners();
 	void LloydRelaxation();

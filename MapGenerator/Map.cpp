@@ -49,7 +49,7 @@ void Map::Generate() {
 
 	CalculateDownslopes();
 
-
+	GenerateRivers();
 }
 
 void Map::GeneratePolygons() {
@@ -202,7 +202,23 @@ void Map::CalculateDownslopes(){
 	}
 }
 
+void Map::GenerateRivers(){
+	int num_rios = (map_height + map_width) / 4;
+	for(int i = 0; i < num_rios; i++){
+		corner *q = corners[rand()%corners.size()];
+		if( q->ocean || q->elevation < 0.3 || q->elevation > 0.9 ) continue;
 
+		while(!q->coast){
+			if(q == q->downslope){
+				break;
+			}
+			edge * e = q->GetEdgeWith(q->downslope);
+			e->river_volume += 1;
+			q->river_volume += 1;
+			q = q->downslope;
+		}
+	}
+}
 
 
 vector<corner *> Map::GetLandCorners(){
