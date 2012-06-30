@@ -18,14 +18,24 @@ const int HEIGHT = 600;
 const int POINT_SIZE = 1;
 const int LINE_SIZE = 1;
 
+struct InfoShown {
+	enum Name{
+		Elevation,
+		Moisture,
+		Biomes
+	};
+};
+
+InfoShown::Name VideoMode;
+
 sf::Color DELAUNAY_COLOR = sf::Color::Black;
-sf::Color VORONOI_COLOR = sf::Color::Black;
+sf::Color VORONOI_COLOR = sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94), sf::Uint8(127));
 sf::Color WATER_COLOR = sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94));
 sf::Color LAND_COLOR = sf::Color(sf::Uint8(178), sf::Uint8(166), sf::Uint8(148));
 sf::Color LAKE_COLOR = sf::Color(sf::Uint8(95), sf::Uint8(134), sf::Uint8(169));
 sf::Color RIVER_COLOR = sf::Color(sf::Uint8(40), sf::Uint8(88), sf::Uint8(132));
 
-sf::Color ELEVATION_COLOR [] = {
+const sf::Color ELEVATION_COLOR [] = {
 	sf::Color(sf::Uint8(104), sf::Uint8(134), sf::Uint8(89)),
 	sf::Color(sf::Uint8(119), sf::Uint8(153), sf::Uint8(102)),
 	sf::Color(sf::Uint8(136), sf::Uint8(166), sf::Uint8(121)),
@@ -37,6 +47,36 @@ sf::Color ELEVATION_COLOR [] = {
 	sf::Color(sf::Uint8(238), sf::Uint8(242), sf::Uint8(236)),
 	sf::Color(sf::Uint8(251), sf::Uint8(252), sf::Uint8(251))};
 
+const sf::Color MOISTURE_COLOR [] = {
+	sf::Color(sf::Uint8(238), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(218), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(197), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(176), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(155), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(135), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(115), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(94), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(73), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(52), sf::Uint8(238), sf::Uint8(32)),
+	sf::Color(sf::Uint8(32), sf::Uint8(238), sf::Uint8(32)),};
+
+const sf::Color BIOME_COLOR [] = {
+	sf::Color(sf::Uint8(248), sf::Uint8(248), sf::Uint8(248)),
+	sf::Color(sf::Uint8(221), sf::Uint8(221), sf::Uint8(187)),
+	sf::Color(sf::Uint8(153), sf::Uint8(153), sf::Uint8(153)),
+	sf::Color(sf::Uint8(204), sf::Uint8(212), sf::Uint8(187)),
+	sf::Color(sf::Uint8(196), sf::Uint8(204), sf::Uint8(187)),
+	sf::Color(sf::Uint8(228), sf::Uint8(232), sf::Uint8(202)),
+	sf::Color(sf::Uint8(164), sf::Uint8(196), sf::Uint8(168)),
+	sf::Color(sf::Uint8(180), sf::Uint8(201), sf::Uint8(169)),
+	sf::Color(sf::Uint8(196), sf::Uint8(212), sf::Uint8(170)),
+	sf::Color(sf::Uint8(156), sf::Uint8(187), sf::Uint8(169)),
+	sf::Color(sf::Uint8(169), sf::Uint8(204), sf::Uint8(164)),
+	sf::Color(sf::Uint8(233), sf::Uint8(221), sf::Uint8(199)),
+	sf::Color(sf::Uint8(52), sf::Uint8(58), sf::Uint8(94)),
+	sf::Color(sf::Uint8(95), sf::Uint8(134), sf::Uint8(169)),
+	sf::Color(sf::Uint8(178), sf::Uint8(166), sf::Uint8(148))};
+
 void drawLine(Vec2 a, Vec2 b, double width, sf::Color c, sf::RenderWindow *window);
 void drawEdge(edge *e, sf::RenderWindow *window);
 void drawCorner(corner *c, sf::RenderWindow *window);
@@ -44,10 +84,9 @@ void drawCenter(center *c, sf::RenderWindow *window);
 
 int main(){
 
-	bool show_delaunay = true;
-	bool show_voronoi = true;
+	VideoMode = InfoShown::Biomes;
 
-	Map mapa(WIDTH, HEIGHT, 1000);
+	Map mapa(WIDTH, HEIGHT, 10000);
 
 	sf::Clock timer;
 	timer.restart();
@@ -78,6 +117,15 @@ int main(){
 					break;
 				case sf::Keyboard::P:
 					cout << "debug" << endl;
+					break;
+				case sf::Keyboard::M:
+					VideoMode = InfoShown::Moisture;
+					break;
+				case sf::Keyboard::B:
+					VideoMode = InfoShown::Biomes;
+					break;
+				case sf::Keyboard::E:
+					VideoMode = InfoShown::Elevation;
 					break;
 				case sf::Keyboard::F1:
 					screen = app->capture();
@@ -120,10 +168,10 @@ int main(){
 
 
 void drawLine(Vec2 a, Vec2 b, double width, sf::Color c, sf::RenderWindow *window){
-	
+
 	Vec2 line_vec(a, b);
 	sf::RectangleShape line(sf::Vector2f(line_vec.Length(), width));
-	
+
 	line.setFillColor(c);
 	line.setRotation(line_vec.AngleAng());
 	line.setPosition(a.x, a.y);
@@ -143,8 +191,6 @@ void drawEdge(edge *e, sf::RenderWindow *window){
 			drawLine(v0, v1, 1, VORONOI_COLOR, window);
 		}
 	}
-	//	if(d0 != NULL && d1 != NULL)
-	//		drawLine(d0, d1, DELAUNAY_COLOR, window);
 }
 
 void drawCorner( corner *c, sf::RenderWindow *window ) {
@@ -172,19 +218,32 @@ void drawCenter( center *c, sf::RenderWindow *window ) {
 			min_point.y = aux.y;
 		polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
 	}
-	if(c->ocean){
-		polygon.setFillColor(WATER_COLOR);
-	} else if(c->water){
-		polygon.setFillColor(LAKE_COLOR);
-	} else {
-		polygon.setFillColor(ELEVATION_COLOR[(int) floor(c->elevation * 10)]);
+	switch (VideoMode) {
+	case InfoShown::Biomes:
+		polygon.setFillColor(BIOME_COLOR[c->biome]);
+		break;
+	case InfoShown::Elevation:
+		if(c->ocean){
+			polygon.setFillColor(WATER_COLOR);
+		} else if(c->water){
+			polygon.setFillColor(LAKE_COLOR);
+		} else {
+			polygon.setFillColor(ELEVATION_COLOR[(int) floor(c->elevation * 10)]);
+		}
+		break;
+	case InfoShown::Moisture:
+		if(c->ocean){
+			polygon.setFillColor(WATER_COLOR);
+		} else if(c->water){
+			polygon.setFillColor(LAKE_COLOR);
+		} else {
+			polygon.setFillColor(MOISTURE_COLOR[(int) floor(c->moisture * 10)]);
+		}
+	default:
+		break;
 	}
+
+
 	polygon.setPosition(0,0);
 	window->draw(polygon);
-
-	sf::CircleShape punto;
-	punto.setFillColor(DELAUNAY_COLOR);
-	punto.setRadius(POINT_SIZE);
-	punto.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
-	window->draw(punto);
 }

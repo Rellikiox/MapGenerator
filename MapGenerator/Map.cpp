@@ -4,6 +4,55 @@
 #include <ctime>
 #include <limits>
 
+const vector<vector<Biome::Type> > Map::elevation_moisture_matrix = Map::MakeBiomeMatrix();
+
+vector<vector<Biome::Type> > Map::MakeBiomeMatrix(){
+	vector<vector<Biome::Type> > matrix;
+	vector<Biome::Type> biome_vector;
+
+	biome_vector.push_back(Biome::SubtropicalDesert);
+	biome_vector.push_back(Biome::TemperateDesert);
+	biome_vector.push_back(Biome::TemperateDesert);
+	biome_vector.push_back(Biome::Mountain);
+	matrix.push_back(biome_vector);
+
+	biome_vector.clear();
+	biome_vector.push_back(Biome::Grassland);
+	biome_vector.push_back(Biome::Grassland);
+	biome_vector.push_back(Biome::TemperateDesert);
+	biome_vector.push_back(Biome::Mountain);
+	matrix.push_back(biome_vector);
+
+	biome_vector.clear();
+	biome_vector.push_back(Biome::TropicalSeasonalForest);
+	biome_vector.push_back(Biome::Grassland);
+	biome_vector.push_back(Biome::Shrubland);
+	biome_vector.push_back(Biome::Tundra);
+	matrix.push_back(biome_vector);
+
+	biome_vector.clear();
+	biome_vector.push_back(Biome::TropicalSeasonalForest);
+	biome_vector.push_back(Biome::TemperateDeciduousForest);
+	biome_vector.push_back(Biome::Shrubland);
+	biome_vector.push_back(Biome::Snow);
+	matrix.push_back(biome_vector);
+
+	biome_vector.clear();
+	biome_vector.push_back(Biome::TropicalRainForest);
+	biome_vector.push_back(Biome::TemperateDeciduousForest);
+	biome_vector.push_back(Biome::Taiga);
+	biome_vector.push_back(Biome::Snow);
+	matrix.push_back(biome_vector);
+
+	biome_vector.clear();
+	biome_vector.push_back(Biome::TropicalRainForest);
+	biome_vector.push_back(Biome::TemperateRainForest);
+	biome_vector.push_back(Biome::Taiga);
+	biome_vector.push_back(Biome::Snow);
+	matrix.push_back(biome_vector);
+
+	return matrix;
+}
 
 Map::Map(void) {
 	triangulation = NULL;
@@ -31,25 +80,37 @@ Map::Map(int width, int height, int point_count) {
 
 void Map::Generate() {
 
+	cout << "Genero poligonos" << endl;
 	GeneratePolygons();
 
+	cout << "Genero tierra" << endl;
 	GenerateLand();
 
 	// ELEVATION
-
+	cout << "Asigno costas" << endl;
 	AssignOceanCoastLand();
-
+	cout << "Asigno altura" << endl;
 	AssignCornerElevation();
-
+	cout << "Redistribuyo altura" << endl;
 	RedistributeElevations();
-
+	cout << "Asigno altura" << endl;
 	AssignPolygonElevations();
 
 	// MOISTURE
-
+	cout << "Calculo caida" << endl;
 	CalculateDownslopes();
-
+	cout << "Genero rios" << endl;
 	GenerateRivers();
+	cout << "Asigno humedad" << endl;
+	AssignCornerMoisture();
+	cout << "Redistribuyo humedad" << endl;
+	RedistributeMoisture();
+	cout << "Asigno humedad" << endl;
+	AssignPolygonMoisture();
+
+	// BIOMES
+	cout << "Asigno climas" << endl;
+	AssignBiomes();
 }
 
 void Map::GeneratePolygons() {
@@ -179,14 +240,10 @@ void Map::RedistributeElevations(){
 void Map::AssignPolygonElevations(){
 	for each (center * p in centers) {
 		double elevation_sum = 0.0;
-		//cout << "Center " << p->index << ":" << endl;
 		for each (corner * q in p->corners) {
 			elevation_sum += q->elevation;
-			//cout << "\t" << q->elevation << endl;			
 		}
 		p->elevation = elevation_sum / p->corners.size();
-		if(p->elevation >= 1)
-			cout << "\t--------" << endl << "\t" << p->elevation << endl;
 	}
 }
 
@@ -194,7 +251,7 @@ void Map::CalculateDownslopes(){
 	for each (corner * c in corners) {
 		corner * d = c;
 		for each (corner * q in c->corners) {
-			if(q->elevation <= d->elevation){
+			if(q->elevation < d->elevation){
 				d = q;
 			}
 		}
@@ -219,6 +276,92 @@ void Map::GenerateRivers(){
 		}
 	}
 }
+
+void Map::AssignCornerMoisture(){
+	queue<corner *> corner_queue;
+	// Agua dulce
+	for each (corner * c in corners) {
+		if((c->water || c->river_volume > 0) && !c->ocean){
+			c->moisture = c->river_volume > 0 ? min(3.0, (0.2 * c->river_volume)) : 1.0;
+			corner_queue.push(c);
+		}else{
+			c->moisture = 0.0;
+		}
+	}
+
+	while(!corner_queue.empty()){
+		corner * c = corner_queue.front();
+		corner_queue.pop();
+
+		for each (corner * r in c->corners)	{
+			double new_moisture = c->moisture * 0.9;
+			if( new_moisture > r->moisture ){
+				r->moisture = new_moisture;
+				corner_queue.push(r);
+			}
+		}
+	}
+
+	// Agua salada
+	for each (corner * r in corners) {
+		if(r->ocean){
+			r->moisture = 1.0;
+			corner_queue.push(r);
+		}
+	}
+	while(!corner_queue.empty()){
+		corner * c = corner_queue.front();
+		corner_queue.pop();
+
+		for each (corner * r in c->corners)	{
+			double new_moisture = c->moisture * 0.5;
+			if( new_moisture > r->moisture ){
+				r->moisture = new_moisture;
+				corner_queue.push(r);
+			}
+		}
+	}
+
+}
+
+void Map::RedistributeMoisture(){
+	vector<corner *> locations = GetLandCorners();
+
+	sort(locations.begin(), locations.end(), &corner::SortByMoisture);
+	
+	for(int i = 0; i < locations.size(); i++){
+		locations[i]->moisture = (double) i / (locations.size() - 1);
+	}
+}
+
+void Map::AssignPolygonMoisture(){
+	for each (center * p in centers) {
+		double new_moisture = 0.0;
+		for each (corner * q in p->corners){
+			if(q->moisture > 1.0) q->moisture = 1.0;
+			new_moisture += q->moisture;
+		}
+		p->moisture = new_moisture / p->corners.size();
+	}
+}
+
+void Map::AssignBiomes(){
+
+	for each (center * c in centers) {
+		if(c->ocean){
+			c->biome = Biome::Ocean;
+		}else if(c->water){
+			c->biome = Biome::Lake;
+		}else if(c->coast){
+			c->biome = Biome::Beach;
+		}else{
+			int elevation_index = min((int) floor(c->elevation * 4), 3);
+			int moisture_index = min((int) floor(c->moisture * 6), 5);
+			c->biome = elevation_moisture_matrix[moisture_index][elevation_index];
+		}
+	}
+}
+
 
 
 vector<corner *> Map::GetLandCorners(){

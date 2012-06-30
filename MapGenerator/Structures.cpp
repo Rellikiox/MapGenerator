@@ -228,19 +228,20 @@ center * corner::GetOpositeCenter( center *c0, center *c1 ) {
 }
 
 center * corner::GetOpositeCenter( edge *e ) {
-	vector<edge *>::iterator edge_iter, edges_end = edges.end();
-	for(edge_iter = edges.begin(); edge_iter != edges_end; edge_iter++){
-		if(*edge_iter == e)
+	bool found = false;
+	for each (edge * ed in edges) {
+		if(ed == e){
+			found = true;
 			break;
+		}
 	}
 	// Si no he encontrado el edge devuelvo NULL
-	if(edge_iter == edges_end)
+	if(!found)
 		return NULL;
 
-	vector<center *>::iterator center_iter, centers_end = centers.end();
-	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-		if(*center_iter != e->d0 && *center_iter != e->d1)
-			return *center_iter;
+	for each (center * c in centers) {
+		if(c != e->d0 && c != e->d1)
+			return c;
 	}
 
 	return NULL;
@@ -271,4 +272,8 @@ bool corner::IsInsideBoundingBox(int width, int height){
 
 bool corner::SortByElevation(corner *c1, corner *c2){
 	return c1->elevation < c2->elevation;
+}
+
+bool corner::SortByMoisture(corner *c1, corner *c2){
+	return c1->moisture < c2->moisture;
 }

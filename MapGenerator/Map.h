@@ -43,6 +43,9 @@ private:
 	vector<corner *> corners;
 	vector<center *> centers;
 
+	static const vector<vector<Biome::Type> > elevation_moisture_matrix;
+	static vector<vector<Biome::Type> > MakeBiomeMatrix();
+
 	bool IsIsland(Vec2 position);
 	void AssignOceanCoastLand();
 	void AssignCornerElevation();
@@ -50,6 +53,11 @@ private:
 	void AssignPolygonElevations();
 	void CalculateDownslopes();
 	void GenerateRivers();
+	void AssignCornerMoisture();
+	void RedistributeMoisture();
+	void AssignPolygonMoisture();
+	void AssignBiomes();
+
 
 	vector<corner *> GetLandCorners();
 	void LloydRelaxation();

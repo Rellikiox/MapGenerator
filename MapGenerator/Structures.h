@@ -10,8 +10,7 @@ struct Biome{
 	enum Type{
 		Snow,
 		Tundra,
-		Bare,
-		Scorched,
+		Mountain,
 		Taiga,
 		Shrubland,
 		TemperateDesert,
@@ -21,6 +20,9 @@ struct Biome{
 		TropicalRainForest,
 		TropicalSeasonalForest,
 		SubtropicalDesert,
+		Ocean,
+		Lake,
+		Beach,	
 
 		Size,
 		None
@@ -118,4 +120,5 @@ struct corner{
 	typedef list<corner *>::iterator PLIter;
 
 	static bool SortByElevation(corner * c1, corner * c2);
+	static bool SortByMoisture(corner * c1, corner * c2);
 };
