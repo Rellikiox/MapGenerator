@@ -76,6 +76,7 @@
     <ClCompile Include="Math\Vec2.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Structures.cpp" />
+    <ClCompile Include="VoronoiDiagramGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Delaunay.h" />
@@ -83,6 +84,7 @@
     <ClInclude Include="Math\LineEquation.h" />
     <ClInclude Include="Math\Vec2.h" />
     <ClInclude Include="Structures.h" />
+    <ClInclude Include="VoronoiDiagramGenerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

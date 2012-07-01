@@ -3,6 +3,7 @@
 #include "noise/noise.h"
 #include <ctime>
 #include <limits>
+#include <SFML/System.hpp>
 
 const vector<vector<Biome::Type> > Map::elevation_moisture_matrix = Map::MakeBiomeMatrix();
 
@@ -79,41 +80,74 @@ Map::Map(int width, int height, int point_count) {
 }
 
 void Map::Generate() {
+	sf::Clock timer;
 
-	cout << "Genero poligonos" << endl;
+	cout << "Genero poligonos: " << endl;
+	timer.restart();
 	GeneratePolygons();
+	cout << "Total: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Genero tierra" << endl;
+	cout << "Genero tierra: ";
+	timer.restart();
 	GenerateLand();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
 	// ELEVATION
-	cout << "Asigno costas" << endl;
+	cout << "Asigno costas: ";
+	timer.restart();
 	AssignOceanCoastLand();
-	cout << "Asigno altura" << endl;
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Asigno altura: ";
+	timer.restart();
 	AssignCornerElevation();
-	cout << "Redistribuyo altura" << endl;
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Redistribuyo altura: ";
+	timer.restart();
 	RedistributeElevations();
-	cout << "Asigno altura" << endl;
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Asigno altura: ";
+	timer.restart();
 	AssignPolygonElevations();
-
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+	
 	// MOISTURE
-	cout << "Calculo caida" << endl;
+	cout << "Calculo caida: ";
+	timer.restart();
 	CalculateDownslopes();
-	cout << "Genero rios" << endl;
-	GenerateRivers();
-	cout << "Asigno humedad" << endl;
-	AssignCornerMoisture();
-	cout << "Redistribuyo humedad" << endl;
-	RedistributeMoisture();
-	cout << "Asigno humedad" << endl;
-	AssignPolygonMoisture();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
+	cout << "Genero rios: ";
+	timer.restart();
+	GenerateRivers();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Asigno humedad: ";
+	timer.restart();
+	AssignCornerMoisture();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Redistribuyo humedad: ";
+	timer.restart();
+	RedistributeMoisture();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Asigno humedad: ";
+	timer.restart();
+	AssignPolygonMoisture();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+	
 	// BIOMES
-	cout << "Asigno climas" << endl;
+	cout << "Asigno climas: ";
+	timer.restart();
 	AssignBiomes();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 }
 
 void Map::GeneratePolygons() {
+
 	triangulation->Continue();
 
 	LloydRelaxation();
@@ -173,6 +207,17 @@ void Map::AssignOceanCoastLand(){
 				centers_queue.push(r);
 			}
 		}
+	}
+
+	// Costas de center
+	for each (center * p in centers) {
+		int num_ocean = 0;
+		int num_land = 0;
+		for each (center * q in p->centers) {
+			num_ocean += q->ocean;
+			num_land += !q->water;
+		}
+		p->coast = num_land > 0 && num_ocean > 0;
 	}
 
 	// Costas de corner
@@ -272,6 +317,7 @@ void Map::GenerateRivers(){
 			edge * e = q->GetEdgeWith(q->downslope);
 			e->river_volume += 1;
 			q->river_volume += 1;
+			q->downslope->river_volume += 1;
 			q = q->downslope;
 		}
 	}
@@ -352,10 +398,20 @@ void Map::AssignBiomes(){
 			c->biome = Biome::Ocean;
 		}else if(c->water){
 			c->biome = Biome::Lake;
-		}else if(c->coast){
+		}else if(c->coast && c->moisture < 0.6){
 			c->biome = Biome::Beach;
 		}else{
-			int elevation_index = min((int) floor(c->elevation * 4), 3);
+			int elevation_index = 0;
+			if(c->elevation > 0.85){
+				elevation_index = 3;
+			}else if(c->elevation > 0.6){
+				elevation_index = 2;
+			}else if(elevation_index > 0.3){
+				elevation_index = 1;
+			}else{
+				elevation_index = 0;
+			}
+
 			int moisture_index = min((int) floor(c->moisture * 6), 5);
 			c->biome = elevation_moisture_matrix[moisture_index][elevation_index];
 		}
@@ -370,6 +426,14 @@ vector<corner *> Map::GetLandCorners(){
 		if(!c->water)
 			land_corners.push_back(c);
 	return land_corners;
+}
+
+vector<corner *> Map::GetLakeCorners(){
+	vector<corner *> lake_corners;
+	for each (corner * c in corners)
+		if(c->water && !c->ocean)
+			lake_corners.push_back(c);
+	return lake_corners;
 }
 
 bool Map::IsIsland(Vec2 position){

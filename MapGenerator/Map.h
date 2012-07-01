@@ -39,6 +39,8 @@ private:
 	double z_coord;
 	noise::module::Perlin * noiseMap;
 
+	queue<Vec2> points;
+
 	vector<edge *> edges;
 	vector<corner *> corners;
 	vector<center *> centers;
@@ -60,6 +62,7 @@ private:
 
 
 	vector<corner *> GetLandCorners();
+	vector<corner *> GetLakeCorners();
 	void LloydRelaxation();
 };
 
