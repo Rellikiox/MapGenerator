@@ -1,8 +1,10 @@
 #pragma once
 
 #include "Delaunay.h"
+#include "dDelaunay.h"
 #include "Structures.h"
 #include <vector>
+#include <map>
 
 // Forward Declarations
 class Vec2;
@@ -39,8 +41,9 @@ private:
 	double z_coord;
 	noise::module::Perlin * noiseMap;
 
-	queue<Vec2> points;
+	vector<del::vertex> points;
 
+	map<double, map<double, center *> > pos_cen_map;
 	vector<edge *> edges;
 	vector<corner *> corners;
 	vector<center *> centers;
@@ -60,6 +63,11 @@ private:
 	void AssignPolygonMoisture();
 	void AssignBiomes();
 
+	void Triangulate(vector<del::vertex> puntos);
+	void FinishInfo();
+	void AddCenter(center * c);
+	center * GetCenter(Vec2 position);
+	void OrderPoints(vector<corner *> &corners);
 
 	vector<corner *> GetLandCorners();
 	vector<corner *> GetLakeCorners();

@@ -1,6 +1,8 @@
 
 #include "Map.h"
 
+#include "VoronoiDiagramGenerator.h"
+
 #include "Structures.h"
 
 #include <SFML\Graphics.hpp>
@@ -82,11 +84,13 @@ void drawEdge(edge *e, sf::RenderWindow *window);
 void drawCorner(corner *c, sf::RenderWindow *window);
 void drawCenter(center *c, sf::RenderWindow *window);
 
+#include "dDelaunay.h"
+
 int main(){
 
 	VideoMode = InfoShown::Biomes;
 
-	Map mapa(WIDTH, HEIGHT, 1000);
+	Map mapa(WIDTH, HEIGHT, 2000);
 
 	sf::Clock timer;
 	timer.restart();
@@ -145,7 +149,6 @@ int main(){
 				drawCenter(*center_iter, app);
 			}
 		}
-
 		if(!edges.empty()){
 			edge::PVIter edge_iter, edges_end = edges.end();
 			for(edge_iter = edges.begin(); edge_iter != edges_end; edge_iter++){
@@ -153,7 +156,7 @@ int main(){
 			}
 		}
 
-		if(0 && !corners.empty()){
+		if(!corners.empty()){
 			corner::PVIter corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 				drawCorner(*corner_iter, app);
@@ -180,27 +183,35 @@ void drawLine(Vec2 a, Vec2 b, double width, sf::Color c, sf::RenderWindow *windo
 }
 
 void drawEdge(edge *e, sf::RenderWindow *window){
-	Vec2 v0 = e->v0 == NULL ? e->d0->position + (e->d1->position - e->d0->position) / 2 : e->v0->position;
-	Vec2 v1 = e->v1 == NULL ? e->d0->position + (e->d1->position - e->d0->position) / 2 : e->v1->position;
-	Vec2 d0 = e->d0 == NULL ? e->v0->position + (e->v1->position - e->v0->position) / 2 : e->d0->position;
-	Vec2 d1 = e->d1 == NULL ? e->v0->position + (e->v1->position - e->v0->position) / 2 : e->d1->position;
-	if(v0 != NULL && v1 != NULL){
-		if(e->river_volume > 0){
-			drawLine(v0, v1, 1 + sqrt(e->river_volume), RIVER_COLOR, window);
-		}else{
-			drawLine(v0, v1, 1, VORONOI_COLOR, window);
-		}
+
+	Vec2 v0;
+	if(e->v0 == NULL)
+		v0 = (e->d0->position + e->d1->position) / 2;
+	else
+		v0 = e->v0->position;
+	Vec2 v1;
+	if(e->v1 == NULL)
+		v1 = (e->d0->position + e->d1->position) / 2;
+	else
+		v1 = e->v1->position;
+	if(e->river_volume > 0){
+		drawLine(v0, v1, 1 + sqrt(e->river_volume), RIVER_COLOR, window);
+	}else{
+		drawLine(v0, v1, 1, VORONOI_COLOR, window);
 	}
+	
+	//drawLine(e->d0->position, e->d1->position, 1, DELAUNAY_COLOR, window);
 }
 
 void drawCorner( corner *c, sf::RenderWindow *window ) {
 	sf::CircleShape point;
-	if(c->water)
+	/*if(c->water)
 		point.setFillColor(WATER_COLOR);
 	else
 	{
 		point.setFillColor(LAND_COLOR);
-	}
+	}*/
+	point.setFillColor(VORONOI_COLOR);
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
 	point.setRadius(POINT_SIZE);
 	window->draw(point);
@@ -242,8 +253,14 @@ void drawCenter( center *c, sf::RenderWindow *window ) {
 	default:
 		break;
 	}
-
-
 	polygon.setPosition(0,0);
 	window->draw(polygon);
+	
+	/*
+	sf::CircleShape p;
+	p.setFillColor(sf::Color::Black);
+	p.setRadius(POINT_SIZE);
+	p.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
+	window->draw(p);*/
+
 }

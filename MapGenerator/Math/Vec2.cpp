@@ -5,6 +5,10 @@
 #define M_PI 3.14159265358979323846264338327
 #endif
 
+#ifndef EQ_THRESHOLD
+#define EQ_THRESHOLD 0.00001
+#endif
+
 ostream & operator<<(ostream &os, const Vec2 &v){
 	os << "(" << v.x << "," << v.y << ")";
 	return os;
@@ -90,11 +94,19 @@ Vec2 & Vec2::operator /=(const double & f) {
 }
 
 bool Vec2::operator ==(const Vec2 & v) const {
-	return (this->x == v.x && this->y == v.y);
+
+	double diff_x = abs(this->x - v.x);
+	double diff_y = abs(this->y - v.y);
+
+	return diff_x < EQ_THRESHOLD && diff_y < EQ_THRESHOLD;
 }
 
 bool Vec2::operator !=(const Vec2 & v) const {
-	return (this->x != v.x || this->y != v.y);
+	
+	double diff_x = abs(this->x - v.x);
+	double diff_y = abs(this->y - v.y);
+
+	return diff_x > EQ_THRESHOLD || diff_y > EQ_THRESHOLD;
 }
 
 void Vec2::Normalize() {

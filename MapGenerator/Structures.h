@@ -38,6 +38,9 @@ struct center{
 	center() : index(0), position(0,0), water(false), ocean(false), coast(false),
 		border(false), biome(Biome::None), elevation(0.0), moisture(0.0) {}
 
+	center(unsigned int i, Vec2 p) : index(i), position(p), ocean(false), water(false), 
+		coast(false), border(false), biome(Biome::None), elevation(0.0), moisture(0.0) {}
+
 	unsigned int		index;	
 	Vec2				position;
 
@@ -57,6 +60,7 @@ struct center{
 	bool RemoveCorner(corner *c);
 	edge * GetEdgeWith(center *ce);
 	void MakeBorder();
+	bool IsInsideBoundingBox(int width, int height);
 
 	typedef vector<center *>::iterator PVIter;
 	typedef list<center *>::iterator PLIter;
@@ -88,6 +92,9 @@ struct edge{
 // Corner of Voronoi cell; Circumcenter of Delaunay triangle
 struct corner{
 	corner() : index(0), position(0,0), ocean(false), water(false), coast(false), border(false),
+		elevation(0.0), moisture(0.0), river_volume(0.0), downslope(NULL) {}
+
+	corner(unsigned int i, Vec2 p) : index(i), position(p), ocean(false), water(false), coast(false), border(false),
 		elevation(0.0), moisture(0.0), river_volume(0.0), downslope(NULL) {}
 
 	unsigned int		index;

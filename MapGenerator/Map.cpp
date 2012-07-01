@@ -67,12 +67,17 @@ Map::~Map(void) {
 Map::Map(int width, int height, int point_count) {
 	map_width = width;
 	map_height = height;
-	triangulation = new Delaunay(Vec2(0,0), Vec2(map_width, map_height));
+	//triangulation = new Delaunay(Vec2(0,0), Vec2(map_width, map_height));
 
 	srand(time(NULL));
 	for(int i = 0; i < point_count; i++){
-		triangulation->AddPoint(Vec2(rand()%map_width, rand()%map_height));
+		//triangulation->AddPoint(Vec2(rand()%map_width, rand()%map_height));
+		points.push_back(del::vertex(5 + rand()%(map_width - 10), 5 + rand()%(map_height - 10)));
 	}
+	points.push_back(del::vertex(-map_width,-map_height));
+	points.push_back(del::vertex(map_width * 2,-map_width));
+	points.push_back(del::vertex(-map_width,map_height * 2));
+	points.push_back(del::vertex(map_width * 2, map_height * 2));
 
 	z_coord = ((double) rand() / RAND_MAX ) * 4;
 	z_coord = 0.979888;
@@ -112,7 +117,7 @@ void Map::Generate() {
 	timer.restart();
 	AssignPolygonElevations();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
-	
+
 	// MOISTURE
 	cout << "Calculo caida: ";
 	timer.restart();
@@ -138,7 +143,7 @@ void Map::Generate() {
 	timer.restart();
 	AssignPolygonMoisture();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
-	
+
 	// BIOMES
 	cout << "Asigno climas: ";
 	timer.restart();
@@ -148,16 +153,10 @@ void Map::Generate() {
 
 void Map::GeneratePolygons() {
 
-	triangulation->Continue();
-
+	Triangulate(points);
 	LloydRelaxation();
 	LloydRelaxation();
-
-	triangulation->Finish();
-
-	edges = triangulation->GetBorders();
-	corners = triangulation->GetCorners();
-	centers = triangulation->GetCenters();
+	FinishInfo();
 }
 
 void Map::GenerateLand() {
@@ -270,7 +269,7 @@ void Map::AssignCornerElevation(){
 
 void Map::RedistributeElevations(){
 	vector<corner *> locations = GetLandCorners();
-	double SCALE_FACTOR = 1.1;
+	double SCALE_FACTOR = 1.05;
 
 	sort(locations.begin(), locations.end(), &corner::SortByElevation);
 
@@ -374,7 +373,7 @@ void Map::RedistributeMoisture(){
 	vector<corner *> locations = GetLandCorners();
 
 	sort(locations.begin(), locations.end(), &corner::SortByMoisture);
-	
+
 	for(int i = 0; i < locations.size(); i++){
 		locations[i]->moisture = (double) i / (locations.size() - 1);
 	}
@@ -420,6 +419,61 @@ void Map::AssignBiomes(){
 
 
 
+void Map::FinishInfo(){
+	center::PVIter center_iter, centers_end = centers.end();
+	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
+		OrderPoints((*center_iter)->corners);
+	}
+
+	for each (center * c  in centers) {
+		for each (edge * e in c->edges) {
+			center *aux_center = e->GetOpositeCenter(c);
+			if(aux_center != NULL)
+				c->centers.push_back(aux_center);
+		}
+	}
+	for each (corner * c  in corners) {
+		for each (edge * e in c->edges) {
+			corner * aux_corner = e->GetOpositeCorner(c);
+			if(aux_corner != NULL)
+				c->corners.push_back(aux_corner);
+		}
+	}
+}
+
+void Map::OrderPoints( vector<corner *> & corners ) {
+	vector<corner *> result;
+	if (corners.size() >= 4) {
+		corner * leftMostPoint = corners[0];
+		corner::PVIter corner_iter, corners_end = corners.end();
+		for (corner_iter = corners.begin() + 1; corner_iter != corners.end(); corner_iter++) {
+			if ((*corner_iter)->position.x < leftMostPoint->position.x 
+				|| ((*corner_iter)->position.x == leftMostPoint->position.x && (*corner_iter)->position.y < leftMostPoint->position.y)) {
+				leftMostPoint = *corner_iter;
+			}
+		}
+		corner * current = leftMostPoint;
+		int leftMostInt;
+
+		do {
+			result.insert(result.begin(), current);
+			if (current == corners[0])
+				leftMostInt = 1;
+			else
+				leftMostInt = 0;
+			for (unsigned int i = leftMostInt + 1; i < corners.size(); i++) {
+				Vec2 v1(current->position, corners[leftMostInt]->position);
+				Vec2 v2(current->position, corners[i]->position);
+				if (v1.CrossProduct(v2) > 0) {
+					leftMostInt = i;
+				}
+			}
+			current = corners[leftMostInt];
+		} while (current != result.back());
+		corners = result;
+	}
+}
+
 vector<corner *> Map::GetLandCorners(){
 	vector<corner *> land_corners;
 	for each (corner * c in corners)
@@ -454,10 +508,121 @@ bool Map::IsIsland(Vec2 position){
 	return noise_val >= 0.3*radius + factor;
 }
 
+void Map::Triangulate(vector<del::vertex> puntos){
+	int corner_index = 0, center_index = 0, edge_index = 0;
+	corners.clear();
+	centers.clear();
+	edges.clear();
+	pos_cen_map.clear();
+
+	del::vertexSet v (puntos.begin(), puntos.end());
+	del::triangleSet tris;
+	del::edgeSet edg;
+	del::Delaunay dela;
+
+	dela.Triangulate(v, tris);
+	for each (del::triangle t in tris) {		
+		Vec2 pos_center_0( t.GetVertex(0)->GetX(), t.GetVertex(0)->GetY());
+		Vec2 pos_center_1( t.GetVertex(1)->GetX(), t.GetVertex(1)->GetY());
+		Vec2 pos_center_2( t.GetVertex(2)->GetX(), t.GetVertex(2)->GetY());
+
+		center * c1 = GetCenter(pos_center_0);
+		if(c1 == NULL){
+			c1 = new center(center_index++, pos_center_0);
+			centers.push_back(c1);
+			AddCenter(c1);
+		}
+		center * c2 = GetCenter(pos_center_1);
+		if(c2 == NULL){
+			c2 = new center(center_index++, pos_center_1);
+			centers.push_back(c2);
+			AddCenter(c2);
+		}
+		center * c3 = GetCenter(pos_center_2);
+		if(c3 == NULL){
+			c3 = new center(center_index++, pos_center_2);
+			centers.push_back(c3);
+			AddCenter(c3);
+		}
+
+		corner * c = new corner(corner_index++, Vec2());
+		corners.push_back(c);
+		c->centers.push_back(c1);
+		c->centers.push_back(c2);
+		c->centers.push_back(c3);
+		c1->corners.push_back(c);
+		c2->corners.push_back(c);
+		c3->corners.push_back(c);
+		c->position = c->CalculateCircumcenter();
+
+		edge * e12 = c1->GetEdgeWith(c2);
+		if(e12 == NULL){			
+			e12 = new edge(edge_index++, c1, c2, NULL, NULL);
+			e12->v0 = c;
+			edges.push_back(e12);
+			c1->edges.push_back(e12);
+			c2->edges.push_back(e12);
+		}else{
+			e12->v1 = c;
+		}
+		c->edges.push_back(e12);
+
+		edge * e23 = c2->GetEdgeWith(c3);
+		if(e23 == NULL){			
+			e23 = new edge(edge_index++, c2, c3, NULL, NULL);
+			e23->v0 = c;
+			edges.push_back(e23);
+			c2->edges.push_back(e23);
+			c3->edges.push_back(e23);
+		}else{
+			e23->v1 = c;
+		}
+		c->edges.push_back(e23);
+
+		edge * e31 = c3->GetEdgeWith(c1);
+		if(e31 == NULL){			
+			e31 = new edge(edge_index++, c3, c1, NULL, NULL);
+			e31->v0 = c;
+			edges.push_back(e31);
+			c3->edges.push_back(e31);
+			c1->edges.push_back(e31);
+		}else{
+			e31->v1 = c;
+		}
+		c->edges.push_back(e31);
+	}
+
+}
+
+void Map::AddCenter(center * c){
+	map<double, map<double, center *> >::const_iterator it = pos_cen_map.find(c->position.x);
+	if(it != pos_cen_map.end()){
+		pos_cen_map[(int) c->position.x][c->position.y] = c;
+	}else{
+		pos_cen_map[(int) c->position.x] = map<double, center*>();
+		pos_cen_map[(int) c->position.x][c->position.y] = c;
+	}
+}
+
+center * Map::GetCenter(Vec2 position){
+	map<double, map<double, center *> >::const_iterator it = pos_cen_map.find(position.x);
+	if(it != pos_cen_map.end()){
+		map<double, center *>::const_iterator it2 = it->second.find(position.y);
+		if(it2 != it->second.end()){
+			return it2->second;
+		}
+	}
+
+	return NULL;
+}
+
 void Map::LloydRelaxation(){
-	vector<center *> centros = triangulation->GetCenters();
-	vector<Vec2> new_points;
-	for each (center * p in centros) {
+	vector<del::vertex> new_points;
+	for each (center * p in centers) {
+		if(!p->IsInsideBoundingBox(map_width, map_height)){
+			new_points.push_back(del::vertex((int)p->position.x, (int) p->position.y));
+			continue;
+		}
 		Vec2 center_centroid;		
 		for each (corner * q in p->corners)	{
 			if(q->IsInsideBoundingBox(map_width, map_height)){
@@ -478,13 +643,9 @@ void Map::LloydRelaxation(){
 			}
 		}
 		center_centroid /= p->corners.size();
-		new_points.push_back(center_centroid);
+		new_points.push_back(del::vertex((int)center_centroid.x, (int)center_centroid.y));
 	}
-
-	triangulation->CleanUp();
-	triangulation->CreateBorders(Vec2(0,0), Vec2(map_width, map_height));
-	triangulation->AddPoints(new_points);
-	triangulation->Continue();
+	Triangulate(new_points);
 }
 
 vector<center *> Map::GetCenters(){

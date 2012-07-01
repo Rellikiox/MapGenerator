@@ -53,6 +53,13 @@ void center::MakeBorder(){
 	}
 }
 
+bool center::IsInsideBoundingBox(int width, int height){
+	if(position.x < 0 || position.x >= width || position.y < 0 || position.y >= height)
+		return false;
+
+	return true;
+}
+
 bool edge::Legalize() {
 
 	if(v0 == NULL || v1 == NULL)
