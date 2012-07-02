@@ -3,6 +3,8 @@
 #include <ctime>
 #include <sstream>
 
+const int MarkovNames::MAX_NAME_ITERATION = 100;
+
 MarkovNames::MarkovNames(void) {
 	prev_start_index = 0;
 	order = 0;
@@ -36,32 +38,35 @@ void MarkovNames::Copy(const MarkovNames &mn){
 	prev_start_index = mn.prev_start_index;
 }
 
-MarkovNames::MarkovNames(vector<string> original_names, int order) {
+MarkovNames::MarkovNames(vector<string> original_names, int order, int length) {
 	assert(order > 0);
 	assert(original_names.size() > 0);	
 	srand(time(NULL));
 	this->order = order;
+	this->min_name_length = length;
 
 	for each (string name in original_names) {
 		ProcessName(name);
 	}
 }
 
-MarkovNames::MarkovNames(string original_names, int order) {
+MarkovNames::MarkovNames(string original_names, int order, int length) {
 	assert(order > 0);	
 	srand(time(NULL));
 	this->order = order;
+	this->min_name_length = length;
 
 	for each (string s in split(original_names, ',')) {
 		ProcessName(s);
 	}
 }
 
-void MarkovNames::ResetGenerator(vector<string> original_names, int order) {
+void MarkovNames::ResetGenerator(vector<string> original_names, int order, int length) {
 	assert(order > 0);
 	assert(original_names.size() > 0);
 	srand(time(NULL));
 	this->order = order;
+	this->min_name_length = length;
 
 	for each (string name in original_names) {
 		ProcessName(name);
@@ -70,15 +75,23 @@ void MarkovNames::ResetGenerator(vector<string> original_names, int order) {
 
 string MarkovNames::GetName() {
 	assert(m_chains.size() > 0);
-	
-	int first_key_index = rand() % v_keys.size();
+	int keys_map_size = v_keys.size();
+	int first_key_index = rand() % keys_map_size;
+	if(keys_map_size > 1){
+		while (first_key_index == prev_start_index)	{
+			first_key_index = rand() % keys_map_size;
+		}
+	}
+	prev_start_index = first_key_index;
 
 	string name = v_keys[rand() % v_keys.size()];
 
 	ChainsIter it = m_chains.find(name);
 	char next_char;
+	int iterations = 0;
 
 	do {
+		iterations++;
 		next_char = it->second[rand() % it->second.size()];
 
 		if(next_char != '\n'){
@@ -86,6 +99,10 @@ string MarkovNames::GetName() {
 
 			string segment = name.substr(name.length() - order);
 			it = m_chains.find(segment);
+		}else{
+			if(iterations < MAX_NAME_ITERATION){
+				next_char = 'a';
+			}
 		}
 	} while (next_char != '\n');
 	
