@@ -2,6 +2,7 @@
 #include <cassert>
 #include <ctime>
 #include <sstream>
+#include <algorithm>
 
 const int MarkovNames::MAX_NAME_ITERATION = 100;
 
@@ -57,6 +58,7 @@ MarkovNames::MarkovNames(string original_names, int order, int length) {
 	this->min_name_length = length;
 
 	for each (string s in split(original_names, ',')) {
+		transform(s.begin(), s.end(), s.begin(), ::toupper);
 		ProcessName(s);
 	}
 }
