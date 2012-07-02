@@ -88,7 +88,7 @@ int main(){
 
 	VideoMode = InfoShown::Biomes;
 
-	Map mapa(WIDTH, HEIGHT, 5000);
+	Map mapa(WIDTH, HEIGHT, 1000);
 
 	sf::Clock timer;
 	timer.restart();

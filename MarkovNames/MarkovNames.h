@@ -23,13 +23,13 @@ public:
 
 private:
 	
-	vector<string> v_keys;
+	vector<string> v_generated;
+	vector<string> v_samples;
 	map<string, vector<char> > m_chains;
 	typedef map<string, vector<char> >::iterator ChainsIter;
 
 	int order;
 	int min_name_length;
-	int prev_start_index;
 
 	void ProcessName(string name);
 	void Copy(const MarkovNames &mn);
@@ -37,6 +37,7 @@ private:
 	std::vector<std::string> split(const std::string &s, char delim);
 
 	static const int MAX_NAME_ITERATION;
+	void ClearVectors();
 };
 
 

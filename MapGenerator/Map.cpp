@@ -358,7 +358,7 @@ void Map::AssignCornerMoisture(){
 		corner_queue.pop();
 
 		for each (corner * r in c->corners)	{
-			double new_moisture = c->moisture * 0.5;
+			double new_moisture = c->moisture * 0.3;
 			if( new_moisture > r->moisture ){
 				r->moisture = new_moisture;
 				corner_queue.push(r);

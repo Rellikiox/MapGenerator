@@ -7,16 +7,11 @@
 const int MarkovNames::MAX_NAME_ITERATION = 100;
 
 MarkovNames::MarkovNames(void) {
-	prev_start_index = 0;
 	order = 0;
 }
 
 MarkovNames::~MarkovNames(void) {
-	v_keys.clear();
-	for each (pair<string, vector<char> > p in m_chains) {
-		p.second.clear();
-	}
-	m_chains.clear();
+	ClearVectors();
 }
 
 MarkovNames::MarkovNames(const MarkovNames &mn) {
@@ -34,9 +29,8 @@ MarkovNames & MarkovNames::operator=(const MarkovNames &mn) {
 
 void MarkovNames::Copy(const MarkovNames &mn){
 	order = mn.order;
-	v_keys = mn.v_keys;
+	v_samples = mn.v_samples;
 	m_chains = mn.m_chains;
-	prev_start_index = mn.prev_start_index;
 }
 
 MarkovNames::MarkovNames(vector<string> original_names, int order, int length) {
@@ -66,6 +60,9 @@ MarkovNames::MarkovNames(string original_names, int order, int length) {
 void MarkovNames::ResetGenerator(vector<string> original_names, int order, int length) {
 	assert(order > 0);
 	assert(original_names.size() > 0);
+
+
+
 	srand(time(NULL));
 	this->order = order;
 	this->min_name_length = length;
@@ -77,37 +74,33 @@ void MarkovNames::ResetGenerator(vector<string> original_names, int order, int l
 
 string MarkovNames::GetName() {
 	assert(m_chains.size() > 0);
-	int keys_map_size = v_keys.size();
-	int first_key_index = rand() % keys_map_size;
-	if(keys_map_size > 1){
-		while (first_key_index == prev_start_index)	{
-			first_key_index = rand() % keys_map_size;
-		}
-	}
-	prev_start_index = first_key_index;
+	string name;
+	do{
+		int n = rand() % v_samples.size();
+		int name_length = v_samples[n].size();
 
-	string name = v_keys[rand() % v_keys.size()];
+		name = v_samples[n].substr(rand() % (v_samples[n].length() - order), order);
 
-	ChainsIter it = m_chains.find(name);
-	char next_char;
-	int iterations = 0;
+		ChainsIter it = m_chains.find(name);
+		char next_char;
+		int iterations = 0;
 
-	do {
-		iterations++;
-		next_char = it->second[rand() % it->second.size()];
+		while (name.length() < name_length) {
+			iterations++;
+			next_char = it->second[rand() % it->second.size()];
 
-		if(next_char != '\n'){
-			name.append(1, next_char);
+			if(next_char != '\n'){
+				name.append(1, next_char);
 
-			string segment = name.substr(name.length() - order);
-			it = m_chains.find(segment);
-		}else{
-			if(iterations < MAX_NAME_ITERATION){
-				next_char = 'a';
+				string segment = name.substr(name.length() - order);
+				it = m_chains.find(segment);
+			}else{
+				break;
 			}
 		}
-	} while (next_char != '\n');
-	
+	}while(find(v_generated.begin(), v_generated.end(), name) != v_generated.end() || name.length() < min_name_length);
+	v_generated.push_back(name);
+
 	return name;
 }
 
@@ -129,22 +122,31 @@ void MarkovNames::ProcessName(string name){
 		}else{
 			vector<char> v(1, next_char);
 			m_chains[segment] = v;
-			v_keys.push_back(segment);
 		}
 	}
+	v_samples.push_back(name);
 }
 
 std::vector<std::string> & MarkovNames::split(const std::string &s, char delim, std::vector<std::string> &elems) {
-    std::stringstream ss(s);
-    std::string item;
-    while(std::getline(ss, item, delim)) {
-        elems.push_back(item);
-    }
-    return elems;
+	std::stringstream ss(s);
+	std::string item;
+	while(std::getline(ss, item, delim)) {
+		elems.push_back(item);
+	}
+	return elems;
 }
 
 std::vector<std::string> MarkovNames::split(const std::string &s, char delim) {
-    std::vector<std::string> elems;
+	std::vector<std::string> elems;
 	split(s, delim, elems);
-    return elems;
+	return elems;
+}
+
+void MarkovNames::ClearVectors(){
+	v_samples.clear();
+	for each (pair<string, vector<char> > p in m_chains) {
+		p.second.clear();
+	}
+	m_chains.clear();
+	v_generated.clear();
 }
