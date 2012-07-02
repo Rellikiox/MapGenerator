@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Delaunay.h"
 #include "dDelaunay.h"
 #include "Structures.h"
 #include <vector>
@@ -37,7 +36,6 @@ public:
 private:
 	int map_width;
 	int map_height;
-	Delaunay * triangulation;
 	double z_coord;
 	noise::module::Perlin * noiseMap;
 

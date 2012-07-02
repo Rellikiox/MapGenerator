@@ -1,12 +1,10 @@
 
 #include "Map.h"
 
-#include "VoronoiDiagramGenerator.h"
-
 #include "Structures.h"
 
-#include <SFML\Graphics.hpp>
-#include <SFML\Window.hpp>
+#include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
 
 #include "noise/noise.h"
 using namespace noise;
@@ -90,7 +88,7 @@ int main(){
 
 	VideoMode = InfoShown::Biomes;
 
-	Map mapa(WIDTH, HEIGHT, 2000);
+	Map mapa(WIDTH, HEIGHT, 5000);
 
 	sf::Clock timer;
 	timer.restart();

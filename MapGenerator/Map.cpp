@@ -2,7 +2,7 @@
 #include "Math/Vec2.h"
 #include "noise/noise.h"
 #include <ctime>
-#include <limits>
+#include <queue>
 #include <SFML/System.hpp>
 
 const vector<vector<Biome::Type> > Map::elevation_moisture_matrix = Map::MakeBiomeMatrix();
@@ -56,7 +56,6 @@ vector<vector<Biome::Type> > Map::MakeBiomeMatrix(){
 }
 
 Map::Map(void) {
-	triangulation = NULL;
 	srand(time_t(NULL));
 	z_coord = ((double) rand() / RAND_MAX ) * 2 - 1;
 }
