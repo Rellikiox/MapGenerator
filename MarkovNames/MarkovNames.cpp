@@ -40,8 +40,9 @@ MarkovNames::MarkovNames(vector<string> original_names, int order, int length) {
 	this->order = order;
 	this->min_name_length = length;
 
-	for each (string name in original_names) {
-		ProcessName(name);
+	for each (string s in original_names) {
+		transform(s.begin(), s.end(), s.begin(), ::tolower);
+		ProcessName(s);
 	}
 }
 
@@ -52,7 +53,7 @@ MarkovNames::MarkovNames(string original_names, int order, int length) {
 	this->min_name_length = length;
 
 	for each (string s in split(original_names, ',')) {
-		transform(s.begin(), s.end(), s.begin(), ::toupper);
+		transform(s.begin(), s.end(), s.begin(), ::tolower);
 		ProcessName(s);
 	}
 }
@@ -60,8 +61,6 @@ MarkovNames::MarkovNames(string original_names, int order, int length) {
 void MarkovNames::ResetGenerator(vector<string> original_names, int order, int length) {
 	assert(order > 0);
 	assert(original_names.size() > 0);
-
-
 
 	srand(time(NULL));
 	this->order = order;
@@ -100,6 +99,8 @@ string MarkovNames::GetName() {
 		}
 	}while(find(v_generated.begin(), v_generated.end(), name) != v_generated.end() || name.length() < min_name_length);
 	v_generated.push_back(name);
+
+	transform(name.begin(), name.begin() + 1, name.begin(), ::toupper);
 
 	return name;
 }
