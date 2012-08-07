@@ -1,5 +1,6 @@
 
 #include "Map.h"
+#include "MarkovNames.h"
 
 #include "Structures.h"
 
@@ -83,12 +84,35 @@ void drawCorner(corner *c, sf::RenderWindow *window);
 void drawCenter(center *c, sf::RenderWindow *window);
 
 #include "dDelaunay.h"
-
+#include <fstream>
 int main(){
+
+	vector<string> names;
+
+	ifstream names_file;
+	names_file.open("../Resources/ScottishNames.txt", ios::in);
+
+	if(!names_file.is_open())
+		return 0;	
+
+	while(!names_file.eof()){
+		string line;
+		getline(names_file, line);
+
+		names.push_back(line);
+	}
+
+	MarkovNames mng(names, 3, 4);
+	while(true){
+		cout << mng.GetName() << endl;
+		system("pause");
+	}
+	return 0;
+
 
 	VideoMode = InfoShown::Biomes;
 
-	Map mapa(WIDTH, HEIGHT, 1000);
+	Map mapa(WIDTH, HEIGHT, 2000);
 
 	sf::Clock timer;
 	timer.restart();
@@ -197,17 +221,17 @@ void drawEdge(edge *e, sf::RenderWindow *window){
 	}else{
 		drawLine(v0, v1, 1, VORONOI_COLOR, window);
 	}
-	
+
 	//drawLine(e->d0->position, e->d1->position, 1, DELAUNAY_COLOR, window);
 }
 
 void drawCorner( corner *c, sf::RenderWindow *window ) {
 	sf::CircleShape point;
 	/*if(c->water)
-		point.setFillColor(WATER_COLOR);
+	point.setFillColor(WATER_COLOR);
 	else
 	{
-		point.setFillColor(LAND_COLOR);
+	point.setFillColor(LAND_COLOR);
 	}*/
 	point.setFillColor(VORONOI_COLOR);
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
@@ -253,12 +277,12 @@ void drawCenter( center *c, sf::RenderWindow *window ) {
 	}
 	polygon.setPosition(0,0);
 	window->draw(polygon);
-	
-	/*
+
+
 	sf::CircleShape p;
 	p.setFillColor(sf::Color::Black);
 	p.setRadius(POINT_SIZE);
 	p.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
-	window->draw(p);*/
+	window->draw(p);
 
 }

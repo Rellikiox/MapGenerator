@@ -79,7 +79,8 @@ Map::Map(int width, int height, int point_count) {
 	points.push_back(del::vertex(map_width * 2, map_height * 2));
 
 	z_coord = ((double) rand() / RAND_MAX ) * 4;
-	z_coord = 0.979888;
+	//z_coord = 0.979888;
+	z_coord = 2.15473;
 	cout << z_coord << endl;
 }
 
@@ -518,8 +519,9 @@ void Map::Triangulate(vector<del::vertex> puntos){
 	del::triangleSet tris;
 	del::edgeSet edg;
 	del::Delaunay dela;
-
+	sf::Clock timer;
 	dela.Triangulate(v, tris);
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
 	for each (del::triangle t in tris) {		
 		Vec2 pos_center_0( t.GetVertex(0)->GetX(), t.GetVertex(0)->GetY());
 		Vec2 pos_center_1( t.GetVertex(1)->GetX(), t.GetVertex(1)->GetY());
