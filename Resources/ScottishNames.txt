@@ -1,350 +1,359 @@
+Àir
 Àisia
+Àithne
 Àrasaig
-Àth Cliath
-Èirisgeigh
-Ì Chaluim Chille
-Ìle
-A' Chòrn
-A' Bheilg
-A' Chananaich
-A' Chrìon-Làraich
-A' Ghàidhealtachd
-A' Ghearmailt
-A' Ghrèig
-A' Mhanachainn
-A' Mhira Mhòr
-A' Phòlainn
-Abhainn Mhòr
-Achadh nan Leac
-Afraga
-Aird Rosain
-Alamhagh
-Albàinia
-Alba Ùr
-Alba Nuadh
-Allmhagh Beag
-Allmhagh Mor
-Allt a' Bhonnaich
-Am Baile Beag
-Am Baile Mòr
-Am Bruiseal
-Am Maol Ros
-Am Monadh Ruadh
-Am Pòn Mòr
-Ameireaga
+Àrd
+Àth
+Èideann
 Èiphit
+Èirisgeigh
+Èisg
+Òban
 Òlaind
-Aghaidh Mhòr
-Aghaidh Mhòr
-Caisteal Nuadh
-Caolas Leathann
-Cladach a Tuath
-Cuiltheann
-Danmhairg
-Drochaid
-Eadailt
-Eaglais Bhreac
-Eilbheis
-Fhraing
-Geal Àth
-Gearasdan
-Gut
-Leargaidh Gallda
-Ostaire
-Ròimh
-Ruadh Ghleann
-Ruis
-Sithean
-Spàinn
-t-Àrd Ruigh
-t-Àth Leathann
-t-Òban
-t-Òban
-t-Eilean Dearg
-t-Eilean Dubh
-t-Eilean Sgitheanach
-t-Sàilean
-t-Sròn Reamhar
-t-Suain
-Tairbeart
-Tràigh Mhòr
-Tuirc
-Tuirc
-Ungaire
+Ùige
+Ùigidh
+Abar
+Abhainn
+Achadh
+Adainn
+Afraga
+Aghaidh
+Aibhne
+Aibhneadh
+Ailein
+Aillse
+Aird
+Alamhagh
+Alastair
+Albàinia
+Alba
+Allmhagh
+Allt
+Ameireaga
+Anainn
+Anna
+Aonghais
+Aora
 Arainn
 Arasgain
 Arcaibh
+Artair
 Astràilia
-Bàgh a' Chaisteil
-Bàgh nan Uaimhean
+Athaill
+Bàgh
 Bàideanach
-Bòd
+Bàrr
 Bòd
 Badaig
-Àth Cliath
-Chaolais
-Chlamhain
-Ghobhainn
-Adainn
-Ailein
-Anna
-Bhòid
-Chè
-Chloichridh
-Chluaidh
-Dhùnlèibhe
-Inbhir Nis
-na Gailbhinn
-na h-Àithne
-na h-Eaglais
-Shidni
-Thurra
+Baile
 Barraigh
 Beàrnaraigh
-Beàrnaraigh
+Beag
 Bealach
 Bearaig
-Artair
-Laoigh
-Laomainn
-Mhor
-na Faoghla
-Nibheis
-Beul Feirste
+Beithe
+Beul
+Bhòid
+Bhaile
+Bhanbh
 Bhatarsaigh
-Blàr Athaill
-Bod an Deamhain
-Bogh Mòr
+Bhearaig
+Bheilg
+Bhlàthain
+Bhonnaich
+Bhrìghde
+Bhreac
+Bhrothaig
+Bhruis
+Blàr
+Bod
+Bogh
 Boirbhe
-Bràigh Mhàrr
-Bràigh na h-Aibhne
-Bràigh na h-Aibhneadh
+Bràigh
+Breatainn
 Breichinn
-Bruach Chluaidh
+Bruach
+Bruiseal
 Bucaidh
 Bulgàiria
-Còbh a' Phlàstair
-Cùil Lodair
-Ceann Tulach
-Chaladain
-Creige
+Còbh
+Cùil
+Caisteal
 Calasraid
 Calgarraidh
 Canada
 Canaigh
-Caol Loch Aillse
+Caol
+Caolas
 Cataibh
-Cathair Alastair
-Cathair Luail
+Cathair
 Cealsaidh
-a' Ghiuthsaich
-Fhàil
-Lìte
-Chille Chiarain
-Gilb
-Phàdraig
+Ceann
+Chàrdainn
+Chè
+Chèitein
+Chòrn
+Chòta
+Chailleann
+Chaisteil
+Chaladain
+Chaluim
+Chananaich
+Chaolais
+Chiarain
+Chill
+Chille
+Chlach
+Chlamhain
+Chloichridh
 Chluaidh
-Chluaidh
-Rìmhinn
-Saidhe
-Bhrìghde an Ear
+Chrìon
 Chuimein
 Chuithbeirt
-Mhèarnaig
-Phàdraig Ùr
-Cinn Tàile
-Cities outside Scotland
-Coille Dobhair
-Coilltean Beithe
+Cinn
+Cities
+Cladach
+Cliath
+Coille
+Coilltean
 Cola
 Colbhasa
-Comar nan Allt
-Crìochan na h-Alba
+Comar
+Comhann
+Crìochan
 Craoibh
-Creag an Iubhair
-Creag Ealasaid
+Creag
+Creige
 Cromba
+Cuilinn
+Cuiltheann
 Cuimridh
+Cultraidh
 Cumnag
 Cupar
 Dòrnach
-Èideann
-Bàrr
-Bhlàthain
-Breatainn
-Chailleann
-Dè
-Obhainn
-Phàrlain
-Phris
-Tòchair
-Dail Chè
+Dail
+Danmhairg
 Deadard
+Deamhain
+Dearg
+Dhùnlèibhe
+Dheathain
 Diùra
-Doire Chaluim Chille
-Drochaid a' Chòta
-Drochaid Mhira
-Eabhraig
-Eaglais an t-Sléibh
-Earra-Ghàidheal
-Eige
-Phrionnsa
+Dobhair
+Doire
+Drochaid
+Dubh
 Eòin
-Nollaig
-Muc
-Geansaidh
-Trosg
+Eabhraig
+Eadailt
+Eagas
+Eaglais
+Ealasaid
+Ear
+Earra
+Eige
+Eighe
+Eilbheis
+Eilean
+Eileanan
 Eilginn
 Estòinia
 Fìobh
 Fìobha
+Faoghla
 Farfar
 Farrais
+Feirste
+Fhàil
+Fhìobha
+Fhamhair
+Fhraing
+Friù
+Gailbhinn
 Gallaibh
-Gallaibh
+Gallda
+Garadh
+Geal
+Geansaidh
+Gearasdan
+Ghàidheal
+Ghàidhealtachd
+Ghearmailt
+Ghiuthsaich
+Ghlaschu
+Ghleann
+Ghobhainn
+Ghrèig
+Ghròt
+Ghrainnse
+Ghruthain
+Gilb
 Giobraltair
 Giogha
 Glaschu
-Glaschu Nuadh
-Comhann
-Eagas
-Iucha
-Ràthais
+Gleanna
 Greatna
 Grianaig
 Griomasaigh
 Guireag
+Gut
 Halafacs
 Hamaltan
 Hamhaig
+Hearadh
 Hiort
 Hogamah
 Hunndaidh
-Hunndaidh
+Iain
 Iapan
-Àir
-Ùige
-Ùigidh
-Anainn
-Aora
-Chèitein
-Cuilinn
-Eighe
-Ghrainnse
-Narann
-Nis
-Pheofharain
-Theòrsa
-Uraidh
+Iar
 Inbhir
-Chluaidh
-Innis Tìle
+Innis
+Innsean
+Ioirc
+Iubhair
+Iucha
+Làraich
 Lèirbert
 Lìte
-Lìte
-Labhdaidh an Ear
-Labhdaidh an Iar
-Lag Mhor
+Labhdaidh
+Lag
 Laitbhia
 Langaim
 Lannraig
+Laoigh
+Laomainn
 Leòdhas
+Leac
+Leargaidh
+Leathann
 Liosmòr
 Locarbaidh
-Abar
-an Fhamhair
-Laomainn
-Raonasa
-Lodain an Iar
-Lodainn an Ear
+Loch
+Lodain
+Lodainn
+Lodair
+Luail
 Lucsamburg
 Lunnainn
 Màbu
+Màthar
+Mòr
+Maircnidh
 Malaig
 Manchain
-Meadhan Labhdaidh
-Meadhan Lodainn
+Maol
+Meadhan
+Mhàrr
+Mhàrtainn
+Mhèarnaig
+Mhòr
+Mhanachainn
+Mhanainn
+Mhira
+Mhoire
+Mhonadh
+Mhor
 Moireibh
-Mon Rois
+Mon
+Monadh
+Mor
+Muc
 Muile
-Na h-Eileanan Siar
-Na h-Innsean
-Na Hearadh
-Na Pùballan
+Narann
+Nibheis
 Nirribhidh
-Bhrothaig
-Dheathain
-Dobhair
-Pheallaidh
-Phuill
+Nis
+Nollaig
+Nuadh
+Obar
+Obhainn
+Ostaire
 Pàislig
 Pàrtaig
+Pòn
+Pùballan
 Peairt
-Peairt agus Ceann Rois
 Pearraig
-Poblachd nan Teacach
-Ghruthain
-Mhonadh
-Ghlaschu
-Rìgh
+Phàdraig
+Phàrlain
+Phòlainn
+Pheairt
+Pheallaidh
+Pheofhair
+Pheofharain
+Phlàstair
+Phrionnsa
+Phris
+Phuill
+Poblachd
 Preastabhaig
+Puballan
+Ràthais
+Rìgh
+Rìmhinn
+Ròimh
 Rùm
+Raonasa
+Rathaid
 Ratharsair
-Rinn Friù
+Reamhar
+Rinn
+Rois
 Romàinia
-Fhìobha
-is Cromba
-Maircnidh
-Saidhe
-Saoithe
-Sìdh Chailleann
+Ros
+Rosain
+Rosbruig
+Ruadh
+Ruigh
+Ruis
+Sàilean
+Sìdh
 Sìona
+Sabhail
+Saidhe
 Salcraig
 Sanndraigh
+Saoithe
 Sasainn
+Scotland
 Sealtainn
 Sgàin
 Sgalpaigh
-Siùdaig
-Aonghais
-Bhòid
-Bhaile na h-Ùige
-Bhanbh
-Bhearaig
-Chill Chuithbeirt
-Chàrdainn
-Rois
-Chlach Mhanainn
-Breatainn
-Phris
-Gleanna Garadh
-Àir
-Narann
-Nis
-Lannraig
-nam Puballan
-Obar Dheathain
-Pheairt
-Rinn Friù
-Rosbruig
+Sgitheanach
 Shailcirc
+Shidni
 Shruighlea
-Bhruis
-Ioirc
+Siùdaig
+Siar
+Sithean
+Sléibh
 Slobhàigia
-Srath Pheofhair
-Sron na h-Aibhne
+Spàinn
+Sròn
+Srath
+Sron
 Sruighlea
 Steòrnabhagh
-Steòrnabhagh
-Rathaid
-Iain Ghròt
-Mhàrtainn
-Talamh an Èisg
-Mhoire
-Màthar
-Tom an t-Sabhail
+Suain
+Tàile
+Tìle
+Tòchair
+Tairbeart
+Talamh
+Teacach
+Theòrsa
+Thurra
+Tom
 Torraibh
-Tulach Cultraidh
+Tràigh
+Trosg
+Tuath
+Tuirc
+Tulach
 Tunga
+Uaimhean
 Ulapul
+Ungaire
+Uraidh

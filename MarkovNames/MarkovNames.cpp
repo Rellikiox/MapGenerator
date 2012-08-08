@@ -80,7 +80,7 @@ string MarkovNames::GetName() {
 
 		int substring_start = v_samples[n].length() == order ? 0 : rand() % (v_samples[n].length() - order);
 		
-		name = v_samples[n].substr(substring_start, order);
+		name = v_samples[n].substr(0, order);
 		if(name[0] == ' ')
 			continue;
 
@@ -129,6 +129,7 @@ void MarkovNames::ProcessName(string name){
 			m_chains[segment] = v;
 		}
 	}
+	v_generated.push_back(name);
 	v_samples.push_back(name);
 }
 

@@ -93,7 +93,7 @@ int main(){
 
 	vector<string> names;
 	ifstream names_file;
-	names_file.open("../Resources/ScottishNames.txt", ios::in);
+	names_file.open("../Resources/SpanishPlaces.txt", ios::in);
 
 	if(!names_file.is_open())
 		return 0;	
@@ -105,6 +105,10 @@ int main(){
 	}
 	MarkovNames mng(names, 3, 4);
 
+	while(true){
+		cout << "\t" << mng.GetName() << endl;
+		system("pause");
+	}
 
 	VideoMode = InfoShown::Biomes;
 
