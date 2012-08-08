@@ -83,12 +83,15 @@ void drawEdge(edge *e, sf::RenderWindow *window);
 void drawCorner(corner *c, sf::RenderWindow *window);
 void drawCenter(center *c, sf::RenderWindow *window);
 
-#include "dDelaunay.h"
+struct city {
+	string name;
+	center * cell;
+};
+
 #include <fstream>
 int main(){
 
 	vector<string> names;
-
 	ifstream names_file;
 	names_file.open("../Resources/ScottishNames.txt", ios::in);
 
@@ -98,21 +101,14 @@ int main(){
 	while(!names_file.eof()){
 		string line;
 		getline(names_file, line);
-
 		names.push_back(line);
 	}
-
 	MarkovNames mng(names, 3, 4);
-	while(true){
-		cout << mng.GetName() << endl;
-		system("pause");
-	}
-	return 0;
 
 
 	VideoMode = InfoShown::Biomes;
 
-	Map mapa(WIDTH, HEIGHT, 2000);
+	Map mapa(WIDTH, HEIGHT, 1000);
 
 	sf::Clock timer;
 	timer.restart();
@@ -122,6 +118,18 @@ int main(){
 	vector<edge *> edges = mapa.GetEdges();
 	vector<corner *> corners = mapa.GetCorners();
 	vector<center *> centers = mapa.GetCenters();
+
+	vector<city> ciudades;
+	for(int i = 0; i < 5; i++){
+		city ciudad;
+		do {
+			ciudad.cell = centers[rand() % centers.size()];
+		} while(ciudad.cell->water);
+
+		ciudad.name = mng.GetName();
+
+		ciudades.push_back(ciudad);
+	}
 
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
@@ -140,9 +148,6 @@ int main(){
 				switch(event.key.code){
 				case sf::Keyboard::Escape:
 					running = false;
-					break;
-				case sf::Keyboard::P:
-					cout << "debug" << endl;
 					break;
 				case sf::Keyboard::M:
 					VideoMode = InfoShown::Moisture;
@@ -182,6 +187,24 @@ int main(){
 			corner::PVIter corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 				drawCorner(*corner_iter, app);
+			}
+		}
+
+		if(!ciudades.empty()){
+			for(int i = 0; i < ciudades.size(); i++){
+				city ciudad = ciudades[i];
+				sf::CircleShape p;
+				p.setFillColor(sf::Color::Red);
+				p.setRadius(POINT_SIZE);
+				p.setPosition(ciudad.cell->position.x - POINT_SIZE, ciudad.cell->position.y - POINT_SIZE);
+				app->draw(p);
+
+				sf::Text name(sf::String(ciudad.name));
+				name.setPosition(ciudad.cell->position.x - POINT_SIZE, ciudad.cell->position.y - POINT_SIZE - 20);
+				name.setColor(sf::Color::Red);
+				name.setStyle(sf::Text::Bold);
+				name.setCharacterSize(15);
+				app->draw(name);
 			}
 		}
 

@@ -81,6 +81,8 @@ string MarkovNames::GetName() {
 		int substring_start = v_samples[n].length() == order ? 0 : rand() % (v_samples[n].length() - order);
 		
 		name = v_samples[n].substr(substring_start, order);
+		if(name[0] == ' ')
+			continue;
 
 		ChainsIter it = m_chains.find(name);
 		char next_char;
