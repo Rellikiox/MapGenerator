@@ -25,7 +25,6 @@ public:
 	void GeneratePolygons();
 	void GenerateLand();
 
-
 	bool LoadFile(string file_name);
 	bool WriteFile(string file_name);
 

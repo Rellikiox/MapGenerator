@@ -8,7 +8,6 @@
 Évriguet
 Abbaretz
 Abraham
-Ac
 Acigné
 Adrien
 Aff
@@ -74,8 +73,11 @@ Barthélemy
 Basse
 Batz
 Baud
+Baule
 Baulon
+Baussaine
 Baye
+Bazouge
 Bazouges
 Beaucé
 Beignon
@@ -87,6 +89,7 @@ Benoît
 Berhet
 Berné
 Bernard
+Bernerie
 Berric
 Berrien
 Besné
@@ -94,6 +97,7 @@ Betton
 Beuzec
 Bieuzy
 Bignan
+Bignon
 Bihy
 Billé
 Billiers
@@ -104,6 +108,7 @@ Blain
 Blanc
 Blanche
 Bobital
+Bodéo
 Bodilis
 Bodou
 Bohal
@@ -111,24 +116,29 @@ Bohars
 Bois
 Boiseau
 Boisgervilly
+Boissière
 Boistrudan
 Bolazec
 Bonnœuvre
 Bonnemain
 Bono
 Boqueho
+Bosse
 Botmeur
 Botsorhel
 Bottereau
 Bouée
+Bouëxière
 Bouëxic
 Bouaye
 Bouguenais
+Bouillie
 Bourbriac
 Bourg
 Bourgbarré
 Bourgneuf
 Bourseul
+Boussac
 Boussay
 Bouvron
 Bovel
@@ -168,6 +178,7 @@ Broladre
 Broons
 Broualan
 Bruc
+Brulais
 Brusvily
 Brutz
 Bruz
@@ -182,6 +193,7 @@ Calanhel
 Callac
 Calorguen
 Camaret
+Cambout
 Camfrout
 Camlez
 Camoël
@@ -210,6 +222,7 @@ Caudan
 Caulnes
 Caurel
 Cavan
+Cellier
 Cesson
 Château
 Châteaubourg
@@ -219,7 +232,9 @@ Châteaulin
 Châteauneuf
 Châteaux
 Châtelaudren
+Châtellier
 Châtillon
+Chèze
 Chéméré
 Chaléons
 Champ
@@ -243,6 +258,8 @@ Chemin
 Cherrueix
 Chesné
 Chevaigné
+Chevallerais
+Chevrolière
 Christ
 Christophe
 Cintré
@@ -253,6 +270,7 @@ Cléguer
 Clayes
 Clet
 Clisson
+Cloître
 Clohars
 Coësmes
 Coëtlogon
@@ -282,6 +300,7 @@ Congard
 Connan
 Connec
 Conquereuil
+Conquet
 Coquet
 Coray
 Corcoué
@@ -298,14 +317,19 @@ Couffé
 Coulitz
 Coulomb
 Cournon
+Cours
 Coutais
+Couyère
 Crédin
 Créhen
-Crac'h
+Crac
 Crevin
+Croisic
+Croisty
 Croix
 Croixanvec
 Crossac
+Crouais
 Crozon
 Cruguel
 Cuguen
@@ -328,6 +352,7 @@ Dolay
 Dolo
 Domagné
 Domalain
+Dominelais
 Domineuc
 Domloup
 Dompierre
@@ -338,6 +363,7 @@ Doré
 Douarnenez
 Dourdain
 Drefféac
+Drennec
 Drouges
 Duault
 Eancé
@@ -360,29 +386,41 @@ Erquy
 Escoublac
 Esquibien
 Essé
+Fœil
 Fégréac
 Férel
+Faouët
 Faou
 Fay
 Feins
 Fercé
 Ferchaud
+Ferré
+Ferrière
+Feuillée
 Fiacre
 Filtzméens
 Fleurigné
+Folgoët
 Fontaines
+Fontenelle
 Forêt
+Forest
 Forges
 Fouassière
 Fouesnant
 Fougères
+Fougerêts
 Fougeray
 Fougeretz
 Fouillard
 Frégant
 Fréhel
+Fresnais
 Fresnay
+Fresne
 Frossay
+Gâvre
 Gâvres
 Géréon
 Gérand
@@ -392,6 +430,7 @@ Gévezé
 Gaël
 Gabéric
 Gaceline
+Gacilly
 Gahard
 Ganton
 Garlan
@@ -412,7 +451,7 @@ Glen
 Glomel
 Goazec
 Gomené
-Gommenec'h
+Gommenec
 Gondran
 Gonlay
 Gonnery
@@ -423,11 +462,13 @@ Gouéno
 Gouézec
 Gouarec
 Goudelin
-Gouesnac'h
+Gouesnac
+Gouesnière
 Gouesnou
 Goulaine
 Goulien
 Goulven
+Gouray
 Gourhel
 Gourin
 Gourlizon
@@ -437,12 +478,14 @@ Grâce
 Grâces
 Grève
 Grèves
+Grée
 Grégoire
 Gréhaigne
 Grand
 Grandchamps
 Grandlieu
 Gravé
+Grigonnais
 Groix
 Gué
 Guégon
@@ -460,8 +503,10 @@ Guenroc
 Guenrouet
 Guer
 Guerchaise
+Guerche
 Guerlesquin
 Guern
+Guerno
 Guersac
 Guichen
 Guiclan
@@ -472,7 +517,7 @@ Guiler
 Guilers
 Guillac
 Guilliers
-Guilligomarc'h
+Guilligomarc
 Guilvinec
 Guimaëc
 Guimiliau
@@ -497,8 +542,12 @@ Hénanbihen
 Hénansal
 Hénon
 Héric
+Hézo
 Hôpital
+Haie
 Hanvec
+Harmoye
+Haut
 Haute
 Helléan
 Hengoat
@@ -507,11 +556,14 @@ Henvic
 Herbignac
 Herblain
 Herblon
+Hermitage
 Hernin
 Hervé
+Hervon
 Heulin
 Hilaire
 Hillion
+Hinglé
 Hirel
 Hoëdic
 Houat
@@ -542,6 +594,7 @@ Joachim
 Josselin
 Joué
 Jouan
+Juch
 Judoce
 Jugon
 Juigné
@@ -559,7 +612,7 @@ Kerien
 Kerlaz
 Kerlouan
 Kermaria
-Kermoroc'h
+Kermoroc
 Kernascléden
 Kernilis
 Kernouës
@@ -573,63 +626,6 @@ Léhon
 Léon
 Léry
 Lézardrieux
-L'Hermitage
-Baule
-Baussaine
-Bazouge
-Bernerie
-Boissière
-Bosse
-Bouëxière
-Bouillie
-Boussac
-Chèze
-Chapelle
-Chevallerais
-Chevrolière
-Couyère
-Croix
-Dominelais
-Ferrière
-Feuillée
-Fontenelle
-Forêt
-Forest
-Fresnais
-Gacilly
-Gouesnière
-Grée
-Grigonnais
-Guerche
-Haie
-Harmoye
-Landec
-Limouzinière
-Méaugon
-Mézière
-Malhoure
-Marne
-Martyre
-Meilleraye
-Montagne
-Motte
-Noë
-Nouaye
-Pitié
-Plaine
-Planche
-Prénessaye
-Regrippière
-Remaudière
-Richardais
-Roche
-Rouxière
-Selle
-Trinité
-Turballe
-Vicomté
-Ville
-Vraie
 Lac
 Lacs
 Laignelet
@@ -650,11 +646,13 @@ Landaul
 Landavran
 Lande
 Landebaëron
+Landec
 Landeleau
 Landerneau
 Landes
 Landivisiau
 Landrévarzec
+Landreau
 Landrieux
 Landudal
 Landudec
@@ -717,76 +715,12 @@ Laurent
 Lauzach
 Lavau
 Laz
-Le Bignon
-Le Bodéo
-Le Cambout
-Le Cellier
-Le Châtellier
-Le Cloître
-Le Conquet
-Le Cours
-Le Croisic
-Le Croisty
-Le Crouais
-Le Drennec
-Le Fœil
-Le Faouët
-Le Faou
-Le Ferré
-Le Folgoët
-Le Fresne
-Le Gâvre
-Le Gouray
-Le Guerno
-Le Hézo
-Le Haut
-Le Hinglé
-Le Juch
-Le Landreau
-Le Leslay
-Le Loroux
-Le Lou
-Le Merzer
-Le Minihic
-Le Moustoir
-Le Palais
-Le Pallet
-Le Pellerin
-Le Pertre
-Le Petit
-Le Pin
-Le Ponthou
-Le Pouliguen
-Le Quillio
-Le Quiou
-Le Relecq
-Le Rheu
-Le Roc
-Le Saint
-Le Sel
-Le Sourn
-Le Temple
-Le Theil
-Le Tiercent
-Le Tour
-Le Tréhou
-Le Trévoux
-Le Tronchet
-Le Verger
-Le Vieux
-Le Vivier
 Legé
 Lennon
-Les Brulais
-Les Champs
-Les Forges
-Les Fougerêts
-Les Iffs
-Les Moutiers
-Les Sorinières
-Les Touches
+Les
 Lesconil
 Lescouët
+Leslay
 Lesneven
 Leuhan
 Lié
@@ -797,6 +731,7 @@ Ligné
 Lignol
 Lillemer
 Limerzel
+Limouzinière
 Livré
 Lizio
 Loc
@@ -828,6 +763,7 @@ Loperhet
 Loqueffret
 Lorge
 Lormel
+Loroux
 Loscouët
 Lothey
 Lou
@@ -847,6 +783,7 @@ Lunaire
 Lusanger
 Lyphard
 Méal
+Méaugon
 Médard
 Médréac
 Méen
@@ -856,11 +793,10 @@ Ménéac
 Ménez
 Mérillac
 Mésanger
+Mézière
 Mézières
 Même
 Mûr
-M'Hervé
-M'Hervon
 Maël
 Machecoul
 Maden
@@ -871,6 +807,7 @@ Maisdon
 Malansac
 Malestroit
 Malguénac
+Malhoure
 Malo
 Malon
 Malville
@@ -882,11 +819,13 @@ Marcel
 Marché
 Marcillé
 Marie
+Marne
 Marpiré
 Mars
 Marsac
 Martigné
 Martin
+Martyre
 Marzan
 Massérac
 Matignon
@@ -903,6 +842,7 @@ Mayeux
 Mecé
 Meilars
 Meillac
+Meilleraye
 Mel
 Melesse
 Melgven
@@ -918,6 +858,7 @@ Merdrignac
 Merléac
 Merlevenez
 Mernel
+Merzer
 Meslan
 Meslin
 Mespaul
@@ -929,6 +870,7 @@ Michel
 Milizac
 Mines
 Miniac
+Minihic
 Minihy
 Missillac
 Missiriac
@@ -945,6 +887,7 @@ Moncontour
 Mondevert
 Monnières
 Mont
+Montagne
 Montauban
 Montautour
 Montbert
@@ -968,6 +911,7 @@ Morlaix
 Morte
 Morvan
 Motreff
+Motte
 Mouais
 Mouazé
 Moulins
@@ -992,11 +936,13 @@ Nic
 Nicodème
 Nicolas
 Nivillac
+Noë
 Nolff
 Nonais
 Nort
 Nostang
 Notre
+Nouaye
 Nouvoitou
 Noyal
 Noyalo
@@ -1025,6 +971,8 @@ Pacé
 Paimbœuf
 Paimpol
 Paimpont
+Palais
+Pallet
 Pancé
 Pannecé
 Parcé
@@ -1036,6 +984,7 @@ Paulx
 Pavail
 Pazanne
 Peillac
+Pellerin
 Pencran
 Penfao
 Penguily
@@ -1046,6 +995,7 @@ Perret
 Perreux
 Perros
 Persquen
+Pertre
 Pestivien
 Petit
 Peumerit
@@ -1055,11 +1005,13 @@ Phily
 Pican
 Pierre
 Pierric
+Pin
 Pinel
 Pins
 Pipriac
 Piré
 Piriac
+Pitié
 Plœuc
 Pléboulle
 Pléchâtel
@@ -1084,6 +1036,7 @@ Plage
 Plain
 Plaine
 Plaintel
+Planche
 Plancoët
 Planguenoual
 Plaudren
@@ -1149,7 +1102,7 @@ Ploudalmézeau
 Ploudaniel
 Ploudiry
 Plouescat
-Plouezoc'h
+Plouezoc
 Ploufragan
 Plougar
 Plougasnou
@@ -1174,7 +1127,7 @@ Plouhinec
 Plouider
 Plouigneau
 Plouisy
-Ploulec'h
+Ploulec
 Ploumagoar
 Ploumilliau
 Ploumoguer
@@ -1183,7 +1136,7 @@ Plounérin
 Plounévézel
 Plounéventer
 Plounévez
-Plourac'h
+Plourac
 Plouray
 Plourhan
 Plourin
@@ -1224,6 +1177,7 @@ Pommeret
 Pommerit
 Pont
 Pontchâteau
+Ponthou
 Pontivy
 Pontrieux
 Porcaro
@@ -1240,9 +1194,11 @@ Pouillé
 Pouldergat
 Pouldouran
 Pouldreuzic
+Pouliguen
 Poullan
 Poullaouen
 Préfailles
+Prénessaye
 Prés
 Prat
 Primelin
@@ -1263,6 +1219,7 @@ Querrien
 Quessoy
 Questembert
 Quiberon
+Quillio
 Quilly
 Quily
 Quimerch
@@ -1270,6 +1227,7 @@ Quimper
 Quimperlé
 Quintenic
 Quintin
+Quiou
 Quistinic
 Rédené
 Réguiny
@@ -1280,8 +1238,11 @@ Rance
 Rannée
 Raoul
 Redon
+Regrippière
 Reine
 Reintembault
+Relecq
+Remaudière
 Remouillé
 Remungol
 Renac
@@ -1290,9 +1251,11 @@ Rennes
 Retiers
 Retz
 Rezé
+Rheu
 Rhuys
 Riaillé
 Riantec
+Richardais
 Riec
 Rieul
 Rieux
@@ -1300,6 +1263,8 @@ Rimou
 Rivière
 Rivoal
 Robert
+Roc
+Roche
 Rochefort
 Rohan
 Romagné
@@ -1316,6 +1281,7 @@ Rouans
 Roudouallec
 Rougé
 Rouillac
+Rouxière
 Roz
 Ruca
 Ruffiac
@@ -1349,6 +1315,8 @@ Scorff
 Scrignac
 Seiche
 Sein
+Sel
+Selle
 Senoux
 Sens
 Senven
@@ -1360,9 +1328,11 @@ Silfiac
 Sion
 Sixt
 Sizun
+Sorinières
 Soudan
 Sougéal
 Soulvache
+Sourn
 Spézet
 Squiffiec
 Sucé
@@ -1380,6 +1350,7 @@ Taupont
 Teillé
 Teillay
 Telgruc
+Temple
 Tenu
 Terre
 Tertre
@@ -1387,6 +1358,7 @@ Thébaud
 Thégonnec
 Théhillac
 Thélo
+Theil
 Theix
 Thois
 Thonan
@@ -1398,9 +1370,11 @@ Thual
 Thurial
 Thuriau
 Thurien
+Tiercent
 Tinténiac
 Tonquédec
 Torcé
+Touches
 Tour
 Tourch
 Touvois
@@ -1438,6 +1412,7 @@ Tréguier
 Tréguignec
 Trégunc
 Tréhorenteuc
+Tréhou
 Trélévern
 Trélivan
 Tréméloir
@@ -1460,6 +1435,7 @@ Trévérec
 Trévérien
 Tréveneuc
 Trévou
+Trévoux
 Trévron
 Trézény
 Trézilidé
@@ -1481,11 +1457,14 @@ Trigavou
 Trignac
 Trimer
 Trimoël
+Trinité
 Troguéry
 Trois
 Trolimon
+Tronchet
 Tudy
 Tugdual
+Turballe
 Uniac
 Urbain
 Ushant
@@ -1499,10 +1478,12 @@ Vay
 Vendel
 Vendelais
 Vergéal
+Verger
 Vern
 Vertou
 Vezin
 Viaud
+Vicomté
 Vicomte
 Vieillevigne
 Viel
@@ -1513,18 +1494,21 @@ Vignoc
 Vilaine
 Vildé
 Villamée
+Ville
 Villepot
 Vincent
 Visseiche
 Vitré
+Vivier
 Vougay
 Vouvantes
+Vraie
 Vran
 Vritz
 Vue
-Vy
 Yffiniac
 Yvel
 Yvi
 Yvias
 Yvignac
+h

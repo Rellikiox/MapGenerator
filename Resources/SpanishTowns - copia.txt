@@ -1,0 +1,12363 @@
+Abegondo
+				Cesuras
+				Mugardos
+	
+	
+Ames
+				Coirós
+				Muros
+	
+	
+Aranga
+				Corcubión
+				Muxía
+	
+	
+Ares
+				Coristanco
+				Narón
+	
+	
+Arteixo
+				Coruña (A)
+				Neda
+	
+	
+Arzúa
+				Culleredo
+				Negreira
+	
+	
+Baña (A)
+				Curtis
+				Noia
+	
+	
+Bergondo
+				Dodro
+				Oleiros
+	
+	
+Betanzos
+				Dumbría
+				Ordes
+	
+	
+Boimorto
+				Fene
+				Oroso
+	
+	
+Boiro
+				Ferrol
+				Ortigueira
+	
+	
+Boqueixón
+				Fisterra
+				Outes
+	
+	
+Brión
+				Frades
+				Oza dos Ríos
+	
+	
+Cabana de Bergantiños
+				Irixoa
+				Paderne
+	
+	
+Cabanas
+				Laracha (A)
+				Padrón
+	
+	
+Camariñas
+				Laxe
+				Pino (O)
+	
+	
+Cambre
+				Lousame
+				Pobra do Caramiñal (A)
+	
+	
+Capela (A)
+				Malpica de Bergantiños
+				Ponteceso
+	
+	
+Carballo
+				Mañón
+				Pontedeume
+	
+	
+Cariño
+				Mazaricos
+				Pontes de García Rodríguez (As)
+	
+	
+Carnota
+				Melide
+				Porto do Son
+	
+	
+Carral
+				Mesía
+				Rianxo
+	
+	
+Cedeira
+				Miño
+				Ribeira
+	
+	
+Cee
+				Moeche
+				Rois
+	
+	
+Cerceda
+				Monfero
+				SadaAbegondo
+				Cesuras
+				Mugardos
+	
+	
+Ames
+				Coirós
+				Muros
+	
+	
+Aranga
+				Corcubión
+				Muxía
+	
+	
+Ares
+				Coristanco
+				Narón
+	
+	
+Arteixo
+				Coruña (A)
+				Neda
+	
+	
+Arzúa
+				Culleredo
+				Negreira
+	
+	
+Baña (A)
+				Curtis
+				Noia
+	
+	
+Bergondo
+				Dodro
+				Oleiros
+	
+	
+Betanzos
+				Dumbría
+				Ordes
+	
+	
+Boimorto
+				Fene
+				Oroso
+	
+	
+Boiro
+				Ferrol
+				Ortigueira
+	
+	
+Boqueixón
+				Fisterra
+				Outes
+	
+	
+Brión
+				Frades
+				Oza dos Ríos
+	
+	
+Cabana de Bergantiños
+				Irixoa
+				Paderne
+	
+	
+Cabanas
+				Laracha (A)
+				Padrón
+	
+	
+Camariñas
+				Laxe
+				Pino (O)
+	
+	
+Cambre
+				Lousame
+				Pobra do Caramiñal (A)
+	
+	
+Capela (A)
+				Malpica de Bergantiños
+				Ponteceso
+	
+	
+Carballo
+				Mañón
+				Pontedeume
+	
+	
+Cariño
+				Mazaricos
+				Pontes de García Rodríguez (As)
+	
+	
+Carnota
+				Melide
+				Porto do Son
+	
+	
+Carral
+				Mesía
+				Rianxo
+	
+	
+Cedeira
+				Miño
+				Ribeira
+	
+	
+Cee
+				Moeche
+				Rois
+	
+	
+Cerceda
+				Monfero
+				Sada
+				San Sadurniño
+				Teo
+				Valdoviño
+	
+	
+Santa Comba
+				Toques
+				Vedra
+	
+	
+Santiago de Compostela
+				Tordoia
+				Vilarmaior
+	
+	
+Santiso
+				Touro
+				Vilasantar
+	
+	
+Sobrado
+				Trazo
+				Vimianzo
+	
+	
+Somozas (As)
+				Val do Dubra
+				Zas
+				ALEGRÍA-DULANTZI
+				Harana/Valle de Arana
+				OYÓN-OION
+	
+	
+AMURRIO
+				IRUÑA DE OCA
+				PEÑACERRADA-URIZAHARRA
+	
+	
+AÑANA
+				IRURAIZ GAUNA
+				RIBERA ALTA
+	
+	
+ARAMAIO
+				KRIPAN
+				RIBERA BAJA
+	
+	
+ARMIÑON
+				Kuartango
+				SALVATIERRA
+	
+	
+ARRAIA-MAEZTU
+				LABASTIDA
+				SAMANIEGO
+	
+	
+ARRAZUA-UBARRUNDIA
+				LAGRÁN
+				SAN MILLÁN-DONEMILIAGA
+	
+	
+ARTZINIEGA
+				LAGUARDIA
+				URKABUSTAIZ
+	
+	
+ASPARRENA
+				LANCIEGO
+				VALDEGOVÍA
+	
+	
+AYALA-AIARA
+				LANTARON
+				VALLE DE ARANA-HARANA
+	
+	
+BAÑOS DE EBRO-MAÑUETA
+				LAPUEBLA DE LABARCA
+				VILLABUENA DE ÁLAVA
+	
+	
+BARRUNDIA
+				LEGUTIANO
+				VITORIA-GASTEIZ
+	
+	
+BERANTEVILLA
+				LEZA
+				YÉCORA
+	
+	
+BERNEDO
+				LLODIO
+				ZALDUONDO
+	
+	
+CAMPEZO-KANPEZU
+				MOREDA DE ÁLAVA
+				ZAMBRANA
+	
+	
+EL VILLAR-BILAR
+				NAVARIDAS
+				ZIGOITIA
+	
+	
+ELBURGO-BURGELU
+				Okondo
+				ZUIA
+				ALATOZ
+				COTILLAS
+				MONTALVOS
+	
+	
+Albacete
+				EL BALLESTERO
+				MONTEALEGRE DEL CASTILLO
+	
+	
+ALBATANA
+				EL BONILLO
+				MOTILLEJA
+	
+	
+ALBOREA
+				ELCHE DE LA SIERRA
+				MUNERA
+	
+	
+ALCADOZO
+				FÉREZ
+				NAVAS DE JORQUERA
+	
+	
+ALCALÁ DEL JÚCAR
+				FUENSANTA
+				NERPIO
+	
+	
+ALCARAZ
+				FUENTEÁLAMO
+				ONTUR
+	
+	
+ALMANSA
+				FUENTEALBILLA
+				OSSA DE MONTIEL
+	
+	
+ALPERA
+				GOLOSALVO
+				PATERNA DE MADERA
+	
+	
+AYNA
+				HELLÍN
+				PEÑAS DE SAN PEDRO
+	
+	
+BALAZOTE
+				HIGUERUELA
+				PEÑASCOSA
+	
+	
+BALSA DE VÉS
+				HOYA GONZALO
+				PÉTROLA
+	
+	
+BARRAX
+				JORQUERA
+				POVEDILLA
+	
+	
+BIENSERVIDA
+				LA GINETA
+				POZO LORENTE
+	
+	
+BOGARRA
+				LA HERRERA
+				POZO-CAÑADA
+	
+	
+BONETE
+				LA RECUEJA
+				POZOHONDO
+	
+	
+CARCELÉN
+				LA RODA
+				POZUELO
+	
+	
+CASAS DE JUAN NÚÑEZ
+				LETUR
+				RIÓPAR
+	
+	
+CASAS DE LAZARO
+				LEZUZA
+				ROBLEDO
+	
+	
+CASAS DE VÉS
+				LIÉTOR
+				SALOBRE
+	
+	
+CASAS IBÁÑEZ
+				MADRIGUERAS
+				SAN PEDRO
+	
+	
+CAUDETE
+				MAHORA
+				SOCOVOS
+	
+	
+CENIZATE
+				MASEGOSO
+				TARAZONA DE LA MANCHA
+	
+	
+CHINCHILLA DE MONTE ARAGÓN
+				MINAYA
+				TOBARRA
+	
+	
+CORRALRUBIO
+				MOLINICOS
+				VALDEGANGA
+				Página anterior 	
+  página  	1 2
+	
+  
+VIANOS
+				VILLAPALACIOS
+				VILLAVERDE DEL GUADALIMAR
+	
+	
+VILLA DE VÉS
+				VILLARROBLEDO
+				VIVEROS
+	
+	
+VILLALGORDO DEL JÚCAR
+				VILLATOYA
+				YESTE
+	
+	
+VILLAMALEA
+				VILLAVALIENTE
+				
+				ADSUBIA
+				BENIARBEIG
+				CAMPO DE MIRRA/CAMP DE MIRRA (EL)
+	
+	
+AGOST
+				BENIARDÁ
+				CAÑADA
+	
+	
+AGRES
+				BENIARRÉS
+				CASTALLA
+	
+	
+AIGÜES
+				BENIDOLEIG
+				CASTELL DE CASTELLS
+	
+	
+ALBATERA
+				BENIDORM
+				CASTELL DE GUADALEST (EL)
+	
+	
+ALCALALÍ
+				BENIFALLIM
+				CATRAL
+	
+	
+ALCOCER DE PLANES
+				BENIFATO
+				COCENTAINA
+	
+	
+ALCOLEJA
+				BENIGEMBLA
+				CONFRIDES
+	
+	
+ALCOY/ALCOI
+				BENIJÓFAR
+				COX
+	
+	
+ALFAFARA
+				BENILLOBA
+				CREVILLENT
+	
+	
+ALFÀS DEL PI (L')
+				BENILLUP
+				DAYA NUEVA
+	
+	
+ALGORFA
+				BENIMANTELL
+				DAYA VIEJA
+	
+	
+ALGUEÑA
+				BENIMARFULL
+				DÉNIA
+	
+	
+ALICANTE/ALACANT
+				BENIMASSOT
+				DOLORES
+	
+	
+ALMORADÍ
+				BENIMELI
+				ELCHE/ELX
+	
+	
+ALMUDAINA
+				BENISSA
+				ELDA
+	
+	
+ALQUERIA D'ASNAR (L')
+				BENITACHELL/POBLE NOU DE BENITATXELL (EL)
+				FACHECA
+	
+	
+ALTEA
+				BIAR
+				FAMORCA
+	
+	
+ASPE
+				BIGASTRO
+				FINESTRAT
+	
+	
+BALONES
+				BOLULLA
+				FONDÓ DE LES NEUS
+	
+	
+BANYERES DE MARIOLA
+				BUSOT
+				FORMENTERA DEL SEGURA
+	
+	
+BENASAU
+				CALLOSA D'EN SARRIÀ
+				GAIANES
+	
+	
+BENEIXAMA
+				CALLOSA DE SEGURA
+				GATA DE GORGOS
+	
+	
+BENEJÚZAR
+				CALPE/CALP
+				GORGA
+	
+	
+BENFERRI
+				CAMPELLO (EL)
+				GRANJA DE ROCAMORA
+
+    	
+  página  	1 2
+	GUARDAMAR DEL SEGURA
+				ORXETA
+				SAN MIGUEL DE SALINAS
+	
+	
+HONDÓN DE LOS FRAILES
+				PARCENT
+				SAN VICENTE DEL RASPEIG/SANT VICENT DEL RASPEIG
+	
+	
+IBI
+				PEDREGUER
+				SANET Y NEGRALS
+	
+	
+JACARILLA
+				PEGO
+				SANT JOAN D'ALACANT
+	
+	
+JALÓN/XALÓ
+				PENÀGUILA
+				SANTA POLA
+	
+	
+JÁVEA/XÀBIA
+				PETRER
+				SAX
+	
+	
+JIJONA/XIXONA
+				PILAR DE LA HORADADA
+				SELLA
+	
+	
+LLÍBER
+				PINOSO/PINÓS (EL)
+				SENIJA
+	
+	
+LORCHA/ORXA (L')
+				PLANES
+				TÀRBENA
+	
+	
+MILLENA
+				POBLETS (ELS)
+				TEULADA
+	
+	
+MONFORTE DEL CID
+				POLOP
+				TIBI
+	
+	
+MONÓVAR/MONÒVER
+				QUATRETONDETA
+				TOLLOS
+	
+	
+MONTESINOS (LOS)
+				RAFAL
+				TORMOS
+	
+	
+MURLA
+				RÀFOL D'ALMÚNIA (EL)
+				TORREMANZANAS/TORRE DE LES MAÇANES (LA)
+	
+	
+MURO DE ALCOY
+				REDOVÁN
+				TORREVIEJA
+	
+	
+MUTXAMEL
+				RELLEU
+				VALL D'ALCALÀ (LA)
+	
+	
+NOVELDA
+				ROJALES
+				VALL DE EBO
+	
+	
+NUCIA (LA)
+				ROMANA (LA)
+				VALL DE GALLINERA
+	
+	
+ONDARA
+				SAGRA
+				VALL DE LAGUAR (LA)
+	
+	
+ONIL
+				SALINAS
+				VERGER (EL)
+	
+	
+ORBA
+				SAN FULGENCIO
+				VILLAJOYOSA/VILA JOIOSA (LA)
+	
+	
+ORIHUELA
+				SAN ISIDRO
+				VILLENA
+				ABLA
+				BENIZALON
+				ILLAR
+	
+	
+ABRUCENA
+				BENTARIQUE
+				INSTINCION
+	
+	
+ADRA
+				BERJA
+				LAROYA
+	
+	
+ALBANCHEZ
+				CANJAYAR
+				LAUJAR DE ANDARAX
+	
+	
+ALBOLODUY
+				CANTORIA
+				LIJAR
+	
+	
+ALBOX
+				CARBONERAS
+				LUBRIN
+	
+	
+ALCOLEA
+				CASTRO DE FILABRES
+				LUCAINENA DE LAS TORRES
+	
+	
+ALCONTAR
+				CHERCOS
+				LUCAR
+	
+	
+ALCUDIA DE MONTEAGUD
+				CHIRIVEL
+				MACAEL
+	
+	
+ALHABIA
+				COBDAR
+				MARIA
+	
+	
+ALHAMA DE ALMERIA
+				CUEVAS DEL ALMANZORA
+				MOJACAR
+	
+	
+ALICUN
+				DALIAS
+				MOJONERA (LA)
+	
+	
+ALMERIA
+				EJIDO (EL)
+				NACIMIENTO
+	
+	
+ALMOCITA
+				ENIX
+				NIJAR
+	
+	
+ALSODUX
+				FELIX
+				OHANES
+	
+	
+ANTAS
+				FIÑANA
+				OLULA DE CASTRO
+	
+	
+ARBOLEAS
+				FINES
+				OLULA DEL RIO
+	
+	
+ARMUÑA DE ALMANZORA
+				FONDON
+				ORIA
+	
+	
+BACARES
+				GADOR
+				PADULES
+	
+	
+BAYARCAL
+				GALLARDOS (LOS)
+				PARTALOA
+	
+	
+BAYARQUE
+				GARRUCHA
+				PATERNA DEL RIO
+	
+	
+BEDAR
+				GERGAL
+				PECHINA
+	
+	
+BEIRES
+				HUECIJA
+				PULPI
+	
+	
+BENAHADUX
+				HUERCAL DE ALMERIA
+				PURCHENA
+	
+	
+BENITAGLA
+				HUERCAL-OVERA
+				RAGOL
+
+    	
+  página  	1 2
+	RIOJA
+				SUFLI
+				ULEILA DEL CAMPO
+	
+	
+ROQUETAS DE MAR
+				TABERNAS
+				URRACAL
+	
+	
+SANTA CRUZ DE MARCHENA
+				TABERNO
+				VELEFIQUE
+	
+	
+SANTA FE DE MONDÚJAR
+				TAHAL
+				VELEZ BLANCO
+	
+	
+SENES
+				TERQUE
+				VELEZ RUBIO
+	
+	
+SERON
+				TIJOLA
+				VERA
+	
+	
+SIERRO
+				TRES VILLAS (LAS)
+				VIATOR
+	
+	
+SOMONTIN
+				TURRE
+				VICAR
+	
+	
+SORBAS
+				TURRILLAS
+				ZURGENA
+				ALLANDE
+				BOAL
+				CARAVIA
+	
+	
+ALLER
+				CABRALES
+				CARREÑO
+	
+	
+AMIEVA
+				CABRANES
+				CASO
+	
+	
+AVILES
+				CANDAMO
+				CASTRILLON
+	
+	
+BELMONTE DE MIRANDA
+				CANGAS DE ONIS
+				
+	
+	
+BIMENES
+				CANGAS DEL NARCEA
+				ADANERO
+				BOHODON EL
+				COLILLA LA
+	
+	
+ADRADA LA
+				BOHOYO
+				COLLADO DE CONTRERAS
+	
+	
+ALBORNOS
+				BONILLA DE LA SIERRA
+				COLLADO DEL MIRÓN
+	
+	
+ALDEANUEVA DE SANTA CRUZ
+				BRABOS
+				CONSTANZANA
+	
+	
+ALDEASECA
+				BULARROS
+				CRESPOS
+	
+	
+ALDEHUELA LA
+				BURGOHONDO
+				CUEVAS DEL VALLE
+	
+	
+AMAVIDA
+				CABEZAS DE ALAMBRE
+				DIEGO DEL CARPIO
+	
+	
+ARENAL EL
+				CABEZAS DEL POZO
+				DONJIMENO
+	
+	
+ARENAS DE SAN PEDRO
+				CABEZAS DEL VILLAR
+				DONVIDAS
+	
+	
+AREVALILLO
+				CABIZUELA
+				EL TIEMBLO
+	
+	
+ARÉVALO
+				CANALES
+				ESPINOSA DE LOS CABALLEROS
+	
+	
+AVEINTE
+				CANDELEDA
+				FLORES DE AVILA
+	
+	
+AVELLANEDA
+				CANTIVEROS
+				FONTIVEROS
+	
+	
+ÁVILA
+				CARDEÑOSA
+				FRESNEDILLA
+	
+	
+BARCO DE ÁVILA EL
+				CARRERA LA
+				FRESNO EL
+	
+	
+BARRACO EL
+				CASAS DEL PUERTO
+				FUENTE EL SAUZ
+	
+	
+BARROMAN
+				CASASOLA
+				FUENTES DE AÑO
+	
+	
+BECEDAS
+				CASAVIEJA
+				GALLEGOS DE ALTAMIROS
+	
+	
+BECEDILLAS
+				CASILLAS
+				GALLEGOS DE SOBRINOS
+	
+	
+BERCIAL DE ZAPARDIEL
+				CASTELLANOS DE ZAPARDIEL
+				GARGANTA DEL VILLAR
+	
+	
+BERNUY DE ZAPARDIEL
+				CEBREROS
+				GAVILANES
+	
+	
+BERROCALEJO DE ARAGONA
+				CEPEDA LA MORA
+				GEMUÑO
+	
+	
+BLASCOMILLAN
+				CHAMARTÍN
+				GILBUENA
+	
+	
+BLASCONUÑO DE MATACABRAS
+				CILLAN
+				GILGARCIA
+	
+	
+BLASCOSANCHO
+				CISLA
+				GIMIALCON
+				GOTARRENDURA
+				LOSAR DEL BARCO EL
+				MUÑOGRANDE
+	
+	
+GRANDES Y SAN MARTIN
+				MADRIGAL DE LAS ALTAS TORRES
+				MUÑOMER DEL PECO
+	
+	
+GUISANDO
+				MAELLO
+				MUÑOPEPE
+	
+	
+GUTIERRE MUÑOZ
+				MALPARTIDA DE CORNEJA
+				MUÑOSANCHO
+	
+	
+HERNANSANCHO
+				MAMBLAS
+				MUÑOTELLO
+	
+	
+HERRADON EL
+				MANCERA DE ARRIBA
+				NARRILLOS DEL ALAMO
+	
+	
+HERREROS DE SUSO
+				MANJABALAGO
+				NARRILLOS DEL REBOLLAR
+	
+	
+HIGUERA DE LAS DUEÑAS
+				MARLÍN
+				NARROS DE SALDUEÑA
+	
+	
+HIJA DE DIOS LA
+				MARTIHERRERO
+				NARROS DEL CASTILLO
+	
+	
+HORCAJADA LA
+				MARTÍNEZ
+				NARROS DEL PUERTO
+	
+	
+HORCAJO DE LAS TORRES
+				MEDIANA DE VOLTOYA
+				NAVA DE AREVALO
+	
+	
+HORNILLO EL
+				MEDINILLA
+				NAVA DEL BARCO
+	
+	
+HOYO DE PINARES EL
+				MENGAMUÑOZ
+				NAVACEPEDILLA DE CORNEJA
+	
+	
+HOYOCASERO
+				MESEGAR DE CORNEJA
+				NAVADIJOS
+	
+	
+HOYORREDONDO
+				MIJARES
+				NAVAESCURIAL
+	
+	
+HOYOS DE MIGUEL MUÑOZ
+				MINGORRIA
+				NAVAHONDILLA
+	
+	
+HOYOS DEL COLLADO
+				MIRON EL
+				NAVALACRUZ
+	
+	
+HOYOS DEL ESPINO
+				MIRONCILLO
+				NAVALMORAL DE LA SIERRA
+	
+	
+HURTUMPASCUAL
+				MIRUEÑA DE LOS INFANZONES
+				NAVALONGUILLA
+	
+	
+JUNCIANA
+				MOMBELTRAN
+				NAVALOSA
+	
+	
+LANGA
+				MONSALUPE
+				NAVALPERAL DE PINARES
+	
+	
+LANZAHITA
+				MORALEJA DE MATACABRAS
+				NAVALPERAL DE TORMES
+	
+	
+LAS BERLANAS
+				MUÑANA
+				NAVALUENGA
+	
+	
+LAS NAVAS DEL MARQUES
+				MUÑICO
+				NAVAQUESERA
+	
+	
+LOS LLANOS DE TORMES
+				MUÑOGALINDO
+				NAVARREDONDA DE GREDOS
+				GOTARRENDURA
+				LOSAR DEL BARCO EL
+				MUÑOGRANDE
+	
+	
+GRANDES Y SAN MARTIN
+				MADRIGAL DE LAS ALTAS TORRES
+				MUÑOMER DEL PECO
+	
+	
+GUISANDO
+				MAELLO
+				MUÑOPEPE
+	
+	
+GUTIERRE MUÑOZ
+				MALPARTIDA DE CORNEJA
+				MUÑOSANCHO
+	
+	
+HERNANSANCHO
+				MAMBLAS
+				MUÑOTELLO
+	
+	
+HERRADON EL
+				MANCERA DE ARRIBA
+				NARRILLOS DEL ALAMO
+	
+	
+HERREROS DE SUSO
+				MANJABALAGO
+				NARRILLOS DEL REBOLLAR
+	
+	
+HIGUERA DE LAS DUEÑAS
+				MARLÍN
+				NARROS DE SALDUEÑA
+	
+	
+HIJA DE DIOS LA
+				MARTIHERRERO
+				NARROS DEL CASTILLO
+	
+	
+HORCAJADA LA
+				MARTÍNEZ
+				NARROS DEL PUERTO
+	
+	
+HORCAJO DE LAS TORRES
+				MEDIANA DE VOLTOYA
+				NAVA DE AREVALO
+	
+	
+HORNILLO EL
+				MEDINILLA
+				NAVA DEL BARCO
+	
+	
+HOYO DE PINARES EL
+				MENGAMUÑOZ
+				NAVACEPEDILLA DE CORNEJA
+	
+	
+HOYOCASERO
+				MESEGAR DE CORNEJA
+				NAVADIJOS
+	
+	
+HOYORREDONDO
+				MIJARES
+				NAVAESCURIAL
+	
+	
+HOYOS DE MIGUEL MUÑOZ
+				MINGORRIA
+				NAVAHONDILLA
+	
+	
+HOYOS DEL COLLADO
+				MIRON EL
+				NAVALACRUZ
+	
+	
+HOYOS DEL ESPINO
+				MIRONCILLO
+				NAVALMORAL DE LA SIERRA
+	
+	
+HURTUMPASCUAL
+				MIRUEÑA DE LOS INFANZONES
+				NAVALONGUILLA
+	
+	
+JUNCIANA
+				MOMBELTRAN
+				NAVALOSA
+	
+	
+LANGA
+				MONSALUPE
+				NAVALPERAL DE PINARES
+	
+	
+LANZAHITA
+				MORALEJA DE MATACABRAS
+				NAVALPERAL DE TORMES
+	
+	
+LAS BERLANAS
+				MUÑANA
+				NAVALUENGA
+	
+	
+LAS NAVAS DEL MARQUES
+				MUÑICO
+				NAVAQUESERA
+	
+	
+LOS LLANOS DE TORMES
+				MUÑOGALINDO
+				NAVARREDONDA DE GREDOS
+				GOTARRENDURA
+				LOSAR DEL BARCO EL
+				MUÑOGRANDE
+	
+	
+GRANDES Y SAN MARTIN
+				MADRIGAL DE LAS ALTAS TORRES
+				MUÑOMER DEL PECO
+	
+	
+GUISANDO
+				MAELLO
+				MUÑOPEPE
+	
+	
+GUTIERRE MUÑOZ
+				MALPARTIDA DE CORNEJA
+				MUÑOSANCHO
+	
+	
+HERNANSANCHO
+				MAMBLAS
+				MUÑOTELLO
+	
+	
+HERRADON EL
+				MANCERA DE ARRIBA
+				NARRILLOS DEL ALAMO
+	
+	
+HERREROS DE SUSO
+				MANJABALAGO
+				NARRILLOS DEL REBOLLAR
+	
+	
+HIGUERA DE LAS DUEÑAS
+				MARLÍN
+				NARROS DE SALDUEÑA
+	
+	
+HIJA DE DIOS LA
+				MARTIHERRERO
+				NARROS DEL CASTILLO
+	
+	
+HORCAJADA LA
+				MARTÍNEZ
+				NARROS DEL PUERTO
+	
+	
+HORCAJO DE LAS TORRES
+				MEDIANA DE VOLTOYA
+				NAVA DE AREVALO
+	
+	
+HORNILLO EL
+				MEDINILLA
+				NAVA DEL BARCO
+	
+	
+HOYO DE PINARES EL
+				MENGAMUÑOZ
+				NAVACEPEDILLA DE CORNEJA
+	
+	
+HOYOCASERO
+				MESEGAR DE CORNEJA
+				NAVADIJOS
+	
+	
+HOYORREDONDO
+				MIJARES
+				NAVAESCURIAL
+	
+	
+HOYOS DE MIGUEL MUÑOZ
+				MINGORRIA
+				NAVAHONDILLA
+	
+	
+HOYOS DEL COLLADO
+				MIRON EL
+				NAVALACRUZ
+	
+	
+HOYOS DEL ESPINO
+				MIRONCILLO
+				NAVALMORAL DE LA SIERRA
+	
+	
+HURTUMPASCUAL
+				MIRUEÑA DE LOS INFANZONES
+				NAVALONGUILLA
+	
+	
+JUNCIANA
+				MOMBELTRAN
+				NAVALOSA
+	
+	
+LANGA
+				MONSALUPE
+				NAVALPERAL DE PINARES
+	
+	
+LANZAHITA
+				MORALEJA DE MATACABRAS
+				NAVALPERAL DE TORMES
+	
+	
+LAS BERLANAS
+				MUÑANA
+				NAVALUENGA
+	
+	
+LAS NAVAS DEL MARQUES
+				MUÑICO
+				NAVAQUESERA
+	
+	
+LOS LLANOS DE TORMES
+				MUÑOGALINDO
+				NAVARREDONDA DE GREDOS
+				Maguilla
+				Manchita
+				Mengabril
+	
+	
+Malcocinado
+				Medellín
+				Mérida
+	
+	
+Malpartida de la Serena
+				Medina de las Torres
+				Mirandilla
+
+  Página anterior 	
+  página  	1 2
+	Alaior
+				Ariany
+				Bunyola
+	
+	
+Alaró
+				Artà
+				Calvià
+	
+	
+Alcúdia
+				Banyalbufar
+				Campanet
+	
+	
+Algaida
+				Binissalem
+				Campos
+	
+	
+Andratx
+				Búger
+			ABRERA
+				BORREDA
+				CASTELL DE L'ARENY
+	
+	
+AGUILAR DE SEGARRA
+				BRUC (EL)
+				CASTELLAR DE N'HUG
+	
+	
+AIGUAFREDA
+				BRULL (EL)
+				CASTELLAR DEL RIU
+	
+	
+ALELLA
+				CABANYES (LES)
+				CASTELLAR DEL VALLES
+	
+	
+ALPENS
+				CABRERA DE MAR
+				CASTELLBELL I EL VILAR
+	
+	
+AMETLLA DEL VALLES (L')
+				CABRILS
+				CASTELLCIR
+	
+	
+ARENYS DE MAR
+				CALAF
+				CASTELLDEFELS
+	
+	
+ARENYS DE MUNT
+				CALDERS
+				CASTELLET I LA GORNAL
+	
+	
+ARGENÇOLA
+				CALDES D'ESTRAC
+				CASTELLFOLLIT DE RIUBREGOS
+	
+	
+ARGENTONA
+				CALDES DE MONTBUI
+				CASTELLFOLLIT DEL BOIX
+	
+	
+ARTES
+				CALELLA
+				CASTELLGALI
+	
+	
+AVIA
+				CALLDETENES
+				CASTELLNOU DE BAGES
+	
+	
+AVINYO
+				CALLUS
+				CASTELLOLI
+	
+	
+AVINYONET DEL PENEDES
+				CALONGE DE SEGARRA
+				CASTELLTERÇOL
+	
+	
+BADALONA
+				CAMPINS
+				CASTELLVI DE LA MARCA
+	
+	
+BADIA DEL VALLES
+				CANET DE MAR
+				CASTELLVI DE ROSANES
+	
+	
+BAGA
+				CANOVELLES
+				CENTELLES
+	
+	
+BALENYA
+				CANOVES I SAMALUS
+				CERCS
+	
+	
+BALSARENY
+				CANYELLES
+				CERDANYOLA DEL VALLES
+	
+	
+BARBERA DEL VALLES
+				CAPELLADES
+				CERVELLO
+	
+	
+BARCELONA
+				CAPOLAT
+				COLLBATO
+	
+	
+BEGUES
+				CARDEDEU
+				COLLSUSPINA
+	
+	
+BELLPRAT
+				CARDONA
+				COPONS
+	
+	
+BERGA
+				CARME
+				CORBERA DE LLOBREGAT
+	
+	
+BIGUES I RIELLS
+				CASSERRES
+				CORNELLA DE LLOBREGAT
+				CUBELLES
+				GUARDIOLA DE BERGUEDA
+				MEDIONA
+	
+	
+DOSRIUS
+				GURB
+				MOIA
+	
+	
+ESPARREGUERA
+				HOSPITALET DE LLOBREGAT L'
+				MOLINS DE REI
+	
+	
+ESPLUGUES DE LLOBREGAT
+				HOSTALETS DE PIEROLA (ELS)
+				MOLLET DEL VALLES
+	
+	
+ESPUNYOLA (L')
+				IGUALADA
+				MONISTROL DE CALDERS
+	
+	
+ESTANY (L')
+				JORBA
+				MONISTROL DE MONTSERRAT
+	
+	
+FIGARO-MONTMANY
+				LLACUNA (LA)
+				MONTCADA I REIXAC
+	
+	
+FIGOLS
+				LLAGOSTA (LA)
+				MONTCLAR
+	
+	
+FOGARS DE LA SELVA
+				LLIÇA D'AMUNT
+				MONTESQUIU
+	
+	
+FOGARS DE MONTCLUS
+				LLIÇA DE VALL
+				MONTGAT
+	
+	
+FOLGUEROLES
+				LLINARS DEL VALLES
+				MONTMAJOR
+	
+	
+FONOLLOSA
+				LLUÇA
+				MONTMANEU
+	
+	
+FONT-RUBI
+				MALGRAT DE MAR
+				MONTMELO
+	
+	
+FRANQUESES DEL VALLES (LES)
+				MALLA
+				MONTORNES DEL VALLES
+	
+	
+GAIA
+				MANLLEU
+				MONTSENY
+	
+	
+GALLIFA
+				MANRESA
+				MUNTANYOLA
+	
+	
+GARRIGA (LA)
+				MARGANELL
+				MURA
+	
+	
+GAVA
+				MARTORELL
+				NAVARCLES
+	
+	
+GELIDA
+				MARTORELLES
+				NAVAS
+	
+	
+GIRONELLA
+				MASIES DE RODA (LES)
+				NOU DE BERGUEDA (LA)
+	
+	
+GISCLARENY
+				MASIES DE VOLTREGA (LES)
+				Òdena
+	
+	
+GRANADA (LA)
+				MASNOU (EL)
+				OLERDOLA
+	
+	
+GRANERA
+				MASQUEFA
+				OLESA DE BONESVALLS
+	
+	
+GRANOLLERS
+				MATADEPERA
+				OLESA DE MONTSERRAT
+	
+	
+GUALBA
+				MATARO
+				OLIVELLA
+				
+				OLOST
+				PREMIA DE DALT
+				SANT BOI DE LLUÇANES
+	
+	
+OLVAN
+				PREMIA DE MAR
+				SANT CEBRIA DE VALLALTA
+	
+	
+ORIS
+				PUIG-REIG
+				SANT CELONI
+	
+	
+ORISTA
+				PUIGDALBER
+				SANT CLIMENT DE LLOBREGAT
+	
+	
+ORPI
+				PUJALT
+				SANT CUGAT DEL VALLES
+	
+	
+ORRIUS
+				QUAR (LA)
+				SANT CUGAT SESGARRIGUES
+	
+	
+PACS DEL PENEDES
+				RAJADELL
+				SANT ESTEVE DE PALAUTORDERA
+	
+	
+PALAFOLLS
+				RELLINARS
+				SANT ESTEVE SESROVIRES
+	
+	
+PALAU DE PLEGAMANS
+				RIPOLLET
+				SANT FELIU DE CODINES
+	
+	
+PALLEJA
+				ROCA DEL VALLES (LA)
+				SANT FELIU DE LLOBREGAT
+	
+	
+PALMA DE CERVELLO, LA
+				RODA DE TER
+				SANT FELIU SASSERRA
+	
+	
+PAPIOL (EL)
+				RUBI
+				SANT FOST DE CAMPSENTELLES
+	
+	
+PARETS DEL VALLES
+				RUBIO
+				SANT FRUITOS DE BAGES
+	
+	
+PERAFITA
+				RUPIT I PRUIT
+				SANT HIPOLIT DE VOLTREGA
+	
+	
+PIERA
+				SABADELL
+				SANT ISCLE DE VALLALTA
+	
+	
+PINEDA DE MAR
+				SAGAS
+				SANT JAUME DE FRONTANYA
+	
+	
+PLA DEL PENEDES (EL)
+				SALDES
+				SANT JOAN DE VILATORRADA
+	
+	
+POBLA DE CLARAMUNT (LA)
+				SALLENT
+				SANT JOAN DESPI
+	
+	
+POBLA DE LILLET (LA)
+				SANT ADRIA DE BESOS
+				SANT JULIA DE CERDANYOLA
+	
+	
+POLINYA
+				SANT AGUSTI DE LLUÇANES
+				SANT JULIA DE VILATORTA
+	
+	
+PONT DE VILOMARA I ROCAFORT (EL)
+				SANT ANDREU DE LA BARCA
+				SANT JUST DESVERN
+	
+	
+PONTONS
+				SANT ANDREU DE LLAVANERES
+				SANT LLORENÇ D'HORTONS
+	
+	
+PRAT DE LLOBREGAT (EL)
+				SANT ANTONI DE VILAMAJOR
+				SANT LLORENÇ SAVALL
+	
+	
+PRATS DE LLUÇANES
+				SANT BARTOMEU DEL GRAU
+				SANT MARTI D'ALBARS
+	
+	
+PRATS DE REI (ELS)
+				SANT BOI DE LLOBREGAT
+				SANT MARTI DE CENTELLES
+				
+	
+Tenemos 8116 registros, totalmente actualizados, con las  direcciones de los Ayuntamientos de toda España, en formato EXCEL. CONSULTAR PRECIOS
+municipio
+BARCELONA
+
+  Página anterior 	
+  página  	1 2 3 4
+	
+  
+SANT MARTI DE TOUS
+				SANT QUINTI DE MEDIONA
+				SANT VICENÇ DELS HORTS
+	
+	
+SANT MARTI SARROCA
+				SANT QUIRZE DE BESORA
+				SANTA CECILIA DE VOLTREGA
+	
+	
+SANT MARTI SESGUEIOLES
+				SANT QUIRZE DEL VALLES
+				SANTA COLOMA DE CERVELLO
+	
+	
+SANT MATEU DE BAGES
+				SANT QUIRZE SAFAJA
+				SANTA COLOMA DE GRAMENET
+	
+	
+SANT PERE DE RIBES
+				SANT SADURNI D'ANOIA
+				SANTA EUGENIA DE BERGA
+	
+	
+SANT PERE DE RIUDEBITLLES
+				SANT SADURNI D'OSORMORT
+				SANTA EULALIA DE RIUPRIMER
+	
+	
+SANT PERE DE TORELLO
+				SANT SALVADOR DE GUARDIOLA
+				SANTA EULALIA DE RONÇANA
+	
+	
+SANT PERE DE VILAMAJOR
+				SANT VICENÇ DE CASTELLET
+				SANTA FE DEL PENEDES
+	
+	
+SANT PERE SALLAVINERA
+				SANT VICENÇ DE MONTALT
+				SANTA MARGARIDA DE MONTBUI
+	
+	
+SANT POL DE MAR
+				SANT VICENÇ DE TORELLO
+					Abadiño
+				Elorrio
+				Lanestosa
+	
+	
+Abanto y Ciérvana-Abanto Zierbena
+				Erandio
+				Larrabetzu
+	
+	
+Ajangiz
+				Ereño
+				Laukiz
+	
+	
+Alonsotegi
+				Ermua
+				Leioa
+	
+	
+Amorebieta-Etxano
+				Errigoiti
+				Lekeitio
+	
+	
+Amoroto
+				Etxebarri
+				Lemoa
+	
+	
+Arantzazu
+				Etxebarria
+				Loiu
+	
+	
+Areatza
+				Fruiz
+				Mallabia
+	
+	
+Arratzu
+				Galdakao
+				Mañaria
+	
+	
+Arrieta
+				Galdames
+				Markina-Xemein
+	
+	
+Arrigorriaga
+				Gamiz-Fika
+				Maruri-Jatabe
+	
+	
+Artea
+				Garai
+				Meñaka
+	
+	
+Artzentales
+				Gatika
+				Mendata
+	
+	
+Atxondo
+				Gautegiz Arteaga
+				Mendexa
+	
+	
+Aulesti
+				Gernika-Lumo
+				Morga
+	
+	
+Bedia
+				Getxo
+				Mundaka
+	
+	
+Berango
+				Gizaburuaga
+				Mungia
+	
+	
+Bermeo
+				Gordexola
+				Munitibar-Arbatzegi Gerrikaitz
+	
+	
+Berriatua
+				Gorliz
+				Murueta
+	
+	
+Berriz
+				Güeñes
+				Muskiz
+	
+	
+Bilbao
+				Ibarrangelu
+				Muxika
+	
+	
+Derio
+				Igorre
+				Nabarniz
+	
+	
+Dima
+				Ispaster
+				Ondarroa
+	
+	
+Ea
+				Iurreta
+				Orozko
+	
+	
+Elantxobe
+				Kortezubi
+				Ortuella
+				Otxandio
+				Sukarrieta
+				Zaldibar
+	
+	
+Plentzia
+				Trucios-Turtzioz
+				Zalla
+	
+	
+Portugalete
+				Ubide
+				Zamudio
+	
+	
+Santurtzi
+				Ugao-Miraballes
+				Zeanuri
+	
+	
+Sestao
+				Urduliz
+				Zeberio
+	
+	
+Sondika
+				Urduña-Orduña
+				Zierbena
+	
+	
+Sopelana
+				Valle de Trápaga-Trapagaran
+				Ziortza - Bolibar
+				
+				Abajas
+				Avellanosa de Muñó
+				Cabañes de Esgueva
+	
+	
+Adrada de Haza
+				Bahabón de Esgueva
+				Cabezón de la Sierra
+	
+	
+Aguas Cándidas
+				Balbases (Los)
+				Caleruega
+	
+	
+Aguilar de Bureba
+				Baños de Valdearados
+				Campillo de Aranda
+	
+	
+Albillos
+				Bañuelos de Bureba
+				Campolara
+	
+	
+Alcocero de Mola
+				Barbadillo de Herreros
+				Canicosa de la Sierra
+	
+	
+Alfoz de Bricia
+				Barbadillo del Mercado
+				Cantabrana
+	
+	
+Alfoz de Quintanadueñas
+				Barbadillo del Pez
+				Carazo
+	
+	
+Alfoz de Santa Gadea
+				Barrio de Muñó
+				Carcedo de Bureba
+	
+	
+Altable
+				Barrios de Bureba (Los)
+				Carcedo de Burgos
+	
+	
+Altos (Los)
+				Barrios de Colina
+				Cardeñadijo
+	
+	
+Ameyugo
+				Basconcillos del Tozo
+				Cardeñajimeno
+	
+	
+Anguix
+				Bascuñana
+				Cardeñuela Riopico
+	
+	
+Aranda de Duero
+				Belbimbre
+				Carrias
+	
+	
+Arandilla
+				Belorado
+				Cascajares de Bureba
+	
+	
+Arauzo de Miel
+				Berberana
+				Cascajares de la Sierra
+	
+	
+Arauzo de Salce
+				Berlangas de Roa
+				Castellanos de Castro
+	
+	
+Arauzo de Torre
+				Berzosa de Bureba
+				Castil de Peones
+	
+	
+Arcos de la Llana
+				Bozoó
+				Castildelgado
+	
+	
+Arenillas de Riopisuerga
+				Brazacorta
+				Castrillo de la Reina
+	
+	
+Arija
+				Briviesca
+				Castrillo de la Vega
+	
+	
+Arlanzón
+				Bugedo
+				Castrillo de Riopisuerga
+	
+	
+Arraya de Oca
+				Buniel
+				Castrillo del Val
+	
+	
+Atapuerca
+				Burgos
+				Castrillo Matajudíos
+	
+	
+Ausines (Los)
+				Busto de Bureba
+				Castrojeriz
+				Cavia
+				Fontioso
+				Hontoria de la Cantera
+	
+	
+Cayuela
+				Frandovínez
+				Hontoria de Valdearados
+	
+	
+Cebrecos
+				Fresneda de la Sierra Tirón
+				Hontoria del Pinar
+	
+	
+Celada del Camino
+				Fresneña
+				Hormazas (Las)
+	
+	
+cerezo de Río Tirón
+				Fresnillo de las Dueñas
+				Hornillos del Camino
+	
+	
+Cerratón de Juarros
+				Fresno de Río Tirón
+				Horra (La)
+	
+	
+Ciadoncha
+				Fresno de Rodilla
+				Hortigüela
+	
+	
+Cillaperlata
+				Frías
+				Hoyales de Roa
+	
+	
+Cilleruelo de Abajo
+				Fuentebureba
+				Huérmeces
+	
+	
+Cilleruelo de Arriba
+				Fuentecén
+				Huerta de Arriba
+	
+	
+Ciruelos de Cervera
+				Fuentelcésped
+				Huerta de Rey
+	
+	
+Cogollos
+				Fuentelisendo
+				Humada
+	
+	
+Condado de Treviño
+				Fuentemolinos
+				Hurones
+	
+	
+Contreras
+				Fuentenebro
+				Ibeas de Juarros
+	
+	
+Coruña del Conde
+				Fuentespina
+				Ibrillos
+	
+	
+Covarrubias
+				Galbarros
+				Iglesiarrubia
+	
+	
+Cubillo del Campo
+				Gallega (La)
+				Iglesias
+	
+	
+Cubo de Bureba
+				Grijalba
+				Isar
+	
+	
+Cueva de Roa (La)
+				Grisaleña
+				Itero del Castillo
+	
+	
+Cuevas de San Clemente
+				Gumiel de Izán
+				Jaramillo de la Fuente
+	
+	
+Encío
+				Gumiel de Mercado
+				Jaramillo Quemado
+	
+	
+Espinosa de Cervera
+				Hacinas
+				Junta de Traslaloma
+	
+	
+Espinosa de los Monteros
+				Haza
+				Junta de Villalba de Losa
+	
+	
+Espinosa del Camino
+				Hontanas
+				Jurisdicción de Lara
+	
+	
+Estépar
+				Hontangas
+				Jurisdicción de San Zadornil
+				Lerma
+				Moncalvillo
+				Pedrosa de Río Úrbel
+	
+	
+Llano de Bureba
+				Monterrubio de la Demanda
+				Pedrosa del Páramo
+	
+	
+Madrigal del Monte
+				Montorio
+				Pedrosa del Príncipe
+	
+	
+Madrigalejo del Monte
+				Moradillo de Roa
+				Peñaranda de Duero
+	
+	
+Mahamud
+				Nava de Roa
+				Peral de Arlanza
+	
+	
+Mambrilla de Castrejón
+				Navas de Bureba
+				Piérnigas
+	
+	
+Mambrillas de Lara
+				Nebreda
+				Pineda de la Sierra
+	
+	
+Mamolar
+				Neila
+				Pineda Trasmonte
+	
+	
+Manciles
+				Olmedillo de Roa
+				Pinilla de los Barruecos
+	
+	
+Mazuela
+				Olmillos de Muñó
+				Pinilla de los Moros
+	
+	
+Mecerreyes
+				Oña
+				Pinilla Trasmonte
+	
+	
+Medina de Pomar
+				Oquillas
+				Poza de la Sal
+	
+	
+Melgar de Fernamental
+				Orbaneja Riopico
+				Prádanos de Bureba
+	
+	
+Merindad de Cuesta-Urria
+				Padilla de Abajo
+				Pradoluengo
+	
+	
+Merindad de Montija
+				Padilla de Arriba
+				Presencio
+	
+	
+Merindad de Río Ubierna
+				Padrones de Bureba
+				Puebla de Arganzón (La)
+	
+	
+Merindad de Sotoscueva
+				Palacios de la Sierra
+				Puentedura
+	
+	
+Merindad de Valdeporres
+				Palacios de Riopisuerga
+				Quemada
+	
+	
+Merindad de Valdivielso
+				Palazuelos de la Sierra
+				Quintanabureba
+	
+	
+Milagros
+				Palazuelos de Muñó
+				Quintanaélez
+	
+	
+Miranda de Ebro
+				Pampliega
+				Quintanaortuño
+	
+	
+Miraveche
+				Pancorbo
+				Quintanapalla
+	
+	
+Modúbar de la Emparedada
+				Pardilla
+				Quintanar de la Sierra
+	
+	
+Monasterio de la Sierra
+				Partido de la Sierra en Tobalina
+				Quintanavides
+	
+	
+Monasterio de Rodilla
+				Pedrosa de Duero
+				Quintanilla de la Mata
+				Quintanilla del Agua y Tordueles
+				Rucandio
+				Sarracín
+	
+	
+Quintanilla del Coco
+				Salas de Bureba
+				Sasamón
+	
+	
+Quintanilla San García
+				Salas de los Infantes
+				Sequera de Haza (La)
+	
+	
+Quintanilla Vivar
+				Saldaña de Burgos
+				Solarana
+	
+	
+Quintanillas (Las)
+				Salinillas de Bureba
+				Sordillos
+	
+	
+Rabanera del Pinar
+				San Adrián de Juarros
+				Sotillo de la Ribera
+	
+	
+Rábanos
+				San Juan del Monte
+				Sotragero
+	
+	
+Rabé de las Calzadas
+				San Mamés de Burgos
+				Sotresgudo
+	
+	
+Rebolledo de la Torre
+				San Martín de Rubiales
+				Susinos del Páramo
+	
+	
+Redecilla del Camino
+				San Millán de Lara
+				Tamarón
+	
+	
+Redecilla del Campo
+				San Vicente del Valle
+				Tardajos
+	
+	
+Regumiel de la Sierra
+				Santa Cecilia
+				Tejada
+	
+	
+Reinoso
+				Santa Cruz de la Salceda
+				Terradillos de Esgueva
+	
+	
+Retuerta
+				Santa Cruz del Valle Urbión
+				Tinieblas de la Sierra
+	
+	
+Revilla del Campo
+				Santa Gadea del Cid
+				Tobar
+	
+	
+Revilla Vallejera
+				Santa Inés
+				Tordómar
+	
+	
+Revilla y Ahedo (La)
+				Santa María del Campo
+				Torrecilla del Monte
+	
+	
+Revillarruz
+				Santa María del Invierno
+				Torregalindo
+	
+	
+Rezmondo
+				Santa María del Mercadillo
+				Torrelara
+	
+	
+Riocavado de la Sierra
+				Santa María Rivarredonda
+				Torrepadre
+	
+	
+Roa
+				Santa Olalla de Bureba
+				Torresandino
+	
+	
+Rojas
+				Santibáñez de Esgueva
+				Tórtoles de Esgueva
+	
+	
+Royuela de Río Franco
+				Santibáñez del Val
+				Tosantos
+	
+	
+Rubena
+				Santo Domingo de Silos
+				Trespaderne
+	
+	
+Rublacedo de Abajo
+				Sargentes de la Lora
+				Tubilla del Agua
+				
+				Tubilla del Lago
+				Vid y Barrios (La)
+				Villanueva de Gumiel
+	
+	
+Úrbel del Castillo
+				Vileña
+				Villanueva de Teba
+	
+	
+Vadocondes
+				Villadiego
+				Villaquirán de la Puebla
+	
+	
+Valdeande
+				Villaescusa de Roa
+				Villaquirán de los Infantes
+	
+	
+Valdezate
+				Villaescusa la Sombría
+				Villarcayo de Merindad de Castilla la Vieja
+	
+	
+Valdorros
+				Villaespasa
+				Villariezo
+	
+	
+Vallarta de Bureba
+				Villafranca Montes de Oca
+				Villasandino
+	
+	
+Valle de las Navas
+				Villafruela
+				Villasur de Herreros
+	
+	
+Valle de Losa
+				Villagalijo
+				Villatuelda
+	
+	
+Valle de Manzanedo
+				Villagonzalo Pedernales
+				Villaverde del Monte
+	
+	
+Valle de Mena
+				Villahoz
+				Villaverde-Mogina
+	
+	
+Valle de Oca
+				Villalba de Duero
+				Villayerno Morquillas
+	
+	
+Valle de Santibáñez
+				Villalbilla de Burgos
+				Villazopeque
+	
+	
+Valle de Sedano
+				Villalbilla de Gumiel
+				Villegas
+	
+	
+Valle de Tobalina
+				Villaldemiro
+				Villoruebo
+	
+	
+Valle de Valdebezana
+				Villalmanzo
+				Viloria de Rioja
+	
+	
+Valle de Valdelaguna
+				Villamayor de los Montes
+				Vilviestre del Pinar
+	
+	
+Valle de Valdelucio
+				Villamayor de Treviño
+				Vizcaínos
+	
+	
+Valle de Zamanzas
+				Villambistia
+				Zael
+	
+	
+Vallejera
+				Villamedianilla
+				Zarzosa de Río Pisuerga
+	
+	
+Valles de Palenzuela
+				Villamiel de la Sierra
+				Zazuar
+	
+	
+Valluércanes
+				Villangómez
+				Zuñeda
+	
+	
+Valmala
+				Villanueva de Argaño
+				
+	
+	
+Vid de Bureba (La)
+				Villanueva de Carazo
+				
+				GARGANTILLA
+				JARANDILLA DE LA VERA
+				NAVACONCEJO
+	
+	
+GARGÜERA
+				JARILLA
+				NAVALMORAL DE LA MATA
+	
+	
+GARROVILLAS DE ALCONÉTAR
+				JERTE
+				NAVALVILLAR DE IBOR
+	
+	
+GARVÍN DE LA JARA
+				LADRILLAR
+				NAVAS DEL MADROÑO
+	
+	
+GATA
+				LOGROSÁN
+				NAVEZUELAS
+	
+	
+GORDO (EL)
+				LOSAR DE LA VERA
+				NUÑOMORAL
+	
+	
+GRANJA (LA)
+				MADRIGAL DE LA VERA
+				OLIVA DE PLASENCIA
+	
+	
+GUADALUPE
+				MADRIGALEJO
+				PALOMERO
+	
+	
+GUIJO DE CORIA
+				MADROÑERA
+				PASARÓN DE LA VERA
+	
+	
+GUIJO DE GALISTEO
+				MAJADAS DE TIÉTAR
+				PEDROSO DE ACIM
+	
+	
+GUIJO DE GRANADILLA
+				MALPARTIDA DE CÁCERES
+				PERALEDA DE LA MATA
+	
+	
+GUIJO DE SANTA BÁRBARA
+				MALPARTIDA DE PLASENCIA
+				PERALEDA DE SAN ROMÁN
+	
+	
+HERGUIJUELA
+				MARCHAGAZ
+				PERALES DEL PUERTO
+	
+	
+HERNÁN PÉREZ
+				MATA DE ALCÁNTARA
+				PESCUEZA
+	
+	
+HERRERA DE ALCÁNTARA
+				MEMBRÍO
+				PESGA (LA)
+	
+	
+HERRERUELA
+				MESAS DE IBOR
+				PIEDRAS ALBAS
+	
+	
+HERVÁS
+				MIAJADAS
+				PINOFRANQUEADO
+	
+	
+HIGUERA
+				MILLANES DE LA MATA
+				PIORNAL
+	
+	
+HINOJAL
+				MIRABEL
+				PLASENCIA
+	
+	
+HOLGUERA
+				MOHEDAS DE GRANADILLA
+				PLASENZUELA
+	
+	
+HOYOS
+				MONROY
+				PORTAJE
+	
+	
+HUÉLAGA
+				MONTÁNCHEZ
+				PORTEZUELO
+	
+	
+IBAHERNANDO
+				MONTEHERMOSO
+				POZUELO DE ZARZÓN
+	
+	
+JARAICEJO
+				MORALEJA
+				PUERTO DE SANTA CRUZ
+	
+	
+JARAÍZ DE LA VERA
+				MORCILLO
+				REBOLLAR
+				
+				RIOLOBOS
+				SERREJÓN
+				VALDEHUNCAR
+	
+	
+ROBLEDILLO DE GATA
+				SIERRA DE FUENTES
+				VALDELACASA DE TAJO
+	
+	
+ROBLEDILLO DE LA VERA
+				TALAVÁN
+				VALDEMORALES
+	
+	
+ROBLEDILLO DE TRUJILLO
+				TALAVERUELA DE LA VERA
+				VALDEOBISPO
+	
+	
+ROBLEDOLLANO
+				TALAYUELA
+				VALENCIA DE ALCÁNTARA
+	
+	
+ROMANGORDO
+				TEJEDA DE TIÉTAR
+				VALVERDE DE LA VERA
+	
+	
+Rosalejo
+				TORIL
+				VALVERDE DEL FRESNO
+	
+	
+RUANES
+				TORNAVACAS
+				VIANDAR DE LA VERA
+	
+	
+SALORINO
+				TORRE DE DON MIGUEL
+				VILLA DEL CAMPO
+	
+	
+SALVATIERRA DE SANTIAGO
+				TORRE DE SANTA MARÍA
+				VILLA DEL REY
+	
+	
+SAN MARTÍN DE TREVEJO
+				TORRECILLA DE LOS ÁNGELES
+				VILLAMESÍAS
+	
+	
+SANTA ANA
+				TORRECILLAS DE LA TIESA
+				VILLAMIEL
+	
+	
+SANTA CRUZ DE LA SIERRA
+				TORREJÓN EL RUBIO
+				VILLANUEVA DE LA SIERRA
+	
+	
+SANTA CRUZ DE PANIAGUA
+				TORREJONCILLO
+				VILLANUEVA DE LA VERA
+	
+	
+SANTA MARTA DE MAGASCA
+				TORREMENGA
+				VILLAR DE PLASENCIA
+	
+	
+SANTIAGO DE ALCÁNTARA
+				TORREMOCHA
+				VILLAR DEL PEDROSO
+	
+	
+SANTIAGO DEL CAMPO
+				TORREORGAZ
+				VILLASBUENAS DE GATA
+	
+	
+SANTIBÁÑEZ EL ALTO
+				TORREQUEMADA
+				ZARZA DE GRANADILLA
+	
+	
+SANTIBÁÑEZ EL BAJO
+				TRUJILLO
+				ZARZA DE MONTÁNCHEZ
+	
+	
+SAUCEDILLA
+				VALDASTILLAS
+				ZARZA LA MAYOR
+	
+	
+SEGURA DE TORO
+				VALDECAÑAS DE TAJO
+				ZORITA
+	
+	
+SERRADILLA
+				VALDEFUENTES
+				Alcalá de los Gazules
+				Chipiona
+				Rota
+	
+	
+Alcalá del Valle
+				Conil de la Frontera
+				San Fernando
+	
+	
+Algar
+				Espera
+				San José del Valle
+	
+	
+Algeciras
+				Gastor (El)
+				San Roque
+	
+	
+Algodonales
+				Grazalema
+				Sanlúcar de Barrameda
+	
+	
+Arcos de la Frontera
+				Jerez de la Frontera
+				Setenil de las Bodegas
+	
+	
+Barbate
+				Jimena de la Frontera
+				Tarifa
+	
+	
+Barrios (Los)
+				Línea de la Concepción (La)
+				Torre Alháquime
+	
+	
+Benalup-Casas Viejas
+				Medina-Sidonia
+				Trebujena
+	
+	
+Benaocaz
+				Olvera
+				Ubrique
+	
+	
+Bornos
+				Paterna de Rivera
+				Vejer de la Frontera
+	
+	
+Bosque (El)
+				Prado del Rey
+				Villaluenga del Rosario
+	
+	
+Cádiz
+				Puerto de Santa María (El)
+				Villamartín
+	
+	
+Castellar de la Frontera
+				Puerto Real
+				Zahara
+	
+	
+Chiclana de la Frontera
+				Puerto Serrano
+				
+				Alfoz de Lloredo
+				Corrales de Buelna (Los)
+				Pesquera
+	
+	
+Ampuero
+				Corvera de Toranzo
+				Piélagos
+	
+	
+Anievas
+				Entrambasaguas
+				Polaciones
+	
+	
+Arenas de Iguña
+				Escalante
+				Polanco
+	
+	
+Argoños
+				Guriezo
+				Potes
+	
+	
+Arnuero
+				Hazas de Cesto
+				Puente Viesgo
+	
+	
+Arredondo
+				Hermandad de Campoo de Suso
+				Ramales de la Victoria
+	
+	
+Astillero (El)
+				Herrerías
+				Rasines
+	
+	
+Bárcena de Cicero
+				Lamasón
+				Reinosa
+	
+	
+Bárcena de Pie de Concha
+				Laredo
+				Reocín
+	
+	
+Bareyo
+				Liendo
+				Ribamontán al Mar
+	
+	
+Cabezón de la Sal
+				Liérganes
+				Ribamontán al Monte
+	
+	
+Cabezón de Liébana
+				Limpias
+				Rionansa
+	
+	
+Cabuérniga
+				Luena
+				Riotuerto
+	
+	
+Camaleño
+				Marina de Cudeyo
+				Rozas de Valdearroyo (Las)
+	
+	
+Camargo
+				Mazcuerras
+				Ruente
+	
+	
+Campoo de Enmedio
+				Medio Cudeyo
+				Ruesga
+	
+	
+Campoo de Yuso
+				Meruelo
+				Ruiloba
+	
+	
+Cartes
+				Miengo
+				San Felices de Buelna
+	
+	
+Castañeda
+				Miera
+				San Miguel de Aguayo
+	
+	
+Castro-Urdiales
+				Molledo
+				San Pedro del Romeral
+	
+	
+Cieza
+				Noja
+				San Roque de Riomiera
+	
+	
+Cillorigo de Liébana
+				Penagos
+				Santa Cruz de Bezana
+	
+	
+Colindres
+				Peñarrubia
+				Santa María de Cayón
+	
+	
+Comillas
+				Pesaguero
+				Santander
+				Santillana del Mar
+				Tojos (Los)
+				Valderredible
+	
+	
+Santiurde de Reinosa
+				Torrelavega
+				Vega de Liébana
+	
+	
+Santiurde de Toranzo
+				Tresviso
+				Vega de Pas
+	
+	
+Santoña
+				Tudanca
+				Villacarriedo
+	
+	
+Saro
+				Udías
+				Villaescusa
+	
+	
+Selaya
+				Val de San Vicente
+				Villafufre
+	
+	
+Soba
+				Valdáliga
+				Villaverde de Trucíos
+	
+	
+Solórzano
+				Valdeolea
+				Voto
+	
+	
+Suances
+				Valdeprado del Río
+				
+				AIN
+				BENICASSIM
+				ESPADILLA
+	
+	
+ALBOCASSER
+				BENLLOCH
+				FANZARA
+	
+	
+ALCALA DE XIVERT
+				BETXI
+				FIGUEROLES
+	
+	
+ALCORA L'
+				BORRIOL
+				FORCALL
+	
+	
+ALCUDIA DE VEO
+				BURRIANA
+				FUENTES DE AYODAR
+	
+	
+ALFONDEGUILLA
+				CABANES
+				GAIBIEL
+	
+	
+ALGIMIA DE ALMONACID
+				CALIG
+				GELDO
+	
+	
+ALMASSORA
+				CANET LO ROIG
+				HERBES
+	
+	
+ALMEDIJAR
+				CASTELL DE CABRES
+				JANA LA
+	
+	
+ALMENARA
+				CASTELLFORT
+				JERICA
+	
+	
+ALQUERIAS DEL NIÑO PERDIDO
+				CASTELLNOVO
+				LLOSA LA
+	
+	
+ALTURA
+				CASTELLON DE LA PLANA
+				LUCENA DEL CID
+	
+	
+ARAÑUEL
+				CASTILLO DE VILLAMALEFA
+				LUDIENTE
+	
+	
+ARES DEL MAESTRE
+				CATI
+				MATA DE MORELLA LA
+	
+	
+ARGELITA
+				CAUDIEL
+				MATET
+	
+	
+ARTANA
+				CERVERA DEL MAESTRE
+				MONCOFA
+	
+	
+ATZENETA DEL MAESTRAT
+				CHILCHES
+				MONTAN
+	
+	
+AYODAR
+				CHOVAR
+				MONTANEJOS
+	
+	
+AZUEBAR
+				CINCTORRES
+				MORELLA
+	
+	
+BARRACAS
+				CIRAT
+				NAVAJAS
+	
+	
+BEJIS
+				CORTES DE ARENOSO
+				NULES
+	
+	
+BENAFER
+				COSTUR
+				OLOCAU DEL REY
+	
+	
+BENAFIGOS
+				COVES DE VINROMA LES
+				ONDA
+	
+	
+BENASAL
+				CULLA
+				OROPESA DEL MAR
+	
+	
+BENICARLO
+				ESLIDA
+				PALANQUES
+				PAVIAS
+				SONEJA
+				VALLAT
+	
+	
+PEÑISCOLA
+				SOT DE FERRER
+				VALLIBONA
+	
+	
+PINA DE MONTALGRAO
+				SUERAS
+				VILA-REAL
+	
+	
+POBLA DE BENIFASSA
+				TALES
+				VILAFAMES
+	
+	
+POBLA TORNESA LA
+				TERESA
+				VILAFRANCA
+	
+	
+PORTELL DE MORELLA
+				TIRIG
+				VILANOVA D'ALCOLEA
+	
+	
+PUEBLA DE ARENOSO
+				TODOLELLA
+				VILAR DE CANES
+	
+	
+PUENTE LA REINA
+				TOGA
+				Vilavella LA
+	
+	
+RIBESALBES
+				TORAS
+				VILLAHERMOSA DEL RÍO
+	
+	
+ROSELL
+				TORO EL
+				VILLAMALUR
+	
+	
+SACAÑET
+				TORRALBA DEL PINAR
+				VILLANUEVA DE VIVER
+	
+	
+SALZADELLA
+				TORRE D'EN BESORA LA
+				VILLORES
+	
+	
+SAN JORGE
+				TORRE ENDOMENECH
+				VINAROS
+	
+	
+SAN JUAN DE MORÓ
+				TORREBLANCA
+				VISTABELLA DEL MAESTRAZGO
+	
+	
+SAN RAFAEL DEL RIO
+				TORRECHIVA
+				VIVER
+	
+	
+SANT MATEU
+				TRAIGUERA
+				XERT
+	
+	
+SANTA MAGDALENA DE PULPIS
+				USERES LES
+				XODOS
+	
+	
+SARRATELLA
+				VALL D'ALBA
+				ZORITA DEL MAESTRAZGO
+	
+	
+SEGORBE
+				VALL DE ALMONACID
+				ZUCAINA
+	
+	
+SIERRA ENGARCERAN
+				Vall d´Uixó (la)
+				ceuta
+				ABENOJAR
+				BRAZATORTAS
+				HERENCIA
+	
+	
+AGUDO
+				CABEZARADOS
+				HINOJOSAS DE CVA
+	
+	
+ALAMILLO
+				CABEZARRUBIAS DEL PUERTO
+				HORCAJO DE LOS MONTES
+	
+	
+ALBALADEJO
+				CALZADA DE CALATRAVA
+				LAS LABORES
+	
+	
+ALCAZAR DE SAN JUAN
+				CAMPO DE CRIPTANA
+				LLANOS DEL CAUDILLO
+	
+	
+ALCOBA DE LOS MONTES
+				CAÑADA DE CVA
+				LOS CORTIJOS
+	
+	
+ALCOLEA DE CVA
+				CARACUEL DE CVA
+				LOS POZUELOS DE CVA
+	
+	
+ALCUBILLAS
+				CARRION DE CALATRAVA
+				LUCIANA
+	
+	
+ALDEA DEL REY
+				CARRIZOSA
+				MALAGON
+	
+	
+ALHAMBRA
+				CASTELLAR DE SANTIAGO
+				MANZANARES
+	
+	
+ALMADEN
+				CHILLON
+				MEMBRILLA
+	
+	
+ALMADENEJOS
+				CIUDAD REAL
+				MESTANZA
+	
+	
+ALMAGRO
+				CORRAL DE CVA
+				MIGUELTURRA
+	
+	
+ALMEDINA
+				COZAR
+				MONTIEL
+	
+	
+ALMODÓVAR DEL CAMPO
+				DAIMIEL
+				MORAL DE CVA
+	
+	
+ALMURADIEL
+				EL ROBLEDO
+				NAVALPINO
+	
+	
+ANCHURAS
+				FERNANCABALLERO
+				NAVAS DE ESTENA
+	
+	
+ARENALES DE SAN GREGORIO
+				FONTANAREJO
+				PEDRO MUÑOZ
+	
+	
+ARENAS DE SAN JUAN
+				FUENCALIENTE
+				PICON
+	
+	
+ARGAMASILLA DE ALBA
+				FUENLLANA
+				PIEDRABUENA
+	
+	
+ARGAMASILLA DE CVA
+				FUENTE EL FRESNO
+				POBLETE
+	
+	
+ARROBA DE LOS MONTES
+				GRANATULA DE CVA.
+				PORZUNA
+	
+	
+BOLAÑOS DE CVA.
+				GUADALMEZ
+				POZUELO DE CALATRAVA
+				Adamuz
+				Espiel
+				Pedro Abad
+	
+	
+Aguilar de la Frontera
+				Fernán-Núñez
+				Pedroche
+	
+	
+Alcaracejos
+				Fuente la Lancha
+				Peñarroya-Pueblonuevo
+	
+	
+Almedinilla
+				Fuente Obejuna
+				Posadas
+	
+	
+Almodóvar del Río
+				Fuente Palmera
+				Priego de Córdoba
+	
+	
+Añora
+				Fuente-Tójar
+				Puente Genil
+	
+	
+Belalcázar
+				Granjuela (La)
+				Rambla (La)
+	
+	
+Belmez
+				Guadalcázar
+				Rute
+	
+	
+Benamejí
+				Guijo (El)
+				San Sebastián de los Ballesteros
+	
+	
+Blázquez (Los)
+				Hinojosa del Duque
+				Santa Eufemia
+	
+	
+Bujalance
+				Hornachuelos
+				Santaella
+	
+	
+Cabra
+				Iznájar
+				Torrecampo
+	
+	
+Cañete de las Torres
+				Lucena
+				Valenzuela
+	
+	
+Carcabuey
+				Luque
+				Valsequillo
+	
+	
+Cardeña
+				Montalbán de Córdoba
+				Victoria (La)
+	
+	
+Carlota (La)
+				Montemayor
+				Villafranca de Córdoba
+	
+	
+Carpio (El)
+				Montilla
+				Villaharta
+	
+	
+Castro del Río
+				Montoro
+				Villanueva de Córdoba
+	
+	
+Conquista
+				Monturque
+				Villanueva del Duque
+	
+	
+Córdoba
+				Moriles
+				Villanueva del Rey
+	
+	
+Doña Mencía
+				Nueva Carteya
+				Villaralto
+	
+	
+Dos Torres
+				Obejo
+				Villaviciosa de Córdoba
+	
+	
+Encinas Reales
+				Palenciana
+				Viso (El)
+	
+	
+Espejo
+				Palma del Río
+				Zuheros
+				ABIA DE LA OBISPALIA
+				BEAMUD
+				CARRASCOSA DE HARO
+	
+	
+ACEBRON (EL)
+				BELINCHON
+				CASAS DE BENITEZ
+	
+	
+ALARCON
+				BELMONTE
+				CASAS DE FERNANDO ALONSO
+	
+	
+ALBALADEJO DEL CUENDE
+				BELMONTEJO
+				CASAS DE GARCIMOLINA
+	
+	
+ALBALATE DE LAS NOGUERAS
+				BETETA
+				CASAS DE GUIJARRO
+	
+	
+ALBENDEA
+				BUCIEGAS
+				CASAS DE HARO
+	
+	
+ALBERCA DE ZANCARA (LA)
+				BUENACHE DE ALARCON
+				CASAS DE LOS PINOS
+	
+	
+ALCALA DE LA VEGA
+				BUENACHE DE LA SIERRA
+				CASASIMARRO
+	
+	
+ALCANTUD
+				BUENDIA
+				CASTEJON
+	
+	
+ALCAZAR DEL REY
+				CAMPILLO DE ALTOBUEY
+				CASTILLEJO DE INIESTA
+	
+	
+ALCOHUJATE
+				CAMPILLOS-PARAVIENTOS
+				CASTILLEJO-SIERRA
+	
+	
+ALCONCHEL DE LA ESTRELLA
+				CAMPILLOS-SIERRA
+				CASTILLO DE GARCIMUÑOZ
+	
+	
+ALGARRA
+				CAMPOS DEL PARAISO
+				CASTILLO-ALBARAÑEZ
+	
+	
+ALIAGUILLA
+				CAÑADA DEL HOYO
+				CERVERA DEL LLANO
+	
+	
+ALMARCHA (LA)
+				CAÑADAJUNCOSA
+				CHILLARON DE CUENCA
+	
+	
+ALMENDROS
+				CANALEJAS DEL ARROYO
+				CHUMILLAS
+	
+	
+ALMODOVAR DEL PINAR
+				CAÑAMARES
+				CIERVA (LA)
+	
+	
+ALMONACID DEL MARQUESADO
+				CAÑAVATE (EL)
+				CUENCA
+	
+	
+ALTAREJOS
+				CAÑAVERAS
+				CUEVA DEL HIERRO
+	
+	
+ARANDILLA DEL ARROYO
+				CAÑAVERUELAS
+				ENGUIDANOS
+	
+	
+ARCAS DEL VILLAR
+				CAÑETE
+				FRESNEDA DE ALTAREJOS
+	
+	
+ARCOS DE LA SIERRA
+				CAÑIZARES
+				FRESNEDA DE LA SIERRA
+	
+	
+ARGUISUELAS
+				CARBONERAS DE GUADAZAON
+				FRONTERA (LA)
+	
+	
+ARRANCACEPAS
+				CARDENETE
+				FUENTE DE PEDRO NAHARRO
+	
+	
+ATALAYA DEL CAÑAVATE
+				CARRASCOSA
+				FUENTELESPINO DE HARO
+				FUENTELESPINO DE MOYA
+				LAGUNASECA
+				OSA DE LA VEGA
+	
+	
+FUENTENAVA DE JABAGA
+				LANDETE
+				PAJARON
+	
+	
+FUENTES
+				LEDAÑA
+				PAJARONCILLO
+	
+	
+FUERTESCUSA
+				LEGANIEL
+				PALOMARES DEL CAMPO
+	
+	
+GABALDON
+				Maià de Montcal
+				PALOMERA
+	
+	
+GARABALLA
+				MAJADAS (LAS)
+				PARACUELLOS
+	
+	
+GRAJA DE CAMPALBO
+				MARIANA
+				PAREDES
+	
+	
+GRAJA DE INIESTA
+				MASEGOSA
+				PARRA DE LAS VEGAS (LA)
+	
+	
+HENAREJOS
+				MESAS (LAS)
+				PEDERNOSO (EL)
+	
+	
+HERRUMBLAR (EL)
+				MINGLANILLA
+				PEDROÑERAS (LAS)
+	
+	
+HINOJOSA (LA)
+				MIRA
+				PERAL (EL)
+	
+	
+HINOJOSOS (LOS)
+				MONREAL DEL LLANO
+				PERALEJA (LA)
+	
+	
+HITO (EL)
+				MONTALBANEJO
+				PESQUERA (LA)
+	
+	
+HONRUBIA
+				MONTALBO
+				PICAZO (EL)
+	
+	
+HONTANAYA
+				MONTEAGUDO DE LAS SALINAS
+				PINAREJO
+	
+	
+HONTECILLAS
+				MOTA DE ALTAREJOS
+				PINEDA DE GIGÜELA
+	
+	
+HORCAJO DE SANTIAGO
+				MOTA DEL CUERVO
+				PIQUERAS DEL CASTILLO
+	
+	
+HUELAMO
+				MOTILLA DEL PALANCAR
+				PORTALRUBIO DE GUADAMEJUD
+	
+	
+HUELVES
+				MOYA
+				PORTILLA
+	
+	
+HUERGUINA
+				NARBONETA
+				POYATOS
+	
+	
+HUERTA DE LA OBISPALIA
+				OLIVARES DE JUCAR
+				POZOAMARGO
+	
+	
+HUERTA DEL MARQUESADO
+				OLMEDA DE LA CUESTA
+				POZORRUBIELOS DE LA MANCHA
+	
+	
+HUETE
+				OLMEDA DEL REY
+				POZORRUBIO
+	
+	
+INIESTA
+				OLMEDILLA DE ALARCON
+				POZUELO (EL)
+	
+	
+LAGUNA DEL MARQUESADO
+				OLMEDILLA DE ELIZ
+				PRIEGO
+				PROVENCIO (EL)
+				TEBAR
+				VILLAESCUSA DE HARO
+	
+	
+PUEBLA DE ALMENARA
+				TEJADILLOS
+				VILLAGARCIA DEL LLANO
+	
+	
+PUEBLA DE DON FRANCISCO
+				TINAJAS
+				VILLALBA DE LA SIERRA
+	
+	
+PUEBLA DEL SALVADOR
+				TORRALBA
+				VILLALBA DEL REY
+	
+	
+QUINTANAR DEL REY
+				TORREJONCILLO DEL REY
+				VILLALGORDO DEL MARQUESADO
+	
+	
+RADA DE HARO
+				TORRUBIA DEL CAMPO
+				VILLALPARDO
+	
+	
+REILLO
+				TORRUBIA DEL CASTILLO
+				VILLAMAYOR DE SANTIAGO
+	
+	
+ROZALEN DEL MONTE
+				TRAGACETE
+				VILLANUEVA DE GUADAMEJUD
+	
+	
+SACEDA-TRASIERRA
+				TRESJUNCOS
+				VILLANUEVA DE LA JARA
+	
+	
+SAELICES
+				TRIBALDOS
+				VILLAR DE CAÑAS
+	
+	
+SALINAS DEL MANZANO
+				UCLES
+				VILLAR DE DOMINGO GARCIA
+	
+	
+SALMERONCILLOS
+				VALDECOLMENAS (LOS)
+				VILLAR DE LA ENCINA
+	
+	
+SALVACAÑETE
+				VALDEMECA
+				VILLAR DE OLALLA
+	
+	
+SAN CLEMENTE
+				VALDEMORILLO DE LA SIERRA
+				VILLAR DEL HUMO
+	
+	
+SAN LORENZO DE LA PARRILLA
+				VALDEMORO-SIERRA
+				VILLAR DEL INFANTADO
+	
+	
+SAN MARTIN DE BONICHES
+				VALDEOLIVAS
+				VILLAR Y VELASCO
+	
+	
+SAN PEDRO PALMICHES
+				VALDETORTOLA
+				VILLAREJO DE FUENTES
+	
+	
+SANTA CRUZ DE MOYA
+				VALERAS (LAS)
+				VILLAREJO DE LA PEÑUELA
+	
+	
+SANTA MARIA DE LOS LLANOS
+				VALHERMOSO DE LA FUENTE
+				VILLAREJO-PERIESTEBAN
+	
+	
+SANTA MARIA DEL CAMPO RUS
+				VALSALOBRE
+				VILLARES DEL SAZ
+	
+	
+SANTA MARIA DEL VAL
+				VALVERDE DE JUCAR
+				VILLARRUBIO
+	
+	
+SOLERA DE GABALDON
+				VALVERDEJO
+				VILLARTA
+	
+	
+SOTORRIBAS
+				VARA DE REY
+				VILLAS DE LA VENTOSA
+	
+	
+TALAYUELAS
+				VELLISCA
+				VILLAVERDE Y PASACONSOL
+	
+	
+TARANCON
+				VILLACONEJOS DE TRABAQUE
+				VILLORA
+				VINDEL
+				ZAFRA DE ZANCARA
+				ZARZA DE TAJO
+	
+	
+YÉMEDA
+				ZAFRILLA
+				Abella de la Conca
+				Breda
+				Cornellà del Terri
+	
+	
+Agullana
+				Brunyola
+				Crespià
+	
+	
+Aiguaviva
+				Cabanelles
+				Cruïlles, Monells i Sant Sadurní de l´Heura
+	
+	
+Albanyà
+				Cabanes
+				Darnius
+	
+	
+Albons
+				Cadaqués
+				Das
+	
+	
+Alp
+				Caldes de Malavella
+				Escala (L´)
+	
+	
+Amer
+				Calonge
+				Espinelves
+	
+	
+Anglès
+				Camós
+				Espolla
+	
+	
+Arbúcies
+				Campdevànol
+				Esponellà
+	
+	
+Argelaguer
+				Campelles
+				Far d´Empordà (El)
+	
+	
+Armentera (L´)
+				Campllong
+				Figueres
+	
+	
+Avinyonet de Puigventós
+				Camprodon
+				Flaçà
+	
+	
+Begur
+				Canet d´Adri
+				Foixà
+	
+	
+Bellcaire d´Empordà
+				Cantallops
+				Fontanals de Cerdanya
+	
+	
+Besalú
+				Capmany
+				Fontanilles
+	
+	
+Bescanó
+				Cassà de la Selva
+				Fontcoberta
+	
+	
+Beuda
+				Castellfollit de la Roca
+				Forallac
+	
+	
+Bisbal d´Empordà (La)
+				Castelló d´Empúries
+				Fornells de la Selva
+	
+	
+Biure
+				Cellera de Ter (La)
+				Fortià
+	
+	
+Blanes
+				Celrà
+				Garrigàs
+	
+	
+Boadella i les Escaules
+				Cervià de Ter
+				Garrigoles
+	
+	
+Bolvir
+				Cistella
+				Garriguella
+	
+	
+BONICHES
+				Colera
+				GASCUEÑA
+	
+	
+Bordils
+				Colomers
+				Ger
+	
+	
+Borrassà
+				Corçà
+				Girona
+				Gombrèn
+				Molló
+				Porqueres
+	
+	
+Gualta
+				Mont-ras
+				Port de la Selva (El)
+	
+	
+Guils de Cerdanya
+				Montagut i Oix
+				Portbou
+	
+	
+Hostalric
+				Navata
+				Preses (Les)
+	
+	
+Isòvol
+				Ogassa
+				Puigcerdà
+	
+	
+Jafre
+				Olot
+				Quart
+	
+	
+Jonquera (La)
+				Ordis
+				Queralbs
+	
+	
+Juià
+				Osor
+				Regencós
+	
+	
+Lladó
+				Palafrugell
+				Ribes de Freser
+	
+	
+Llagostera
+				Palamós
+				Riells i Viabrea
+	
+	
+Llambilles
+				Palau de Santa Eulàlia
+				Ripoll
+	
+	
+Llanars
+				Palau-sator
+				Riudarenes
+	
+	
+Llançà
+				Palau-saverdera
+				Riudaura
+	
+	
+Llers
+				Palol de Revardit
+				Riudellots de la Selva
+	
+	
+Llívia
+				Pals
+				Riumors
+	
+	
+Lloret de Mar
+				Pardines
+				Roses
+	
+	
+Llosses (Les)
+				Parlavà
+				Rupià
+	
+	
+Maçanet de Cabrenys
+				Pau
+				Sales de Llierca
+	
+	
+Maçanet de la Selva
+				Pedret i Marzà
+				Salt
+	
+	
+Madremanya
+				Pera (La)
+				Sant Andreu Salou
+	
+	
+Masarac
+				Peralada
+				Sant Aniol de Finestres
+	
+	
+Massanes
+				Planes d´Hostoles (Les)
+				Sant Feliu de Buixalleu
+	
+	
+Meranges
+				Planoles
+				Sant Feliu de Guíxols
+	
+	
+Mieres
+				Pont de Molins
+				Sant Feliu de Pallerols
+	
+	
+Mollet de Peralada
+				Pontós
+				Sant Ferriol
+				Sant Gregori
+				Selva de Mar (La)
+				Ventalló
+	
+	
+Sant Hilari Sacalm
+				Serinyà
+				Verges
+	
+	
+Sant Jaume de Llierca
+				Serra de Daró
+				Vidrà
+	
+	
+Sant Joan de les Abadesses
+				Setcases
+				Vidreres
+	
+	
+Sant Joan de Mollet
+				Sils
+				Vila-sacra
+	
+	
+Sant Joan les Fonts
+				SISANTE
+				Vilabertran
+	
+	
+Sant Jordi Desvalls
+				Siurana
+				Vilablareix
+	
+	
+Sant Julià de Ramis
+				Susqueda
+				Viladamat
+	
+	
+Sant Julià del Llor i Bonmatí
+				Tallada d´Empordà (La)
+				Viladasens
+	
+	
+Sant Llorenç de la Muga
+				Terrades
+				Vilademuls
+	
+	
+Sant Martí de Llémena
+				Torrent
+				Viladrau
+	
+	
+Sant Martí Vell
+				Torroella de Fluvià
+				Vilafant
+	
+	
+Sant Miquel de Campmajor
+				Torroella de Montgrí
+				Vilajuïga
+	
+	
+Sant Miquel de Fluvià
+				Tortellà
+				Vilallonga de Ter
+	
+	
+Sant Mori
+				Toses
+				Vilamacolum
+	
+	
+Sant Pau de Segúries
+				Tossa de Mar
+				Vilamalla
+	
+	
+Sant Pere Pescador
+				Ullà
+				Vilamaniscle
+	
+	
+Santa Coloma de Farners
+				Ullastret
+				Vilanant
+	
+	
+Santa Cristina d´Aro
+				Ultramort
+				Vilaür
+	
+	
+Santa Llogaia d´Àlguema
+				UÑA
+				Vilobí d´Onyar
+	
+	
+Santa Pau
+				Vall de Bianya (La)
+				Vilopriu
+	
+	
+Sarrià de Ter
+				Vall-llobrega
+				
+	
+	
+Saus
+				Vallfogona de Ripollès
+				AGRÓN
+				BUBION
+				CUEVAS DEL CAMPO
+	
+	
+ALAMEDILLA
+				BUSQUISTAR
+				CULLAR
+	
+	
+ALBOLOTE
+				CACIN
+				CULLAR VEGA
+	
+	
+ALBONDÓN
+				CADIAR
+				DARRO
+	
+	
+ALBUÑÁN
+				CAJAR
+				DEHESAS DE GUADIX
+	
+	
+ALBUÑOL
+				CALAHORRA (LA)
+				DEIFONTES
+	
+	
+ALBUÑUELAS
+				CALICASAS
+				DIEZMA
+	
+	
+ALDEIRE
+				CAMPOTEJAR
+				DILAR
+	
+	
+ALFACAR
+				CAÑAR
+				DÓLAR
+	
+	
+ALGARINEJO
+				CANILES
+				DUDAR
+	
+	
+ALHAMA DE GRANADA
+				CAPILEIRA
+				DURCAL
+	
+	
+ALHENDÍN
+				CARATAUNAS
+				ESCUZAR
+	
+	
+ALICÚN DE ORTEGA
+				CASTARAS
+				FERREIRA
+	
+	
+ALMEGIJAR
+				CASTILLEJAR
+				FONELAS
+	
+	
+ALMUÑECAR
+				CASTRIL
+				FREILA
+	
+	
+ALPUJARRA DE LA SIERRA
+				CENES DE LA VEGA
+				FUENTE VAQUEROS
+	
+	
+ALQUIFE
+				CHAUCHINA
+				GABIAS (LAS)
+	
+	
+ARENAS DEL REY
+				CHIMENEAS
+				GALERA
+	
+	
+ARMILLA
+				CHURRIANA DE LA VEGA
+				GOBERNADOR
+	
+	
+ATARFE
+				CIJUELA
+				GOJAR
+	
+	
+BEAS DE GUADIX
+				COGOLLOS DE GUADIX
+				GOR
+	
+	
+BENALUA
+				COGOLLOS VEGA
+				GORAFE
+	
+	
+BENALUA DE LAS VILLAS
+				COLOMERA
+				GRANADA
+	
+	
+BENAMAUREL
+				CORTES DE BAZA
+				GUADAHORTUNA
+	
+	
+BERCHULES
+				CORTES Y GRAENA
+				GUADIX
+				GUAJARES (LOS)
+				LUGROS
+				PELIGROS
+	
+	
+GUALCHOS
+				LUJAR
+				PEZA (LA)
+	
+	
+GÜEJAR SIERRA
+				MALAHA (LA)
+				PIÑAR
+	
+	
+GÜEVEJAR
+				MARACENA
+				PINAR (EL)
+	
+	
+HUELAGO
+				MARCHAL
+				PINOS GENIL
+	
+	
+HUENEJA
+				MOCLIN
+				PINOS PUENTE
+	
+	
+HUESCAR
+				MOLVIZAR
+				POLICAR
+	
+	
+HUETOR SANTILLAN
+				MONACHIL
+				POLOPOS
+	
+	
+HUETOR TAJAR
+				MONTEJICAR
+				PORTUGOS
+	
+	
+HUETOR VEGA
+				MONTILLANA
+				PUEBLA DE DON FADRIQUE
+	
+	
+ILLORA
+				MORALEDA DE ZAFAYONA
+				PULIANAS
+	
+	
+ITRABO
+				MORELABOR
+				PURULLENA
+	
+	
+IZNALLOZ
+				MOTRIL
+				QUENTAR
+	
+	
+JAYENA
+				MURTAS
+				RUBITE
+	
+	
+JÉRES DEL MARQUESADO
+				NEVADA
+				SALAR
+	
+	
+JETE
+				NIGÜELAS
+				SALOBREÑA
+	
+	
+JUN
+				NIVAR
+				SANTA CRUZ DEL COMERCIO
+	
+	
+JUVILES
+				OGIJARES
+				SANTA FE
+	
+	
+LACHAR
+				ORCE
+				SOPORTUJAR
+	
+	
+LANJARON
+				ORGIVA
+				SORVILAN
+	
+	
+LANTEIRA
+				Otívar
+				TAHA (LA)
+	
+	
+LECRIN
+				OTURA
+				TORRE CARDELA
+	
+	
+LENTEJÍ
+				PADUL
+				TORVIZCON
+	
+	
+LOBRAS
+				PAMPANEIRA
+				TREVELEZ
+	
+	
+LOJA
+				PEDRO MARTINEZ
+				TURON
+				UGIJAR
+				VENTAS DE HUELMA
+				ZAFARRAYA
+	
+	
+VALLE (EL)
+				VILLA DE JÁTAR
+				ZAGRA
+	
+	
+VALLE DEL ZALABI
+				VILLAMENA
+				Zubia la
+	
+	
+VALOR
+				VILLANUEVA DE LAS TORRES
+				ZUJAR
+	
+	
+VEGAS DEL GENIL
+				VILLANUEVA MESIA
+				
+	
+	
+VELEZ DE BENAUDALLA
+				VIZNAR
+				ABANADES
+				ANQUELA DEL DUCADO
+				CANTALOJAS
+	
+	
+ABLANQUE
+				ANQUELA DEL PEDREGAL
+				CARDOSO DE LA SIERRA (EL)
+	
+	
+ADOBES
+				ARANZUEQUE
+				CASA DE UCEDA
+	
+	
+ALAMINOS
+				ARBANCON
+				CASAR (EL)
+	
+	
+ALARILLA
+				ARBETETA
+				CASAS DE SAN GALINDO
+	
+	
+ALBALATE DE ZORITA
+				ARGECILLA
+				CASPUEÑAS
+	
+	
+ALBARES
+				ARMALLONES
+				CASTEJON DE HENARES
+	
+	
+ALBENDIEGO
+				ARMUÑA DE TAJUÑA
+				CASTELLAR DE LA MUELA
+	
+	
+ALCOCER
+				ARROYO DE LAS FRAGUAS
+				CASTILFORTE
+	
+	
+ALCOLEA DE LAS PEÑAS
+				ATANZON
+				CASTILNUEVO
+	
+	
+ALCOLEA DEL PINAR
+				ATIENZA
+				CENDEJAS DE ENMEDIO
+	
+	
+ALCOROCHES
+				AUÑON
+				CENDEJAS DE LA TORRE
+	
+	
+ALDEANUEVA DE GUADALAJARA
+				AZUQUECA DE HENARES
+				CENTENERA
+	
+	
+ALGAR DE MESA
+				BERNINCHES
+				CHECA
+	
+	
+ALGORA
+				BODERA (LA)
+				CHEQUILLA
+	
+	
+ALHONDIGA
+				BRIHUEGA
+				CHILLARON DEL REY
+	
+	
+ALIQUE
+				BUDIA
+				CHILOECHES
+	
+	
+ALMADRONES
+				BUJALARO
+				CIFUENTES
+	
+	
+ALMOGUERA
+				BUSTARES
+				CINCOVILLAS
+	
+	
+ALMONACID DE ZORITA
+				CABANILLAS DEL CAMPO
+				CIRUELAS
+	
+	
+ALOCEN
+				CAMPILLO DE DUEÑAS
+				CIRUELOS DEL PINAR
+	
+	
+ALOVERA
+				CAMPILLO DE RANAS
+				COBETA
+	
+	
+ALUSTANTE
+				CAMPISABALOS
+				COGOLLOR
+	
+	
+ANGON
+				CAÑIZAR
+				COGOLLUDO
+	
+	
+ANGUITA
+				CANREDONDO
+				CONDEMIOS DE ABAJO
+				CONGOSTRINA
+				GASCUEÑA DE BORNOVA
+				LUZAGA
+	
+	
+COPERNAL
+				GUADALAJARA
+				LUZON
+	
+	
+CORDUENTE
+				HENCHE
+				MAJAELRAYO
+	
+	
+CUBILLO DE UCEDA (EL)
+				HERAS DE AYUSO
+				MALAGA DEL FRESNO
+	
+	
+DRIEBES
+				HERRERIA
+				MALAGUILLA
+	
+	
+DURON
+				HIENDELAENCINA
+				MANDAYONA
+	
+	
+EMBID
+				HIJES
+				MANTIEL
+	
+	
+ESCAMILLA
+				HITA
+				MARANCHON
+	
+	
+ESCARICHE
+				HOMBRADOS
+				MARCHAMALO
+	
+	
+ESCOPETE
+				HORCHE
+				MASEGOSO DE TAJUÑA
+	
+	
+ESPINOSA DE HENARES
+				HORTEZUELA DE OCEN
+				MATARRUBIA
+	
+	
+ESPLEGARES
+				HUERCE (LA)
+				MATILLAS
+	
+	
+ESTABLES
+				HUERMECES DEL CERRO
+				MAZARETE
+	
+	
+ESTRIEGANA
+				HUERTAHERNANDO
+				MAZUECOS
+	
+	
+FONTANAR
+				HUEVA
+				MEDRANDA
+	
+	
+FUEMBELLIDA
+				HUMANES
+				MEGINA
+	
+	
+FUENCEMILLAN
+				ILLANA
+				MEMBRILLERA
+	
+	
+FUENTELAHIGUERA DE ALBATAGES
+				INIESTOLA
+				MIEDES DE ATIENZA
+	
+	
+FUENTELENCINA
+				INVIERNAS (LAS)
+				MIERLA (LA)
+	
+	
+FUENTELSAZ
+				IRUESTE
+				MILLANA
+	
+	
+FUENTELVIEJO
+				JADRAQUE
+				MILMARCOS
+	
+	
+FUENTENOVILLA
+				JIRUEQUE
+				MIÑOSA (LA)
+	
+	
+GAJANEJOS
+				LEDANCA
+				MIRABUENO
+	
+	
+GALAPAGOS
+				LORANCA DE TAJUÑA
+				MIRALRIO
+	
+	
+GALVE DE SORBE
+				LUPIANA
+				MOCHALES
+				MOHERNANDO
+				PERALVECHE
+				RUEDA DE LA SIERRA
+	
+	
+MOLINA DE ARAGON
+				PINILLA DE JADRAQUE
+				SACECORBO
+	
+	
+MONASTERIO
+				PINILLA DE MOLINA
+				SACEDON
+	
+	
+MONDEJAR
+				PIOZ
+				SAELICES DE LA SAL
+	
+	
+MONTARRON
+				PIQUERAS
+				SALMERON
+	
+	
+MORATILLA DE LOS MELEROS
+				POBO DE DUEÑAS (EL)
+				SAN ANDRES DEL CONGOSTO
+	
+	
+MORENILLA
+				POVEDA DE LA SIERRA
+				SAN ANDRES DEL REY
+	
+	
+MUDUEX
+				POZO DE ALMOGUERA
+				SANTIUSTE
+	
+	
+NAVAS DE JADRAQUE (LAS)
+				POZO DE GUADALAJARA
+				SAUCA
+	
+	
+NEGREDO
+				PRADENA DE ATIENZA
+				SAYATON
+	
+	
+OCENTEJO
+				PRADOS REDONDOS
+				SELAS
+	
+	
+OLIVAR (EL)
+				PUEBLA DE BELEÑA
+				SEMILLAS
+	
+	
+OLMEDA DE COBETA
+				PUEBLA DE VALLES
+				SETILES
+	
+	
+OLMEDA DE JADRAQUE (LA)
+				QUER
+				SIENES
+	
+	
+ORDIAL (EL)
+				REBOLLOSA DE JADRAQUE
+				SIGÜENZA
+	
+	
+OREA
+				RECUENCO (EL)
+				SOLANILLOS DEL EXTREMO
+	
+	
+PALMACES DE JADRAQUE
+				RENERA
+				SOMOLINOS
+	
+	
+PARDOS
+				RETIENDAS
+				SOTILLO (EL)
+	
+	
+PAREDES DE SIGÜENZA
+				RIBA DE SAELICES
+				SOTODOSOS
+	
+	
+PAREJA
+				RILLO DE GALLO
+				TAMAJON
+	
+	
+PASTRANA
+				RIOFRIO DEL LLANO
+				TARAGUDO
+	
+	
+PEDREGAL (EL)
+				ROBLEDILLO DE MOHERNANDO
+				TARAVILLA
+	
+	
+PEÑALEN
+				ROBLEDO DE CORPES
+				TARTANEDO
+	
+	
+PEÑALVER
+				ROMANILLOS DE ATIENZA
+				TENDILLA
+	
+	
+PERALEJOS DE LAS TRUCHAS
+				ROMANONES
+				TERZAGA
+				TIERZO
+				TRIJUEQUE
+				VALVERDE DE LOS ARROYOS
+	
+	
+TOBA (LA)
+				TRILLO
+				VIANA DE JADRAQUE
+	
+	
+TORDELLEGO
+				UCEDA
+				VILLANUEVA DE ALCORON
+	
+	
+TORDELRABANO
+				UJADOS
+				VILLANUEVA DE ARGECILLA
+	
+	
+TORDESILOS
+				UTANDE
+				VILLANUEVA DE LA TORRE
+	
+	
+TORIJA
+				VALDARACHAS
+				VILLARES DE JADRAQUE
+	
+	
+TORRE DEL BURGO
+				VALDEARENAS
+				VILLASECA DE HENARES
+	
+	
+TORRECUADRADA DE MOLINA
+				VALDEAVELLANO
+				VILLASECA DE UCEDA
+	
+	
+TORRECUADRADILLA
+				VALDEAVERUELO
+				VILLEL DE MESA
+	
+	
+TORREJON DEL REY
+				VALDECONCHA
+				VIÑUELAS
+	
+	
+TORREMOCHA DE JADRAQUE
+				VALDEGRUDAS
+				YEBRA
+	
+	
+TORREMOCHA DEL CAMPO
+				VALDELCUBO
+				YELAMOS DE ABAJO
+	
+	
+TORREMOCHA DEL PINAR
+				VALDENUÑO FERNANDEZ
+				YUNQUERA DE HENARES
+	
+	
+TORREMOCHUELA
+				VALDEPEÑAS DE LA SIERRA
+				YUNTA (LA)
+	
+	
+TORRUBIA
+				VALDERREBOLLO
+				ZAOREJAS
+	
+	
+TORTOLA DE HENARES
+				VALDESOTOS
+				ZARZUELA DE JADRAQUE
+	
+	
+TORTUERA
+				VALFERMOSO DE TAJUÑA
+				ZORITA DE LOS CANES
+	
+	
+TORTUERO
+				VALHERMOSO
+				
+	
+	
+TRAID
+				VALTABLADO DEL RIO
+				Abaltzisketa
+				Bergara
+				Itsasondo
+	
+	
+Aduna
+				Berrobi
+				Larraul
+	
+	
+Aia
+				Bidegoian
+				Lasarte-Oria
+	
+	
+Aizarnazabal
+				Deba
+				Lazkao
+	
+	
+Albiztur
+				Donostia-S.S.
+				Leaburu-Txarama
+	
+	
+Alegia
+				Eibar
+				Legazpi
+	
+	
+Alkiza
+				Elduain
+				Legorreta
+	
+	
+Altzaga
+				Elgeta
+				Leintz-Gatzaga
+	
+	
+Altzo
+				Elgoibar
+				Lezo
+	
+	
+Amezketa
+				Errenteria
+				Lizartza
+	
+	
+Andoain
+				Errezil
+				Mendaro
+	
+	
+Anoeta
+				Eskoriatza
+				Mutiloa
+	
+	
+Antzuola
+				Ezkio-Itsaso
+				Mutriku
+	
+	
+Arama
+				Gabiria
+				Oiartzun
+	
+	
+Aretxabaleta
+				Gaintza
+				Olaberria
+	
+	
+Arrasate
+				Gaztelu
+				Oñati
+	
+	
+Asteasu
+				Getaria
+				Ordizia
+	
+	
+Astigarraga
+				Hernani
+				Orendain
+	
+	
+Ataun
+				Hernialde
+				Orexa
+	
+	
+Azkoitia
+				Hondarribia
+				Orio
+	
+	
+Azpeitia
+				Ibarra
+				Ormaiztegi
+	
+	
+Beasain
+				Idiazabal
+				Pasaia
+	
+	
+Beizama
+				Ikaztegieta
+				Segura
+	
+	
+Belauntza
+				Irun
+				Soraluze
+	
+	
+Berastegi
+				Irura
+				Tolosa
+				tsasondo
+				Zaldibia
+				Zizurkil
+	
+	
+Urnieta
+				Zarautz
+				Zumaia
+	
+	
+Urretxu
+				Zegama
+				Zumarraga
+	
+	
+Usurbil
+				Zerain
+				
+	
+	
+Villabona
+				Zestoa
+				Alájar
+				Cortegana
+				Nava (La)
+	
+	
+Aljaraque
+				Cortelazor
+				Nerva
+	
+	
+Almendro (El)
+				Cumbres de Enmedio
+				Niebla
+	
+	
+Almonaster la Real
+				Cumbres de San Bartolomé
+				Palma del Condado (La)
+	
+	
+Almonte
+				Cumbres Mayores
+				Palos de la Frontera
+	
+	
+Alosno
+				Encinasola
+				Paterna del Campo
+	
+	
+Aracena
+				Escacena del Campo
+				Paymogo
+	
+	
+Aroche
+				Fuenteheridos
+				Puebla de Guzmán
+	
+	
+Arroyomolinos de León
+				Galaroza
+				Puerto Moral
+	
+	
+Ayamonte
+				Gibraleón
+				Punta Umbría
+	
+	
+Beas
+				Granada de Río-Tinto (La)
+				Rociana del Condado
+	
+	
+Berrocal
+				Granado (El)
+				Rosal de la Frontera
+	
+	
+Bollullos Par del Condado
+				Higuera de la Sierra
+				San Bartolomé de la Torre
+	
+	
+Bonares
+				Hinojales
+				San Juan del Puerto
+	
+	
+Cabezas Rubias
+				Hinojos
+				San Silvestre de Guzmán
+	
+	
+Cala
+				Huelva
+				Sanlúcar de Guadiana
+	
+	
+Calañas
+				Isla Cristina
+				Santa Ana la Real
+	
+	
+Campillo (El)
+				Jabugo
+				Santa Bárbara de Casa
+	
+	
+Campofrío
+				Lepe
+				Santa Olalla del Cala
+	
+	
+Cañaveral de León
+				Linares de la Sierra
+				Trigueros
+	
+	
+Cartaya
+				Lucena del Puerto
+				Valdelarco
+	
+	
+Castaño del Robledo
+				Manzanilla
+				Valverde del Camino
+	
+	
+Cerro de Andévalo (El)
+				Marines (Los)
+				Villablanca
+	
+	
+Chucena
+				Minas de Riotinto
+				Villalba del Alcor
+	
+	
+Corteconcepción
+				Moguer
+				Villanueva de las Cruces
+				Villanueva de los Castillejos
+				Zalamea la Real
+				
+	
+	
+Villarrasa
+Abiego
+				Ansó
+				Borau
+	
+	
+Abizanda
+				Antillón
+				Broto
+	
+	
+Adahuesca
+				Aragüés del Puerto
+				Caldearenas
+	
+	
+Agüero
+				Arén
+				Campo
+	
+	
+Aínsa-Sobrarbe
+				Argavieso
+				Camporrells
+	
+	
+Aísa
+				Arguis
+				Canal de Berdún
+	
+	
+Albalate de Cinca
+				Ayerbe
+				Candasnos
+	
+	
+Albalatillo
+				Azanuy-Alins
+				Canfranc
+	
+	
+Albelda
+				Azara
+				Capdesaso
+	
+	
+Albero Bajo
+				Azlor
+				Capella
+	
+	
+Albero-Alto
+				Bárcabo
+				Casbas de Huesca
+	
+	
+Alberuela de Tubo
+				Belver de Cinca
+				Castejón de Monegros
+	
+	
+Alcalá de Gurrea
+				Benabarre
+				Castejón de Sos
+	
+	
+Alcalá del Obispo
+				Benasque
+				Castejón del Puente
+	
+	
+Alcampell
+				Berbegal
+				Castelflorite
+	
+	
+Alcolea de Cinca
+				Bielsa
+				Castiello de Jaca
+	
+	
+Alcubierre
+				Bierge
+				Castigaleu
+	
+	
+Alerre
+				Biescas
+				Castillazuelo
+	
+	
+Alfántega
+				Binaced
+				Castillonroy
+	
+	
+Almudévar
+				Binéfar
+				Chalamera
+	
+	
+Almunia de San Juan
+				Bisaurri
+				Chía
+	
+	
+Almuniente
+				Biscarrués
+				Chimillas
+	
+	
+Alquézar
+				Blecua y Torres
+				Colungo
+	
+	
+Altorricón
+				Boltaña
+				Esplús
+	
+	
+Angüés
+				Bonansa
+				Estada
+				ALBANCHEZ DE MÁGINA
+				CHILLUEVAR
+				LINARES
+	
+	
+ALCALÁ LA REAL
+				ESCAÑUELA
+				LOPERA
+	
+	
+ALCAUDETE
+				ESPELUY
+				Lupión
+	
+	
+ALDEAQUEMADA
+				FRAILES
+				MANCHA REAL
+	
+	
+ANDÚJAR
+				FUENSANTA DE MARTOS
+				MARMOLEJO
+	
+	
+ARJONA
+				FUERTE DEL REY
+				MARTOS
+	
+	
+ARJONILLA
+				GENAVE
+				MENGIBAR
+	
+	
+ARQUILLOS
+				GUARROMAN
+				MONTIZÓN
+	
+	
+ARROYO DEL OJANCO
+				HIGUERA DE CALATRAVA
+				NAVAS DE SAN JUAN
+	
+	
+BEAS DE SEGURA
+				HINOJARES
+				NOALEJO
+	
+	
+BEDMAR Y GARCIEZ
+				HORNOS
+				ORCERA
+	
+	
+BEGÍJAR
+				HUELMA
+				PEAL DE BECERRO
+	
+	
+BELMEZ DE LA MORALEDA
+				HUESA
+				PORCUNA
+	
+	
+BENATAE
+				IZNATORAF
+				POZO ALCÓN
+	
+	
+CABRA DE SANTO CRISTO
+				JABALQUINTO
+				PUENTE DE GÉNAVE
+	
+	
+CAMBIL
+				JAÉN
+				QUESADA
+	
+	
+CAMPILLO DE ARENAS
+				JAMILENA
+				RUS
+	
+	
+CANENA
+				JIMENA
+				SABIOTE
+	
+	
+CARBONEROS
+				JODAR
+				SANTA ELENA
+	
+	
+CARCHELES
+				LA CAROLINA
+				SANTIAGO DE CALATRAVA
+	
+	
+CASTELLAR
+				LA GUARDIA DE JAÉN
+				SANTIAGO-PONTONES
+	
+	
+CASTILLO DE LOCUBIN
+				LA IRUELA
+				SANTISTEBAN DEL PUERTO
+	
+	
+CAZALILLA
+				LA PUERTA DE SEGURA
+				SANTO TOME
+	
+	
+CAZORLA
+				LAHIGUERA
+				SEGURA DE LA SIERRA
+	
+	
+CHICLANA DE SEGURA
+				LARVA
+				SILES
+				SORIHUELA DEL GUADALIMAR
+				TORRES DE ALBANCHEZ
+				VILLARDOMPARDO
+	
+	
+TORREBLASCOPEDRO
+				ÚBEDA
+				VILLARES (LOS)
+	
+	
+TORREDELCAMPO
+				VALDEPEÑAS DE JAÉN
+				VILLARRODRIGO
+	
+	
+TORREDONJIMENO
+				VILCHES
+				Villatorres
+	
+	
+TORREPEROGIL
+				VILLACARRILLO
+				
+	
+	
+TORRES
+				VILLANUEVA DE LA REINA
+				ÁBALOS
+				BEZARES
+				CORPORALES
+	
+	
+AGONCILLO
+				BOBADILLA
+				CUZCURRITA DEL RÍO TIRÓN
+	
+	
+AGUILAR DEL RÍO ALHAMA
+				BRIEVA DE CAMEROS
+				DAROCA DE RIOJA
+	
+	
+AJAMIL
+				BRIÑAS
+				ENCISO
+	
+	
+ALBELDA DE IREGUA
+				BRIONES
+				ENTRENA
+	
+	
+ALBERITE
+				CABEZÓN DE CAMEROS
+				ESTOLLO
+	
+	
+ALCANADRE
+				CALAHORRA
+				EZCARAY
+	
+	
+ALDEANUEVA DE EBRO
+				CAMPROVÍN
+				FONCEA
+	
+	
+ALESANCO
+				CANALES DE LA SIERRA
+				FONZALECHE
+	
+	
+ALESÓN
+				CAÑAS
+				FUENMAYOR
+	
+	
+ALFARO
+				CANILLAS DE RÍO TUERTO
+				GALBÁRRULI
+	
+	
+ALMARZA DE CAMEROS
+				CÁRDENAS
+				GALILEA
+	
+	
+ANGUCIANA
+				CASALARREINA
+				GALLINERO DE CAMEROS
+	
+	
+ANGUIANO
+				CASTAÑARES DE RIOJA
+				GIMILEO
+	
+	
+ARENZANA DE ABAJO
+				CASTROVIEJO
+				GRAÑÓN
+	
+	
+ARENZANA DE ARRIBA
+				CELLORIGO
+				GRÁVALOS
+	
+	
+ARNEDILLO
+				CENICERO
+				HARO
+	
+	
+ARNEDO
+				CERVERA DEL RÍO ALHAMA
+				HERCE
+	
+	
+ARRÚBAL
+				CIDAMÓN
+				HERRAMÉLLURI
+	
+	
+AUSEJO
+				CIHURI
+				HERVIAS
+	
+	
+AUTOL
+				CIRUEÑA
+				HORMILLA
+	
+	
+AZOFRA
+				CLAVIJO
+				HORMILLEJA
+	
+	
+BERCEO
+				CORDOVÍN
+				HORNILLOS DE CAMEROS
+	
+	
+BERGASA
+				CORERA
+				HORNOS DE MONCALVILLO
+	
+	
+BERGASILLAS BAJERA
+				CORNAGO
+				HUÉRCANOS
+				IGEA
+				OCON
+				SANTA COLOMA
+	
+	
+JALÓN DE CAMEROS
+				OJACASTRO
+				SANTA ENGRACIA DEL JUBERA
+	
+	
+LAGUNA DE CAMEROS
+				OLLAURI
+				SANTA EULALIA BAJERA
+	
+	
+LAGUNILLA DEL JUBERA
+				ORTIGOSA DE CAMEROS
+				SANTO DOMINGO DE LA CALZADA
+	
+	
+LARDERO
+				PAZUENGOS
+				SANTURDE
+	
+	
+LEDESMA DE LA COGOLLA
+				PEDROSO
+				SANTURDEJO
+	
+	
+LEIVA
+				PINILLOS
+				SOJUELA
+	
+	
+LEZA DE RÍO LEZA
+				PRADEJÓN
+				SORZANO
+	
+	
+LOGROÑO
+				PRADILLO
+				SOTÉS
+	
+	
+LUMBRERAS
+				PRÉJANO
+				SOTO EN CAMEROS
+	
+	
+MANJARRÉS
+				QUEL
+				TERROBA
+	
+	
+MANSILLA
+				RABANERA
+				TIRGO
+	
+	
+MANZANARES DE RIOJA
+				RASILLOS DE CAMERO EL
+				TOBÍA
+	
+	
+MATUTE
+				REDAL EL
+				TORMANTOS
+	
+	
+MUNILLA
+				RIBAFRECHA
+				TORRE EN CAMEROS
+	
+	
+MURILLO DE RÍO LEZA
+				RINCÓN DE SOTO
+				TORRECILLA EN CAMEROS
+	
+	
+MURO DE AGUAS
+				ROBRES DEL CASTILLO
+				TORRECILLA SOBRE ALESANCO
+	
+	
+MURO EN CAMEROS
+				RODEZNO
+				TORREMONTALVO
+	
+	
+NAJERA
+				SAJAZARRA
+				TREVIANA
+	
+	
+NALDA
+				SAN ASENSIO
+				TRICIO
+	
+	
+NAVAJON
+				SAN MILLÁN DE LA COGOLLA
+				TUDELILLA
+	
+	
+NAVARRETE
+				SAN MILLÁN DE YÉCORA
+				URUÑUELA
+	
+	
+NESTARES
+				SAN ROMAN DE CAMEROS
+				VALDEMADERA
+	
+	
+NIEVA DE CAMEROS
+				SAN TORCUATO
+				VALGAÑÓN
+	
+	
+OCHANDURI
+				SAN VICENTE DE LA SONSIERRA
+				VENTOSA
+				VENTROSA
+				VILLAR DE TORRE
+				VINIEGRA DE ABAJO
+	
+	
+VIGUERA
+				VILLAREJO
+				VINIEGRA DE ARRIBA
+	
+	
+VILLALBA DE RIOJA
+				VILLARROYA
+				ZARRATÓN
+	
+	
+VILLALOBAR DE RIOJA
+				VILLARTA-QUINTANA
+				ZARZOSA
+	
+	
+VILLAMEDIANA DE IREGUA
+				VILLAVELAYO
+				ZORRAQUÍN
+	
+	
+VILLANUEVA DE CAMEROS
+				VILLAVERDE DE RIOJA
+				
+	
+	
+VILLAR DE ARNEDO EL
+				VILLOSLADA DE CAMEROS
+				Agaete
+				Mogán
+				Teguise
+	
+	
+Agüimes
+				Moya
+				Tejeda
+	
+	
+Aldea de San Nicolás (La)
+				Oliva (La)
+				Telde
+	
+	
+Antigua
+				Pájara
+				Teror
+	
+	
+Arrecife
+				Palmas de Gran Canaria (Las)
+				Tías
+	
+	
+Artenara
+				Puerto del Rosario
+				Tinajo
+	
+	
+Arucas
+				San Bartolomé
+				Tuineje
+	
+	
+Betancuria
+				San Bartolomé de Tirajana
+				Valleseco
+	
+	
+Firgas
+				San Nicolás de Tolentino
+				Valsequillo de Gran Canaria
+	
+	
+Gáldar
+				Santa Brígida
+				Vega de San Mateo
+	
+	
+Haría
+				Santa Lucía de Tirajana
+				Yaiza
+	
+	
+Ingenio
+				Santa María de Guía de Gran Canaria
+				ACEBEDO
+				CALZADA DEL COTO
+				CORULLÓN
+	
+	
+ALGADEFE
+				CAMPAZAS
+				CRÉMENES
+	
+	
+ALIJA DEL INFANTADO
+				CAMPO DE VILLAVIDEL
+				CUADROS
+	
+	
+ALMANZA
+				CAMPONARAYA
+				CUBILLAS DE LOS OTEROS
+	
+	
+ANTIGUA LA
+				CANDÍN
+				CUBILLAS DE RUEDA
+	
+	
+ARDÓN
+				CÁRMENES
+				CUBILLOS DEL SIL
+	
+	
+ARGANZA
+				CARRACEDELO
+				DESTRIANA
+	
+	
+ASTORGA
+				CARRIZO
+				ENCINEDO
+	
+	
+BEMBIBRE
+				CARROCERA
+				ERCINA LA
+	
+	
+BENAVIDES
+				CARUCEDO
+				ESCOBAR DE CAMPOS
+	
+	
+BENUZA
+				CASTILFALE
+				FABERO
+	
+	
+BERCIANOS DEL PÁRAMO
+				CASTRILLO DE CABRERA
+				FOLGOSO DE LA RIBERA
+	
+	
+BERCIANOS DEL REAL CMNO
+				CASTROCALBÓN
+				FRESNO DE LA VEGA
+	
+	
+BERLANGA DEL BIERZO
+				CASTROCONTRIGO
+				FUENTES DE CARBAJAL
+	
+	
+BOCA DE HUÉRGANO
+				CASTROPODAME
+				GARRAFE DE TORIO
+	
+	
+BOÑAR
+				CASTROTIERRA VALMADRIGAL
+				GORDALIZA DEL PINO
+	
+	
+BORRENES
+				CEA
+				GORDONCILLO
+	
+	
+BRAZUELO
+				CEBANICO
+				GRADEFES
+	
+	
+BURGO RANERO EL
+				CEBRONES DEL RIO
+				GRAJAL DE CAMPOS
+	
+	
+BURÓN
+				CHOZAS DE ABAJO
+				GUSENDOS DE LOS OTEROS
+	
+	
+BUSTILLO DEL PÁRAMO
+				CIMANES DE LA VEGA
+				HOSPITAL DE ORBIGO
+	
+	
+CABAÑAS RARAS
+				CIMANES DEL TEJAR
+				IGÜEÑA
+	
+	
+CABREROS DEL RIO
+				CISTIERNA
+				IZAGRE
+	
+	
+CABRILLANES
+				CONGOSTO
+				JOARILLA DE LAS MATAS
+	
+	
+CACABELOS
+				CORBILLOS DE LOS OTEROS
+				LAGUNA DALGA
+				LAGUNA DE NEGRILLOS
+				POLA DE GORDON LA
+				SAN EMILIANO
+	
+	
+LEÓN
+				PONFERRADA
+				SAN ESTEBAN DE NOGALES
+	
+	
+LLAMAS DE LA RIBERA
+				POSADA DE VALDEÓN
+				SAN JUSTO DE LA VEGA
+	
+	
+LUCILLO DE SOMOZA
+				POZUELO DEL PÁRAMO
+				SAN MILLÁN DE CABALLEROS
+	
+	
+LUYEGO
+				PRADO DE GUZPEÑA
+				SAN PEDRO BERCIANOS
+	
+	
+MAGAZ DE CEPEDA
+				PRIARANZA DEL BIERZO
+				SANCEDO
+	
+	
+MANSILLA DE LAS MULAS
+				PRIORO
+				Santa Colomba de Curueño
+	
+	
+MANSILLA MAYOR
+				PUEBLA DE LILLO
+				SANTA COLOMBA DE SOMOZA
+	
+	
+MARAÑA
+				PUENTE DE DOMINGO FLÓREZ
+				SANTA CRISTINA DE VALDEMADRIGAL
+	
+	
+MATADEÓN DE LOS OTEROS
+				QUINTANA DEL CASTILLO
+				SANTA ELENA DE JAMUZ
+	
+	
+MATALLANA DE TORIO
+				QUINTANA DEL MARCO
+				SANTA MARÍA DE LA ISLA
+	
+	
+MATANZA LOS OTEROS
+				QUINTANA Y CONGOSTO
+				SANTA MARÍA DE ORDAS
+	
+	
+MOLINASECA
+				REGUERAS DE ARRIBA
+				SANTA MARIA DEL MONTE DE CEA
+	
+	
+MURIAS DE PAREDES
+				REYERO
+				SANTA MARÍA DEL PÁRAMO
+	
+	
+NOCEDA
+				RIAÑO
+				SANTA MARINA DEL REY
+	
+	
+OENCIA
+				RIEGO DE LA VEGA
+				SANTAS MARTAS
+	
+	
+OMAÑAS LAS
+				RIELLO
+				SANTIAGO MILLAS
+	
+	
+ONZONILLA
+				RIOSECO DE TAPIA
+				SANTOVENIA DE VALDONCINA
+	
+	
+OSEJA DE SAJAMBRE
+				ROBLA LA
+				SARIEGOS
+	
+	
+PAJARES DE LOS OTEROS
+				ROPERUELOS DEL PÁRAMO
+				SENA DE LUNA
+	
+	
+PALACIOS DE VALDUERMA
+				SABERO
+				SOBRADO
+	
+	
+PALACIOS DEL SIL
+				SAHAGÚN
+				SOTO DE LA VEGA
+	
+	
+PARAMO DEL SIL
+				SAN ADRIAN DEL VALLE
+				SOTO Y AMIO
+	
+	
+PERANZANES
+				SAN ANDRÉS DEL RABANEDO
+				TORAL DE LOS GUZMANES
+	
+	
+POBLADURA PELAYO GARCÍA
+				SAN CRISTOBAL POLANTERA
+				TORENO
+				TORRE DEL BIERZO
+				VALVERDE-ENRIQUE
+				VILLAMARTÍN DE D SANCHO
+	
+	
+TRABADELO
+				VECILLA DE CURUEÑO LA
+				VILLAMEJIL
+	
+	
+TRUCHAS
+				VEGA DE ESPINAREDA
+				VILLAMOL
+	
+	
+TURCIA
+				VEGA DE INFANZONES
+				VILLAMONTÁN DE VALDUERNA
+	
+	
+URDIALES DEL PÁRAMO
+				VEGA DE VALCARCE
+				VILLAMORATIEL DE MATAS
+	
+	
+VAL DE SAN LORENZO
+				VEGACERVERA
+				VILLANUEVA LAS MANZANAS
+	
+	
+VALDEFRESNO
+				VEGAQUEMADA
+				VILLAOBISPO DE OTERO
+	
+	
+VALDEFUENTES DEL PÁRAMO
+				VEGAS DEL CONDADO
+				VILLAORNATE Y CASTRO
+	
+	
+VALDELUGUEROS
+				VILLABLINO
+				VILLAQUEJIDA
+	
+	
+VALDEMORA
+				VILLABRAZ
+				VILLAQUILAMBRE
+	
+	
+VALDEPIELAGO
+				VILLADANGOS DEL PÁRAMO
+				VILLAREJO DE ÓRBIGO
+	
+	
+VALDEPOLO
+				VILLADECANES
+				VILLARES DE ÓRBIGO
+	
+	
+VALDERAS
+				VILLADEMOR DE LA VEGA
+				VILLASABARIEGO
+	
+	
+VALDERREY
+				VILLAFRANCA DEL BIERZO
+				VILLASELÁN
+	
+	
+VALDESAMARIO
+				VILLAGATÓN
+				VILLATURIEL
+	
+	
+VALENCIA DE DON JUAN
+				VILLAMAÑÁN
+				VILLAZALA
+	
+	
+VALLECILLO
+				VILLAMANDOS
+				VILLAZANZO DE VALDERADUE
+	
+	
+VALVERDE DE LA VIRGEN
+				VILLAMANÍN
+				ZOTES DEL PÁRAMO
+				Àger
+				Arres
+				Castelldans
+	
+	
+Agramunt
+				Arsèguel
+				Castellnou de Seana
+	
+	
+Aitona
+				Artesa de Lleida
+				Castelló de Farfanya
+	
+	
+Alamús Els
+				Artesa de Segre
+				Castellserà
+	
+	
+Alàs i Cerc
+				Aspa
+				Cava
+	
+	
+Albagés L'
+				Belianes
+				Cervera
+	
+	
+Albatàrrec
+				Bell-lloc d'Urgell
+				Cervià de les Garrigues
+	
+	
+Albesa
+				Bellaguarda
+				Ciutadilla
+	
+	
+Albi L'
+				Bellcaire d'Urgell
+				Clariana de Cardener
+	
+	
+Alcanó
+				Bellmunt d'Urgell
+				Cogul El
+	
+	
+Alcarràs
+				Bellpuig
+				Coll de Nargó
+	
+	
+Alcoletge
+				Bellver de Cerdanya
+				Coma i la Pedra La
+	
+	
+Alfarràs
+				Bellvís
+				Conca de Dalt
+	
+	
+Alfés
+				Benavent de Segrià
+				Corbins
+	
+	
+Algerri
+				Biosca
+				Cubells
+	
+	
+Alguaire
+				Bòrdes Els
+				Espluga Calba L'
+	
+	
+Alins
+				Borges Blanques Les
+				Espot
+	
+	
+Almacelles
+				Bossòst
+				Estamariu
+	
+	
+Almatret
+				Bovera
+				Estaràs
+	
+	
+Almenar
+				Cabanabona
+				Esterri d'Àneu
+	
+	
+Alòs de Balaguer
+				Cabó
+				Esterri de Cardós
+	
+	
+Alpicat
+				Camarasa
+				Farrera
+	
+	
+Alt Àneu
+				Canejan
+				Fígols i Alinyà
+	
+	
+Anglesola
+				Castell de Mur
+				Floresta La
+	
+	
+Arbeca
+				Castellar de la Ribera
+				Fondarella
+				Foradada
+				Lladorre
+				Oliana
+	
+	
+Fuliola La
+				Lladurs
+				Oliola
+	
+	
+Fulleda
+				Llardecans
+				Olius
+	
+	
+Gavet de la Conca
+				Llavorsí
+				Oluges Les
+	
+	
+Gimenells i el Pla de la Font
+				Lleida
+				Omellons Els
+	
+	
+Golmés
+				Lles de Cerdanya
+				Omells de na Gaia Els
+	
+	
+Gósol
+				Llimiana
+				Organyà
+	
+	
+Granadella La
+				Llobera
+				Os de Balaguer
+	
+	
+Granja d'Escarp La
+				Maials
+				Ossó de Sió
+	
+	
+Granyanella
+				Maldà
+				Palau d'Anglesola El
+	
+	
+Granyena de les Garrigues
+				Massalcoreig
+				Penelles
+	
+	
+Granyena de Segarra
+				Massoteres
+				Peramola
+	
+	
+Guimerà
+				Menàrguens
+				Pinell de Solsonès
+	
+	
+Guingueta d'Àneu La
+				Miralcamp
+				Pinós
+	
+	
+Guissona
+				Mollerussa
+				Plans de Sió Els
+	
+	
+Guixers
+				Molsosa La
+				Poal El
+	
+	
+Isona i Conca Dellà
+				Montellà i Martinet
+				Pobla de Cérvoles La
+	
+	
+Ivars d'Urgell
+				Montferrer i Castellbò
+				Pobla de Segur La
+	
+	
+Ivars de Noguera
+				Montgai
+				Pont de Bar El
+	
+	
+Ivorra
+				Montoliu de Lleida
+				Pont de Suert El
+	
+	
+Josa i Tuixén
+				Montoliu de Segarra
+				Ponts
+	
+	
+Juncosa
+				Montornès de Segarra
+				Portella La
+	
+	
+Juneda
+				Nalec
+				Prats i Sansor
+	
+	
+Les
+				Navès
+				Preixana
+	
+	
+Linyola
+				Odèn
+				Preixens
+				Prullans
+				Soleràs El
+				Torrelameu
+	
+	
+Puiggròs
+				Solsona
+				Torres de Segre
+	
+	
+Puigverd d'Agramunt
+				Soriguera
+				Tremp
+	
+	
+Puigverd de Lleida
+				Sort
+				Vall de Boí La
+	
+	
+Rialp
+				Soses
+				Vall de Cardós
+	
+	
+Ribera d'Ondara
+				Sudanell
+				Vallbona de les Monges
+	
+	
+Ribera d'Urgellet
+				Sunyer
+				Vallfogona de Balaguer
+	
+	
+Riner
+				Talarn
+				Valls d'Aguilar Les
+	
+	
+Riu de Cerdanya
+				Talavera
+				Valls de Valira les
+	
+	
+Rosselló
+				Tàrrega
+				Vansa i Fórnols La
+	
+	
+Salàs de Pallars
+				Tarrés
+				Verdú
+	
+	
+Sant Esteve de la Sarga
+				Tarroja de Segarra
+				Vielha e Mijaran
+	
+	
+Sant Guim de Freixenet
+				Térmens
+				Vila-sana
+	
+	
+Sant Guim de la Plana
+				Tírvia
+				Vilagrassa
+	
+	
+Sant Llorenç de Morunys
+				Tiurana
+				Vilaller
+	
+	
+Sant Martí de Riucorb
+				Torà
+				Vilamòs
+	
+	
+Sant Ramon
+				Torms Els
+				Vilanova de Bellpuig
+	
+	
+Sarroca de Bellera
+				Tornabous
+				Vilanova de l'Aguda
+	
+	
+Sarroca de Lleida
+				Torre de Cabdella La
+				Vilanova de la Barca
+	
+	
+Senterada
+				Torre-serona
+				Vilanova de Meià
+	
+	
+Sentiu de Sió La
+				Torrebesses
+				Vilanova de Segrià
+	
+	
+Seròs
+				Torrefarrera
+				Vilosell El
+	
+	
+Seu d'Urgell La
+				Torrefeta i Florejacs
+				Vinaixa
+	
+	
+Sidamon
+				Torregrossa
+				Abadin
+				Láncara
+				Portomarín
+	
+	
+Alfoz
+				Lourenzá
+				Quiroga
+	
+	
+Antas de Ulla
+				Lugo
+				Rábade
+	
+	
+Becerreá
+				Meira
+				Ribadeo
+	
+	
+Begonte
+				Mondoñedo
+				Ribas de Sil
+	
+	
+Bóveda
+				Monforte de Lemos
+				Ribeira de Piquín
+	
+	
+Burela
+				Monterroso
+				Riotorto
+	
+	
+Carballedo
+				Muras
+				Samos
+	
+	
+Castro de Rei
+				Navia de Suarna
+				Sarria
+	
+	
+Castroverde
+				Negueira de Muñiz
+				Saviñao
+	
+	
+Cervantes
+				Nogais (As)
+				Sober
+	
+	
+Cervo
+				Ourol
+				Taboada
+	
+	
+Chantada
+				Outeiro de Rei
+				Trabada
+	
+	
+Corgo (O)
+				Palas de Rei
+				Triacastela
+	
+	
+Cospeito
+				Pantón
+				Valadouro (O)
+	
+	
+Folgoso do Courel
+				Paradela
+				Vicedo (O)
+	
+	
+Fonsagrada (A)
+				Páramo
+				Vilalba
+	
+	
+Foz
+				Pastoriza (A)
+				VIVEIRO
+	
+	
+Friol
+				Pedrafita do Cebreiro
+				Xermade
+	
+	
+Guitiriz
+				Pobra do Brollón (A)
+				Xove
+	
+	
+Guntín
+				Pol
+				
+	
+	
+Incio (O)
+				Pontenova (A)
+				ACEBEDA, LA
+				BUITRAGO DEL LOZOYA
+				CUBAS DE LA SAGRA
+	
+	
+AJALVIR
+				BUSTARVIEJO
+				DAGANZO DE ARRIBA
+	
+	
+ALAMEDA DEL VALLE
+				CABANILLAS DE LA SIERRA
+				ESCORIAL, EL
+	
+	
+ALAMO, EL
+				CABRERA, LA
+				ESTREMERA
+	
+	
+ALCALA DE HENARES
+				CADALSO DE LOS VIDRIOS
+				FRESNEDILLAS DE LA OLIVA
+	
+	
+ALCOBENDAS
+				CAMARMA DE ESTERUELAS
+				FRESNO DE TOROTE
+	
+	
+ALCORCON
+				CAMPO REAL
+				FUENLABRADA
+	
+	
+ALDEA DEL FRESNO
+				CANENCIA
+				FUENTE EL SAZ DE JARAMA
+	
+	
+ALGETE
+				CARABAÑA
+				FUENTIDUEÑA DE TAJO
+	
+	
+ALPEDRETE
+				CASARRUBUELOS
+				GALAPAGAR
+	
+	
+AMBITE
+				CENICIENTOS
+				GARGANTA DE LOS MONTES
+	
+	
+ANCHUELO
+				CERCEDILLA
+				GARGANTILLA DEL LOZOYA Y PINILLA DE BUITRAGO
+	
+	
+ARANJUEZ
+				CERVERA DE BUITRAGO
+				GASCONES
+	
+	
+ARGANDA DEL REY
+				CHAPINERIA
+				GETAFE
+	
+	
+ARROYOMOLINOS
+				CHINCHON
+				GRIÑON
+	
+	
+ATAZAR, EL
+				CIEMPOZUELOS
+				GUADALIX DE LA SIERRA
+	
+	
+BECERRIL DE LA SIERRA
+				COBEÑA
+				GUADARRAMA
+	
+	
+BELMONTE DE TAJO
+				COLLADO MEDIANO
+				HIRUELA, LA
+	
+	
+BERRUECO, EL
+				COLLADO VILLALBA
+				HORCAJO DE LA SIERRA
+	
+	
+BERZOSA DEL LOZOYA
+				COLMENAR DE OREJA
+				HORCAJUELO DE LA SIERRA
+	
+	
+BOADILLA DEL MONTE
+				COLMENAR DEL ARROYO
+				HOYO DE MANZANARES
+	
+	
+BOALO, EL
+				COLMENAR VIEJO
+				HUMANES DE MADRID
+	
+	
+BRAOJOS
+				COLMENAREJO
+				LEGANÉS
+	
+	
+BREA DE TAJO
+				CORPA
+				LOECHES
+	
+	
+BRUNETE
+				COSLADA
+				LOZOYA
+				LOZOYUELA-NAVAS-SIETEIGLESIAS
+				PARLA
+				SAN FERNANDO DE HENARES
+	
+	
+MADARCOS
+				PATONES
+				SAN LORENZO DEL ESCORIAL
+	
+	
+MADRID
+				PEDREZUELA
+				SAN MARTIN DE LA VEGA
+	
+	
+MAJADAHONDA
+				PELAYOS DE LA PRESA
+				SAN MARTIN DE VALDEIGLESIAS
+	
+	
+MANZANARES EL REAL
+				PERALES DE TAJUÑA
+				SAN SEBASTIAN DE LOS REYES
+	
+	
+MECO
+				PEZUELA DE LAS TORRES
+				SANTA MARIA DE LA ALAMEDA
+	
+	
+MEJORADA DEL CAMPO
+				PINILLA DEL VALLE
+				SANTORCAZ
+	
+	
+MIRAFLORES DE LA SIERRA
+				PINTO
+				SANTOS DE LA HUMOSA, LOS
+	
+	
+MOLAR, EL
+				PIÑUÉCAR-GANDULLAS
+				SERNA DEL MONTE, LA
+	
+	
+MOLINOS, LOS
+				POZUELO DE ALARCON
+				SERRANILLOS DEL VALLE
+	
+	
+MONTEJO DE LA SIERRA
+				POZUELO DEL REY
+				SEVILLA LA NUEVA
+	
+	
+MORALEJA DE ENMEDIO
+				PRADENA DEL RINCON
+				SOMOSIERRA
+	
+	
+MORALZARZAL
+				PUEBLA DE LA SIERRA
+				SOTO DEL REAL
+	
+	
+MORATA DE TAJUÑA
+				PUENTES VIEJAS
+				TALAMANCA DE JARAMA
+	
+	
+MOSTOLES
+				QUIJORNA
+				TIELMES
+	
+	
+NAVACERRADA
+				RASCAFRIA
+				TITULCIA
+	
+	
+NAVALAFUENTE
+				REDUEÑA
+				TORREJON DE ARDOZ
+	
+	
+NAVALAGAMELLA
+				RIBATEJADA
+				TORREJON DE LA CALZADA
+	
+	
+NAVALCARNERO
+				RIVAS-VACIAMADRID
+				TORREJON DE VELASCO
+	
+	
+NAVARREDONDA Y SAN MAMÉS
+				ROBLEDILLO DE LA JARA
+				TORRELAGUNA
+	
+	
+NAVAS DEL REY
+				ROBLEDO DE CHAVELA
+				TORRELODONES
+	
+	
+NUEVO BAZTAN
+				ROBREGORDO
+				TORREMOCHA DE JARAMA
+	
+	
+OLMEDA DE LAS FUENTES
+				ROZAS DE MADRID, LAS
+				TORRES DE LA ALAMEDA
+	
+	
+ORUSCO DE TAJUÑA
+				ROZAS DE PUERTO REAL
+				TRES CANTOS
+	
+	
+PARACUELLOS DE JARAMA
+				SAN AGUSTIN DEL GUADALIX
+				VALDARACETE
+				VALDEAVERO
+				VALVERDE DE ALCALA
+				VILLANUEVA DE LA CAÑADA
+	
+	
+VALDELAGUNA
+				VELILLA DE SAN ANTONIO
+				VILLANUEVA DE PERALES
+	
+	
+VALDEMANCO
+				VELLON, EL
+				VILLANUEVA DEL PARDILLO
+	
+	
+VALDEMAQUEDA
+				VENTURADA
+				VILLAR DEL OLMO
+	
+	
+VALDEMORILLO
+				VILLA DEL PRADO
+				VILLAREJO DE SALVANÉS
+	
+	
+VALDEMORO
+				VILLACONEJOS
+				VILLAVICIOSA DE ODON
+	
+	
+VALDEOLMOS-ALALPARDO
+				VILLALBILLA
+				VILLAVIEJA DEL LOZOYA
+	
+	
+VALDEPIÉLAGOS
+				VILLAMANRIQUE DE TAJO
+				ZARZALEJO
+	
+	
+VALDETORRES DE JARAMA
+				VILLAMANTA
+				
+	
+	
+VALDILECHA
+				VILLAMANTILLA
+				Alameda
+				Benaoján
+				Frigiliana
+	
+	
+Alcaucín
+				Benarrabá
+				Fuengirola
+	
+	
+Alfarnate
+				Borge El
+				Fuente de Piedra
+	
+	
+Alfarnatejo
+				Burgo El
+				Gaucín
+	
+	
+Algarrobo
+				Campillos
+				Genalguacil
+	
+	
+Algatocín
+				Cañete la Real
+				Guaro
+	
+	
+Alhaurin de la Torre
+				Canillas de Aceituno
+				Humilladero
+	
+	
+Alhaurín el Grande
+				Canillas de Albaida
+				Igualeja
+	
+	
+Almáchar
+				Carratraca
+				Istán
+	
+	
+Almargen
+				Cartajima
+				Iznate
+	
+	
+Almogía
+				Cártama
+				Jimera de Líbar
+	
+	
+Álora
+				Casabermeja
+				Jubrique
+	
+	
+Alozaina
+				Casarabonela
+				Júzcar
+	
+	
+Alpandeire
+				Casares
+				Macharaviaya
+	
+	
+Antequera
+				Coín
+				Málaga
+	
+	
+Árchez
+				Colmenar
+				Manilva
+	
+	
+Archidona
+				Comares
+				Marbella
+	
+	
+Ardales
+				Cómpeta
+				Mijas
+	
+	
+Arriate
+				Cortes de la Frontera
+				Moclinejo
+	
+	
+Atajate
+				Cuevas Bajas
+				Mollina
+	
+	
+Benadalid
+				Cuevas de San Marcos
+				Monda
+	
+	
+Benahavís
+				Cuevas del Becerro
+				Montejaque
+	
+	
+Benalmádena
+				Cútar
+				Nerja
+	
+	
+Benamargosa
+				Estepona
+				Ojén
+	
+	
+Benamocarra
+				Faraján
+				Parauta
+				Periana
+				Sedella
+				Vélez-Málaga
+	
+	
+Pizarra
+				Sierra de Yeguas
+				Villanueva de Algaidas
+	
+	
+Pujerra
+				Teba
+				Villanueva de Tapia
+	
+	
+Rincón de la Victoria
+				Tolox
+				Villanueva del Rosario
+	
+	
+Riogordo
+				Torremolinos
+				Villanueva del Trabuco
+	
+	
+Ronda
+				Torrox
+				Viñuela La
+	
+	
+Salares
+				Totalán
+				Yunquera
+	
+	
+Sayalonga
+				Valle de Abdalajís
+				melilla
+				
+				Abanilla
+				Caravaca de la Cruz
+				Murcia
+	
+	
+Abaran
+				Cartagena
+				Ojos
+	
+	
+Aguilas
+				Cehegín
+				Pliego
+	
+	
+Albudeite
+				Ceutí
+				Puerto Lumbreras
+	
+	
+Alcantarilla
+				Cieza
+				Ricote
+	
+	
+Alcazares Los
+				Fortuna
+				San Javier
+	
+	
+Aledo
+				Fuente Alamo
+				San Pedro del Pinatar
+	
+	
+Alguazas
+				Jumilla
+				Santomera
+	
+	
+Alhama de Murcia
+				Librilla
+				Torre Pacheco
+	
+	
+Archena
+				Lorca
+				Torres de Cotillas Las
+	
+	
+Beniel
+				Lorqui
+				Totana
+	
+	
+Blanca
+				Mazarron
+				Ulea
+	
+	
+Bullas
+				Molina de Segura
+				Unión La
+	
+	
+Calasparra
+				Moratalla
+				Villanueva del Segura
+	
+	
+Campos del Rio
+				Mula
+				Yecla
+				Abáigar
+				Aras
+				Beriáin
+	
+	
+Abárzuza
+				Arbizu
+				Berrioplano
+	
+	
+Abaurregaina/Abaurrea Alta
+				Arce/Artzi
+				Berriozar
+	
+	
+Abaurrepea/Abaurrea Baja
+				Arcos (Los)
+				Bertizarana
+	
+	
+Aberin
+				Arellano
+				Betelu
+	
+	
+Ablitas
+				Areso
+				Bidaurreta
+	
+	
+Adiós
+				Arguedas
+				Biurrun
+	
+	
+Aguilar de Codés
+				Aria
+				Buñuel
+	
+	
+Aibar
+				Aribe
+				Burgui
+	
+	
+Allín
+				Armañanzas
+				Burlada
+	
+	
+Allo
+				Arribe
+				Busto El
+	
+	
+Altsasu/Alsasua
+				Arróniz
+				Cabanillas
+	
+	
+Améscoa Baja
+				Arruazu
+				Cabredo
+	
+	
+Ancín
+				Artajona
+				Cadreita
+	
+	
+Andosilla
+				Artazu
+				Caparroso
+	
+	
+Añorbe
+				Atez
+				Cárcar
+	
+	
+Ansoáin
+				Auritz/Burguete
+				Carcastillo
+	
+	
+Anue
+				Ayegui
+				Cascante
+	
+	
+Aoiz/Agoitz
+				Azagra
+				Caseda
+	
+	
+Araitz
+				Azuelo
+				Castejón
+	
+	
+Arakil
+				Beintza-Labaien
+				Castillonuevo
+	
+	
+Aranarache
+				Beire
+				Cendea de Iza
+	
+	
+ARANGUREN
+				Belascoáin
+				Centdea de Olza
+	
+	
+Arano
+				Bera/Vera de Bidasoa
+				Cintruénigo
+	
+	
+Arantza
+				Berbinzana
+				Cirauqui
+				
+				Ciriza
+				Ezcabarte
+				Igantzi
+	
+	
+Cizur
+				Ezcároz/Ezkaroze
+				Igúzquiza
+	
+	
+Corella
+				Ezkurra
+				Imotz
+	
+	
+Cortes
+				Ezprogui
+				Irañeta
+	
+	
+Desojo
+				Falces
+				Irurtzun
+	
+	
+Dicastilo
+				Fitero
+				Ituren
+	
+	
+Donamaria
+				Fontellas
+				Iturmendi
+	
+	
+Doneztebe/Santesteban
+				Funes
+				Izagaondoa
+	
+	
+Echarri
+				Fustiñana
+				Izalzu
+	
+	
+Egüés
+				Galar
+				Jaurrieta
+	
+	
+Elgorriaga
+				Gallipienzo
+				Javier
+	
+	
+Enériz
+				Gallués
+				Juslapeña
+	
+	
+Eratsun
+				Garaioa
+				Lakuntza
+	
+	
+Ergoiena
+				Garde
+				Lana
+	
+	
+Erro
+				Garínoain
+				Lantz
+	
+	
+Eslava
+				Garralda
+				Lapoblación
+	
+	
+Esparza de Salazar
+				Genevilla
+				Larraga
+	
+	
+Espronceda
+				Goizueta
+				Larraona
+	
+	
+Estella
+				Goñi
+				Larraun
+	
+	
+Esteribar
+				Güesa
+				Lazagurría
+	
+	
+Etayo
+				Guesálaz
+				Leache
+	
+	
+Etxalar
+				Guirguillano
+				Legarda
+	
+	
+Etxarri-Aranatz
+				Hiriberri/Villanueva de Aezkoa
+				Legaria
+	
+	
+Etxauri
+				Huarte
+				Leitza
+	
+	
+Eulate
+				Ibargoiti
+				Lekunberri
+				Leoz
+				Morentin
+				Oroz-Betelu
+	
+	
+Lerga
+				Mués
+				Orreaga/Roncesvalles
+	
+	
+Lerín
+				Murchante
+				Oteiza
+	
+	
+Lesaka
+				Murieta
+				Pamplona
+	
+	
+Lezáun
+				Murillo el Cuende
+				Peralta
+	
+	
+Liédena
+				Murillo el Fruto
+				Petilla de Aragón
+	
+	
+Lizoáin
+				Muruzábal
+				Piedramillera
+	
+	
+Lodosa
+				Navascués
+				Pitillas
+	
+	
+Lónguida/Longida
+				Nazar
+				Puente la Reina
+	
+	
+Lumbier
+				Noáin
+				Pueyo
+	
+	
+Luquin
+				Obanos
+				Ribaforada
+	
+	
+Luzaide/Valcarlos
+				Ochagavía
+				Romanzado
+	
+	
+Mañeru
+				Oco
+				Roncal/Erronkari
+	
+	
+Marañón
+				Odieta
+				Saldías
+	
+	
+Marcilla
+				Oitz
+				Salinas de Oro
+	
+	
+Mélida
+				Olaibar
+				San Adrián
+	
+	
+Mendavia
+				Olazti/Olazagutía
+				San Martín de Unx
+	
+	
+Mendaza
+				Olejua
+				Sangüesa
+	
+	
+Mendigorría
+				Olite
+				Sansol
+	
+	
+Metauten
+				Ollo
+				Santacara
+	
+	
+Milagro
+				Olóriz
+				Sarriés
+	
+	
+Mirafuentes
+				Orbaitzeta
+				Sartaguda
+	
+	
+Miranda de Arga
+				Orbara
+				Sesma
+	
+	
+Monreal
+				Orísoain
+				Sorlada
+	
+	
+Monteagudo
+				Orkoien
+				Sunbilla
+				Tafalla
+				Unzué
+				Villamayor de Monjardín
+	
+	
+Tiebas
+				Urdazubi/Urdax
+				Villatuerta
+	
+	
+Tirapu
+				Urraul Alto
+				Villava
+	
+	
+Torralba del Río
+				Urraul Bajo
+				Yesa
+	
+	
+Torres del Río
+				Urrotz
+				Zabalza
+	
+	
+Tudela
+				Urzainqui
+				Ziordia
+	
+	
+Tulebras
+				Uterga
+				Zizur Mayor
+	
+	
+Ucar
+				Uztárroz
+				Zubieta
+	
+	
+Uharte-Arakil
+				Valtierra
+				Zugarramurdi
+	
+	
+Ujué
+				Viana
+				Zúñiga
+	
+	
+Unciti
+				Vidángoz
+				
+	
+	
+Unciti
+				Villafranca
+				Allariz
+				Esgos.
+				Piñor
+	
+	
+Amoeiro
+				Gomesende.
+				Pobra de Trives, A
+	
+	
+Arnoia, A.
+				Gudiña, A.
+				Pontedeva.
+	
+	
+Avión
+				Irixo, O.
+				Porqueira
+	
+	
+Beade.
+				Larouco.
+				Quintela de Leirado
+	
+	
+Beariz.
+				Laza.
+				Rairiz de Veiga
+	
+	
+Blancos, Os.
+				Leiro.
+				Ramirás
+	
+	
+Boborás
+				Lobeira.
+				Ribadavia
+	
+	
+Bola, A.
+				Lobios.
+				Riós
+	
+	
+Bolo, O.
+				Maceda.
+				Rúa (A)
+	
+	
+Calvos de Randín.
+				Manzaneda.
+				Rubiá
+	
+	
+Carballeda de Avia.
+				Maside.
+				San Amaro
+	
+	
+Carballeda de Valdeorras.
+				Melón.
+				San Cibrao das Viñas
+	
+	
+Carballiño, O.
+				Merca, A.
+				San Cristovo de Cea
+	
+	
+Cartelle
+				Mezquita
+				San Xoán de Río
+	
+	
+Castrelo de Miño
+				Montederramo.
+				Sandiás
+	
+	
+Castrelo do Val
+				Monterrei
+				Sarreaus
+	
+	
+Castro Caldelas
+				Muíños.
+				Taboadela
+	
+	
+Celanova
+				Nogueira de Ramuín.
+				Teixeira (A)
+	
+	
+Cenlle
+				Oímbra.
+				Toén.
+	
+	
+Chandrexa de Queixa
+				Paderne de Allariz.
+				Trasmiras.
+	
+	
+Coles
+				Padrenda.
+				Veiga, A.
+	
+	
+Cortegada.
+				Parada de Sil.
+				Verea.
+	
+	
+Cualedro.
+				Peroxa, A.
+				Verín.
+	
+	
+Entrimo.
+				Petín.
+				Viana do Bolo.
+				Vilamarín.
+				Vilar de Santos.
+				Xinzo de Limia.
+	
+	
+Vilamartín de Valdeorras.
+				Vilardevós.
+				Xunqueira de Ambía.
+	
+	
+Vilar de Barrio.
+				Vilariño de Conso.
+				Xunqueira de Espadanedo.
+				Abarca de Campos
+				Bustillo del Páramo de Carrión
+				Espinosa de Villagonzalo
+	
+	
+Abia de las Torres
+				Calahorra de Boedo
+				Frechilla
+	
+	
+Aguilar de Campoo
+				Calzada de los Molinos
+				Fresno del Río
+	
+	
+Alar del Rey
+				Capillas
+				Frómista
+	
+	
+Alba de Cerrato
+				Cardeñosa de Volpejera
+				Fuentes de Nava
+	
+	
+Amayuelas de Arriba
+				Carrión de los Condes
+				Fuentes de Valdepero
+	
+	
+Ampudia
+				Castil de Vela
+				Grijota
+	
+	
+Amusco
+				Castrejón de la Peña
+				Guardo
+	
+	
+Antigüedad
+				Castrillo de Don Juan
+				Guaza de Campos
+	
+	
+Arconada
+				Castrillo de Onielo
+				Hérmedes de Cerrato
+	
+	
+Astudillo
+				Castrillo de Villavega
+				Herrera de Pisuerga
+	
+	
+Autilla del Pino
+				Castromocho
+				Herrera de Valdecañas
+	
+	
+Autillo de Campos
+				Cervatos de la Cueza
+				Hontoria de Cerrato
+	
+	
+Ayuela
+				Cevico de la Torre
+				Husillos
+	
+	
+Bárcena de Campos
+				Cevico Navero
+				Itero de la Vega
+	
+	
+Báscones de Ojeda
+				Cisneros
+				Lagartos
+	
+	
+Becerril de Campos
+				Cobos de Cerrato
+				Lantadilla
+	
+	
+Belmonte de Campos
+				Collazos de Boedo
+				Ledigos
+	
+	
+Berzosilla
+				Congosto de Valdavia
+				Loma de Ucieza
+	
+	
+Boada de Campos
+				Cordovilla la Real
+				Lomas
+	
+	
+Boadilla de Rioseco
+				Cubillas de Cerrato
+				Magaz de Pisuerga
+	
+	
+Boadilla del Camino
+				Dehesa de Montejo
+				Manquillos
+	
+	
+Brañosera
+				Dehesa de Romanos
+				Mantinos
+	
+	
+Buenavista de Valdavia
+				Dueñas
+				Marcilla de Campos
+	
+	
+Bustillo de la Vega
+				Espinosa de Cerrato
+				Mazariegos
+				Mazuecos de Valdeginate
+				Población de Cerrato
+				Santa Cruz de Boedo
+	
+	
+Melgar de Yuso
+				Polentinos
+				Santervás de la Vega
+	
+	
+Meneses de Campos
+				Pomar de Valdivia
+				Santibáñez de Ecla
+	
+	
+Micieces de Ojeda
+				Poza de la Vega
+				Santibáñez de la Peña
+	
+	
+Monzón de Campos
+				Pozo de Urama
+				Santoyo
+	
+	
+Moratinos
+				Prádanos de Ojeda
+				Serna (La)
+	
+	
+Mudá
+				Puebla de Valdavia (La)
+				Soto de Cerrato
+	
+	
+Nogal de las Huertas
+				Quintana del Puente
+				Sotobañado y Priorato
+	
+	
+Olea de Boedo
+				Quintanilla de Onsoña
+				Tabanera de Cerrato
+	
+	
+Olmos de Ojeda
+				Reinoso de Cerrato
+				Tabanera de Valdavia
+	
+	
+Osornillo
+				Renedo de la Vega
+				Támara de Campos
+	
+	
+Osorno la Mayor
+				Requena de Campos
+				Tariego de Cerrato
+	
+	
+Palencia
+				Respenda de la Peña
+				Torquemada
+	
+	
+Palenzuela
+				Revenga de Campos
+				Torremormojón
+	
+	
+Páramo de Boedo
+				Revilla de Collazos
+				Triollo
+	
+	
+Paredes de Nava
+				Ribas de Campos
+				Valbuena de Pisuerga
+	
+	
+Payo de Ojeda
+				Riberos de la Cueza
+				Valde-Ucieza
+	
+	
+Pedraza de Campos
+				Saldaña
+				Valdeolmillos
+	
+	
+Pedrosa de la Vega
+				Salinas de Pisuerga
+				Valderrábano
+	
+	
+Perales
+				San Cebrián de Campos
+				Valle de Cerrato
+	
+	
+Pernía (La)
+				San Cebrián de Mudá
+				Valle del Retortillo
+	
+	
+Piña de Campos
+				San Cristóbal de Boedo
+				Velilla del Río Carrión
+	
+	
+Pino del Río
+				San Mamés de Campos
+				Venta de Baños
+	
+	
+Población de Arroyo
+				San Román de la Cuba
+				Vertavillo
+	
+	
+Población de Campos
+				Santa Cecilia del Alcor
+				Vid de Ojeda (La)
+				Villabasta de Valdavia
+				Villaluenga de la Vega
+				Villarramiel
+	
+	
+Villacidaler
+				Villamartín de Campos
+				Villasarracino
+	
+	
+Villaconancio
+				Villamediana
+				Villasila de Valdavia
+	
+	
+Villada
+				Villameriel
+				Villaturde
+	
+	
+Villaeles de Valdavia
+				Villamoronta
+				Villaumbrales
+	
+	
+Villahán
+				Villamuera de la Cueza
+				Villaviudas
+	
+	
+Villaherreros
+				Villamuriel de Cerrato
+				Villerías de Campos
+	
+	
+Villalaco
+				Villanueva del Rebollar
+				Villodre
+	
+	
+Villalba de Guardo
+				Villanuño de Valdavia
+				Villodrigo
+	
+	
+Villalcázar de Sirga
+				Villaprovedo
+				Villoldo
+	
+	
+Villalcón
+				Villarmentero de Campos
+				Villota del Páramo
+	
+	
+Villalobón
+				Villarrabé
+				Villovieco
+				Agolada.
+				Guarda, A.
+				Pontevedra.
+	
+	
+Arbo.
+				Illa de Arousa, A.
+				Porriño, O.
+	
+	
+Bueu
+				Lalín.
+				Portas.
+	
+	
+Caldas de Reis.
+				Lama, A.
+				Redondela.
+	
+	
+Cambados.
+				Marín.
+				Ribadumia.
+	
+	
+Campo Lameiro.
+				Meaño.
+				Rodeiro.
+	
+	
+Cangas.
+				Meis.
+				Rosal, O.
+	
+	
+Cañiza, A.
+				Moaña.
+				Salceda de Caselas.
+	
+	
+Catoira.
+				Mondariz.
+				Salvaterra de Miño.
+	
+	
+Cerdedo.
+				Moraña.
+				Sanxenxo.
+	
+	
+Cotobade.
+				Mos
+				Silleda.
+	
+	
+Covelo.
+				Neves,
+				Soutomaior.
+	
+	
+Crecente.
+				Nigrán.
+				Tomiño.
+	
+	
+Cuntis.
+				Oia.
+				Tui.
+	
+	
+Dozón.
+				ondariz-Balneario.
+				Valga.
+	
+	
+Estrada, A.
+				Pazos de Borbén.
+				Vigo.
+	
+	
+Forcarei
+				Poio
+				Vila de Cruces.
+	
+	
+Fornelos de Montes.
+				Ponte Caldelas.
+				Vilaboa.
+	
+	
+Gondomar.
+				Ponteareas.
+				Vilagarcía de Arousa.
+	
+	
+Grove, O.
+				Pontecesures.
+				Vilanova de Arousa.
+				Abusejo
+				Aldehuela de Yeltes
+				Cabeza de Béjar (La)
+	
+	
+Agallas
+				Almenara de Tormes
+				Cabeza del Caballo
+	
+	
+Ahigal de los Aceiteros
+				Almendra
+				Cabezabellosa de la Calzada
+	
+	
+Ahigal de Villarino
+				Anaya de Alba
+				Cabrerizos
+	
+	
+Alameda de Gardón (La)
+				Añover de Tormes
+				Cabrillas
+	
+	
+Alamedilla (La)
+				Arabayona de Mógica
+				Calvarrasa de Abajo
+	
+	
+Alaraz
+				Arapiles
+				Calvarrasa de Arriba
+	
+	
+Alba de Tormes
+				Arcediano
+				Calzada de Béjar (La)
+	
+	
+Alba de Yeltes
+				Arco (El)
+				Calzada de Don Diego
+	
+	
+Alberca (La)
+				Armenteros
+				Calzada de Valdunciel
+	
+	
+Alberguería de Argañán (La)
+				Atalaya (La)
+				Campillo de Azaba
+	
+	
+Alconada
+				Béjar
+				Campo de Peñaranda (El)
+	
+	
+Aldea del Obispo
+				Beleña
+				Candelario
+	
+	
+Aldeacipreste
+				Bermellar
+				Canillas de Abajo
+	
+	
+Aldeadávila de la Ribera
+				Berrocal de Huebra
+				Cantagallo
+	
+	
+Aldealengua
+				Berrocal de Salvatierra
+				Cantalapiedra
+	
+	
+Aldeanueva de Figueroa
+				Boada
+				Cantalpino
+	
+	
+Aldeanueva de la Sierra
+				Bodón (El)
+				Cantaracillo
+	
+	
+Aldearrodrigo
+				Bogajo
+				Carbajosa de la Sagrada
+	
+	
+Aldearrubia
+				Bouza (La)
+				Carpio de Azaba
+	
+	
+Aldeaseca de Alba
+				Bóveda del Río Almar
+				Carrascal de Barregas
+	
+	
+Aldeaseca de la Frontera
+				Brincones
+				Carrascal del Obispo
+	
+	
+Aldeatejada
+				Buenamadre
+				Casafranca
+	
+	
+Aldeavieja de Tormes
+				Buenavista
+				Casas del Conde (Las)
+	
+	
+Aldehuela de la Bóveda
+				Cabaco (El)
+				Casillas de Flores
+				Castellanos de Moriscos
+				Encinas de Arriba
+				Garcibuey
+	
+	
+Castellanos de Villiquera
+				Encinasola de los Comendadores
+				Garcihernández
+	
+	
+Castillejo de Martín Viejo
+				Endrinal
+				Garcirrey
+	
+	
+Castraz
+				Escurial de la Sierra
+				Gejuelo del Barro
+	
+	
+Cepeda
+				Espadaña
+				Golpejas
+	
+	
+Cereceda de la Sierra
+				Espeja
+				Gomecello
+	
+	
+Cerezal de Peñahorcada
+				Espino de la Orbada
+				Guadramiro
+	
+	
+Cerralbo
+				Florida de Liébana
+				Guijo de Ávila
+	
+	
+Cerro (El)
+				Forfoleda
+				Guijuelo
+	
+	
+Cespedosa de Tormes
+				Frades de la Sierra
+				Herguijuela de Ciudad Rodrigo
+	
+	
+Chagarcía Medianero
+				Fregeneda (La)
+				Herguijuela de la Sierra
+	
+	
+Cipérez
+				Fresnedoso
+				Herguijuela del Campo
+	
+	
+Ciudad Rodrigo
+				Fresno Alhándiga
+				Hinojosa de Duero
+	
+	
+Coca de Alba
+				Fuente de San Esteban (La)
+				Horcajo de Montemayor
+	
+	
+Colmenar de Montemayor
+				Fuenteguinaldo
+				Horcajo Medianero
+	
+	
+Cordovilla
+				Fuenteliante
+				Hoya (La)
+	
+	
+Cristóbal
+				Fuenterroble de Salvatierra
+				Huerta
+	
+	
+Cubo de Don Sancho (El)
+				Fuentes de Béjar
+				Iruelos
+	
+	
+Dios le Guarde
+				Fuentes de Oñoro
+				Ituero de Azaba
+	
+	
+Doñinos de Ledesma
+				Gajates
+				Juzbado
+	
+	
+Doñinos de Salamanca
+				Galindo y Perahuy
+				Lagunilla
+	
+	
+Ejeme
+				Galinduste
+				Larrodrigo
+	
+	
+Encina (La)
+				Galisancho
+				Ledesma
+	
+	
+Encina de San Silvestre
+				Gallegos de Argañán
+				Ledrada
+	
+	
+Encinas de Abajo
+				Gallegos de Solmirón
+				Linares de Riofrío
+				Lumbrales
+				Monsagro
+				Palacios del Arzobispo
+	
+	
+Machacón
+				Montejo
+				Palaciosrubios
+	
+	
+Macotera
+				Montemayor del Río
+				Palencia de Negrilla
+	
+	
+Madroñal
+				Monterrubio de Armuña
+				Parada de Arriba
+	
+	
+Maíllo (El)
+				Monterrubio de la Sierra
+				Parada de Rubiales
+	
+	
+Malpartida
+				Morasverdes
+				Paradinas de San Juan
+	
+	
+Mancera de Abajo
+				Morille
+				Pastores
+	
+	
+Manzano (El)
+				Moríñigo
+				Payo (El)
+	
+	
+Martiago
+				Moriscos
+				Pedraza de Alba
+	
+	
+Martín de Yeltes
+				Moronta
+				Pedrosillo de Alba
+	
+	
+Martinamor
+				Mozárbez
+				Pedrosillo de los Aires
+	
+	
+Masueco
+				Narros de Matalayegua
+				Pedrosillo el Ralo
+	
+	
+Mata de Ledesma (La)
+				Nava de Béjar
+				Pedroso de la Armuña (El)
+	
+	
+Matilla de los Caños del Río
+				Nava de Francia
+				Pelabravo
+	
+	
+Maya (La)
+				Nava de Sotrobal
+				Pelarrodríguez
+	
+	
+Membribe de la Sierra
+				Navacarros
+				Pelayos
+	
+	
+Mieza
+				Navales
+				Peña (La)
+	
+	
+Milano (El)
+				Navalmoral de Béjar
+				Peñacaballera
+	
+	
+Miranda de Azán
+				Navamorales
+				Peñaparda
+	
+	
+Miranda del Castañar
+				Navarredonda de la Rinconada
+				Peñaranda de Bracamonte
+	
+	
+Mogarraz
+				Navasfrías
+				Peñarandilla
+	
+	
+Molinillo
+				Negrilla de Palencia
+				Peralejos de Abajo
+	
+	
+Monforte de la Sierra
+				Olmedo de Camaces
+				Peralejos de Arriba
+	
+	
+Monleón
+				Orbada (La)
+				Pereña de la Ribera
+	
+	
+Monleras
+				Pajares de la Laguna
+				Peromingo
+				Pinedas
+				Salmoral
+				Sardón de los Frailes
+	
+	
+Pino de Tormes (El)
+				Salvatierra de Tormes
+				Saucelle
+	
+	
+Pitiegua
+				San Cristóbal de la Cuesta
+				Sepulcro-Hilario
+	
+	
+Pizarral
+				San Esteban de la Sierra
+				Sequeros
+	
+	
+Poveda de las Cintas
+				San Felices de los Gallegos
+				Serradilla del Arroyo
+	
+	
+Pozos de Hinojo
+				San Martín del Castañar
+				Serradilla del Llano
+	
+	
+Puebla de Azaba
+				San Miguel de Valero
+				Sierpe (La)
+	
+	
+Puebla de San Medel
+				San Miguel del Robledo
+				Sieteiglesias de Tormes
+	
+	
+Puebla de Yeltes
+				San Morales
+				Sobradillo
+	
+	
+Puente del Congosto
+				San Muñoz
+				Sorihuela
+	
+	
+Puertas
+				San Pedro de Rozados
+				Sotoserrano
+	
+	
+Puerto de Béjar
+				San Pedro del Valle
+				Tabera de Abajo
+	
+	
+Puerto Seguro
+				San Pelayo de Guareña
+				Tala (La)
+	
+	
+Rágama
+				Sanchón de la Ribera
+				Tamames
+	
+	
+Redonda (La)
+				Sanchón de la Sagrada
+				Tarazona de Guareña
+	
+	
+Retortillo
+				Sanchotello
+				Tardáguila
+	
+	
+Rinconada de la Sierra (La)
+				Sancti-Spíritus
+				Tejado (El)
+	
+	
+Robleda
+				Sando
+				Tejeda y Segoyuela
+	
+	
+Robliza de Cojos
+				Santa María de Sando
+				Tenebrón
+	
+	
+Rollán
+				Santa Marta de Tormes
+				Terradillos
+	
+	
+Saelices el Chico
+				Santiago de la Puebla
+				Topas
+	
+	
+Sagrada (La)
+				Santibáñez de Béjar
+				Tordillos
+	
+	
+Sahugo (El)
+				Santibáñez de la Sierra
+				Tornadizo (El)
+	
+	
+Salamanca
+				Santiz
+				Torresmenudas
+	
+	
+Saldeana
+				Santos (Los)
+				Trabanca
+				Tremedal de Tormes
+				Vellés (La)
+				Villarmuerto
+	
+	
+Valdecarros
+				Ventosa del Río Almar
+				Villasbuenas
+	
+	
+Valdefuentes de Sangusín
+				Vídola (La)
+				Villasdardo
+	
+	
+Valdehijaderos
+				Villaflores
+				Villaseco de los Gamitos
+	
+	
+Valdelacasa
+				Villagonzalo de Tormes
+				Villaseco de los Reyes
+	
+	
+Valdelageve
+				Villalba de los Llanos
+				Villasrubias
+	
+	
+Valdelosa
+				Villamayor
+				Villaverde de Guareña
+	
+	
+Valdemierque
+				Villanueva del Conde
+				Villavieja de Yeltes
+	
+	
+Valderrodrigo
+				Villar de Argañán
+				Villoria
+	
+	
+Valdunciel
+				Villar de Ciervo
+				Villoruela
+	
+	
+Valero
+				Villar de Gallimazo
+				Vilvestre
+	
+	
+Vallejera de Riofrío
+				Villar de la Yegua
+				Vitigudino
+	
+	
+Valsalabroso
+				Villar de Peralonso
+				Yecla de Yeltes
+	
+	
+Valverde de Valdelacasa
+				Villar de Samaniego
+				Zamarra
+	
+	
+Valverdón
+				Villares de la Reina
+				Zamayón
+	
+	
+Vecinos
+				Villares de Yeltes
+				Zarapicos
+	
+	
+Vega de Tirados
+				Villarino de los Aires
+				Zarza de Pumareda (La)
+	
+	
+Veguillas (Las)
+				Villarmayor
+				Zorita de la Frontera
+				Adeje
+				Güímar
+				Santa Cruz de la Palma
+	
+	
+Agulo
+				Hermigua
+				Santa Cruz de Tenerife
+	
+	
+Alajeró
+				Icod de los Vinos
+				Santa Úrsula
+	
+	
+Arafo
+				Llanos de Aridane (Los)
+				Santiago del Teide
+	
+	
+Arico
+				Matanza de Acentejo (La)
+				Sauzal (El)
+	
+	
+Arona
+				Orotava (La)
+				Silos (Los)
+	
+	
+Breña Alta
+				Paso (El)
+				Tacoronte
+	
+	
+Breña Baja
+				Pinar de el Hierro
+				Tanque (El)
+	
+	
+Buenavista del Norte
+				Puerto de la Cruz
+				Tazacorte
+	
+	
+Candelaria
+				Puntagorda
+				Tegueste
+	
+	
+Fasnia
+				Puntallana
+				Tijarafe
+	
+	
+Frontera
+				Realejos (Los)
+				Valle Gran Rey
+	
+	
+Fuencaliente de la Palma
+				Rosario (El)
+				Vallehermoso
+	
+	
+Garachico
+				San Andrés y Sauces
+				Valverde
+	
+	
+Garafía
+				San Cristóbal de La Laguna
+				Victoria de Acentejo (La)
+	
+	
+Granadilla de Abona
+				San Juan de la Rambla
+				Vilaflor
+	
+	
+Guancha (La)
+				San Miguel de Abona
+				Villa de Mazo
+	
+	
+Guía de Isora
+				San Sebastián de la Gomera
+				
+				ABADES
+				BERNUY DE PORREROS
+				CODORNIZ
+	
+	
+ADRADA DE PIRON
+				BOCEGUILLAS
+				COLLADO HERMOSO
+	
+	
+ADRADOS
+				BRIEVA
+				CONDADO DE CASTILNOVO
+	
+	
+AGUILAFUENTE
+				CABALLAR
+				CORRAL DE AYLLON
+	
+	
+ALCONADA DE MADERUELO
+				CABAÑAS DE POLENDOS
+				COZUELOS DE FUENTIDUEÑA
+	
+	
+ALDEA REAL
+				CABEZUELA
+				CUBILLO (EL)
+	
+	
+ALDEALCORVO
+				CALABAZAS
+				CUELLAR
+	
+	
+ALDEALENGUA DE PEDRAZA
+				CAMPO DE SAN PEDRO
+				CUEVAS DE PROVANCO
+	
+	
+ALDEALENGUA DE SANTA MARIA
+				CANTALEJO
+				DOMINGO GARCIA
+	
+	
+ALDEANUEVA DE LA SERREZUELA
+				CANTIMPALOS
+				DONHIERRO
+	
+	
+ALDEANUEVA DEL CODONAL
+				CARBONERO EL MAYOR
+				DURUELO
+	
+	
+ALDEASOÑA
+				CARRASCAL DEL RIO
+				Encinas
+	
+	
+ALDEHORNO
+				CASLA
+				ENCINILLAS
+	
+	
+ALDEHUELA DEL CODONAL
+				CASTILLEJO DE MESLEÓN
+				ESCALONA DEL PRADO
+	
+	
+ALDEONTE
+				CASTRO DE FUENTIDUEÑA
+				ESCARABAJOSA DE CABEZAS
+	
+	
+ANAYA
+				CASTROJIMENO
+				ESCOBAR DE POLENDOS
+	
+	
+AÑE
+				CASTROSERNA DE ABAJO
+				ESPINAR (EL)
+	
+	
+ARAHUETES
+				Castroserracín
+				FRESNEDA DE CUELLAR
+	
+	
+ARCONES
+				Cedillo de la Torre
+				FRESNO DE CANTESPINO
+	
+	
+AREVALILLO DE CEGA
+				Cerezo de Abajo
+				FRESNO DE LA FUENTE
+	
+	
+ARMUÑA
+				Cerezo de Arriba
+				FRUMALES
+	
+	
+AYLLON
+				Chañe
+				FUENTE DE SANTA CRUZ
+	
+	
+BERCIAL
+				CILLERUELO DE SAN MAMES
+				FUENTE EL OLMO DE FUENTIDUEÑA
+	
+	
+BERCIMUEL
+				COBOS DE FUENTIDUEÑA
+				FUENTE EL OLMO DE ISCAR
+	
+	
+BERNARDOS
+				COCA
+				FUENTEPELAYO
+				
+				FUENTEPIÑEL
+				MARAZUELA
+				NAVAS DE ORO
+	
+	
+FUENTERREBOLLO
+				MARTIN MIGUEL
+				NAVAS DE RIOFRIO
+	
+	
+FUENTESAUCO DE FUENTIDUEÑA
+				MARTIN MUÑOZ DE LA DEHESA
+				NAVAS DE SAN ANTONIO
+	
+	
+FUENTESOTO
+				MARTIN MUÑOZ DE LAS POSADAS
+				NIEVA
+	
+	
+FUENTIDUEÑA
+				MARUGAN
+				OLOMBRADA
+	
+	
+GALLEGOS
+				MATA DE CUELLAR
+				Orejana
+	
+	
+GARCILLAN
+				MATABUENA
+				ORTIGOSA DE PESTAÑO
+	
+	
+GOMEZSERRACIN
+				MATILLA (LA)
+				ORTIGOSA DEL MONTE
+	
+	
+GRAJERA
+				MELQUE DE CERCOS
+				OTERO DE HERREROS
+	
+	
+HONRUBIA DE LA CUESTA
+				MEMBIBRE DE LA HOZ
+				PAJAREJOS
+	
+	
+HONTALBILLA
+				MIGUELAÑEZ
+				PALAZUELOS DE ERESMA
+	
+	
+HONTANARES DE ERESMA
+				MONTEJO DE AREVALO
+				PEDRAZA
+	
+	
+HUERTOS (LOS)
+				MONTEJO DE LA VEGA SERREZUELA
+				PELAYOS DEL ARROYO
+	
+	
+ITUERO Y LAMA
+				MONTERRUBIO
+				PEROSILLO
+	
+	
+JEMENUÑO
+				MORAL DE HORNUEZ
+				PINAREJOS
+	
+	
+JUARROS DE VOLTOYA
+				MOZONCILLO
+				PINARNEGRILLO
+	
+	
+LABAJOS
+				MUÑOPEDRO
+				PRADALES
+	
+	
+LAGUNA DE CONTRERAS
+				MUÑOVEROS
+				PRADENA
+	
+	
+LANGUILLA
+				NAVA DE LA ASUNCION
+				PUEBLA DE PEDRAZA
+	
+	
+LASTRAS DE CUELLAR
+				NAVAFRIA
+				RAPARIEGOS
+	
+	
+LASTRAS DEL POZO
+				NAVALILLA
+				REBOLLO
+	
+	
+LASTRILLA (LA)
+				NAVALMANZANO
+				REMONDO
+	
+	
+LOSA (LA)
+				NAVARES DE AYUSO
+				RIAGUAS DE SAN BARTOLOME
+	
+	
+MADERUELO
+				NAVARES DE ENMEDIO
+				RIAZA
+	
+	
+MARAZOLEJA
+				NAVARES DE LAS CUEVAS
+				RIBOTA
+				RIOFRIO DE RIAZA
+				SAUQUILLO DE CABEZAS
+				Valdevacas de Montejo
+	
+	
+RODA DE ERESMA
+				Sebúlcor
+				Valdevacas y Guijar
+	
+	
+SACRAMENIA
+				SEGOVIA
+				VALLE DE TABLADILLO
+	
+	
+SAMBOAL
+				Sepúlveda
+				VALLELADO
+	
+	
+SAN CRISTOBAL DE CUELLAR
+				Sequera de Fresno
+				VALLERUELA DE PEDRAZA
+	
+	
+SAN CRISTOBAL DE LA VEGA
+				SOTILLO
+				VALLERUELA DE SEPULVEDA
+	
+	
+SAN CRISTOBAL DE SEGOVIA
+				SOTOSALBOS
+				VALSECA
+	
+	
+SAN ILDEFONSO (LA GRANJA DE)
+				TABANERA LA LUENGA
+				VALVERDE DEL MAJANO
+	
+	
+SAN MARTIN Y MUDRIAN
+				TOLOCIRIO
+				VEGANZONES
+	
+	
+SAN MIGUEL DE BERNUY
+				TORRE VAL DE SAN PEDRO
+				VEGAS DE MATUTE
+	
+	
+SAN PEDRO DE GAILLOS
+				TORREADRADA
+				VENTOSILLA Y TEJADILLA
+	
+	
+SANCHONUÑO
+				TORRECABALLEROS
+				VILLACASTIN
+	
+	
+SANGARCIA
+				TORRECILLA DEL PINAR
+				VILLAVERDE DE ISCAR
+	
+	
+SANTA MARIA LA REAL DE NIEVA
+				TORREIGLESIAS
+				VILLAVERDE DE MONTEJO
+	
+	
+SANTA MARTA DEL CERRO
+				TRESCASAS
+				VILLEGUILLO
+	
+	
+SANTIUSTE DE PEDRAZA
+				TUREGANO
+				YANGUAS DE ERESMA
+	
+	
+SANTIUSTE DE SAN JUAN BAUTISTA
+				URUEÑAS
+				ZARZUELA DEL MONTE
+	
+	
+SANTO DOMINGO DE PIRON
+				VALDEPRADOS
+				ZARZUELA DEL PINAR
+	
+	
+SANTO TOME DEL PUERTO
+				VALDESIMONTE
+				
+				Aguadulce
+				Casariche
+				Herrera
+	
+	
+Alanís
+				Castilblanco de los Arroyos
+				Huévar del Aljarafe
+	
+	
+Albaida del Aljarafe
+				Castilleja de Guzmán
+				Isla Mayor
+	
+	
+Alcalá de Guadaira
+				Castilleja de la Cuesta
+				Lantejuela (La)
+	
+	
+Alcalá del Río
+				Castilleja del Campo
+				Lebrija
+	
+	
+Alcolea del Río
+				Castillo de las Guardas (El)
+				Lora de Estepa
+	
+	
+Algaba (La)
+				Cazalla de la Sierra
+				Lora del Río
+	
+	
+Algámitas
+				Constantina
+				Luisiana (La)
+	
+	
+Almadén de la Plata
+				Coria del Río
+				Madroño (El)
+	
+	
+Almensilla
+				Coripe
+				Mairena del Alcor
+	
+	
+Arahal
+				Coronil (El)
+				Mairena del Aljarafe
+	
+	
+Aznalcázar
+				Corrales (Los)
+				Marchena
+	
+	
+Aznalcóllar
+				Cuervo de Sevilla (El)
+				Marinaleda
+	
+	
+Benacazón
+				Dos Hermanas
+				Martín de la Jara
+	
+	
+Bollullos de la Mitación
+				Écija
+				Molares (Los)
+	
+	
+Bormujos
+				Espartinas
+				Montellano
+	
+	
+Brenes
+				Estepa
+				Morón de la Frontera
+	
+	
+Burguillos
+				Fuentes de Andalucía
+				Navas de la Concepción (Las)
+	
+	
+Cabezas de San Juan (Las)
+				Garrobo (El)
+				Olivares
+	
+	
+Camas
+				Gelves
+				Osuna
+	
+	
+Campana (La)
+				Gerena
+				Palacios y Villafranca (Los)
+	
+	
+Cañada Rosal
+				Gilena
+				Palomares del Río
+	
+	
+Cantillana
+				Gines
+				Paradas
+	
+	
+Carmona
+				Guadalcanal
+				Pedrera
+	
+	
+Carrión de los Céspedes
+				Guillena
+				Pedroso (El)
+				Peñaflor
+				Ronquillo (El)
+				Tocina
+	
+	
+Pilas
+				Rubio (El)
+				Tomares
+	
+	
+Pruna
+				Salteras
+				Umbrete
+	
+	
+Puebla de Cazalla (La)
+				San Juan de Aznalfarache
+				Valencina de la Concepción
+	
+	
+Puebla de los Infantes (La)
+				San Nicolás del Puerto
+				Villanueva de San Juan
+	
+	
+Puebla del Río (La)
+				Sanlúcar la Mayor
+				Villanueva del Ariscal
+	
+	
+Real de la Jara (El)
+				Santiponce
+				Villanueva del Río y Minas
+	
+	
+Rinconada (La)
+				Saucejo (El)
+				Villaverde del Río
+	
+	
+Roda de Andalucía (La)
+				Sevilla
+				Viso del Alcor (El)
+				ABEJAR
+				AUSEJO DE LA SIERRA
+				CERBÓN
+	
+	
+ADRADAS
+				BERATÓN
+				Cidones
+	
+	
+ÁGREDA
+				BERLANGA DE DUERO
+				CIGUDOSA
+	
+	
+ALCONABA
+				BLACOS
+				CIHUELA
+	
+	
+ALCUBILLA DE AVELLANEDA
+				BLIECOS
+				CIRIA
+	
+	
+ALCUBILLA DE LAS PEÑAS
+				BORJABAD
+				CIRUJALES DEL RÍO
+	
+	
+ALDEALAFUENTE
+				BOROBIA
+				COSCURITA
+	
+	
+ALDEALICES
+				BUBEROS
+				COVALEDA
+	
+	
+ALDEALPOZO
+				BUITRAGO
+				CUBILLA
+	
+	
+ALDEALSEÑOR ,
+				BURGO DE OSMA (EL)
+				CUEVA DE ÁGREDA
+	
+	
+ALDEHUELA DE PERIÁÑEZ
+				CABREJAS DEL CAMPO
+				DÉVANOS
+	
+	
+ALDEHUELAS (LAS)
+				CABREJAS DEL PINAR
+				DEZA
+	
+	
+ALENTISQUE
+				CALATAÑAZOR
+				DURUELO DE LA SIERRA
+	
+	
+ALIUD
+				CALTOJAR
+				ESCOBOSA DE ALMAZÁN
+	
+	
+ALMAJANO
+				CAÑAMAQUE
+				ESPEJA DE SAN MARCELINO
+	
+	
+ALMALUEZ
+				CANDILICHERA
+				ESPEJÓN
+	
+	
+ALMARZA
+				CARABANTES
+				ESTEPA DE SAN JUAN
+	
+	
+ALMAZÁN
+				CARACENA
+				FRECHILLA DE ALMAZÁN
+	
+	
+ALMAZUL
+				CARRASCOSA DE ABAJO
+				FRESNO DE CARACENA
+	
+	
+ALMENAR DE SORIA
+				CARRASCOSA DE LA SIERRA
+				FUENTEARMEGIL
+	
+	
+ALPANSEQUE
+				CASAREJOS
+				FUENTECAMBRÓN
+	
+	
+ARANCÓN
+				CASTILFRÍO DE LA SIERRA
+				FUENTECANTOS
+	
+	
+ARCOS DE JALÓN
+				CASTILLEJO DE ROBLEDO
+				FUENTELMONGE
+	
+	
+ARENILLAS
+				CASTILRUIZ
+				FUENTELSAZ DE SORIA
+	
+	
+ARÉVALO DE LA SIERRA
+				CENTENERA DE ANDALUZ
+				FUENTEPINILLA
+				FUENTES DE MAGAÑA
+				NAFRÍA DE UCERO
+				ROYO (EL)
+	
+	
+FUENTESTRÚN
+				NARROS
+				SALDUERO
+	
+	
+GARRAY
+				NAVALENO
+				SAN ESTEBAN DE GORMAZ
+	
+	
+GÓMARA
+				NEPAS
+				SAN FELICES
+	
+	
+GORMAZ
+				NOLAY
+				SAN LEONARDO DE YAGÜE
+	
+	
+HERRERA DE SORIA
+				NOVIERCAS
+				SAN PEDRO MANRIQUE
+	
+	
+HINOJOSA DEL CAMPO
+				ÓLVEGA
+				SANTA CRUZ DE YANGUAS
+	
+	
+LA LOSILLA
+				ONCALA
+				SANTA MARÍA DE HUERTA
+	
+	
+LANGA DE DUERO
+				PINILLA DEL CAMPO
+				SANTA MARÍA DE LAS HOYAS
+	
+	
+LICERAS
+				PORTILLO DE SORIA
+				SERÓN DE NÁGIMA
+	
+	
+MAGAÑA
+				PÓVEDA (LA)
+				SOLIEDRA
+	
+	
+MAJÁN
+				POZALMURO
+				SORIA
+	
+	
+MATALEBRERAS
+				QUIÑONERÍA, LA
+				SOTILLO DEL RINCÓN
+	
+	
+MATAMALA DE ALMAZÁN
+				QUINTANA REDONDA
+				SUELLACABRAS
+	
+	
+MEDINACELI
+				QUINTANAS DE GORMAZ
+				TAJAHUERCE
+	
+	
+MIÑO DE MEDINACELI
+				RÁBANOS, LOS
+				TAJUECO
+	
+	
+MIÑO DE SAN ESTEBAN
+				Rebollar
+				TALVEILA
+	
+	
+MOLINOS DE DUERO
+				RECUERDA
+				TARDELCUENDE
+	
+	
+MOMBLONA
+				RELLO
+				TARODA
+	
+	
+MONTEAGUDO DE LAS VICARÍAS
+				RENIEBLAS
+				TEJADO
+	
+	
+MONTEJO DE TIERMES
+				RETORTILLO DE SORIA
+				TORLENGUA
+	
+	
+MONTENEGRO DE CAMEROS
+				REZNOS
+				TORREBLACOS
+	
+	
+MORÓN DE ALMAZÁN
+				RIBA DE ESCALOTE (LA)
+				TORRUBIA DE SORIA
+	
+	
+MURIEL DE LA FUENTE
+				RIOSECO DE SORIA
+				TRÉVAGO
+	
+	
+MURIEL VIEJO
+				ROLLAMIENTA
+				UCERO
+				
+				VADILLO
+				VELAMAZÁN
+				VILLARES DE SORIA (LOS)
+	
+	
+VALDEAVELLANO DE TERA
+				VELILLA DE LA SIERRA
+				VILLASAYAS
+	
+	
+VALDEGEÑA
+				VELILLA DE LOS AJOS
+				VILLASECA DE ARCIEL
+	
+	
+VALDELAGUA DEL CERRO
+				VIANA DE DUERO
+				VINUESA
+	
+	
+VALDEMALUQUE
+				VILLACIERVOS
+				VIZMANOS
+	
+	
+VALDENEBRO
+				VILLANUEVA DE GORMAZ
+				VOZMEDIANO
+	
+	
+VALDEPRADO
+				VILLAR DEL ALA
+				YANGUAS
+	
+	
+VALDERRODILLA
+				VILLAR DEL CAMPO
+				YELO
+	
+	
+VALTAJEROS
+				VILLAR DEL RÍO
+				Aiguamurcia
+				Bisbal del Penedés La
+				Duesaigües
+	
+	
+Albinyana
+				Blancafort
+				Espluga de Francolí L'
+	
+	
+Albiol L'
+				Bonastre
+				Falset
+	
+	
+Alcanar
+				Borges del Camp Les
+				Fatarella La
+	
+	
+Alcover
+				Bot
+				Febro La
+	
+	
+Aldea
+				Botarell
+				Figuera La
+	
+	
+Aldover
+				Bràfim
+				Figuerola del Camp
+	
+	
+Aleixar L'
+				Cabacès
+				Flix
+	
+	
+Alfara de Carles
+				Cabra del Camp
+				Freginals
+	
+	
+Alfoira
+				Calafell
+				Galera La
+	
+	
+Alió
+				Camarles
+				Gandesa
+	
+	
+Almoster
+				Cambrils
+				García
+	
+	
+Altafulla
+				Capafonts
+				Garidells Els
+	
+	
+Ametla de Mar L'
+				Capçanes
+				Ginestar
+	
+	
+Ampolla L'
+				Caseres
+				Godall
+	
+	
+Amposta
+				Castellvell del Camp
+				Gratallops
+	
+	
+Arbolí L'
+				Catllar El
+				Guiamets Els
+	
+	
+Arborç L
+				Colldejou
+				Horta de Sant Joan
+	
+	
+Argentera L'
+				Conesa
+				Lloar El
+	
+	
+Arnes
+				Constanti
+				Llorac
+	
+	
+Ascó
+				Corbera d'Ebre
+				Llorenç del Penedès
+	
+	
+Bellbei
+				Cornudella del Montsant
+				Marçà
+	
+	
+Benifallet
+				Creixell
+				Margalef
+	
+	
+Benissanet
+				Cunit
+				Mas de Barberans
+	
+	
+Bisbal de Falset La
+				Deltebre
+				Masdenvergen
+				Masllorenç
+				Pinell de Brai El
+				Rocafort de Queralt
+	
+	
+Masó La
+				Pira
+				Roda de Barà
+	
+	
+Maspujols
+				Pla de Santa María El
+				Rodonyà
+	
+	
+Masroig El
+				Pobla de Mafumet La
+				Roquetes
+	
+	
+Milà El
+				Pobla de Massaluca la
+				Rourell El
+	
+	
+Miravet
+				Pobla de Montornès la
+				Salomò
+	
+	
+Molar El
+				Poboleda
+				Salou
+	
+	
+Mont-Ral
+				Pont d'Armentera El
+				Sant Carles de la Ràpita
+	
+	
+Mont-roig del Camp
+				Pontils
+				Sant Jaume d'Enveja
+	
+	
+Montblanc
+				Porrera
+				Sant Jaume del Domenys
+	
+	
+Montbrió del Camp
+				Pradell de la Teixeta
+				Santa Bàrbara
+	
+	
+Montferri
+				Prades
+				Santa Coloma de Queralt
+	
+	
+Montmell El
+				Prat de Comte El
+				Santa Oliva
+	
+	
+Móra d'Ebre
+				Pratdip
+				Sarral
+	
+	
+Móra la Nova
+				Puigpelat
+				Savallà del Comtat
+	
+	
+Morell El
+				Querol
+				Secuita La
+	
+	
+Morera de Montsant La
+				Rasquera
+				Selva del Camp la
+	
+	
+Nou de Gaià La
+				Renau
+				Senan
+	
+	
+Nulles
+				Reus
+				Sénia la
+	
+	
+Pallaresos Els
+				Riba La
+				Solivella
+	
+	
+Palma D'Ebre La
+				Riba-Roja d'Ebre
+				Tarragona
+	
+	
+Passanant i Belltall
+				Riera de Gaià La
+				Tivenys
+	
+	
+Paüls
+				Riudecanyes
+				Tivissa
+	
+	
+Perafort
+				Riudecols
+				Torre de Fontaubella La
+	
+	
+Piles Les
+				Riudoms
+				Torre de l'Espanyol La
+				Torredembarra
+				Vandello i l'Hospitale de L'infant
+				Vilaplana
+	
+	
+Torroja del Priorat
+				Vendrell El
+				Vilaverd
+	
+	
+Tortosa
+				Vespella de Gaià
+				Vilella Alta La
+	
+	
+Ulldecona
+				Vila-Rodona
+				Vilella Baixa la
+	
+	
+Ulldemolins
+				Vila-Seca
+				Vimbodí
+	
+	
+Vallclara
+				Vilabella
+				Vinebre
+	
+	
+Vallfogona de Riucorb
+				Vilallonga del Camp
+				Vinyols i els Arcs
+	
+	
+Vallmoll
+				Vilanova d'Escornalbou
+				Xerta
+	
+	
+Valls
+				Vilanova de Prades
+				ABABUJ
+				ARENS DE LLEDÓ
+				CAMINREAL
+	
+	
+ABEJUELA
+				ARGENTE
+				CAÑADA DE BENATANDUZ
+	
+	
+AGUATÓN
+				ARIÑO
+				CAÑADA DE VERICH, LA
+	
+	
+AGUAVIVA
+				AZAILA
+				CAÑADA VELLIDA
+	
+	
+AGUILAR DEL ALFAMBRA
+				BÁDENAS
+				CAÑIZAR DEL OLIVAR
+	
+	
+ALACÓN
+				BÁGUENA
+				CANTAVIEJA
+	
+	
+ALBA DEL CAMPO
+				BEA
+				CASCANTE DEL RÍO
+	
+	
+ALBALATE DEL ARZOBISPO
+				BECEITE
+				CASTEJÓN DE TORNOS
+	
+	
+ALBARRACÍN
+				BELLO
+				CASTEL DE CABRA
+	
+	
+ALBENTOSA
+				BELMONTE DE SAN JOSE
+				CASTELLAR, EL
+	
+	
+ALCAINE
+				BERGE
+				CASTELLOTE
+	
+	
+ALCALÁ DE LA SELVA
+				BEZAS
+				CASTELNOU
+	
+	
+ALCAÑIZ
+				BLANCAS
+				CASTELSERAS
+	
+	
+ALCORISA
+				BLESA
+				CEDRILLAS
+	
+	
+ALFAMBRA
+				BORDÓN
+				CELADAS
+	
+	
+ALIAGA
+				BRONCHALES
+				CELLA
+	
+	
+ALLEPUZ
+				BUEÑA
+				CEROLLERA, LA
+	
+	
+ALLOZA
+				BURBÁGUENA
+				CODOÑERA, LA
+	
+	
+ALLUEVA
+				CABRA DE MORA
+				CORBALÁN
+	
+	
+ALMOHAJA
+				CALACEITE
+				CORTES DE ARAGÓN
+	
+	
+ALOBRAS
+				CALAMOCHA
+				COSA
+	
+	
+ALPEÑES
+				CALOMARDE
+				CRETAS
+	
+	
+ANADÓN
+				CAMAÑAS
+				CRIVILLEN
+	
+	
+ANDORRA
+				CAMARENA DE LA SIERRA
+				CUBA, LA
+	
+	
+ARCOS DE LAS SALINAS
+				CAMARILLAS
+				CUBLA
+				
+				CUCALÓN
+				GRIEGOS
+				MAZALEÓN
+	
+	
+CUERVO, EL
+				GUADALAVIAR
+				MEZQUITA DE JARQUE
+	
+	
+CUEVAS DE ALMUDÉN
+				GÚDAR
+				MIRAMBEL
+	
+	
+CUEVAS LABRADAS
+				HIJAR
+				MIRAVETE DE LA SIERRA
+	
+	
+EJULVE
+				HINOJOSA DE JARQUE
+				MOLINOS
+	
+	
+ESCORIHUELA
+				HOZ DE LA VIEJA, LA
+				MONFORTE DE MOYUELA
+	
+	
+ESCUCHA
+				HUESA DEL COMÚN
+				MONREAL DEL CAMPO
+	
+	
+ESTERCUEL
+				IGLESUELA DEL CID, LA
+				MONROYO
+	
+	
+FERRERUELA DE HUERVA
+				JABALOYAS
+				MONTALBAN
+	
+	
+FONFRÍA
+				JARQUE DE LA VAL
+				MONTEAGUDO DEL CASTILLO
+	
+	
+FORMICHE ALTO
+				JATIEL
+				MONTERDE DE ALBARRACÍN
+	
+	
+FÓRNOLES
+				JORCAS
+				MORA DE RUBIELOS
+	
+	
+FORTANETE
+				JOSA
+				MOSCARDÓN
+	
+	
+FOZ CALANDA
+				LAGUERUELA
+				MOSQUERUELA
+	
+	
+FRESNEDA, LA
+				LANZUELA
+				MUNIESA
+	
+	
+FRIAS DE ALBARRACÍN
+				LIBROS
+				NOGUERA DE ALBARRACÍN
+	
+	
+FUENFERRADA
+				LIDÓN
+				NOGUERAS
+	
+	
+FUENTES CALIENTES
+				LINARES DE MORA
+				NOGUERUELAS
+	
+	
+FUENTES CLARAS
+				LLEDÓ
+				OBÓN
+	
+	
+FUENTES DE RUBIELOS
+				LOSCOS
+				ODÓN
+	
+	
+FUENTESPALDA
+				MAÍCAS
+				OJOS NEGROS
+	
+	
+GALVE
+				MANZANERA
+				OLBA
+	
+	
+GARGALLO
+				MARTÍN DEL RÍO
+				OLIETE
+	
+	
+GEA DE ALBARRACÍN
+				MAS DE LAS MATAS
+				OLMOS, LOS
+	
+	
+GINEBROSA, LA
+				MATA DE LOS OLMOS, LA
+				ORIHUELA DEL TREMEDAL
+				ORRIOS
+				SALCEDILLO
+				TORREVELILLA
+	
+	
+PALOMAR DE ARROYOS
+				SALDÓN
+				TORRIJAS
+	
+	
+PANCRUDO
+				SAMPER DE CALANDA
+				TORRIJO DEL CAMPO
+	
+	
+PARRAS DE CASTELLOTE, LAS
+				SAN AGUSTÍN
+				TRAMACASTIEL
+	
+	
+PEÑARROYA DE TASTAVINS
+				SAN MARTÍN DEL RÍO
+				TRAMACASTILLA
+	
+	
+PERACENSE
+				SANTA CRUZ DE NOGUERAS
+				TRONCHÓN
+	
+	
+PERALEJOS
+				SANTA EULALIA DEL CAMPO
+				URREA DE GAÉN
+	
+	
+PERALES DEL ALFAMBRA
+				SARRIÓN
+				UTRILLAS
+	
+	
+PITARQUE
+				SEGURA DE BAÑOS
+				VALACLOCHE
+	
+	
+PLOU
+				SENO
+				VALBONA
+	
+	
+POBO DE LA SIERRA, EL
+				SINGRA
+				VALDEALGORFA
+	
+	
+PORTELLADA, LA
+				TERRIENTE
+				VALDECUENCA
+	
+	
+POZONDÓN
+				TERUEL
+				VALDELINARES
+	
+	
+POZUEL DEL CAMPO
+				TORIL Y MASEGOSO
+				VALDELTORMO
+	
+	
+PUEBLA DE HIJAR, LA
+				TORMÓN
+				VALDERROBRES
+	
+	
+PUEBLA DE VALVERDE, LA
+				TORNOS
+				VALJUNQUERA
+	
+	
+PUERTOMINGALVO
+				TORRALBA DE LOS SISONES
+				VALLECILLO, EL
+	
+	
+RÁFALES
+				TORRE DE ARCAS
+				VEGUILLAS DE LA SIERRA
+	
+	
+RILLO
+				TORRE DEL COMPTE
+				VILLAFRANCA DEL CAMPO
+	
+	
+RIODEVA
+				TORRE LOS NEGROS
+				VILLAHERMOSA DEL CAMPO
+	
+	
+RÓDENAS
+				TORRECILLA DE ALCAÑIZ
+				VILLANUEVA DEL REBOLLAR
+	
+	
+ROYUELA
+				TORRECILLA DEL REBOLLAR
+				VILLAR DEL COBO
+	
+	
+RUBIALES
+				TORRELACARCEL
+				VILLAR DEL SALZ
+	
+	
+RUBIELOS DE LA CÉRIDA
+				TORREMOCHA DEL JILOCA
+				VILLARLUENGO
+	
+	
+RUBIELOS DE MORA
+				TORRES DE ALBARRACÍN
+				VILLARQUEMADO
+				VILLARROYA DE LOS PINARES
+				VINACEITE
+				ZOMA, LA
+	
+	
+VILLASTAR
+				VISIEDO
+				
+	
+	
+VILLEL
+				VIVEL DEL RÍO
+				AJOFRÍN
+				CALERA Y CHOZAS
+				COBISA
+	
+	
+ALAMEDA DE LA SAGRA
+				CALERUELA
+				CONSUEGRA
+	
+	
+ALBARREAL DEL TAJO
+				CALZADA DE OROPESA, LA
+				CORRAL DE ALMAGUER
+	
+	
+ALCABON
+				CAMARENA
+				CUERVA
+	
+	
+ALCAÑIZO
+				CAMARENILLA
+				DOMINGO PÉREZ
+	
+	
+ALCAUDETE DE LA JARA
+				CAMPILLO DE LA JARA, EL
+				DOSBARRIOS
+	
+	
+ALCOLEA DE TAJO
+				CAMUÑAS
+				ERUSTES
+	
+	
+ALDEA EN CABO
+				CARDIEL DE LOS MONTES
+				ESCALONA
+	
+	
+ALDEANUEVA DE BARBARROYA
+				CARMENA
+				ESCALONILLA
+	
+	
+ALDEANUEVA DE SAN BARTOLOMÉ
+				CARPIO DE TAJO, EL
+				ESPINOSO DEL REY
+	
+	
+ALMENDRAL DE LA CAÑADA
+				CARRANQUE
+				Esquivias
+	
+	
+ALMONACID DE TOLEDO
+				CARRICHES
+				ESTRELLA, LA
+	
+	
+ALMOROX
+				CASAR DE ESCALONA, EL
+				FUENSALIDA
+	
+	
+AÑOVER DE TAJO
+				CASARRUBIOS DEL MONTE
+				GALVEZ
+	
+	
+ARGES
+				CASASBUENAS
+				GARCIOTUM
+	
+	
+ARICÓLLAR
+				CASTILLO DE BAYUELA
+				GERINDOTE
+	
+	
+AZUTÁN
+				CAZALEGAS
+				GUADAMUR
+	
+	
+BELVÍS DE LA JARA
+				CEBOLLA
+				GUARDIA, LA
+	
+	
+BOROX
+				CEDILLO DEL CONDADO
+				HERENCIAS, LAS
+	
+	
+BUENAVENTURA
+				CERRALBOS, LOS
+				HERRERUELA DE HOROPESA
+	
+	
+BURGUILOS DE TOLEDO
+				CERVERA DE LOS MONTES
+				HINOJOSA DE SAN VICENTE
+	
+	
+BURUJÓN
+				CHOZAS DE CANALES
+				HONTANAR
+	
+	
+CABAÑAS DE LA SAGRA
+				CHUECA
+				HORMIGOS
+	
+	
+CABAÑAS DE YEPES
+				CIRUELOS
+				HUECAS
+	
+	
+CABEZAMESADA
+				COBEJA
+				HUERTA DE VALDECARÁVANOS
+				AJOFRÍN
+				CALERA Y CHOZAS
+				COBISA
+	
+	
+ALAMEDA DE LA SAGRA
+				CALERUELA
+				CONSUEGRA
+	
+	
+ALBARREAL DEL TAJO
+				CALZADA DE OROPESA, LA
+				CORRAL DE ALMAGUER
+	
+	
+ALCABON
+				CAMARENA
+				CUERVA
+	
+	
+ALCAÑIZO
+				CAMARENILLA
+				DOMINGO PÉREZ
+	
+	
+ALCAUDETE DE LA JARA
+				CAMPILLO DE LA JARA, EL
+				DOSBARRIOS
+	
+	
+ALCOLEA DE TAJO
+				CAMUÑAS
+				ERUSTES
+	
+	
+ALDEA EN CABO
+				CARDIEL DE LOS MONTES
+				ESCALONA
+	
+	
+ALDEANUEVA DE BARBARROYA
+				CARMENA
+				ESCALONILLA
+	
+	
+ALDEANUEVA DE SAN BARTOLOMÉ
+				CARPIO DE TAJO, EL
+				ESPINOSO DEL REY
+	
+	
+ALMENDRAL DE LA CAÑADA
+				CARRANQUE
+				Esquivias
+	
+	
+ALMONACID DE TOLEDO
+				CARRICHES
+				ESTRELLA, LA
+	
+	
+ALMOROX
+				CASAR DE ESCALONA, EL
+				FUENSALIDA
+	
+	
+AÑOVER DE TAJO
+				CASARRUBIOS DEL MONTE
+				GALVEZ
+	
+	
+ARGES
+				CASASBUENAS
+				GARCIOTUM
+	
+	
+ARICÓLLAR
+				CASTILLO DE BAYUELA
+				GERINDOTE
+	
+	
+AZUTÁN
+				CAZALEGAS
+				GUADAMUR
+	
+	
+BELVÍS DE LA JARA
+				CEBOLLA
+				GUARDIA, LA
+	
+	
+BOROX
+				CEDILLO DEL CONDADO
+				HERENCIAS, LAS
+	
+	
+BUENAVENTURA
+				CERRALBOS, LOS
+				HERRERUELA DE HOROPESA
+	
+	
+BURGUILOS DE TOLEDO
+				CERVERA DE LOS MONTES
+				HINOJOSA DE SAN VICENTE
+	
+	
+BURUJÓN
+				CHOZAS DE CANALES
+				HONTANAR
+	
+	
+CABAÑAS DE LA SAGRA
+				CHUECA
+				HORMIGOS
+	
+	
+CABAÑAS DE YEPES
+				CIRUELOS
+				HUECAS
+	
+	
+CABEZAMESADA
+				COBEJA
+				HUERTA DE VALDECARÁVANOS
+				SANT ANA DE PUSA
+				TORRECILLA DE LA JARA
+				VILLAMIEL DE TOLEDO
+	
+	
+SANTA CRUZ DE LA ZARZA
+				TORRICO
+				VILLAMINAYA
+	
+	
+SANTA CRUZ DEL RETAMAR
+				TORRIJOS
+				VILLAMUELAS
+	
+	
+SANTA OLALLA
+				TOTANÉS
+				VILLANUEVA DE ALCARDETE
+	
+	
+SANTO DOMINGO CAUDILLA
+				TURLEQUE
+				VILLANUEVA DE BOGAS
+	
+	
+SARTAJADA
+				UGENA
+				VILLAREJO DE MONTALBÁN
+	
+	
+SEGURILLA
+				URDA
+				VILLARRUBIA DE SANTIAGO
+	
+	
+SESEÑA
+				VALDEVERDEJA
+				VILLASECA DE LA SAGRA
+	
+	
+SEVILLEJA DE LA JARA
+				VALMOJADO
+				VILLASEQUILLA
+	
+	
+SONSECA
+				VELADA
+				VILLATOBAS
+	
+	
+SOTILLO DE LAS PALOMAS
+				VENTAS DE PEÑA AQGUILERA, LAS
+				VISO DE SAN JUEN, EL
+	
+	
+TALAVERA DE LA REINA
+				VENTAS DE RETAMOSA, LAS
+				YÉBENES, LOS
+	
+	
+TEMBLEQUE
+				VENTAS DE SAN JULIÁN, LAS
+				YELES
+	
+	
+TOBOSO, EL
+				VILLA DE DON FADRIQUE, LA
+				YEPES
+	
+	
+TOLEDO
+				VILLACAÑAS
+				YUNCLER
+	
+	
+TORRALBA DE OROPESA
+				VILLAFRANCA DE LOS CABALLEROS
+				YUNCLILLOS
+	
+	
+TORRE DE ESTEBAN HAMBRÁN
+				VILLALUENGA DE LA SAGRA
+				YUNCOS
+				
+				ADEMUZ
+				ALFARRASI
+				BENAVITES
+	
+	
+ADOR
+				ALFAUIR
+				BENEIXIDA
+	
+	
+AGULLENT
+				ALGAR DE PALANCIA
+				BENETUSSER
+	
+	
+AIELO DE MALFERIT
+				ALGEMESÍ
+				BENIAFAIRO DE LA BALDIGNA
+	
+	
+AIELO DE RUGAT
+				ALGIMIA DE ALFARA
+				BENIARJÒ
+	
+	
+ALAQUÀS
+				ALGINET
+				BENIATJAR
+	
+	
+ALBAIDA
+				ALMÁSSERA
+				BENICOLET
+	
+	
+ALBAL
+				ALMISERÁ
+				BENICULL DE XUQER
+	
+	
+ALBALAT DE LA RIBERA
+				ALMOINÉS
+				BENIFAIO
+	
+	
+ALBALAT DEL SORELLS
+				ALMUSSAFES
+				BENIFAIRO DE LAS VALLS
+	
+	
+ALBALAT DEL TORONGERS
+				ALPUENTE
+				BENIFLÀ
+	
+	
+ALBERIC
+				ALQUERIA DE LA COMTESSA L'
+				BENIGÀNIM
+	
+	
+ALBORACHE
+				ALZIRA
+				BENIMODO
+	
+	
+ALBORAYA
+				ANDILLA
+				BENIMUSLEM
+	
+	
+ALBUIXECH
+				ANNA
+				BENIPARELL
+	
+	
+ALCANTERA DE XUQUER
+				ANTELLA
+				BENIRREDRA
+	
+	
+ALCASSER
+				ARAS DE LOS OLMOS
+				BENISANO
+	
+	
+ALCUBLAS
+				ATZENETA D'ALBAIDA
+				BENISSODA
+	
+	
+ALCÙDIA DE CRESPINS L'
+				AYORA
+				BENISUERA
+	
+	
+ALCÙDIA L'
+				BARXETA
+				BETERA
+	
+	
+ALDAIA
+				BÉLGIDA
+				BICORP
+	
+	
+ALFAFAR
+				BELLREGUARD
+				BOCAIRENT
+	
+	
+ALFARA DE ALGIMIA
+				BELLÚS
+				BOLBAITE
+	
+	
+ALFARA DE PATRIARCA
+				BENAGÈBER
+				BONREPÒS I MERAMBELL
+	
+	
+ALFARP
+				BENAGUASIL
+				BUFALI
+				BUGARRA
+				CHESTE
+				GÀTOVA
+	
+	
+BUNYOL
+				CHIVA
+				GAVARDA
+	
+	
+BURJASSOT
+				CHULILLA
+				GENOVÈS
+	
+	
+CALLES
+				COFRENTES
+				GESTARGAL
+	
+	
+CAMPORROBLES
+				CORBERA
+				GILET
+	
+	
+CANALS
+				CORTES DE PALLÀS
+				GODELLA
+	
+	
+CANET D'EMBERENGUER
+				COTES
+				GODELLETA
+	
+	
+CARCAIXENT
+				DAIMUS
+				GRANJA DE LA COSTERA LA
+	
+	
+CÀRCER
+				DOMEÑO
+				GUADASEQUIES
+	
+	
+CARLET
+				DOS AGUAS
+				GUADASSUAR
+	
+	
+CARRÌCOLA
+				ELIANA L'
+				GUARDAMAR
+	
+	
+CASAS ALTAS
+				EMPERADOR
+				HIGUERUELAS
+	
+	
+CASAS BAJAS
+				ENGUERA
+				JALANCES
+	
+	
+CASINOS
+				ENOVA L'
+				JARAFUEL
+	
+	
+CASTELLÒ DE LA RIBERA
+				ESTIVELLA
+				LLANERA DE RANES
+	
+	
+CASTELLÒ DE RUGAT
+				ESTUBENY
+				LLAURI
+	
+	
+CASTELLONET DE LA CONSTA
+				FAURA
+				LLIRIA
+	
+	
+CASTIELFABIB
+				FAVARA
+				LLOCNOU DE FELLONET
+	
+	
+CATADAU
+				FOIOS
+				LLOCNOU DE SANT JERONI
+	
+	
+CATARROJA
+				FONT D'EN CARRÒS LA
+				LLOMBAI
+	
+	
+CAUDETE DE LAS FUENTES
+				FONT DE LA FIGUERA LA
+				LLOSA DE RANES LA
+	
+	
+CERDÀ
+				FONTANARS DEL ALFORINS
+				LLUTXENT
+	
+	
+CHELLA
+				FORTALENY
+				LORIGUILLA
+	
+	
+CHELVA
+				FUENTERROBLES
+				LOSA DEL OBISPO
+	
+	
+CHERA
+				GANDIA
+				LUGAR NUEVO DE LA CORONA
+				MACASTRE
+				OLOCAU
+				QUART DE POBLET
+	
+	
+MANISES
+				ONTINYENT
+				QUARTELL
+	
+	
+MANUEL
+				OTOS
+				QUATRETONDA
+	
+	
+MARINES
+				PAIPORTA
+				QUESA
+	
+	
+MASALAVÈS
+				PALMA DE GANDIA
+				RAFELBUNYOL
+	
+	
+MASSALFASSAR
+				PALMERA
+				RAFELCOFER
+	
+	
+MASSAMAGRELL
+				PALOMAR EL
+				RAFELGUARAF
+	
+	
+MASSANASSA
+				PATERNA
+				RÀFOL DE SALEM
+	
+	
+MELIANA
+				PEDRALBA
+				REAL DE GANDIA
+	
+	
+MILLARES
+				PETRÈS
+				REAL DE MONTROI
+	
+	
+MIRAMAR
+				PICANYA
+				REQUENA
+	
+	
+MISLATA
+				PICASSENT
+				RIBA-ROJA DE TÙRIA
+	
+	
+MOIXENT
+				PILES
+				RIOLA
+	
+	
+MONTAVERNER
+				PINET
+				ROCAFORT
+	
+	
+MONTCADA
+				POBLA DE FARNAS LA
+				ROTGLÀ I CORBERA
+	
+	
+MONTESA
+				POBLA DE VALLBONA LA
+				ROTOVA
+	
+	
+MONTICHELVO
+				POBLA DEL DUC LA
+				RUGAT
+	
+	
+MONTROY
+				POBLA LLARGA LA
+				SAGUNT
+	
+	
+MONTSERRAT
+				POLINYÀ DE XUQUER
+				SALEM
+	
+	
+MUSEROS
+				POTRÌES
+				SAN ANTONIO DE BENAGÈBER
+	
+	
+NÀQUERA
+				PREDRALBA
+				SAN JUAN DE ÈNOVA
+	
+	
+NAVARRÈS
+				PUÇOLS
+				SEDAVÍ
+	
+	
+NOVETLÈ
+				PUEBLA DE SAN MIGUEL
+				SEGART
+	
+	
+OLIVA
+				PUIG EL
+				SELLENT
+	
+	
+OLLERIA L'
+				QUART DE LES VALLS
+				SEMPERE
+				SENYERA
+				TITAGUAS
+				VILAMARXANT
+	
+	
+SERRA
+				TORREBAJA
+				VILLAGORDO DEL CABRIEL
+	
+	
+SIETE AGUAS
+				TORRELLA
+				VILLALONGA
+	
+	
+SILLA
+				TORRENT
+				VILLAR DEL ARZOBISPO
+	
+	
+SIMAT DE LA VALLDIGMA
+				TORRES TORRES
+				VINALESA
+	
+	
+SINARCAS
+				TOUS
+				XÀTIVA
+	
+	
+SOLANA
+				TUÈJAR
+				XERACO
+	
+	
+SOT DE CHERA
+				TURÌS
+				XERESA
+	
+	
+SUECA
+				UTIEL
+				XIRIVELLA
+	
+	
+SUMACÀRCER
+				VALENCIA
+				YÀTOVA
+	
+	
+TAVERNES BLANQUES
+				VALLADA
+				YESA LA
+	
+	
+TAVERNES DE LA VALDIGNA
+				VALLANCA
+				ZARRA
+	
+	
+TERESA DE COIFRENTES
+				VALLES
+				
+	
+	
+TERRATEIG
+				VENTA DEL MORO
+				Adalia
+				Cabreros del Monte
+				Cogeces del Monte
+	
+	
+Aguasal
+				Campaspero
+				Corcos
+	
+	
+Aguilar de Campos
+				Campillo (El)
+				Corrales de Duero
+	
+	
+Alaejos
+				Camporredondo
+				Cubillas de Santa Marta
+	
+	
+Alcazarén
+				Canalejas de Peñafiel
+				Cuenca de Campos
+	
+	
+Aldea de San Miguel
+				Canillas de Esgueva
+				Curiel de Duero
+	
+	
+Aldeamayor de San Martín
+				Carpio
+				Encinas de Esgueva
+	
+	
+Almenara de Adaja
+				Casasola de Arión
+				Esguevillas de Esgueva
+	
+	
+Amusquillo
+				Castrejón de Trabancos
+				Fombellida
+	
+	
+Arroyo de la Encomienda
+				Castrillo de Duero
+				Fompedraza
+	
+	
+Ataquines
+				Castrillo-Tejeriego
+				Fontihoyuelo
+	
+	
+Becilla de Valderaduey
+				Castrobol
+				Fresno el Viejo
+	
+	
+Benafarces
+				Castrodeza
+				Fuensaldaña
+	
+	
+Bercero
+				Castromembibre
+				Fuente el Sol
+	
+	
+Berceruelo
+				Castromonte
+				Fuente-Olmedo
+	
+	
+Berrueces
+				Castronuevo de Esgueva
+				Gallegos de Hornija
+	
+	
+Bobadilla del Campo
+				Castronuño
+				Gatón de Campos
+	
+	
+Bocigas
+				Castroponce
+				Geria
+	
+	
+Bocos de Duero
+				Castroverde de Cerrato
+				Herrín de Campos
+	
+	
+Boecillo
+				Ceinos de Campos
+				Hornillos de Eresma
+	
+	
+Bolaños de Campos
+				Cervillego de la Cruz
+				Íscar
+	
+	
+Brahojos de Medina
+				Cigales
+				Laguna de Duero
+	
+	
+Bustillo de Chaves
+				Ciguñuela
+				Langayo
+	
+	
+Cabezón de Pisuerga
+				Cistérniga
+				Llano de Olmedo
+	
+	
+Cabezón de Valderaduey
+				Cogeces de Íscar
+				Lomoviejo
+				Manzanillo
+				Olmos de Esgueva
+				Renedo de Esgueva
+	
+	
+Marzales
+				Olmos de Peñafiel
+				Roales de Campos
+	
+	
+Matapozuelos
+				Palazuelo de Vedija
+				Robladillo
+	
+	
+Matilla de los Caños
+				Parrilla (La)
+				Roturas
+	
+	
+Mayorga
+				Pedraja de Portillo (La)
+				Rubí de Bracamonte
+	
+	
+Medina de Rioseco
+				Pedrajas de San Esteban
+				Rueda
+	
+	
+Medina del Campo
+				Pedrosa del Rey
+				Saelices de Mayorga
+	
+	
+Megeces
+				Peñafiel
+				Salvador de Zapardiel
+	
+	
+Melgar de Abajo
+				Peñaflor de Hornija
+				San Cebrián de Mazote
+	
+	
+Melgar de Arriba
+				Pesquera de Duero
+				San Llorente
+	
+	
+Mojados
+				Piña de Esgueva
+				San Martín de Valvení
+	
+	
+Monasterio de Vega
+				Piñel de Abajo
+				San Miguel del Arroyo
+	
+	
+Montealegre de Campos
+				Piñel de Arriba
+				San Miguel del Pino
+	
+	
+Montemayor de Pililla
+				Pollos
+				San Pablo de la Moraleja
+	
+	
+Moral de la Reina
+				Portillo
+				San Pedro de Latarce
+	
+	
+Moraleja de las Panaderas
+				Pozal de Gallinas
+				San Pelayo
+	
+	
+Morales de Campos
+				Pozaldez
+				San Román de Hornija
+	
+	
+Mota del Marqués
+				Pozuelo de la Orden
+				San Salvador
+	
+	
+Mucientes
+				Puras
+				San Vicente de Palacio
+	
+	
+Mudarra (La)
+				Quintanilla de Arriba
+				Santa Eufemia del Arroyo
+	
+	
+Muriel
+				Quintanilla de Onésimo
+				Santervás de Campos
+	
+	
+Nava del Rey
+				Quintanilla de Trigueros
+				Santibáñez de Valcorba
+	
+	
+Nueva Villa de las Torres
+				Quintanilla del Molar
+				Santovenia de Pisuerga
+	
+	
+Olivares de Duero
+				Rábano
+				Sardón de Duero
+	
+	
+Olmedo
+				Ramiro
+				Seca (La)
+				Serrada
+				Valladolid
+				Villalba de los Alcores
+	
+	
+Siete Iglesias de Trabancos
+				Valoria la Buena
+				Villalbarba
+	
+	
+Simancas
+				Valverde de Campos
+				Villalón de Campos
+	
+	
+Tamariz de Campos
+				Vega de Ruiponce
+				Villamarciel
+	
+	
+Tiedra
+				Vega de Valdetronco
+				Villamuriel de Campos
+	
+	
+Tordehumos
+				Velascálvaro
+				Villán de Tordesillas
+	
+	
+Tordesillas
+				Velilla
+				Villanubla
+	
+	
+Torre de Esgueva
+				Velliza
+				Villanueva de Duero
+	
+	
+Torre de Peñafiel
+				Ventosa de la Cuesta
+				Villanueva de la Condesa
+	
+	
+Torrecilla de la Abadesa
+				Viana de Cega
+				Villanueva de los Caballeros
+	
+	
+Torrecilla de la Orden
+				Villabáñez
+				Villanueva de los Infantes
+	
+	
+Torrecilla de la Torre
+				Villabaruz de Campos
+				Villanueva de San Mancio
+	
+	
+Torrelobatón
+				Villabrágima
+				Villardefrades
+	
+	
+Torrescárcela
+				Villacarralón
+				Villarmentero de Esgueva
+	
+	
+Traspinedo
+				Villacid de Campos
+				Villasexmir
+	
+	
+Trigueros del Valle
+				Villaco
+				Villavaquerín
+	
+	
+Tudela de Duero
+				Villafrades de Campos
+				Villavellid
+	
+	
+Unión de Campos (La)
+				Villafranca de Duero
+				Villaverde de Medina
+	
+	
+Urones de Castroponce
+				Villafrechós
+				Villavicencio de los Caballeros
+	
+	
+Urueña
+				Villafuerte de Esgueva
+				Villavieja del Cerro
+	
+	
+Valbuena de Duero
+				Villagarcia de Campos
+				Viloria del Henar
+	
+	
+Valdearcos de la Vega
+				Villagómez la Nueva
+				Wamba
+	
+	
+Valdenebro de los Valles
+				Villalán de Campos
+				Zaratán
+	
+	
+Valdestillas
+				Villalar de los Comuneros
+				Zarza (La)
+	
+	
+Valdunquillo
+				Villalba de la Loma
+				
+				Abezames
+				Brime de Urz
+				Cubo de Benavente
+	
+	
+Alcañices
+				Burganes de Valverde
+				Cubo de Tierra del Vino (El)
+	
+	
+Alcubilla de Nogales
+				Bustillo del Oro
+				Cuelgamures
+	
+	
+Alfaraz de Sayago
+				Cabañas de Sayago
+				Entrala
+	
+	
+Algodre
+				Calzadilla de Tera
+				Espadañedo
+	
+	
+Almaraz de Duero
+				Camarzana de Tera
+				Faramontanos de Tábara
+	
+	
+Almeida de Sayago
+				Cañizal
+				Fariza
+	
+	
+Andavías
+				Cañizo
+				Ferreras de Abajo
+	
+	
+Arcenillas
+				Carbajales de Alba
+				Ferreras de Arriba
+	
+	
+Arcos de la Polvorosa
+				Carbellino
+				Ferreruela
+	
+	
+Argañín
+				Casaseca de Campeán
+				Figueruela de Arriba
+	
+	
+Argujillo
+				Casaseca de las Chanas
+				Fonfría
+	
+	
+Arquillinos
+				Castrogonzalo
+				Fresno de la Polvorosa
+	
+	
+Arrabalde
+				Castronuevo
+				Fresno de la Ribera
+	
+	
+Aspariegos
+				Castroverde de Campos
+				Fresno de Sayago
+	
+	
+Asturianos
+				Cazurra
+				Friera de Valverde
+	
+	
+Ayoó de Vidriales
+				Cerecinos de Campos
+				Fuente Encalada
+	
+	
+Belver de los Montes
+				Cerecinos del Carrizal
+				Fuentelapeña
+	
+	
+Benavente
+				Cernadilla
+				Fuentes de Ropel
+	
+	
+Benegiles
+				Cobreros
+				Fuentesaúco
+	
+	
+Bermillo de Sayago
+				Coomonte
+				Fuentesecas
+	
+	
+Bóveda de Toro (La)
+				Coreses
+				Fuentespreadas
+	
+	
+Bretó
+				Corrales
+				Galende
+	
+	
+Bretocino
+				Cotanes del Monte
+				Gallegos del Pan
+	
+	
+Brime de Sog
+				Cubillos
+				Gallegos del Río
+				Gamones
+				Mayalde
+				Pajares de la Lampreana
+	
+	
+Gema
+				Melgar de Tera
+				Palacios de Sanabria
+	
+	
+Granja de Moreruela
+				Micereces de Tera
+				Palacios del Pan
+	
+	
+Granucillo
+				Milles de la Polvorosa
+				Pedralba de la Pradería
+	
+	
+Guarrate
+				Molacillos
+				Pego (El)
+	
+	
+Hermisende
+				Molezuelas de la Carballeda
+				Peleagonzalo
+	
+	
+Hiniesta (La)
+				Mombuey
+				Peleas de Abajo
+	
+	
+Jambrina
+				Monfarracinos
+				Peñausende
+	
+	
+Justel
+				Montamarta
+				Peque
+	
+	
+Losacino
+				Moral de Sayago
+				Perdigón (El)
+	
+	
+Losacio
+				Moraleja de Sayago
+				Pereruela
+	
+	
+Lubián
+				Moraleja del Vino
+				Perilla de Castro
+	
+	
+Luelmo
+				Morales de Rey
+				Pías
+	
+	
+Maderal (El)
+				Morales de Toro
+				Piedrahita de Castro
+	
+	
+Madridanos
+				Morales de Valverde
+				Piñero (El)
+	
+	
+Mahide
+				Morales del Vino
+				Pinilla de Toro
+	
+	
+Maire de Castroponce
+				Moralina
+				Pobladura de Valderaduey
+	
+	
+Malva
+				Moreruela de los Infanzones
+				Pobladura del Valle
+	
+	
+Manganeses de la Lampreana
+				Moreruela de Tábara
+				Porto
+	
+	
+Manganeses de la Polvorosa
+				Muelas de los Caballeros
+				Pozoantiguo
+	
+	
+Manzanal de Arriba
+				Muelas del Pan
+				Pozuelo de Tábara
+	
+	
+Manzanal de los Infantes
+				Muga de Sayago
+				Prado
+	
+	
+Manzanal del Barco
+				Navianos de Valverde
+				Puebla de Sanabria
+	
+	
+Matilla de Arzón
+				Olmillos de Castro
+				Pueblica de Valverde
+	
+	
+Matilla la Seca
+				Otero de Bodas
+				Quintanilla de Urz
+				Quintanilla del Monte
+				San Vicente de la Cabeza
+				Valdescorriel
+	
+	
+Quintanilla del Olmo
+				San Vitero
+				Vallesa de la Guareña
+	
+	
+Quiruelas de Vidriales
+				Santa Clara de Avedillo
+				Vega de Tera
+	
+	
+Rabanales
+				Santa Colomba de las Monjas
+				Vega de Villalobos
+	
+	
+Rábano de Aliste
+				Santa Cristina de la Polvorosa
+				Vegalatrave
+	
+	
+Requejo
+				Santa Croya de Tera
+				Venialbo
+	
+	
+Revellinos
+				Santa Eufemia del Barco
+				Vezdemarbán
+	
+	
+Riofrío de Aliste
+				Santa María de la Vega
+				Vidayanes
+	
+	
+Rionegro del Puente
+				Santa María de Valverde
+				Videmala
+	
+	
+Roales
+				Santibáñez de Tera
+				Villabrázaro
+	
+	
+Robleda-Cervantes
+				Santibáñez de Vidriales
+				Villabuena del Puente
+	
+	
+Roelos de Sayago
+				Santovenia
+				Villadepera
+	
+	
+Rosinos de la Requejada
+				Sanzoles
+				Villaescusa
+	
+	
+Salce
+				Tábara
+				Villafáfila
+	
+	
+Samir de los Caños
+				Tapioles
+				Villaferrueña
+	
+	
+San Agustín del Pozo
+				Toro
+				Villageriz
+	
+	
+San Cebrián de Castro
+				Torre del Valle (La)
+				Villalazán
+	
+	
+San Cristóbal de Entreviñas
+				Torregamones
+				Villalba de la Lampreana
+	
+	
+San Esteban del Molar
+				Torres del Carrizal
+				Villalcampo
+	
+	
+San Justo
+				Trabazos
+				Villalobos
+	
+	
+San Martín de Valderaduey
+				Trefacio
+				Villalonso
+	
+	
+San Miguel de la Ribera
+				Uña de Quintana
+				Villalpando
+	
+	
+San Miguel del Valle
+				Vadillo de la Guareña
+				Villalube
+	
+	
+San Pedro de Ceque
+				Valcabado
+				Villamayor de Campos
+	
+	
+San Pedro de la Nave-Almendra
+				Valdefinjas
+				Villamor de los Escuderos
+				
+				Villanázar
+				Villaralbo
+				Villavendimio
+	
+	
+Villanueva de Azoague
+				Villardeciervos
+				Villaveza de Valverde
+	
+	
+Villanueva de Campeán
+				Villardiegua de la Ribera
+				Villaveza del Agua
+	
+	
+Villanueva de las Peras
+				Villárdiga
+				Viñas
+	
+	
+Villanueva del Campo
+				Villardondiego
+				Zamora
+	
+	
+Villar de Fallaves
+				Villarrín de Campos
+				
+	
+	
+Villar del Buey
+				Villaseco del Pan
+				Abanto
+				Aniñón José Manuel Sebastián Roy
+				Bulbuente
+	
+	
+Acered
+				Añón de Moncayo
+				Bureta
+	
+	
+Agón
+				Aranda de Moncayo
+				Burgo del Ebro el
+	
+	
+Aguarón
+				Arándiga
+				Buste el
+	
+	
+Ainzón
+				Ardisa
+				Cabañas de Ebro
+	
+	
+Alagón
+				Ariza
+				Cabolafuente
+	
+	
+Alberite de San Juan
+				Artieda
+				Cadrete
+	
+	
+Albeta
+				Asín
+				Calatayud
+	
+	
+Alborge
+				Atea
+				Calatorao
+	
+	
+Alcalá de Ebro
+				Ateca
+				Calcena
+	
+	
+Alcalá de Moncayo
+				Azuara
+				Calmarza
+	
+	
+Alconchel de Ariza
+				Belchite
+				Campillo de Aragón
+	
+	
+Aldehuela de Liestos
+				Belmonte de Gracián
+				Carenas
+	
+	
+Alfajarín
+				Berdejo
+				Cariñena
+	
+	
+Alfamén
+				Biel
+				Caspe
+	
+	
+Alforque
+				Bijuesca
+				Castejón de Alarba
+	
+	
+Alhama de Aragón
+				Biota
+				Castejón de Las Armas
+	
+	
+Almochuel
+				Bisimbre
+				Castejón de Valdejasa
+	
+	
+Almolda La
+				Boquiñeni
+				Castiliscar
+	
+	
+Almonacid de la Cuba
+				Bordalba
+				Cervera de la Cañada
+	
+	
+Almonacid de la Sierra
+				Borja
+				Cerveruela
+	
+	
+Almunia de Doña Godina La
+				Botorrita
+				CETINA
+	
+	
+Alpartir
+				Brea de Aragón
+				Chiprana
+	
+	
+Ambel
+				Bubierca
+				Chodes
+	
+	
+Anento
+				Bujaraloz
+				Cimballa
+				
+				Cinco Olivas
+				Fuendetodos
+				Litago
+	
+	
+Clares de Ribota
+				Fuensejalón
+				Lituenigo
+	
+	
+Codo
+				Fuentes de Ebro
+				Lobera de Onsella
+	
+	
+Codos
+				Fuentes de Jiloca
+				Longares
+	
+	
+Contamina
+				Gallocanta
+				Longás
+	
+	
+Cosuenda
+				Gallur
+				Lucena de Jalón
+	
+	
+Cuarte de Huerva
+				Gelsa
+				Luceni
+	
+	
+Cubel
+				Godojos
+				Luesia
+	
+	
+Cuerlas Las
+				Gotor
+				Luesma
+	
+	
+Daroca
+				Grisel
+				Lumpiaque
+	
+	
+Ejea de los Caballeros
+				Grisen
+				Luna
+	
+	
+Embid de
+				Herrera de los Navarros
+				Maella
+	
+	
+Encinacorba
+				Ibdes
+				Magallón
+	
+	
+Épila
+				Illueca
+				Mainar
+	
+	
+Erla
+				Isuerre
+				Malanquilla
+	
+	
+Escatrón
+				Jaraba
+				Maleján
+	
+	
+Fabara
+				Jarque
+				Mallén
+	
+	
+Farlete
+				Jaulín
+				Malón
+	
+	
+Fayón
+				Joyosa La
+				Maluenda
+	
+	
+Fayos Los
+				Lagata
+				Manchones
+	
+	
+Figueruelas
+				Layana
+				Mara
+	
+	
+Fombuena
+				Lécera
+				María de Huerva
+	
+	
+Frago El
+				Lechón
+				Marracos
+	
+	
+Frasno El
+				Leciñena
+				Mediana de Aragón
+	
+	
+Frescano
+				Letux
+				Mequinenza
+				Mesones de Isuela
+				Novillas
+				Pozuelo de Aragón
+	
+	
+Mezalocha
+				Nuevalos
+				Pradilla de Ebro
+	
+	
+Mianos
+				Nuez de Ebro
+				Puebla de Albortón La
+	
+	
+Miedes de Aragón
+				Olvés
+				Puebla de Alfindén La
+	
+	
+Monegrillo
+				Ontinar de Salz
+				Puendeluna
+	
+	
+Moneva
+				Orcajo
+				Purujosa
+	
+	
+Monreal de Ariza
+				Orera
+				Quinto
+	
+	
+Monterde
+				Orés
+				Remolinos
+	
+	
+Montón
+				Oseja
+				Retascón
+	
+	
+Morata de Jalón
+				Osera de Ebro
+				Ricla
+	
+	
+Morata de Jiloca
+				Paniza
+				Romanos
+	
+	
+Morés
+				Paracuellos de Jiloca
+				Rueda de Jalón
+	
+	
+Moros
+				Paracuellos de la Ribera
+				Ruesca
+	
+	
+Moyuela
+				Pastriz
+				Sabiñán
+	
+	
+Mozota
+				Pedrola
+				Sádaba
+	
+	
+Muel
+				Pedrosas Las
+				Salillas de Jalón
+	
+	
+Muela La
+				Perdiguera
+				Salvatierra de Escá
+	
+	
+Munébrega
+				Piedratajada
+				Samper del Salz
+	
+	
+Murero
+				Pina de Ebro
+				San Martín de la Virgen del Moncayo
+	
+	
+Murillo de Gállego
+				Pinseque
+				San Mateo de Gállego
+	
+	
+Navardún
+				Pintanos Los
+				Santa Cruz de Grío
+	
+	
+Nigüella
+				Plasencia de Jalón
+				Santa Cruz de Moncayo
+	
+	
+Nombrevilla
+				Pleitas
+				Santa Eulalia de Gállego
+	
+	
+Nonaspe
+				Pomer
+				Santed
+	
+	
+Novallas
+				Pozuel de Ariza
+				Sástago
+				
+				Sediles
+				Torrellas
+				Vierlas
+	
+	
+Sestrica
+				Torres de Berrellén
+				Vilamayor de Gallego
+	
+	
+Sierra de Luna
+				Torrijo de la Cañada
+				Villadoz
+	
+	
+Sigüés
+				Tosos
+				Villafeliche
+	
+	
+Sisamón
+				Trasmoz
+				Villafranca de Ebro
+	
+	
+Sobradiel
+				Trasobares
+				Villalba de Perejil
+	
+	
+Sofuentes
+				Uncastillo
+				Villalengua
+	
+	
+Sos del Rey Católico
+				Undués de Lerda
+				Villanueva de Gállego
+	
+	
+Tabuenca
+				Urrea de Jalón
+				Villanueva de Huerva
+	
+	
+Talamantes
+				Urriés
+				Villanueva de Jiloca
+	
+	
+Tarazona
+				Used
+				Villar de Los Navarros
+	
+	
+Tauste
+				Utebo
+				Villarreal de Huerva
+	
+	
+Terrer
+				Val de San Martín
+				Villarroya de la Sierra
+	
+	
+Tierga
+				Valdehorna
+				Villarroya del Campo
+	
+	
+Tobed
+				Valmadrid
+				Vilueña La
+	
+	
+Torralba de los Frailes
+				Valpalmas
+				Vistabella
+	
+	
+Torralba de Ribota
+				Valtorres
+				Zaida La
+	
+	
+Torralbilla
+				Velilla de Ebro
+				Zaragoza
+	
+	
+Torrehermosa
+				Velilla de Jiloca
+				Zuera
+	
+	
+Torrelapaja
+				Vera de Moncayo

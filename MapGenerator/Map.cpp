@@ -304,7 +304,8 @@ void Map::CalculateDownslopes(){
 }
 
 void Map::GenerateRivers(){
-	int num_rios = (map_height + map_width) / 4;
+	//int num_rios = (map_height + map_width) / 4;
+	int num_rios = centers.size() / 3;
 	for(int i = 0; i < num_rios; i++){
 		corner *q = corners[rand()%corners.size()];
 		if( q->ocean || q->elevation < 0.3 || q->elevation > 0.9 ) continue;
