@@ -89,8 +89,36 @@ struct city {
 };
 
 #include <fstream>
+#include "PoissonDiskSampling.h"
 
 int main(){
+
+	sf::Clock c;
+	PoissonDiskSampling pds(796, 596, 10, 15);
+	//PoissonDiskSampling pds(10, 20, 1.414214, 10);
+
+	c.restart();
+	vector<pair<double, double> > points = pds.Generate();
+	cout << c.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+
+	cout << points.size() << endl;	
+
+	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
+	app->setFramerateLimit(60);
+
+	app->clear(sf::Color::White);
+	sf::CircleShape p;
+	p.setFillColor(sf::Color::Black);
+	p.setRadius(POINT_SIZE);
+	for each(pair<double,double> point in points){
+		p.setPosition(point.first - POINT_SIZE + 2, point.second - POINT_SIZE + 2);
+		//p.setPosition(point.first * 10 - POINT_SIZE, point.second * 10 - POINT_SIZE);
+		app->draw(p);
+	}
+	app->display();
+
+	system("pause");
+	return 0;
 
 	vector<string> names;
 	ifstream names_file;
@@ -115,10 +143,9 @@ int main(){
 
 	VideoMode = InfoShown::Biomes;
 
-	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
-	app->setFramerateLimit(60);
 
-	Map mapa(WIDTH, HEIGHT, 2000);
+
+	Map mapa(WIDTH, HEIGHT, 1000);
 
 	timer.restart();
 	mapa.Generate();

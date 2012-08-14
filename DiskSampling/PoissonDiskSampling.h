@@ -8,14 +8,14 @@ public:
 	PoissonDiskSampling(void);
 	~PoissonDiskSampling(void);
 
-	vector<pair<double,double> > Generate(int width, int height, double min_dist, int point_count);
+	PoissonDiskSampling(int p_width, int p_height, double p_min_dist, int p_point_count);
+
+	vector<pair<double,double> > Generate();
 
 private:
-
-
-
 	struct point {
 		point(double x_, double y_) : x(x_), y(y_) {};
+		point(const point &p) : x(p.x), y(p.y) {};
 
 		int gridIndex(double cell_size, int map_width){
 			int x_index = x / cell_size;
@@ -31,9 +31,19 @@ private:
 		double x, y;
 	};
 
-	point generatePointAround(point p, double min_dist);
-	bool inRectangle(point p, int width, int height);
-	bool inNeighbourhood(vector<vector<point *> > grid, point p, double min_dist, double cell_size, int width, int height);
-	vector<point *> getCellsAround(vector<vector<point *> > grid, point p, double cell_size, int width, int height);
+	vector<vector<point *> > m_grid;
+	vector<point> m_process;
+	vector<pair<double,double> > m_sample;
+
+	int m_width;
+	int m_height;
+	double m_min_dist;
+	int m_point_count;
+	double m_cell_size;
+
+	point generatePointAround(point p_point);
+	bool inRectangle(point p_point);
+	bool inNeighbourhood(point p_point);
+	vector<point *> getCellsAround(point p_point);
 };
 

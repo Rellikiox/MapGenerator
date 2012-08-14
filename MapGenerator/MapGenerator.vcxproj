@@ -45,7 +45,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>C:\Users\Martin\Documents\Proyectos\SFMLVS11\lib;C:\Users\Martin\Documents\Proyectos\MapGenerator\MapGenerator\third-party\noise;C:\Users\Martin\Documents\Proyectos\MapGenerator\Debug;$(LibraryPath)</LibraryPath>
-    <TargetExt>.exe</TargetExt>
+    <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
