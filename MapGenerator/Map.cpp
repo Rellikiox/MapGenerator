@@ -149,12 +149,15 @@ void Map::Generate() {
 }
 
 void Map::GeneratePolygons() {
-
+	sf::Clock timer;
 	GeneratePoints();
+	cout << "Point placement: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	timer.restart();
 	Triangulate(points);
-	//LloydRelaxation();
-	//LloydRelaxation();
+	cout << "Triangulation: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	timer.restart();
 	FinishInfo();
+	cout << "Finishing touches: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
 }
 
 void Map::GenerateLand() {
@@ -516,9 +519,9 @@ void Map::Triangulate(vector<del::vertex> puntos){
 	del::triangleSet tris;
 	del::edgeSet edg;
 	del::Delaunay dela;
-	sf::Clock timer;
+	
 	dela.Triangulate(v, tris);
-	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	
 	for each (del::triangle t in tris) {		
 		Vec2 pos_center_0( t.GetVertex(0)->GetX(), t.GetVertex(0)->GetY());
 		Vec2 pos_center_1( t.GetVertex(1)->GetX(), t.GetVertex(1)->GetY());
@@ -615,7 +618,7 @@ center * Map::GetCenter(Vec2 position){
 }
 
 void Map::GeneratePoints(){
-	PoissonDiskSampling pds(800,600,15,10);
+	PoissonDiskSampling pds(800,600,10,10);
 	vector<pair<double,double> > new_points = pds.Generate();
 	for each (pair<double,double> p in new_points) {
 		points.push_back(del::vertex((int) p.first, (int) p.second));
