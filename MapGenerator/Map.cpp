@@ -70,20 +70,10 @@ Map::Map(int width, int height, int point_count) {
 	//triangulation = new Delaunay(Vec2(0,0), Vec2(map_width, map_height));
 
 	srand(time(NULL));
-
-	PoissonDiskSampling pds(800,600,10,10);
-	vector<pair<double,double> > new_points = pds.Generate();
-	for each (pair<double,double> p in new_points) {
-		points.push_back(del::vertex((int) p.first, (int) p.second));
-	}
 	/*
 	for(int i = 0; i < point_count; i++){
 		points.push_back(del::vertex(5 + rand()%(map_width - 10), 5 + rand()%(map_height - 10)));
 	}*/
-	points.push_back(del::vertex(-map_width,-map_height));
-	points.push_back(del::vertex(map_width * 2,-map_width));
-	points.push_back(del::vertex(-map_width,map_height * 2));
-	points.push_back(del::vertex(map_width * 2, map_height * 2));
 
 	z_coord = ((double) rand() / RAND_MAX ) * 4;
 	//z_coord = 0.979888;
@@ -160,6 +150,7 @@ void Map::Generate() {
 
 void Map::GeneratePolygons() {
 
+	GeneratePoints();
 	Triangulate(points);
 	//LloydRelaxation();
 	//LloydRelaxation();
@@ -621,6 +612,18 @@ center * Map::GetCenter(Vec2 position){
 	}
 
 	return NULL;
+}
+
+void Map::GeneratePoints(){
+	PoissonDiskSampling pds(800,600,15,10);
+	vector<pair<double,double> > new_points = pds.Generate();
+	for each (pair<double,double> p in new_points) {
+		points.push_back(del::vertex((int) p.first, (int) p.second));
+	}
+	points.push_back(del::vertex(-map_width,-map_height));
+	points.push_back(del::vertex(map_width * 2,-map_width));
+	points.push_back(del::vertex(-map_width,map_height * 2));
+	points.push_back(del::vertex(map_width * 2, map_height * 2));
 }
 
 void Map::LloydRelaxation(){

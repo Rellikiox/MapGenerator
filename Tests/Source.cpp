@@ -92,10 +92,10 @@ struct city {
 #include "PoissonDiskSampling.h"
 
 int main(){
-
+	/*
 	sf::Clock c;
-	PoissonDiskSampling pds(796, 596, 10, 15);
-	//PoissonDiskSampling pds(10, 20, 1.414214, 10);
+	PoissonDiskSampling pds(796, 596, 3, 10);
+	//PoissonDiskSampling pds(10, 10, 1.414214, 10);
 
 	c.restart();
 	vector<pair<double, double> > points = pds.Generate();
@@ -119,7 +119,7 @@ int main(){
 
 	system("pause");
 	return 0;
-
+	*/
 	vector<string> names;
 	ifstream names_file;
 	names_file.open("../Resources/BrittanyPlaces2.txt", ios::in);
@@ -143,7 +143,8 @@ int main(){
 
 	VideoMode = InfoShown::Biomes;
 
-
+	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
+	app->setFramerateLimit(60);
 
 	Map mapa(WIDTH, HEIGHT, 1000);
 

@@ -12,7 +12,6 @@ public:
 
 	vector<pair<double,double> > Generate();
 
-private:
 	struct point {
 		point(double x_, double y_) : x(x_), y(y_) {};
 		point(const point &p) : x(p.x), y(p.y) {};
@@ -31,6 +30,9 @@ private:
 		double x, y;
 	};
 
+
+private:
+	
 	vector<vector<point *> > m_grid;
 	vector<point> m_process;
 	vector<pair<double,double> > m_sample;
@@ -40,6 +42,8 @@ private:
 	double m_min_dist;
 	int m_point_count;
 	double m_cell_size;
+	int m_grid_width;
+	int m_grid_height;
 
 	point generatePointAround(point p_point);
 	bool inRectangle(point p_point);

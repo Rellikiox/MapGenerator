@@ -7,25 +7,18 @@ PoissonDiskSampling::PoissonDiskSampling(void) {}
 
 PoissonDiskSampling::~PoissonDiskSampling(void) {}
 
-PoissonDiskSampling::PoissonDiskSampling(int p_width, int p_height, double p_min_dist, int p_point_count) {
-	m_width = p_width;
-	m_height = p_height;
-	m_min_dist = p_min_dist;
-	m_point_count = p_point_count;
-	m_cell_size = m_min_dist / 1.414214;
+PoissonDiskSampling::PoissonDiskSampling(int p_width, int p_height, double p_min_dist, int p_point_count){
+	m_width			= p_width;
+	m_height		= p_height;
+	m_min_dist		= p_min_dist;
+	m_point_count	= p_point_count;
+	m_cell_size		= m_min_dist / 1.414214;
+	m_grid_width	= ceil(m_width / m_cell_size);
+	m_grid_height	= ceil(m_height / m_cell_size);
+	m_grid = vector<vector<point *> >(m_grid_width, vector<point *>(m_grid_height, NULL));
 }
 
 vector<pair<double,double> > PoissonDiskSampling::Generate(){
-
-	int grid_width = ceil(m_width / m_cell_size);
-	int grid_height = ceil(m_height / m_cell_size);
-	for(int i = 0; i < grid_width; i++){
-		vector<point *> aux;
-		for(int j = 0; j < grid_height; j++){
-			aux.push_back(NULL);
-		}
-		m_grid.push_back(aux);
-	}
 	//srand(time(NULL));
 	point first_point(rand() % m_width, rand() % m_height);
 
@@ -39,7 +32,7 @@ vector<pair<double,double> > PoissonDiskSampling::Generate(){
 		int new_point_index = rand() % m_process.size();
 		point new_point = m_process[new_point_index];
 		m_process.erase(m_process.begin() + new_point_index);
-
+		
 		for(int i = 0; i < m_point_count; i++){
 			point new_point_around = generatePointAround(new_point);
 
@@ -92,10 +85,10 @@ vector<PoissonDiskSampling::point *> PoissonDiskSampling::getCellsAround(point p
 	int y_index = p_point.y / m_cell_size;
 
 	int min_x = max(0, x_index - 1);
-	int max_x = min((int) (m_width / m_cell_size) - 1, x_index + 1);
+	int max_x = min(m_grid_width - 1, x_index + 1);
 
 	int min_y = max(0, y_index - 1);
-	int max_y = min((int) (m_height / m_cell_size) - 1, y_index + 1);
+	int max_y = min(m_grid_height - 1, y_index + 1);
 
 	for(int i = min_x; i <= max_x; i++){
 		for(int j = min_y; j <= max_y; j++){

@@ -60,6 +60,7 @@ private:
 	void AssignPolygonMoisture();
 	void AssignBiomes();
 
+	void GeneratePoints();
 	void Triangulate(vector<del::vertex> puntos);
 	void FinishInfo();
 	void AddCenter(center * c);
