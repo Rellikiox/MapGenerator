@@ -36,7 +36,6 @@ void MarkovNames::Copy(const MarkovNames &mn){
 MarkovNames::MarkovNames(vector<string> original_names, int order, int length) {
 	assert(order > 0);
 	assert(original_names.size() > 0);	
-	srand(time(NULL));
 	this->order = order;
 	this->min_name_length = length;
 
@@ -48,7 +47,6 @@ MarkovNames::MarkovNames(vector<string> original_names, int order, int length) {
 
 MarkovNames::MarkovNames(string original_names, int order, int length) {
 	assert(order > 0);	
-	srand(time(NULL));
 	this->order = order;
 	this->min_name_length = length;
 
@@ -62,7 +60,7 @@ void MarkovNames::ResetGenerator(vector<string> original_names, int order, int l
 	assert(order > 0);
 	assert(original_names.size() > 0);
 
-	srand(time(NULL));
+
 	this->order = order;
 	this->min_name_length = length;
 

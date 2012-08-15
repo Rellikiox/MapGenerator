@@ -57,92 +57,83 @@ vector<vector<Biome::Type> > Map::MakeBiomeMatrix(){
 }
 
 Map::Map(void) {
-	srand(time_t(NULL));
-	z_coord = ((double) rand() / RAND_MAX ) * 2 - 1;
 }
 
 Map::~Map(void) {
 }
 
-Map::Map(int width, int height, int point_count) {
+Map::Map(int width, int height, int point_count, string seed) {
 	map_width = width;
 	map_height = height;
-	//triangulation = new Delaunay(Vec2(0,0), Vec2(map_width, map_height));
 
-	srand(time(NULL));
-	/*
-	for(int i = 0; i < point_count; i++){
-		points.push_back(del::vertex(5 + rand()%(map_width - 10), 5 + rand()%(map_height - 10)));
-	}*/
+	m_seed = seed != "" ? seed : CreateSeed(20);	
 
-	z_coord = ((double) rand() / RAND_MAX ) * 4;
-	//z_coord = 0.979888;
-	z_coord = 2.15473;
-	cout << z_coord << endl;
+	srand(HashString(m_seed));
+	//srand(884);
+
+	z_coord = rand();
+	cout << "Seed: " << m_seed << "(" << HashString(m_seed) << ")" << endl;
 }
 
 void Map::Generate() {
 	sf::Clock timer;
 
-	cout << "Genero poligonos: " << endl;
-	timer.restart();
 	GeneratePolygons();
-	cout << "Total: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Genero tierra: ";
+	cout << "Land distribution: ";
 	timer.restart();
 	GenerateLand();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
 	// ELEVATION
-	cout << "Asigno costas: ";
+	cout << "Coast assignment: ";
 	timer.restart();
 	AssignOceanCoastLand();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Asigno altura: ";
+	cout << "Corner altitude: ";
 	timer.restart();
 	AssignCornerElevation();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Redistribuyo altura: ";
+	cout << "Altitude redistribution: ";
 	timer.restart();
 	RedistributeElevations();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Asigno altura: ";
+	cout << "Center altitude: ";
 	timer.restart();
 	AssignPolygonElevations();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
 	// MOISTURE
-	cout << "Calculo caida: ";
+	cout << "Downslopes: ";
 	timer.restart();
 	CalculateDownslopes();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Genero rios: ";
+	cout << "River generation: ";
 	timer.restart();
 	GenerateRivers();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Asigno humedad: ";
+	cout << "Corner moisture: ";
 	timer.restart();
 	AssignCornerMoisture();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Redistribuyo humedad: ";
+	cout << "Moisture redistribution: ";
 	timer.restart();
 	RedistributeMoisture();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
-	cout << "Asigno humedad: ";
+	cout << "Center moisture: ";
 	timer.restart();
 	AssignPolygonMoisture();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 
 	// BIOMES
-	cout << "Asigno climas: ";
+	cout << "Biome assignment: ";
 	timer.restart();
 	AssignBiomes();
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
@@ -151,13 +142,13 @@ void Map::Generate() {
 void Map::GeneratePolygons() {
 	sf::Clock timer;
 	GeneratePoints();
-	cout << "Point placement: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	cout << "Point placement: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << "ms." << endl;
 	timer.restart();
 	Triangulate(points);
-	cout << "Triangulation: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	cout << "Triangulation: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << "ms." << endl;
 	timer.restart();
 	FinishInfo();
-	cout << "Finishing touches: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	cout << "Finishing touches: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << "ms." << endl;
 }
 
 void Map::GenerateLand() {
@@ -449,7 +440,7 @@ void Map::OrderPoints( vector<corner *> & corners ) {
 		for (corner_iter = corners.begin() + 1; corner_iter != corners.end(); corner_iter++) {
 			if ((*corner_iter)->position.x < leftMostPoint->position.x 
 				|| ((*corner_iter)->position.x == leftMostPoint->position.x && (*corner_iter)->position.y < leftMostPoint->position.y)) {
-				leftMostPoint = *corner_iter;
+					leftMostPoint = *corner_iter;
 			}
 		}
 		corner * current = leftMostPoint;
@@ -491,20 +482,29 @@ vector<corner *> Map::GetLakeCorners(){
 }
 
 bool Map::IsIsland(Vec2 position){
+	
+	double water_threshold = 0.075;
+
+	if(position.x < map_width * water_threshold || position.y < map_height * water_threshold
+		|| position.x > map_width * (1 - water_threshold) || position.y > map_height * (1 - water_threshold))
+		return false;
+
 	Vec2 center_pos = Vec2(map_width / 2.0, map_height / 2.0);
 
 	position -= center_pos;
-	double x_coord = position.x / map_width * 4 + z_coord;
-	double y_coord = position.y / map_height * 4 + z_coord;
+	double x_coord = (position.x / map_width) * 4;
+	double y_coord = (position.y / map_height) * 4;
 	double noise_val = noiseMap->GetValue(x_coord, y_coord, z_coord);
 
 	position /= min(map_width, map_height);
-	double radius = position.LengthSqrd();
+	double radius = position.Length();
 
-	double factor = 0;
-	if(radius > 0.3)
+	double factor = radius - 0.5;
+/*	if(radius > 0.3)
 		factor = -1 / log(radius - 0.3) / 10;
-
+	else
+		factor = radius - 0.3;
+		*/
 	return noise_val >= 0.3*radius + factor;
 }
 
@@ -519,9 +519,9 @@ void Map::Triangulate(vector<del::vertex> puntos){
 	del::triangleSet tris;
 	del::edgeSet edg;
 	del::Delaunay dela;
-	
+
 	dela.Triangulate(v, tris);
-	
+
 	for each (del::triangle t in tris) {		
 		Vec2 pos_center_0( t.GetVertex(0)->GetX(), t.GetVertex(0)->GetY());
 		Vec2 pos_center_1( t.GetVertex(1)->GetX(), t.GetVertex(1)->GetY());
@@ -618,15 +618,20 @@ center * Map::GetCenter(Vec2 position){
 }
 
 void Map::GeneratePoints(){
-	PoissonDiskSampling pds(800,600,10,10);
+	PoissonDiskSampling pds(800, 600, 10, 10);
 	vector<pair<double,double> > new_points = pds.Generate();
+	cout << "Generating " << new_points.size() << " points..." << endl;
 	for each (pair<double,double> p in new_points) {
 		points.push_back(del::vertex((int) p.first, (int) p.second));
 	}
-	points.push_back(del::vertex(-map_width,-map_height));
-	points.push_back(del::vertex(map_width * 2,-map_width));
-	points.push_back(del::vertex(-map_width,map_height * 2));
-	points.push_back(del::vertex(map_width * 2, map_height * 2));
+	points.push_back(del::vertex(- map_width	,- map_height));
+	points.push_back(del::vertex(map_width		,- map_height));
+	points.push_back(del::vertex(2 * map_width	,- map_height));
+	points.push_back(del::vertex(2 * map_width	,map_height / 2));
+	points.push_back(del::vertex(2 * map_width	,2 * map_height));
+	points.push_back(del::vertex(map_width / 2	,2 * map_height));
+	points.push_back(del::vertex(- map_width	,2 * map_height));
+	points.push_back(del::vertex(- map_width	,map_height / 2));
 }
 
 void Map::LloydRelaxation(){
@@ -671,4 +676,25 @@ vector<corner *> Map::GetCorners(){
 
 vector<edge *> Map::GetEdges(){
 	return edges;
+}
+
+unsigned int Map::HashString(string seed){
+	unsigned int hash = 0;
+	for(int i = 0; i < seed.length(); i++) {
+		hash += ((int) seed[i]) * pow(2, i);
+	}
+	return hash % UINT_MAX;
+}
+
+string Map::CreateSeed(int length){
+	srand(time(NULL));
+	static const char alphanum[] =
+		"0123456789"
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+		"abcdefghijklmnopqrstuvwxyz";
+	string seed;
+	for (int i = 0; i < length; ++i) {
+		seed.push_back(alphanum[rand() % (sizeof(alphanum) - 1)]);
+	}
+	return seed;
 }

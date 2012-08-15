@@ -1,7 +1,6 @@
 #include "PoissonDiskSampling.h"
 
 #include <cmath>
-#include <ctime>
 
 PoissonDiskSampling::PoissonDiskSampling(void) {}
 
@@ -19,7 +18,7 @@ PoissonDiskSampling::PoissonDiskSampling(int p_width, int p_height, double p_min
 }
 
 vector<pair<double,double> > PoissonDiskSampling::Generate(){
-	//srand(time(NULL));
+
 	point first_point(rand() % m_width, rand() % m_height);
 
 	m_process.push_back(first_point);

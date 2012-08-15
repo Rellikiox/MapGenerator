@@ -111,9 +111,9 @@ int main(){
 	p.setFillColor(sf::Color::Black);
 	p.setRadius(POINT_SIZE);
 	for each(pair<double,double> point in points){
-		p.setPosition(point.first - POINT_SIZE + 2, point.second - POINT_SIZE + 2);
-		//p.setPosition(point.first * 10 - POINT_SIZE, point.second * 10 - POINT_SIZE);
-		app->draw(p);
+	p.setPosition(point.first - POINT_SIZE + 2, point.second - POINT_SIZE + 2);
+	//p.setPosition(point.first * 10 - POINT_SIZE, point.second * 10 - POINT_SIZE);
+	app->draw(p);
 	}
 	app->display();
 
@@ -127,14 +127,12 @@ int main(){
 	if(!names_file.is_open())
 		return 0;	
 	sf::Clock timer;
-	timer.restart();
 	while(!names_file.eof()){
 		string line;
 		getline(names_file, line);
 		names.push_back(line);
 	}
 	MarkovNames mng(names, 3, 5);
-	cout << timer.getElapsedTime().asMicroseconds() / 1000000.0 << endl;
 	/*
 	while(true){
 	cout << "\t" << mng.GetName() << endl;
@@ -146,7 +144,7 @@ int main(){
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
 
-	Map mapa(WIDTH, HEIGHT, 1000);
+	Map mapa(WIDTH, HEIGHT, 1000, "");
 
 	timer.restart();
 	mapa.Generate();
@@ -217,7 +215,7 @@ int main(){
 			}
 		}
 
-		if(0 && !corners.empty()){
+		if(!corners.empty()){
 			corner::PVIter corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 				drawCorner(*corner_iter, app);
@@ -284,13 +282,12 @@ void drawEdge(edge *e, sf::RenderWindow *window){
 
 void drawCorner( corner *c, sf::RenderWindow *window ) {
 	sf::CircleShape point;
-	/*if(c->water)
-	point.setFillColor(WATER_COLOR);
+	if(c->water)
+		point.setFillColor(WATER_COLOR);
 	else
-	{
-	point.setFillColor(LAND_COLOR);
-	}*/
-	point.setFillColor(VORONOI_COLOR);
+		point.setFillColor(LAND_COLOR);
+	
+	//point.setFillColor(VORONOI_COLOR);
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
 	point.setRadius(POINT_SIZE);
 	window->draw(point);
@@ -299,13 +296,8 @@ void drawCorner( corner *c, sf::RenderWindow *window ) {
 void drawCenter( center *c, sf::RenderWindow *window ) {
 	sf::ConvexShape polygon;
 	polygon.setPointCount(c->corners.size());
-	Vec2 min_point = c->corners[0]->position;
 	for(int i = 0; i < c->corners.size(); i++){
 		Vec2 aux = c->corners[i]->position;
-		if(min_point.x >= aux.x)
-			min_point.x = aux.x;
-		if(min_point.y >= aux.y)
-			min_point.y = aux.y;
 		polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
 	}
 	switch (VideoMode) {

@@ -18,7 +18,7 @@ public:
 	Map(void);
 	~Map(void);
 
-	Map(int width, int height, int point_count);
+	Map(int width, int height, int point_count, string seed);
 
 	void Generate();
 
@@ -37,6 +37,7 @@ private:
 	int map_height;
 	double z_coord;
 	noise::module::Perlin * noiseMap;
+	string m_seed;
 
 	vector<del::vertex> points;
 
@@ -70,5 +71,7 @@ private:
 	vector<corner *> GetLandCorners();
 	vector<corner *> GetLakeCorners();
 	void LloydRelaxation();
+	static unsigned int HashString(string seed);
+	string CreateSeed(int length);
 };
 
