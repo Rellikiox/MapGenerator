@@ -154,6 +154,23 @@ int main(){
 	vector<corner *> corners = mapa.GetCorners();
 	vector<center *> centers = mapa.GetCenters();
 
+	vector<sf::ConvexShape> polygons;
+	center::PVIter center_iter, centers_end = centers.end();
+	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
+		sf::ConvexShape polygon;
+		polygon.setPointCount((*center_iter)->corners.size());
+		for(int i = 0; i < (*center_iter)->corners.size(); i++){
+			Vec2 aux = (*center_iter)->corners[i]->position;
+			polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
+		}
+		polygon.setFillColor(BIOME_COLOR[(*center_iter)->biome]);
+		polygon.setPosition(0,0);
+		polygons.push_back(polygon);
+	}
+
+	int table_size = sqrt(centers.size() / 4);
+	vector<vector<vector<center *> > > center_lookup_table(table_size, vector<vector<center *> >(table_size, vector<center *>()));
+
 	vector<city> ciudades;
 	for(int i = 0; i < 5; i++){
 		city ciudad;
@@ -203,9 +220,9 @@ int main(){
 		app->clear(sf::Color::White);
 
 		if(!centers.empty()){
-			center::PVIter center_iter, centers_end = centers.end();
-			for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-				drawCenter(*center_iter, app);
+			vector<sf::ConvexShape>::iterator cells_iter;
+			for(cells_iter = polygons.begin(); cells_iter != polygons.end(); cells_iter++){
+				app->draw(*cells_iter);
 			}
 		}
 		if(!edges.empty()){
@@ -215,7 +232,7 @@ int main(){
 			}
 		}
 
-		if(!corners.empty()){
+		if(0 && !corners.empty()){
 			corner::PVIter corner_iter, corners_end = corners.end();
 			for(corner_iter = corners.begin(); corner_iter != corners_end; corner_iter++){
 				drawCorner(*corner_iter, app);
@@ -286,7 +303,7 @@ void drawCorner( corner *c, sf::RenderWindow *window ) {
 		point.setFillColor(WATER_COLOR);
 	else
 		point.setFillColor(LAND_COLOR);
-	
+
 	//point.setFillColor(VORONOI_COLOR);
 	point.setPosition(c->position.x - POINT_SIZE, c->position.y - POINT_SIZE);
 	point.setRadius(POINT_SIZE);
