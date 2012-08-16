@@ -94,6 +94,30 @@ struct city {
 #include "Quadtree.h"
 
 int main(){
+
+	typedef QuadTree<int> IntQT;
+
+	IntQT test_qt(AABB(Vec2(5,5), Vec2(5,5)));
+
+	test_qt.Insert(4, Vec2(1,1));
+	test_qt.Insert(5, Vec2(1,2));
+	test_qt.Insert(6, Vec2(1,0.5));
+	test_qt.Insert(7, Vec2(1,3));
+	test_qt.Insert(8, Vec2(1,7));
+	test_qt.Insert(99, Vec2(3, 3));
+
+
+	vector<int> result = test_qt.QueryRange(AABB(Vec2(1,1), Vec2(2,2)));
+	for each (int i in result)
+	{
+		cout << i << " ";
+	}
+	cout << endl;
+
+	system("pause");
+
+
+
 	/*
 	sf::Clock c;
 	PoissonDiskSampling pds(796, 596, 3, 10);

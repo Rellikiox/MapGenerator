@@ -14,8 +14,6 @@ namespace noise {
 	}
 }
 
-typedef Quadtree<center *> CenterPointerQT;
-
 class Map {
 public:
 	Map(void);
