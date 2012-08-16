@@ -6,6 +6,8 @@
 #include <vector>
 #include <map>
 
+typedef QuadTree<center *> CenterPointerQT;
+
 // Forward Declarations
 class Vec2;
 namespace noise {
@@ -33,12 +35,15 @@ public:
 	vector<corner *> GetCorners();
 	vector<center *> GetCenters();
 
+	center * GetCenterAt(Vec2 p_pos);
+
 private:
 	int map_width;
 	int map_height;
 	double z_coord;
 	noise::module::Perlin * noiseMap;
 	string m_seed;
+	CenterPointerQT m_centers_quadtree;
 
 	vector<del::vertex> points;
 

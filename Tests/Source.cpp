@@ -94,30 +94,6 @@ struct city {
 #include "Quadtree.h"
 
 int main(){
-
-	typedef QuadTree<int> IntQT;
-
-	IntQT test_qt(AABB(Vec2(5,5), Vec2(5,5)));
-
-	test_qt.Insert(4, Vec2(1,1));
-	test_qt.Insert(5, Vec2(1,2));
-	test_qt.Insert(6, Vec2(1,0.5));
-	test_qt.Insert(7, Vec2(1,3));
-	test_qt.Insert(8, Vec2(1,7));
-	test_qt.Insert(99, Vec2(3, 3));
-
-
-	vector<int> result = test_qt.QueryRange(AABB(Vec2(1,1), Vec2(2,2)));
-	for each (int i in result)
-	{
-		cout << i << " ";
-	}
-	cout << endl;
-
-	system("pause");
-
-
-
 	/*
 	sf::Clock c;
 	PoissonDiskSampling pds(796, 596, 3, 10);
@@ -208,6 +184,7 @@ int main(){
 
 	double avg_fps = 0;
 	double pases_count = 0;
+	center * selected_center = NULL;
 
 	bool running = true;
 	while(running){
@@ -236,6 +213,10 @@ int main(){
 					break;
 				default:
 					break;
+				}
+			}else if (event.type == sf::Event::MouseButtonPressed) {
+				if(event.mouseButton.button == sf::Mouse::Button::Left) {
+					selected_center = mapa.GetCenterAt(Vec2(event.mouseButton.x, event.mouseButton.y));
 				}
 			}
 		}
@@ -278,6 +259,19 @@ int main(){
 				name.setCharacterSize(15);
 				app->draw(name);
 			}
+		}
+
+		if(selected_center != NULL) {
+			sf::ConvexShape polygon;
+			polygon.setPointCount(selected_center->corners.size());
+			for(int i = 0; i < selected_center->corners.size(); i++){
+				Vec2 aux = selected_center->corners[i]->position;
+				polygon.setPoint(i, sf::Vector2f(aux.x,aux.y));
+			}
+			polygon.setFillColor(sf::Color::Black);
+			polygon.setPosition(0,0);
+			polygons.push_back(polygon);
+			app->draw(polygon);
 		}
 
 		app->display();

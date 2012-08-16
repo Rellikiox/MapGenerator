@@ -56,13 +56,11 @@ vector<vector<Biome::Type> > Map::MakeBiomeMatrix(){
 	return matrix;
 }
 
-Map::Map(void) {
-}
+Map::Map(void) {}
 
-Map::~Map(void) {
-}
+Map::~Map(void) {}
 
-Map::Map(int width, int height, int point_count, string seed) {
+Map::Map(int width, int height, int point_count, string seed) : m_centers_quadtree(AABB(Vec2(width/2,height/2),Vec2(width/2,height/2))){
 	map_width = width;
 	map_height = height;
 
@@ -136,6 +134,13 @@ void Map::Generate() {
 	cout << "Biome assignment: ";
 	timer.restart();
 	AssignBiomes();
+	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
+
+	cout << "Populate Quadtree: ";
+	timer.restart();
+	for (int i = 0; i < centers.size(); i++){
+		m_centers_quadtree.Insert(centers[i], centers[i]->position);
+	}
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 }
 
@@ -697,4 +702,28 @@ string Map::CreateSeed(int length){
 		seed.push_back(alphanum[rand() % (sizeof(alphanum) - 1)]);
 	}
 	return seed;
+}
+
+center * Map::GetCenterAt(Vec2 p_pos){
+	sf::Clock timer;
+	center * r_center = NULL;
+	vector<center *> l_aux_centers(m_centers_quadtree.QueryRange2(p_pos));
+	int microsecs = timer.getElapsedTime().asMicroseconds();
+	//vector<center *> l_aux_centers = m_centers_quadtree.QueryRange(AABB(p_pos, Vec2(10,10)));
+	cout << "Found in: " << microsecs / 1000.0 << endl;
+	int l_centers_range = l_aux_centers.size();
+
+	switch(l_centers_range){
+	case 0:
+		break;
+	case 1:
+		r_center = l_aux_centers.front();
+		break;
+	default:
+		r_center = l_aux_centers.front();
+		//center * l_aux =  l_aux_centers.front();
+		break;
+	}
+	cout << "Found in: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+	return r_center;
 }

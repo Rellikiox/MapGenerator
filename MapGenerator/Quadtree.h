@@ -78,22 +78,51 @@ public:
 				}
 			}
 		} else if(m_divided) {	// Recursive case
-			vector<T> l_nw_elements = m_northWest->QueryRange(p_range);
-			vector<T> l_ne_elements = m_northEast->QueryRange(p_range);
-			vector<T> l_se_elements = m_southEast->QueryRange(p_range);
-			vector<T> l_sw_elements = m_southWest->QueryRange(p_range);
-
-			r_elements.insert(r_elements.end(), l_nw_elements.begin(), l_nw_elements.end());
-			r_elements.insert(r_elements.end(), l_ne_elements.begin(), l_ne_elements.end());
-			r_elements.insert(r_elements.end(), l_se_elements.begin(), l_se_elements.end());
-			r_elements.insert(r_elements.end(), l_sw_elements.begin(), l_sw_elements.end());
+			if(m_northWest->m_boundary.Intersects(p_range)){
+				vector<T> l_nw_elements = m_northWest->QueryRange(p_range);
+				r_elements.insert(r_elements.end(), l_nw_elements.begin(), l_nw_elements.end());
+			} else if (m_northEast->m_boundary.Intersects(p_range)){
+				vector<T> l_ne_elements = m_northEast->QueryRange(p_range);
+				r_elements.insert(r_elements.end(), l_ne_elements.begin(), l_ne_elements.end());
+			} else if (m_southEast->m_boundary.Intersects(p_range)){
+				vector<T> l_se_elements = m_southEast->QueryRange(p_range);
+				r_elements.insert(r_elements.end(), l_se_elements.begin(), l_se_elements.end());
+			} else if (m_southWest->m_boundary.Intersects(p_range)){
+				vector<T> l_sw_elements = m_southWest->QueryRange(p_range);
+				r_elements.insert(r_elements.end(), l_sw_elements.begin(), l_sw_elements.end());
+			}
 		}
 
 		return r_elements;
 	}
 
+	vector<T> QueryRange2(Vec2 p_pos) {
+		QuadTree * current_leaf = this;
+
+		while (current_leaf->m_divided) {
+			if(current_leaf->m_northWest->m_boundary.Contains(p_pos)){
+				current_leaf = current_leaf->m_northWest;
+			} else if (current_leaf->m_northEast->m_boundary.Contains(p_pos)){
+				current_leaf = current_leaf->m_northEast;
+			} else if (current_leaf->m_southEast->m_boundary.Contains(p_pos)){
+				current_leaf = current_leaf->m_southEast;
+			} else if (current_leaf->m_southWest->m_boundary.Contains(p_pos)){
+				current_leaf = current_leaf->m_southWest;
+			} else {
+				return vector<center *>();
+			}
+		}
+		vector<center *> r_elements;
+		vector<pair<T, Vec2> >::iterator iter;
+		for (iter = current_leaf->m_elements.begin(); iter != current_leaf->m_elements.end(); iter++){
+			r_elements.push_back(iter->first);
+		}
+		return r_elements;
+	}
+
 	static const int C_NODE_CAPACITY;
 
+	AABB m_boundary;
 private:
 	void Subdivide() {
 		m_divided = true;
@@ -126,7 +155,7 @@ private:
 		m_elements.clear();
 	}
 
-	AABB m_boundary;
+
 
 	vector<pair<T, Vec2> > m_elements;
 
