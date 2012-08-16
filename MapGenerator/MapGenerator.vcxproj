@@ -82,6 +82,7 @@
     <ClInclude Include="Map.h" />
     <ClInclude Include="Math\LineEquation.h" />
     <ClInclude Include="Math\Vec2.h" />
+    <ClInclude Include="Quadtree.h" />
     <ClInclude Include="Structures.h" />
     <ClInclude Include="dDelaunay.h" />
   </ItemGroup>

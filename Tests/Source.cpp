@@ -91,6 +91,8 @@ struct city {
 #include <fstream>
 #include "PoissonDiskSampling.h"
 
+#include "Quadtree.h"
+
 int main(){
 	/*
 	sf::Clock c;
@@ -167,9 +169,6 @@ int main(){
 		polygon.setPosition(0,0);
 		polygons.push_back(polygon);
 	}
-
-	int table_size = sqrt(centers.size() / 4);
-	vector<vector<vector<center *> > > center_lookup_table(table_size, vector<vector<center *> >(table_size, vector<center *>()));
 
 	vector<city> ciudades;
 	for(int i = 0; i < 5; i++){

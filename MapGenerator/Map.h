@@ -2,6 +2,7 @@
 
 #include "dDelaunay.h"
 #include "Structures.h"
+#include "Quadtree.h"
 #include <vector>
 #include <map>
 
@@ -12,6 +13,8 @@ namespace noise {
 		class Perlin;
 	}
 }
+
+typedef Quadtree<center *> CenterPointerQT;
 
 class Map {
 public:
