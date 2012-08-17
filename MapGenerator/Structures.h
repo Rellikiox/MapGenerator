@@ -61,6 +61,8 @@ struct center{
 	edge * GetEdgeWith(center *ce);
 	void MakeBorder();
 	bool IsInsideBoundingBox(int width, int height);
+	bool Contains(Vec2 p_pos);
+	pair<Vec2,Vec2> GetBoundingBox();
 
 	typedef vector<center *>::iterator PVIter;
 	typedef list<center *>::iterator PLIter;

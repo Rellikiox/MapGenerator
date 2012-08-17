@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+#include <SFML/System.hpp>
 // Forward declaration
 struct AABB;
 
@@ -17,6 +18,7 @@ public:
 		m_southWest = NULL;
 		m_southEast = NULL;
 		m_divided = false;
+		m_branch_depth = 0;
 	}
 
 	~QuadTree(void) {
@@ -26,13 +28,11 @@ public:
 		delete m_southWest;
 	}
 
-	QuadTree(AABB p_boundary) {
+	QuadTree(AABB p_boundary, int p_depth) {
 		m_boundary = p_boundary;
 		m_divided = false;
-		m_northWest = NULL;
-		m_northEast = NULL;
-		m_southWest = NULL;
-		m_southEast = NULL;
+		m_branch_depth = p_depth;
+		m_elements_branch = 0;
 	}
 
 	bool Insert(const T p_element, Vec2 p_pos){
@@ -63,40 +63,69 @@ public:
 		return false;
 	}
 
-	vector<T> QueryRange(AABB p_range) {
-		vector<T> r_elements;
+	bool Insert(const T p_element, AABB p_range){
+		if(!m_boundary.Intersects(p_range))
+			return false;
 
-		if(!m_boundary.Intersects(p_range)){
-			return r_elements;
+		if(!m_divided){
+			if(m_elements.size() < 4){
+				m_elements.push_back(make_pair(p_element, p_range));
+				return true;
+			}
+
+			Subdivide();
 		}
 
-		if (!m_elements.empty()) {	// Base case
-			vector<pair<T, Vec2> >::iterator iter;
-			for (iter = m_elements.begin(); iter != m_elements.end(); iter++){
-				if(p_range.Contains(iter->second)){
-					r_elements.push_back(iter->first);
-				}
-			}
-		} else if(m_divided) {	// Recursive case
-			if(m_northWest->m_boundary.Intersects(p_range)){
-				vector<T> l_nw_elements = m_northWest->QueryRange(p_range);
-				r_elements.insert(r_elements.end(), l_nw_elements.begin(), l_nw_elements.end());
-			} else if (m_northEast->m_boundary.Intersects(p_range)){
-				vector<T> l_ne_elements = m_northEast->QueryRange(p_range);
-				r_elements.insert(r_elements.end(), l_ne_elements.begin(), l_ne_elements.end());
-			} else if (m_southEast->m_boundary.Intersects(p_range)){
-				vector<T> l_se_elements = m_southEast->QueryRange(p_range);
-				r_elements.insert(r_elements.end(), l_se_elements.begin(), l_se_elements.end());
-			} else if (m_southWest->m_boundary.Intersects(p_range)){
-				vector<T> l_sw_elements = m_southWest->QueryRange(p_range);
-				r_elements.insert(r_elements.end(), l_sw_elements.begin(), l_sw_elements.end());
-			}
+		if(m_northWest->m_boundary.Intersects(p_range)){
+			m_northWest->Insert(p_element, p_range);
+		}
+		if(m_northEast->m_boundary.Intersects(p_range)){
+			m_northEast->Insert(p_element, p_range);
+		}
+		if(m_southEast->m_boundary.Intersects(p_range)){
+			m_southEast->Insert(p_element, p_range);
+		}
+		if(m_southWest->m_boundary.Intersects(p_range)){
+			m_southWest->Insert(p_element, p_range);
 		}
 
-		return r_elements;
+		return true;
 	}
 
-	vector<T> QueryRange2(Vec2 p_pos) {
+	bool Insert2(const T p_element, AABB p_range){
+		if(!m_boundary.Intersects(p_range))
+			return false;
+
+		m_elements_branch++;
+
+		if(m_branch_depth == C_MAX_TREE_DEPTH){
+			m_elements.push_back(p_element);
+			m_elements_regions.push_back(p_range);
+			return true;
+		}
+
+		if(!m_divided){
+			Subdivide2();	
+		}
+
+		if(m_northWest->m_boundary.Intersects(p_range)){
+			m_northWest->Insert2(p_element, p_range);
+		}
+		if(m_northEast->m_boundary.Intersects(p_range)){
+			m_northEast->Insert2(p_element, p_range);
+		}
+		if(m_southEast->m_boundary.Intersects(p_range)){
+			m_southEast->Insert2(p_element, p_range);
+		}
+		if(m_southWest->m_boundary.Intersects(p_range)){
+			m_southWest->Insert2(p_element, p_range);
+		}
+
+		return true;
+	}
+
+	vector<T> QueryRange(Vec2 p_pos) {
+	//	sf::Clock timer;
 		QuadTree * current_leaf = this;
 
 		while (current_leaf->m_divided) {
@@ -109,18 +138,23 @@ public:
 			} else if (current_leaf->m_southWest->m_boundary.Contains(p_pos)){
 				current_leaf = current_leaf->m_southWest;
 			} else {
-				return vector<center *>();
+				return vector<T>();
 			}
 		}
-		vector<center *> r_elements;
-		vector<pair<T, Vec2> >::iterator iter;
-		for (iter = current_leaf->m_elements.begin(); iter != current_leaf->m_elements.end(); iter++){
-			r_elements.push_back(iter->first);
+	//	std::cout << timer.getElapsedTime().asMicroseconds() << std::endl;
+	//	timer.restart();
+		vector<T> r_elements;
+		for (int i = 0; i < current_leaf->m_elements.size(); i++){
+			if(current_leaf->m_elements_regions[i].Contains(p_pos)){
+				r_elements.push_back(current_leaf->m_elements[i]);
+			}
 		}
+	//	std::cout << timer.getElapsedTime().asMicroseconds() << std::endl;
+		
 		return r_elements;
 	}
 
-	static const int C_NODE_CAPACITY;
+	static const int C_MAX_TREE_DEPTH;
 
 	AABB m_boundary;
 private:
@@ -131,35 +165,62 @@ private:
 
 		Vec2 l_nw_pos = m_boundary.m_pos - l_new_half;
 		AABB l_northWest(l_nw_pos, l_new_half);
-		m_northWest = new QuadTree<T>(l_northWest);
+		m_northWest = new QuadTree<T>(l_northWest, m_branch_depth + 1);
 
 		Vec2 l_ne_pos(l_nw_pos.x + m_boundary.m_half.x, l_nw_pos.y);
 		AABB l_nothEast(l_ne_pos, l_new_half);
-		m_northEast = new QuadTree<T>(l_nothEast);
+		m_northEast = new QuadTree<T>(l_nothEast, m_branch_depth + 1);
 
 		Vec2 l_se_pos = m_boundary.m_pos + l_new_half;
 		AABB l_southEast(l_se_pos, l_new_half);
-		m_southEast = new QuadTree<T>(l_southEast);
+		m_southEast = new QuadTree<T>(l_southEast, m_branch_depth + 1);
 
 		Vec2 l_sw_pos(l_nw_pos.x, l_nw_pos.y + m_boundary.m_half.y);
 		AABB l_southWest(l_sw_pos, l_new_half);
-		m_southWest = new QuadTree<T>(l_southWest);
+		m_southWest = new QuadTree<T>(l_southWest, m_branch_depth + 1);
 
-		vector<pair<T, Vec2> >::iterator iter;
+		vector<pair<T, AABB> >::iterator iter;
 		for (iter = m_elements.begin(); iter != m_elements.end(); iter++){
-			m_northWest->Insert(iter->first, iter->second);
-			m_northEast->Insert(iter->first, iter->second);
-			m_southEast->Insert(iter->first, iter->second);
-			m_southWest->Insert(iter->first, iter->second);
+			if(m_northWest->m_boundary.Intersects(iter->second)){
+				m_northWest->Insert(iter->first, iter->second);
+			}
+			if(m_northEast->m_boundary.Intersects(iter->second)){
+				m_northEast->Insert(iter->first, iter->second);
+			}
+			if(m_southEast->m_boundary.Intersects(iter->second)){
+				m_southEast->Insert(iter->first, iter->second);
+			}
+			if(m_southWest->m_boundary.Intersects(iter->second)){
+				m_southWest->Insert(iter->first, iter->second);
+			}
 		}
 		m_elements.clear();
 	}
 
+	void Subdivide2() {
+		m_divided = true;
 
+		Vec2 l_new_half = m_boundary.m_half / 2;
 
-	vector<pair<T, Vec2> > m_elements;
+		Vec2 l_nw_pos = m_boundary.m_pos - l_new_half;
+		AABB l_northWest(l_nw_pos, l_new_half);
+		m_northWest = new QuadTree<T>(l_northWest, m_branch_depth + 1);
 
-	//	typedef vector<pair<T, Vec2> >::iterator TIter;
+		Vec2 l_ne_pos(l_nw_pos.x + m_boundary.m_half.x, l_nw_pos.y);
+		AABB l_nothEast(l_ne_pos, l_new_half);
+		m_northEast = new QuadTree<T>(l_nothEast, m_branch_depth + 1);
+
+		Vec2 l_se_pos = m_boundary.m_pos + l_new_half;
+		AABB l_southEast(l_se_pos, l_new_half);
+		m_southEast = new QuadTree<T>(l_southEast, m_branch_depth + 1);
+
+		Vec2 l_sw_pos(l_nw_pos.x, l_nw_pos.y + m_boundary.m_half.y);
+		AABB l_southWest(l_sw_pos, l_new_half);
+		m_southWest = new QuadTree<T>(l_southWest, m_branch_depth + 1);
+	}
+
+	vector<T> m_elements;
+	vector<AABB> m_elements_regions;
 
 	QuadTree *m_northWest;
 	QuadTree *m_northEast;
@@ -167,10 +228,12 @@ private:
 	QuadTree *m_southWest;
 
 	bool m_divided;
+	int m_branch_depth;
+	int m_elements_branch;
 };
 
 template <class T>
-const int QuadTree<T>::C_NODE_CAPACITY = 4;
+const int QuadTree<T>::C_MAX_TREE_DEPTH = 6;
 
 // Axis-aligned Bounding Box
 struct AABB {

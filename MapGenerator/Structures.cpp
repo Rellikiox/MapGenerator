@@ -60,6 +60,51 @@ bool center::IsInsideBoundingBox(int width, int height){
 	return true;
 }
 
+bool center::Contains(Vec2 p_pos){
+	
+	if(corners.size() < 3)
+		return false;
+	
+	Vec2 l_first_sec(corners[0]->position, corners[1]->position);
+	Vec2 l_first_pos(corners[0]->position, p_pos);
+	bool sign = l_first_sec.CrossProduct(l_first_pos) > 0;
+	corner::PVIter iter;
+	for(iter = corners.begin() + 1; iter != corners.end() - 1; iter++){
+		Vec2 l_a_b((*iter)->position, (*(iter+1))->position);
+		Vec2 l_a_p((*iter)->position, p_pos);
+		if(sign != (l_a_b.CrossProduct(l_a_p) > 0)){
+			return false;
+		}
+	}
+
+	return true;
+}
+
+pair<Vec2,Vec2> center::GetBoundingBox(){
+	double l_min_x = corners[0]->position.x, l_max_x = corners[0]->position.x;
+	double l_min_y = corners[0]->position.y, l_max_y = corners[0]->position.y;
+	
+	corner::PVIter iter;
+	for(iter = corners.begin() + 1; iter != corners.end(); iter++){
+		if ((*iter)->position.x < l_min_x) {
+			l_min_x = (*iter)->position.x;
+		} else if ((*iter)->position.x > l_max_x) {
+			l_max_x = (*iter)->position.x;
+		}
+		if ((*iter)->position.y < l_min_y) {
+			l_min_y = (*iter)->position.y;
+		} else if ((*iter)->position.y > l_max_y) {
+			l_max_y = (*iter)->position.y;
+		}
+	}
+
+	Vec2 l_min_pos(l_min_x, l_min_y);
+	Vec2 l_max_pos(l_max_x, l_max_y);
+	Vec2 l_half_diagonal(Vec2(l_min_pos, l_max_pos) / 2);
+
+	return make_pair(l_min_pos + l_half_diagonal, l_half_diagonal);
+}
+
 bool edge::Legalize() {
 
 	if(v0 == NULL || v1 == NULL)

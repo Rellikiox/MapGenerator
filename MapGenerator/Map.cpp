@@ -60,7 +60,7 @@ Map::Map(void) {}
 
 Map::~Map(void) {}
 
-Map::Map(int width, int height, int point_count, string seed) : m_centers_quadtree(AABB(Vec2(width/2,height/2),Vec2(width/2,height/2))){
+Map::Map(int width, int height, int point_count, string seed) : m_centers_quadtree(AABB(Vec2(width/2,height/2),Vec2(width/2,height/2)), 1){
 	map_width = width;
 	map_height = height;
 
@@ -139,7 +139,8 @@ void Map::Generate() {
 	cout << "Populate Quadtree: ";
 	timer.restart();
 	for (int i = 0; i < centers.size(); i++){
-		m_centers_quadtree.Insert(centers[i], centers[i]->position);
+		pair<Vec2,Vec2> aabb(centers[i]->GetBoundingBox());
+		m_centers_quadtree.Insert2(centers[i], AABB(aabb.first, aabb.second));
 	}
 	cout << timer.getElapsedTime().asMicroseconds() / 1000.0 << " ms." << endl;
 }
@@ -487,7 +488,7 @@ vector<corner *> Map::GetLakeCorners(){
 }
 
 bool Map::IsIsland(Vec2 position){
-	
+
 	double water_threshold = 0.075;
 
 	if(position.x < map_width * water_threshold || position.y < map_height * water_threshold
@@ -505,11 +506,11 @@ bool Map::IsIsland(Vec2 position){
 	double radius = position.Length();
 
 	double factor = radius - 0.5;
-/*	if(radius > 0.3)
-		factor = -1 / log(radius - 0.3) / 10;
+	/*	if(radius > 0.3)
+	factor = -1 / log(radius - 0.3) / 10;
 	else
-		factor = radius - 0.3;
-		*/
+	factor = radius - 0.3;
+	*/
 	return noise_val >= 0.3*radius + factor;
 }
 
@@ -630,13 +631,9 @@ void Map::GeneratePoints(){
 		points.push_back(del::vertex((int) p.first, (int) p.second));
 	}
 	points.push_back(del::vertex(- map_width	,- map_height));
-	points.push_back(del::vertex(map_width		,- map_height));
 	points.push_back(del::vertex(2 * map_width	,- map_height));
-	points.push_back(del::vertex(2 * map_width	,map_height / 2));
 	points.push_back(del::vertex(2 * map_width	,2 * map_height));
-	points.push_back(del::vertex(map_width / 2	,2 * map_height));
 	points.push_back(del::vertex(- map_width	,2 * map_height));
-	points.push_back(del::vertex(- map_width	,map_height / 2));
 }
 
 void Map::LloydRelaxation(){
@@ -705,25 +702,54 @@ string Map::CreateSeed(int length){
 }
 
 center * Map::GetCenterAt(Vec2 p_pos){
-	sf::Clock timer;
 	center * r_center = NULL;
-	vector<center *> l_aux_centers(m_centers_quadtree.QueryRange2(p_pos));
-	int microsecs = timer.getElapsedTime().asMicroseconds();
-	//vector<center *> l_aux_centers = m_centers_quadtree.QueryRange(AABB(p_pos, Vec2(10,10)));
-	cout << "Found in: " << microsecs / 1000.0 << endl;
-	int l_centers_range = l_aux_centers.size();
+	sf::Clock timer;
+	vector<center *> l_aux_centers(m_centers_quadtree.QueryRange(p_pos));
+	int leaf_found = timer.getElapsedTime().asMicroseconds();
 
-	switch(l_centers_range){
-	case 0:
-		break;
-	case 1:
-		r_center = l_aux_centers.front();
-		break;
-	default:
-		r_center = l_aux_centers.front();
-		//center * l_aux =  l_aux_centers.front();
-		break;
+	double l_min_dist = Vec2(l_aux_centers[0]->position, p_pos).Length();
+	r_center = l_aux_centers[0];
+	for(int i = 1; i < l_aux_centers.size(); i++){
+		double l_new_dist = Vec2(l_aux_centers[i]->position, p_pos).Length();
+		if(l_new_dist < l_min_dist){
+			l_min_dist = l_new_dist;
+			r_center = l_aux_centers[i];
+		}
 	}
-	cout << "Found in: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << endl;
+
+
+	/*
+	for(int i = 0; i < l_aux_centers.size(); i++){
+		if(l_aux_centers[i]->Contains(p_pos)){
+			r_center = l_aux_centers[i];
+			break;
+		}			
+	}*/
+
+	/*
+	int l_centers_size = l_aux_centers.size();
+	
+	if ( l_centers_size > 0 ){
+		r_center = l_aux_centers.front();
+
+		while(!r_center->Contains(p_pos)){
+			double l_min_distance = Vec2(r_center->position, p_pos).Length();
+
+			center * l_new_candidate = r_center;
+			center::PVIter iter;
+			for(iter = r_center->centers.begin(); iter != r_center->centers.end(); iter++){
+				double l_new_dist = Vec2((*iter)->position, p_pos).Length();
+				if(l_new_dist < l_min_distance){
+					l_min_distance = l_new_dist;
+					l_new_candidate = *iter;
+				}
+			}
+			r_center = l_new_candidate;
+		}
+	}*/
+	
+	cout << "Found in: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << "(" << leaf_found / 1000.0 << ") " << l_aux_centers.size() << endl;
+	if(r_center != NULL)
+		cout << "FOUND!" << endl;	
 	return r_center;
 }
