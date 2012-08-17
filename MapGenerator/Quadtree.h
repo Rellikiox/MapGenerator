@@ -22,10 +22,12 @@ public:
 	}
 
 	~QuadTree(void) {
-		delete m_northWest;
-		delete m_northEast;
-		delete m_southEast;
-		delete m_southWest;
+		if(m_divided){
+			delete m_northWest;
+			delete m_northEast;
+			delete m_southEast;
+			delete m_southWest;
+		}
 	}
 
 	QuadTree(AABB p_boundary, int p_depth) {
@@ -125,32 +127,32 @@ public:
 	}
 
 	vector<T> QueryRange(Vec2 p_pos) {
-	//	sf::Clock timer;
-		QuadTree * current_leaf = this;
+		//sf::Clock timer;
+		QuadTree * l_current_leaf = this;
 
-		while (current_leaf->m_divided) {
-			if(current_leaf->m_northWest->m_boundary.Contains(p_pos)){
-				current_leaf = current_leaf->m_northWest;
-			} else if (current_leaf->m_northEast->m_boundary.Contains(p_pos)){
-				current_leaf = current_leaf->m_northEast;
-			} else if (current_leaf->m_southEast->m_boundary.Contains(p_pos)){
-				current_leaf = current_leaf->m_southEast;
-			} else if (current_leaf->m_southWest->m_boundary.Contains(p_pos)){
-				current_leaf = current_leaf->m_southWest;
+		while (l_current_leaf->m_divided) {
+			if(l_current_leaf->m_northWest->m_boundary.Contains(p_pos)){
+				l_current_leaf = l_current_leaf->m_northWest;
+			} else if (l_current_leaf->m_northEast->m_boundary.Contains(p_pos)){
+				l_current_leaf = l_current_leaf->m_northEast;
+			} else if (l_current_leaf->m_southEast->m_boundary.Contains(p_pos)){
+				l_current_leaf = l_current_leaf->m_southEast;
+			} else if (l_current_leaf->m_southWest->m_boundary.Contains(p_pos)){
+				l_current_leaf = l_current_leaf->m_southWest;
 			} else {
 				return vector<T>();
 			}
 		}
-	//	std::cout << timer.getElapsedTime().asMicroseconds() << std::endl;
-	//	timer.restart();
+		//std::cout << timer.getElapsedTime().asMicroseconds() << std::endl;
+		//timer.restart();
 		vector<T> r_elements;
-		for (int i = 0; i < current_leaf->m_elements.size(); i++){
-			if(current_leaf->m_elements_regions[i].Contains(p_pos)){
-				r_elements.push_back(current_leaf->m_elements[i]);
+		for (int i = 0; i < l_current_leaf->m_elements.size(); i++){
+			if(l_current_leaf->m_elements_regions[i].Contains(p_pos)){
+				r_elements.push_back(l_current_leaf->m_elements[i]);
 			}
 		}
-	//	std::cout << timer.getElapsedTime().asMicroseconds() << std::endl;
-		
+		//std::cout << timer.getElapsedTime().asMicroseconds() << std::endl;
+
 		return r_elements;
 	}
 

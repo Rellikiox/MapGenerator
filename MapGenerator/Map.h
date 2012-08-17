@@ -21,7 +21,7 @@ public:
 	Map(void);
 	~Map(void);
 
-	Map(int width, int height, int point_count, string seed);
+	Map(int width, int height, double point_spread, string seed);
 
 	void Generate();
 
@@ -40,6 +40,7 @@ public:
 private:
 	int map_width;
 	int map_height;
+	double m_point_spread;
 	double z_coord;
 	noise::module::Perlin * noiseMap;
 	string m_seed;

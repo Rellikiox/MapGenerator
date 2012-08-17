@@ -60,9 +60,10 @@ Map::Map(void) {}
 
 Map::~Map(void) {}
 
-Map::Map(int width, int height, int point_count, string seed) : m_centers_quadtree(AABB(Vec2(width/2,height/2),Vec2(width/2,height/2)), 1){
+Map::Map(int width, int height, double point_spread, string seed) : m_centers_quadtree(AABB(Vec2(width/2,height/2),Vec2(width/2,height/2)), 1){
 	map_width = width;
 	map_height = height;
+	m_point_spread = point_spread;
 
 	m_seed = seed != "" ? seed : CreateSeed(20);	
 
@@ -624,16 +625,16 @@ center * Map::GetCenter(Vec2 position){
 }
 
 void Map::GeneratePoints(){
-	PoissonDiskSampling pds(800, 600, 10, 10);
+	PoissonDiskSampling pds(800, 600, m_point_spread, 10);
 	vector<pair<double,double> > new_points = pds.Generate();
 	cout << "Generating " << new_points.size() << " points..." << endl;
 	for each (pair<double,double> p in new_points) {
 		points.push_back(del::vertex((int) p.first, (int) p.second));
 	}
-	points.push_back(del::vertex(- map_width	,- map_height));
+	/*	points.push_back(del::vertex(- map_width	,- map_height));
 	points.push_back(del::vertex(2 * map_width	,- map_height));
 	points.push_back(del::vertex(2 * map_width	,2 * map_height));
-	points.push_back(del::vertex(- map_width	,2 * map_height));
+	points.push_back(del::vertex(- map_width	,2 * map_height));*/
 }
 
 void Map::LloydRelaxation(){
@@ -703,53 +704,18 @@ string Map::CreateSeed(int length){
 
 center * Map::GetCenterAt(Vec2 p_pos){
 	center * r_center = NULL;
-	sf::Clock timer;
-	vector<center *> l_aux_centers(m_centers_quadtree.QueryRange(p_pos));
-	int leaf_found = timer.getElapsedTime().asMicroseconds();
+	vector<center *> l_aux_centers = m_centers_quadtree.QueryRange(p_pos);
 
-	double l_min_dist = Vec2(l_aux_centers[0]->position, p_pos).Length();
-	r_center = l_aux_centers[0];
-	for(int i = 1; i < l_aux_centers.size(); i++){
-		double l_new_dist = Vec2(l_aux_centers[i]->position, p_pos).Length();
-		if(l_new_dist < l_min_dist){
-			l_min_dist = l_new_dist;
-			r_center = l_aux_centers[i];
-		}
-	}
-
-
-	/*
-	for(int i = 0; i < l_aux_centers.size(); i++){
-		if(l_aux_centers[i]->Contains(p_pos)){
-			r_center = l_aux_centers[i];
-			break;
-		}			
-	}*/
-
-	/*
-	int l_centers_size = l_aux_centers.size();
-	
-	if ( l_centers_size > 0 ){
-		r_center = l_aux_centers.front();
-
-		while(!r_center->Contains(p_pos)){
-			double l_min_distance = Vec2(r_center->position, p_pos).Length();
-
-			center * l_new_candidate = r_center;
-			center::PVIter iter;
-			for(iter = r_center->centers.begin(); iter != r_center->centers.end(); iter++){
-				double l_new_dist = Vec2((*iter)->position, p_pos).Length();
-				if(l_new_dist < l_min_distance){
-					l_min_distance = l_new_dist;
-					l_new_candidate = *iter;
-				}
+	if(l_aux_centers.size() > 0){
+		double l_min_dist = Vec2(l_aux_centers[0]->position, p_pos).Length();
+		r_center = l_aux_centers[0];
+		for(int i = 1; i < l_aux_centers.size(); i++){
+			double l_new_dist = Vec2(l_aux_centers[i]->position, p_pos).Length();
+			if(l_new_dist < l_min_dist){
+				l_min_dist = l_new_dist;
+				r_center = l_aux_centers[i];
 			}
-			r_center = l_new_candidate;
-		}
-	}*/
-	
-	cout << "Found in: " << timer.getElapsedTime().asMicroseconds() / 1000.0 << "(" << leaf_found / 1000.0 << ") " << l_aux_centers.size() << endl;
-	if(r_center != NULL)
-		cout << "FOUND!" << endl;	
+		}	
+	}
 	return r_center;
 }
