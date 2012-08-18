@@ -63,6 +63,8 @@ struct center{
 	bool IsInsideBoundingBox(int width, int height);
 	bool Contains(Vec2 p_pos);
 	pair<Vec2,Vec2> GetBoundingBox();
+	void SortCorners();
+	bool GoesBefore(Vec2 p_a, Vec2 p_b);
 
 	typedef vector<center *>::iterator PVIter;
 	typedef list<center *>::iterator PLIter;

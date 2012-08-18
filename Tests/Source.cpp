@@ -93,66 +93,16 @@ struct city {
 
 #include "Quadtree.h"
 
-int main(){
+int main(){/*
 
-	int test_total = 0;
-	for(int i = 0; i < 10; i++){
-		Map m(800, 600, 10, "");
-		m.Generate();
-		sf::Clock clock;
-		long int total_time_arith = 0;
-		vector<int> times;
-		for(int i = 0; i < 100000; i++){
-			clock.restart();
-			m.GetCenterAt(Vec2(rand()%WIDTH, rand()%HEIGHT));
-			//times.push_back(timer.getElapsedTime().asMicroseconds());
-			int elapsed_time = clock.getElapsedTime().asMicroseconds();
-			total_time_arith += elapsed_time;
-		}
-		test_total += total_time_arith;
-		cout << "Total time: " << total_time_arith << endl;
-		cout << "Media aritmetica: " << total_time_arith / 100000.0 << endl;
-		cout << "Test time: " << clock.getElapsedTime().asMicroseconds() << endl;
-	}
-	cout << "Total test: " << test_total << endl;
-	cout << "Media total: " << test_total / 10.0 << endl;
-	cout << "Media aritmetica: " << test_total / 1000000.0 << endl;
-	system("pause");
+	double depth = floor((log(3000) / log(4)) + 0.5);
 
+	cout << depth << endl;
 
-
-
-
-
-
-	/*
-	sf::Clock c;
-	PoissonDiskSampling pds(796, 596, 3, 10);
-	//PoissonDiskSampling pds(10, 10, 1.414214, 10);
-
-	c.restart();
-	vector<pair<double, double> > points = pds.Generate();
-	cout << c.getElapsedTime().asMicroseconds() / 1000.0 << endl;
-
-	cout << points.size() << endl;	
-
-	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
-	app->setFramerateLimit(60);
-
-	app->clear(sf::Color::White);
-	sf::CircleShape p;
-	p.setFillColor(sf::Color::Black);
-	p.setRadius(POINT_SIZE);
-	for each(pair<double,double> point in points){
-	p.setPosition(point.first - POINT_SIZE + 2, point.second - POINT_SIZE + 2);
-	//p.setPosition(point.first * 10 - POINT_SIZE, point.second * 10 - POINT_SIZE);
-	app->draw(p);
-	}
-	app->display();
 
 	system("pause");
-	return 0;
 	*/
+
 	vector<string> names;
 	ifstream names_file;
 	names_file.open("../Resources/BrittanyPlaces2.txt", ios::in);
@@ -166,18 +116,13 @@ int main(){
 		names.push_back(line);
 	}
 	MarkovNames mng(names, 3, 5);
-	/*
-	while(true){
-	cout << "\t" << mng.GetName() << endl;
-	system("pause");
-	}*/
 
 	VideoMode = InfoShown::Biomes;
 
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
 
-	Map mapa(WIDTH, HEIGHT, 10, "");
+	Map mapa(WIDTH, HEIGHT, 4, "");
 
 	timer.restart();
 	mapa.Generate();
@@ -186,21 +131,7 @@ int main(){
 	vector<edge *> edges = mapa.GetEdges();
 	vector<corner *> corners = mapa.GetCorners();
 	vector<center *> centers = mapa.GetCenters();
-	/*sf::Clock timer2;
-	long int total_time_arith = 0;
-	vector<int> times;
-	for(int i = 0; i < 1000000; i++){
-	timer.restart();
-	mapa.GetCenterAt(Vec2(rand()%WIDTH, rand()%HEIGHT));
-	//times.push_back(timer.getElapsedTime().asMicroseconds());
-	int elapsed_time = timer.getElapsedTime().asMicroseconds();
-	total_time_arith += elapsed_time;
-	}
-	cout << "Total time: " << total_time_arith << endl;
-	cout << "Media aritmetica: " << total_time_arith / 1000000.0 << endl;
-	cout << "Test time: " << timer2.getElapsedTime().asMicroseconds() << endl;
-	system("pause");
-	*/
+
 	vector<sf::ConvexShape> polygons;
 	center::PVIter center_iter, centers_end = centers.end();
 	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
@@ -261,7 +192,9 @@ int main(){
 				}
 			}else if (event.type == sf::Event::MouseButtonPressed) {
 				if(event.mouseButton.button == sf::Mouse::Button::Left) {
+					timer.restart();
 					selected_center = mapa.GetCenterAt(Vec2(event.mouseButton.x, event.mouseButton.y));
+					cout << timer.getElapsedTime().asMicroseconds() << endl;
 				}
 			}
 		}
@@ -269,9 +202,9 @@ int main(){
 		app->clear(sf::Color::White);
 
 		if(!centers.empty()){
-			vector<sf::ConvexShape>::iterator cells_iter;
-			for(cells_iter = polygons.begin(); cells_iter != polygons.end(); cells_iter++){
-				app->draw(*cells_iter);
+			center::PVIter cells_iter;
+			for(cells_iter = centers.begin(); cells_iter != centers.end(); cells_iter++){
+				drawCenter(*cells_iter, app);
 			}
 		}
 		if(!edges.empty()){

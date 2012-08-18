@@ -1,6 +1,7 @@
 
 #include "Structures.h"
 #include "Math/LineEquation.h" 
+#include <iostream>
 
 edge::edge(unsigned int i, center *e1, center *e2, corner *o1, corner *o2) : index(i), d0(e1), d1(e2), v0(o1), v1(o2), river_volume(0.0) {
 	Vec2 pv0 = v0 == NULL ? d0->position + (d1->position - d0->position) / 2 : v0->position;
@@ -61,10 +62,10 @@ bool center::IsInsideBoundingBox(int width, int height){
 }
 
 bool center::Contains(Vec2 p_pos){
-	
+
 	if(corners.size() < 3)
 		return false;
-	
+
 	Vec2 l_first_sec(corners[0]->position, corners[1]->position);
 	Vec2 l_first_pos(corners[0]->position, p_pos);
 	bool sign = l_first_sec.CrossProduct(l_first_pos) > 0;
@@ -83,7 +84,7 @@ bool center::Contains(Vec2 p_pos){
 pair<Vec2,Vec2> center::GetBoundingBox(){
 	double l_min_x = corners[0]->position.x, l_max_x = corners[0]->position.x;
 	double l_min_y = corners[0]->position.y, l_max_y = corners[0]->position.y;
-	
+
 	corner::PVIter iter;
 	for(iter = corners.begin() + 1; iter != corners.end(); iter++){
 		if ((*iter)->position.x < l_min_x) {
@@ -103,6 +104,32 @@ pair<Vec2,Vec2> center::GetBoundingBox(){
 	Vec2 l_half_diagonal(Vec2(l_min_pos, l_max_pos) / 2);
 
 	return make_pair(l_min_pos + l_half_diagonal, l_half_diagonal);
+}
+
+void center::SortCorners(){
+	corner * item = NULL;
+	int hole = 0;
+	for(int i = 1; i < corners.size(); i++){
+		item = corners[i];
+		hole = i;
+		while( hole > 0 && GoesBefore(item->position, corners[hole - 1]->position)){
+			corners[hole] = corners[hole - 1];
+			hole--;
+		}
+		corners[hole] = item;
+	}
+}
+
+bool center::GoesBefore(Vec2 p_a, Vec2 p_b){
+	if((p_a - position).x >= 0 && (p_b - position).x < 0)
+		return true;
+
+	if(p_a.x == 0 && p_b.x == 0)
+		return p_a.y < p_b.y;
+
+	Vec2 ca(position, p_a);
+	Vec2 cb(position, p_b);
+	return ca.CrossProduct(cb) > 0;
 }
 
 bool edge::Legalize() {

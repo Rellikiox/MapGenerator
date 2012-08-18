@@ -65,10 +65,13 @@ Map::Map(int width, int height, double point_spread, string seed) : m_centers_qu
 	map_height = height;
 	m_point_spread = point_spread;
 
-	m_seed = seed != "" ? seed : CreateSeed(20);	
+	double l_aprox_point_count = (2 * map_width * map_height) / (3.1416 * point_spread * point_spread);
+	int l_max_tree_depth = floor((log(l_aprox_point_count) / log(4)) + 0.5);
+	CenterPointerQT::SetMaxDepth(l_max_tree_depth);
 
+
+	m_seed = seed != "" ? seed : CreateSeed(20);	
 	srand(HashString(m_seed));
-	//srand(884);
 
 	z_coord = rand();
 	cout << "Seed: " << m_seed << "(" << HashString(m_seed) << ")" << endl;
@@ -420,7 +423,7 @@ void Map::AssignBiomes(){
 void Map::FinishInfo(){
 	center::PVIter center_iter, centers_end = centers.end();
 	for(center_iter = centers.begin(); center_iter != centers_end; center_iter++){
-		OrderPoints((*center_iter)->corners);
+		(*center_iter)->SortCorners();
 	}
 
 	for each (center * c  in centers) {
@@ -631,10 +634,10 @@ void Map::GeneratePoints(){
 	for each (pair<double,double> p in new_points) {
 		points.push_back(del::vertex((int) p.first, (int) p.second));
 	}
-	/*	points.push_back(del::vertex(- map_width	,- map_height));
+	points.push_back(del::vertex(- map_width	,- map_height));
 	points.push_back(del::vertex(2 * map_width	,- map_height));
 	points.push_back(del::vertex(2 * map_width	,2 * map_height));
-	points.push_back(del::vertex(- map_width	,2 * map_height));*/
+	points.push_back(del::vertex(- map_width	,2 * map_height));
 }
 
 void Map::LloydRelaxation(){

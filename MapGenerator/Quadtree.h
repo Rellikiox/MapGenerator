@@ -156,7 +156,10 @@ public:
 		return r_elements;
 	}
 
-	static const int C_MAX_TREE_DEPTH;
+	static void SetMaxDepth(int i){
+		if (i > 0)
+			C_MAX_TREE_DEPTH = i;
+	}
 
 	AABB m_boundary;
 private:
@@ -199,6 +202,8 @@ private:
 		m_elements.clear();
 	}
 
+	static int C_MAX_TREE_DEPTH;
+
 	void Subdivide2() {
 		m_divided = true;
 
@@ -235,7 +240,7 @@ private:
 };
 
 template <class T>
-const int QuadTree<T>::C_MAX_TREE_DEPTH = 6;
+int QuadTree<T>::C_MAX_TREE_DEPTH = 6;
 
 // Axis-aligned Bounding Box
 struct AABB {
