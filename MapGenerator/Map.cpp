@@ -69,7 +69,6 @@ Map::Map(int width, int height, double point_spread, string seed) : m_centers_qu
 	int l_max_tree_depth = floor((log(l_aprox_point_count) / log(4)) + 0.5);
 	CenterPointerQT::SetMaxDepth(l_max_tree_depth);
 
-
 	m_seed = seed != "" ? seed : CreateSeed(20);	
 	srand(HashString(m_seed));
 
@@ -439,39 +438,6 @@ void Map::FinishInfo(){
 			if(aux_corner != NULL)
 				c->corners.push_back(aux_corner);
 		}
-	}
-}
-
-void Map::OrderPoints( vector<corner *> & corners ) {
-	vector<corner *> result;
-	if (corners.size() >= 4) {
-		corner * leftMostPoint = corners[0];
-		corner::PVIter corner_iter, corners_end = corners.end();
-		for (corner_iter = corners.begin() + 1; corner_iter != corners.end(); corner_iter++) {
-			if ((*corner_iter)->position.x < leftMostPoint->position.x 
-				|| ((*corner_iter)->position.x == leftMostPoint->position.x && (*corner_iter)->position.y < leftMostPoint->position.y)) {
-					leftMostPoint = *corner_iter;
-			}
-		}
-		corner * current = leftMostPoint;
-		int leftMostInt;
-
-		do {
-			result.insert(result.begin(), current);
-			if (current == corners[0])
-				leftMostInt = 1;
-			else
-				leftMostInt = 0;
-			for (unsigned int i = leftMostInt + 1; i < corners.size(); i++) {
-				Vec2 v1(current->position, corners[leftMostInt]->position);
-				Vec2 v2(current->position, corners[i]->position);
-				if (v1.CrossProduct(v2) > 0) {
-					leftMostInt = i;
-				}
-			}
-			current = corners[leftMostInt];
-		} while (current != result.back());
-		corners = result;
 	}
 }
 

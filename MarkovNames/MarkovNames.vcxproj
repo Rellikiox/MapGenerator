@@ -15,6 +15,7 @@
   </PropertyGroup>
   <PropertyGroup Label="Globals">
     <RootNamespace>MarkovNames</RootNamespace>
+    <ProjectGuid>{075E0802-8520-963F-CC21-ADB8DE649FEA}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

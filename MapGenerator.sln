@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxpro
 		{BFCB5E25-761B-C5DD-43A8-2B92944301CC} = {BFCB5E25-761B-C5DD-43A8-2B92944301CC}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Render", "Render\Render.vcxproj", "{2729D7BB-CC2F-B873-C90C-3F2355BB4BD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -29,6 +31,10 @@ Global
 		{075E0802-8520-963F-CC21-ADB8DE649FEA}.Debug|Win32.Build.0 = Debug|Win32
 		{075E0802-8520-963F-CC21-ADB8DE649FEA}.Release|Win32.ActiveCfg = Release|Win32
 		{075E0802-8520-963F-CC21-ADB8DE649FEA}.Release|Win32.Build.0 = Release|Win32
+		{2729D7BB-CC2F-B873-C90C-3F2355BB4BD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2729D7BB-CC2F-B873-C90C-3F2355BB4BD6}.Debug|Win32.Build.0 = Debug|Win32
+		{2729D7BB-CC2F-B873-C90C-3F2355BB4BD6}.Release|Win32.ActiveCfg = Release|Win32
+		{2729D7BB-CC2F-B873-C90C-3F2355BB4BD6}.Release|Win32.Build.0 = Release|Win32
 		{3402ED59-9349-B4E2-6B6E-FDD50FF78E82}.Debug|Win32.ActiveCfg = Debug|Win32
 		{3402ED59-9349-B4E2-6B6E-FDD50FF78E82}.Debug|Win32.Build.0 = Debug|Win32
 		{3402ED59-9349-B4E2-6B6E-FDD50FF78E82}.Release|Win32.ActiveCfg = Release|Win32

@@ -122,7 +122,7 @@ int main(){/*
 	sf::RenderWindow * app = new sf::RenderWindow(sf::VideoMode(WIDTH,HEIGHT,32), "Map Generator");
 	app->setFramerateLimit(60);
 
-	Map mapa(WIDTH, HEIGHT, 4, "");
+	Map mapa(WIDTH, HEIGHT, 10, "");
 
 	timer.restart();
 	mapa.Generate();
@@ -202,10 +202,12 @@ int main(){/*
 		app->clear(sf::Color::White);
 
 		if(!centers.empty()){
+			timer.restart();
 			center::PVIter cells_iter;
 			for(cells_iter = centers.begin(); cells_iter != centers.end(); cells_iter++){
 				drawCenter(*cells_iter, app);
 			}
+			cout << timer.getElapsedTime().asMicroseconds() << endl;
 		}
 		if(!edges.empty()){
 			edge::PVIter edge_iter, edges_end = edges.end();
